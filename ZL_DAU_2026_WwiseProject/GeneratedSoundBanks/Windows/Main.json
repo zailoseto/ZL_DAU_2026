@@ -1,0 +1,199 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "3161908922",
+    "Type": "User",
+    "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
+    "Language": "SFX",
+    "Hash": "{AA28B484-38FF-8F17-3E7F-C8E17170EF88}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
+    "ShortName": "Main",
+    "Path": "Main.bnk",
+    "Media": [
+     {
+      "Id": "35848546",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
+      "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "363247632",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736.wav",
+      "CachePath": "BE/{BE1FF867-0C6C-4EA1-CD25-19DEC116ED1A}.wem"
+     },
+     {
+      "Id": "368893645",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
+      "CachePath": "B4/{B42F918E-687B-C162-3202-0A9ED35B67B4}.wem"
+     },
+     {
+      "Id": "497171569",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736.wav",
+      "CachePath": "F1/{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem"
+     },
+     {
+      "Id": "553490913",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
+      "CachePath": "7D/{7DC8CC87-F11E-1907-BBC9-49797F6D6552}.wem"
+     },
+     {
+      "Id": "815674815",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav",
+      "CachePath": "6A/{6A7F6133-27D2-295C-5A5E-2D3036AAB8CA}.wem"
+     },
+     {
+      "Id": "872798416",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav",
+      "CachePath": "3D/{3D536729-DE7B-F0EA-5DC5-53744AB2FCDF}.wem"
+     },
+     {
+      "Id": "968058573",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
+      "CachePath": "AD/{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2109543175",
+      "Name": "anim_player_footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\anim_player_footstep",
+      "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15699016",
+      "DurationMax": "0.38155997",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "284967655",
+         "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "35848546"
+         },
+         {
+          "Id": "968058573"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "1216965916",
+         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "363247632"
+         },
+         {
+          "Id": "497171569"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "712897245",
+         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "815674815"
+         },
+         {
+          "Id": "872798416"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "2195636714",
+         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "368893645"
+         },
+         {
+          "Id": "553490913"
+         }
+        ]
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "171170469",
+      "Name": "SurfaceMaterial",
+      "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial",
+      "GUID": "{88F60EA4-E517-4E39-9ADE-9AF1A63D45E0}",
+      "Switches": [
+       {
+        "Id": "284967655",
+        "Name": "Ship",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Ship",
+        "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+       },
+       {
+        "Id": "712897245",
+        "Name": "Mud",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Mud",
+        "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}"
+       },
+       {
+        "Id": "1216965916",
+        "Name": "Stone",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Stone",
+        "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+       },
+       {
+        "Id": "2195636714",
+        "Name": "Dirt",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Dirt",
+        "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"
+       }
+      ]
+     }
+    ]
+   }
+  ],
+  "FileHash": "{C5C9D22F-F55A-5875-74BC-4F33BF493BF9}"
+ }
+}

@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{8B4D2547-EB25-493C-90DD-770825E4DE03}" SchemaVersion="123">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{8B4D2547-EB25-493C-90DD-770825E4DE03}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{8B4D2547-EB25-493C-90DD-770825E4DE03}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{87EBF235-C5A9-4216-BEFE-D68AD542D080}">
+					<ObjectInclusionList>
+						<ObjectRef Name="anim_player_footstep" ID="{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
