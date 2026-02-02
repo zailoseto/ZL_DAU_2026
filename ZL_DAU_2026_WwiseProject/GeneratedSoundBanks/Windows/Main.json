@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{AA28B484-38FF-8F17-3E7F-C8E17170EF88}",
+    "Hash": "{0C6571F5-BCD2-D17D-4CED-6F0404E0F690}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
-      "CachePath": "B4/{B42F918E-687B-C162-3202-0A9ED35B67B4}.wem"
+      "CachePath": "5E/{5EC13A69-C57D-3C72-DEEB-18C85C75F465}.wem"
      },
      {
       "Id": "497171569",
@@ -53,7 +53,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
-      "CachePath": "7D/{7DC8CC87-F11E-1907-BBC9-49797F6D6552}.wem"
+      "CachePath": "C3/{C31B72B1-568B-1668-B4FF-5464ABC63F35}.wem"
      },
      {
       "Id": "815674815",
@@ -194,6 +194,6 @@
     ]
    }
   ],
-  "FileHash": "{C5C9D22F-F55A-5875-74BC-4F33BF493BF9}"
+  "FileHash": "{AE3790E6-C14F-2FE7-8370-EB312290244A}"
  }
 }

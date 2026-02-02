@@ -134,9 +134,10 @@
 											<ChildrenList>
 												<AudioFileSource Name="Footsteps, Human, Gravel, Sneaker, Medium SND1052 3" ID="{0E09FA9A-7459-4B45-AB1C-772EFEAE2AC8}">
 													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0105644618993241"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.135855273196572"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.492475269970141"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.139376760496347"/>
+														<Property Name="TrimEnd" Type="Real64" Value="0.355137265278927"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav</AudioFile>
@@ -161,9 +162,10 @@
 											<ChildrenList>
 												<AudioFileSource Name="Footsteps, Human, Gravel, Sneaker, Medium SND1052 3" ID="{E8882443-58C6-4A90-BF5A-B308557BCE4D}">
 													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0140859491990989"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.855888221138402"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.17854439961283"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.866452683037726"/>
+														<Property Name="TrimEnd" Type="Real64" Value="1.11867911551666"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav</AudioFile>

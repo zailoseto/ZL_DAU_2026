@@ -6,7 +6,7 @@ using AK.Wwise; // Needed if using the AkSoundEngine.SetSwitch method
 public class MaterialChecker : MonoBehaviour
 {
     // Define the Wwise Switch Group name
-    public string surfaceSwitchGroup = "SurfaceType";
+    public string surfaceSwitchGroup = "SurfaceMaterial";
 
     // You can also use a Wwise Switch type directly if preferred
     // public AK.Wwise.Switch surfaceSwitch; 
