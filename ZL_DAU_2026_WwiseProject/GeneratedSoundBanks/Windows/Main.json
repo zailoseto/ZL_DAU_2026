@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{0C6571F5-BCD2-D17D-4CED-6F0404E0F690}",
+    "Hash": "{74E1CEF7-FF7A-2ACB-0173-0ED5179EF208}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -37,7 +37,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
-      "CachePath": "5E/{5EC13A69-C57D-3C72-DEEB-18C85C75F465}.wem"
+      "CachePath": "81/{8172E7D7-DC23-EF9F-85FE-96AD41D29758}.wem"
      },
      {
       "Id": "497171569",
@@ -53,7 +53,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
-      "CachePath": "C3/{C31B72B1-568B-1668-B4FF-5464ABC63F35}.wem"
+      "CachePath": "5E/{5E5F1D52-6539-37C4-058C-7011960092A8}.wem"
+     },
+     {
+      "Id": "690924407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "User Interface, Beep, Button Click, Plop, Short SND113031.wav",
+      "CachePath": "F0/{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem"
      },
      {
       "Id": "815674815",
@@ -84,7 +92,7 @@
      {
       "Id": "2109543175",
       "Name": "anim_player_footstep",
-      "ObjectPath": "\\Events\\Default Work Unit\\anim_player_footstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\anim_player_footstep",
       "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
       "DurationType": "OneShot",
       "DurationMin": "0.15699016",
@@ -156,6 +164,76 @@
         ]
        }
       ]
+     },
+     {
+      "Id": "1292086503",
+      "Name": "Play_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Back",
+      "GUID": "{60571415-3532-4974-B248-FE7A887A2E95}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40913725",
+      "DurationMax": "0.40913725",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "4136017490",
+      "Name": "Play_Confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Confirm",
+      "GUID": "{F465FD1C-C578-42DF-A896-1E11EBDEED85}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2533125",
+      "DurationMax": "0.2533125",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "3794664810",
+      "Name": "Play_Exit",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Exit",
+      "GUID": "{7BB4AFE9-B9D9-4CC0-AF83-569F56D72969}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6684957",
+      "DurationMax": "0.6684957",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "3019770429",
+      "Name": "Play_MouseOver",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_MouseOver",
+      "GUID": "{22FF24CE-9F87-42CA-86D8-97E792CB6DAA}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.12305059",
+      "DurationMax": "0.12305059",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "2230670290",
+      "Name": "Play_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Start",
+      "GUID": "{7F24003D-B638-4F8C-9CC8-BBC573AA4535}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24896075",
+      "DurationMax": "0.24896075",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -194,6 +272,6 @@
     ]
    }
   ],
-  "FileHash": "{AE3790E6-C14F-2FE7-8370-EB312290244A}"
+  "FileHash": "{560D45F8-657D-2593-458F-4D7A220E48D3}"
  }
 }

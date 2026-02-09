@@ -3,17 +3,81 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="anim_player_footstep" ID="{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}">
+				<Folder Name="Player" ID="{35A63368-6427-4C80-B4F0-E81872546308}" ShortID="574566519">
 					<ChildrenList>
-						<Action Name="" ID="{B77A11B8-E593-4ECF-98C1-DEE9F686EC06}" ShortID="343747377">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="anim_player_footstep" ID="{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}">
+							<ChildrenList>
+								<Action Name="" ID="{B77A11B8-E593-4ECF-98C1-DEE9F686EC06}" ShortID="343747377">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
+				<Folder Name="Enemies" ID="{85D17234-E52D-4C91-A6FD-F8595A993BF4}" ShortID="678214337"/>
+				<Folder Name="UI" ID="{67F0BB1E-D2BE-4A6F-91BA-A9B86909BB3A}" ShortID="797899018">
+					<ChildrenList>
+						<Event Name="Play_Confirm" ID="{F465FD1C-C578-42DF-A896-1E11EBDEED85}">
+							<ChildrenList>
+								<Action Name="" ID="{67971B0C-7524-4A4A-8461-D90F0B9996B6}" ShortID="299163963">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Confirm" ID="{C48470F1-DF5F-4F6C-80AC-8F073B3CF2F8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Back" ID="{60571415-3532-4974-B248-FE7A887A2E95}">
+							<ChildrenList>
+								<Action Name="" ID="{085D54D9-2769-442E-A67F-CD80DD849740}" ShortID="29804331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Back" ID="{BCE76AE0-5E9A-478A-9DF2-965413BFED99}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Exit" ID="{7BB4AFE9-B9D9-4CC0-AF83-569F56D72969}">
+							<ChildrenList>
+								<Action Name="" ID="{46850CD2-E7EC-40A7-9147-514885D22A45}" ShortID="1064774156">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exit" ID="{35F1ED65-539C-42E8-B1D1-53FEC436B620}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_MouseOver" ID="{22FF24CE-9F87-42CA-86D8-97E792CB6DAA}">
+							<ChildrenList>
+								<Action Name="" ID="{F9EC97DE-3F6F-4E21-A0CF-8DDFDE101DD1}" ShortID="485586388">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mouse Over" ID="{CDEBD501-A1D6-4ACF-90A2-6444A7577C78}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Start" ID="{7F24003D-B638-4F8C-9CC8-BBC573AA4535}">
+							<ChildrenList>
+								<Action Name="" ID="{EA79055E-890C-47AD-99B4-82703F3B52E0}" ShortID="701563361">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Start" ID="{2A28A4AD-6670-4756-A824-11C894B343C3}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
