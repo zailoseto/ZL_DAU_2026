@@ -104,7 +104,7 @@
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
 										</Reference>
 										<Reference Name="DefaultSwitchOrState">
-											<ObjectRef Name="Dirt" ID="{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}" WorkUnitID="{D804D98A-3496-47CA-8AC9-33E962FAB223}"/>
+											<ObjectRef Name="Grass" ID="{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}" WorkUnitID="{D804D98A-3496-47CA-8AC9-33E962FAB223}"/>
 										</Reference>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
@@ -114,7 +114,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<RandomSequenceContainer Name="Dirt" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}" ShortID="455349389">
+										<RandomSequenceContainer Name="Grass" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}" ShortID="455349389">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -182,7 +182,7 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
-										<RandomSequenceContainer Name="Stone" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}" ShortID="973992547">
+										<RandomSequenceContainer Name="Rock" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}" ShortID="973992547">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -258,7 +258,7 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113" ID="{A1776F38-BD92-43B9-A0D5-45E73C8BB127}" ShortID="245771651">
+												<Sound Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100" ID="{7D87137B-4974-42B1-940E-F925D465D143}" ShortID="344666198">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -268,24 +268,24 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113" ID="{84629F87-F40F-4533-BFAD-B69FCF4B1B18}">
+														<AudioFileSource Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100" ID="{FC633117-7FBC-4253-A3BF-AC18927DD12D}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.0904265642166138"/>
-																<Property Name="TrimEnd" Type="Real64" Value="0.377570543489958"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.025458007850903"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.483702118013796"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav</AudioFile>
+															<AudioFile>Footsteps, Human, Mud, Run, Isolated Steps SND62100.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="872798416"/>
+																<MediaID ID="868728545"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113" ID="{84629F87-F40F-4533-BFAD-B69FCF4B1B18}" Platform="Linked"/>
+														<ActiveSource Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100" ID="{FC633117-7FBC-4253-A3BF-AC18927DD12D}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
-												<Sound Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113_01" ID="{750A151F-98DF-47C6-92DB-439D4C15E050}" ShortID="115746020">
+												<Sound Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100_01" ID="{F4BA4105-B4AB-4B8E-8F7B-D7181C636E7C}" ShortID="845840172">
 													<ReferenceList>
 														<Reference Name="Conversion">
 															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -295,21 +295,20 @@
 														</Reference>
 													</ReferenceList>
 													<ChildrenList>
-														<AudioFileSource Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113" ID="{CF7CFBC8-ECA1-4931-A5FB-18756969CB84}">
+														<AudioFileSource Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100" ID="{E607F651-643E-41BF-AC90-56C87044272E}">
 															<PropertyList>
 																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-																<Property Name="TrimBegin" Type="Real64" Value="0.850326989826403"/>
-																<Property Name="TrimEnd" Type="Real64" Value="1.1295388143439"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.657279475423314"/>
 															</PropertyList>
 															<Language>SFX</Language>
-															<AudioFile>Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav</AudioFile>
+															<AudioFile>Footsteps, Human, Mud, Run, Isolated Steps SND62100.wav</AudioFile>
 															<MediaIDList>
-																<MediaID ID="815674815"/>
+																<MediaID ID="338863219"/>
 															</MediaIDList>
 														</AudioFileSource>
 													</ChildrenList>
 													<ActiveSourceList>
-														<ActiveSource Name="Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113" ID="{CF7CFBC8-ECA1-4931-A5FB-18756969CB84}" Platform="Linked"/>
+														<ActiveSource Name="Footsteps, Human, Mud, Run, Isolated Steps SND62100" ID="{E607F651-643E-41BF-AC90-56C87044272E}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -387,10 +386,10 @@
 												<ItemRef Name="Ship" ID="{20EC484D-94E1-47DF-81A3-22B8B2A69A0D}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Stone" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}"/>
+												<ItemRef Name="Rock" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
-												<ItemRef Name="Dirt" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}"/>
+												<ItemRef Name="Grass" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}"/>
 											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Mud" ID="{512A3AF4-2201-4F8E-A623-DBC000C9BFD3}"/>
@@ -404,9 +403,9 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
-												<SwitchRef Name="Stone" ID="{E58EA95B-E307-439F-97D3-89027869F1F8}"/>
+												<SwitchRef Name="Rock" ID="{E58EA95B-E307-439F-97D3-89027869F1F8}"/>
 												<ItemList>
-													<ItemRef Name="Stone" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}"/>
+													<ItemRef Name="Rock" ID="{FC8B38A1-85F2-47A1-8059-0D8590DD515C}"/>
 												</ItemList>
 											</Grouping>
 											<Grouping>
@@ -416,9 +415,9 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
-												<SwitchRef Name="Dirt" ID="{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"/>
+												<SwitchRef Name="Grass" ID="{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"/>
 												<ItemList>
-													<ItemRef Name="Dirt" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}"/>
+													<ItemRef Name="Grass" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}"/>
 												</ItemList>
 											</Grouping>
 										</GroupingList>

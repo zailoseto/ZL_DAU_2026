@@ -42,27 +42,30 @@ public class PlayerSoundController : MonoBehaviour
         if (Physics.Raycast(ray, out hit, 1.0f, Physics.AllLayers, QueryTriggerInteraction.Ignore))
         {
             Renderer surfaceRenderer = hit.collider.GetComponentInChildren<Renderer>();
+            Debug.Log(surfaceRenderer); //this is what prints out to the Console what surface you are stepping on
             if (surfaceRenderer)
             {
                 Debug.Log(surfaceRenderer.material.name);
-                if (surfaceRenderer.material.name.Contains("dirt"))
+                if (surfaceRenderer.material.name.Contains("Moss") || surfaceRenderer.material.name.Contains("Vegetation"))
                 {
-                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Dirt", gameObject);
+                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Grass", player_footstep_source);
                 }
 
-                if (surfaceRenderer.material.name.Contains("mud"))
+                if (surfaceRenderer.material.name.Contains("Mud") || surfaceRenderer.material.name.Contains("Ridge") || surfaceRenderer.material.name.Contains("Cliff") || surfaceRenderer.material.name.Contains("Chunk") || surfaceRenderer.material.name.Contains("Ledge"))
                 {
-                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", gameObject);
+                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", player_footstep_source);
                 }
 
-                if (surfaceRenderer.material.name.Contains("Stone"))
+                if (surfaceRenderer.material.name.Contains("Floor")|| surfaceRenderer.material.name.Contains("Platform")|| surfaceRenderer.material.name.Contains("Wall")|| surfaceRenderer.material.name.Contains("Pedestal")|| surfaceRenderer.material.name.Contains("Stairs")|| surfaceRenderer.material.name.Contains("Null")|| surfaceRenderer.material.name.Contains("Rocks")|| surfaceRenderer.material.name.Contains("Box")|| surfaceRenderer.material.name.Contains("Pad"))
                 {
-                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Stone", gameObject);
+                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Rock", player_footstep_source);
                 }
 
-                if (surfaceRenderer.material.name.Contains("Ship"))
+                if (surfaceRenderer.material.name.Contains("ship"))
                 {
-                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Ship", gameObject);
+                    AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Ship", player_footstep_source);
+                    Debug.Log("Detected Ship");
+                    Debug.Log(gameObject);
                 }
 
             }
