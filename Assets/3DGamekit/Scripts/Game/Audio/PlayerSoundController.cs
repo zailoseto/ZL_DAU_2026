@@ -13,6 +13,19 @@ public class PlayerSoundController : MonoBehaviour
     private GameObject player_footstep_source;
 
 
+    [SerializeField]
+    private AK.Wwise.Event player_jump;
+
+    [SerializeField]
+    private GameObject player_jump_source;
+
+
+    [SerializeField]
+    private AK.Wwise.Event player_jumpLand;
+
+    [SerializeField]
+    private GameObject player_jumpLand_source;
+
 
     // Start is called before the first frame update
     void Start()
@@ -72,4 +85,13 @@ public class PlayerSoundController : MonoBehaviour
         }
     }
 
+    public void PlayJumpSound()
+    {
+        player_jump.Post(player_jump_source);
+    }
+
+    public void PlayJumpLandSound()
+    {
+        player_jumpLand.Post(player_jumpLand_source);
+    }
 }

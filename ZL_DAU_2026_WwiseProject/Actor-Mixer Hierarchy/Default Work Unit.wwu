@@ -4,8 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}" PersistMode="Standalone">
 			<ChildrenList>
 				<Folder Name="Player" ID="{27A58BB3-D6B1-40D8-8EDA-E87E89AE0447}" ShortID="517243384">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ChildrenList>
 						<BlendContainer Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" ShortID="95012847">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -17,11 +28,6 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Gear" ID="{59404539-05BC-4F36-B0AE-99E2817FF0E0}" ShortID="377332939">
 									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>0.04</Value>
@@ -425,9 +431,82 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</BlendContainer>
+						<RandomSequenceContainer Name="Jump" ID="{FFB4CD37-C411-42B8-81EA-6E039EB837CD}" ShortID="965134696">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{13246029-B161-4732-B7D4-0CEE6869D7BD}" ShortID="490277299">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="608003713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Land" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" ShortID="162931334">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{1B0FA061-DD74-44D6-A305-D1FCD38A3D23}" ShortID="457280755">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{80406EC4-F472-472C-8A53-91FE8988323E}">
+											<Language>SFX</Language>
+											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771207298"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{80406EC4-F472-472C-8A53-91FE8988323E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
-				<Folder Name="Enemies" ID="{595F10FA-3708-4BD8-921B-389429AA5F42}" ShortID="173789824"/>
+				<Folder Name="Enemies" ID="{595F10FA-3708-4BD8-921B-389429AA5F42}" ShortID="173789824">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="2"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+				</Folder>
 				<Folder Name="UI" ID="{6242F5F8-3C45-428E-B729-E312ADE95399}" ShortID="803838548">
 					<ChildrenList>
 						<RandomSequenceContainer Name="Start" ID="{2A28A4AD-6670-4756-A824-11C894B343C3}" ShortID="201518940">
@@ -639,6 +718,106 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="User Interface, Beep, Button Click, Plop, Short SND113031" ID="{FF3F4444-7FA7-4AC4-A832-331CE07C65E6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Weapon" ID="{B0F84C74-5E0D-4B3D-A2AE-AD504E21C75A}" ShortID="196708867">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="3"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="StaffActivate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" ShortID="651041976">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829" ID="{BF6EDB33-B0C7-48D8-A9E6-7CFD65840EC5}" ShortID="1064964973">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-14</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829" ID="{EF9D904C-0A7A-46EC-8857-ACCB08119B6B}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.34536016693991"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.51086085291438"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="769204026"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829" ID="{EF9D904C-0A7A-46EC-8857-ACCB08119B6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Staff Swipe" ID="{6B47CEC0-9775-4B77-8DED-7C67BC0EF391}" ShortID="729583137">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277" ID="{7CCF5DD7-3C8A-42DC-9178-1CDD18D47E60}" ShortID="1068561598">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277" ID="{9CA4FDC6-F645-4BB3-AC4E-675E421E4D21}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0134016487384162"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.295445447633645"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="197775103"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277" ID="{9CA4FDC6-F645-4BB3-AC4E-675E421E4D21}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

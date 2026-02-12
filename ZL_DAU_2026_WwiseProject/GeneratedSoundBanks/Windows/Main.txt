@@ -1,10 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
+	214267519	Play_StaffActivate			\Default Work Unit\Weapon\Play_StaffActivate	
 	1292086503	Play_Back			\Default Work Unit\UI\Play_Back	
+	1956494941	Play_ChomperFootsteps			\Default Work Unit\Enemies\Play_ChomperFootsteps	
 	2109543175	anim_player_footstep			\Default Work Unit\Player\anim_player_footstep	
 	2230670290	Play_Start			\Default Work Unit\UI\Play_Start	
 	3019770429	Play_MouseOver			\Default Work Unit\UI\Play_MouseOver	
+	3405494551	Play_Staff_Swipe			\Default Work Unit\Weapon\Play_Staff_Swipe	
+	3689126666	Play_Jump			\Default Work Unit\Player\Play_Jump	
+	3733047999	Play_ChomperSpotted			\Default Work Unit\Enemies\Play_ChomperSpotted	
+	3778133004	Play_ChomperAttack			\Default Work Unit\Enemies\Play_ChomperAttack	
 	3794664810	Play_Exit			\Default Work Unit\UI\Play_Exit	
 	4136017490	Play_Confirm			\Default Work Unit\UI\Play_Confirm	
+	4285282925	Play_Land			\Default Work Unit\Player\Play_Land	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	171170469	SurfaceMaterial			\Default Work Unit\SurfaceMaterial	
@@ -16,13 +23,19 @@ Switch	ID	Name	Switch Group			Notes
 	4248645337	Grass	SurfaceMaterial			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	13461616	Objects, Keys, Handling, Jingle, Soft 01 SND0298_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\B1\{B1F63599-BDE4-7DAE-0CE1-6AB82C96E3A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Gear\Objects, Keys, Handling, Jingle, Soft 01 SND0298_01		26098
 	35848546	Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\4C\{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Ship\Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064		36726
-	338863219	Footsteps, Human, Mud, Run, Isolated Steps SND62100_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\03\{03644883-A0DE-90E5-91A9-9DD3EB145098}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100_01		36310
+	197775103	Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A6\{A6542082-F03C-D4D5-E234-19796625A968}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Staff Swipe\Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277		54248
+	338863219	Footsteps, Human, Mud, Run, Isolated Steps SND62100_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\C1\{C1BA1A8E-2520-6F40-B985-2AE927D07A94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100_01		36310
 	363247632	Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\BE\{BE1FF867-0C6C-4EA1-CD25-19DEC116ED1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Rock\Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736		15168
 	368893645	Footsteps, Human, Gravel, Sneaker, Medium SND1052 3_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\81\{8172E7D7-DC23-EF9F-85FE-96AD41D29758}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Grass\Footsteps, Human, Gravel, Sneaker, Medium SND1052 3_01		24310
 	497171569	Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F1\{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Rock\Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736_01		18684
 	553490913	Footsteps, Human, Gravel, Sneaker, Medium SND1052 3	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\5E\{5E5F1D52-6539-37C4-058C-7011960092A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Grass\Footsteps, Human, Gravel, Sneaker, Medium SND1052 3		20808
+	608003713	Footsteps, Human, Grass, Jump, Land 01 SND62077 3	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\18\{18A06396-C1BA-594C-21A1-E0E4EBA2A734}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Jump\Footsteps, Human, Grass, Jump, Land 01 SND62077 3		25958
+	651872240	Objects, Keys, Handling, Jingle, Soft 01 SND0298	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\B3\{B319BF6E-9069-111E-E52A-F4216E53B96D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Gear\Objects, Keys, Handling, Jingle, Soft 01 SND0298		29776
 	690924407	User Interface, Beep, Button Click, Plop, Short SND113031	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F0\{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Mouse Over\User Interface, Beep, Button Click, Plop, Short SND113031		24414
-	868728545	Footsteps, Human, Mud, Run, Isolated Steps SND62100	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\66\{66CA9942-C356-30A0-7FD7-DE045A4B22F0}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100		44086
+	769204026	Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A1\{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\StaffActivate\Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829		290180
+	771207298	Footsteps, Human, Grass, Jump, Land 01 SND62077 4	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\E2\{E20B9916-332A-39D1-6F48-B919F4F7FD75}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Land\Footsteps, Human, Grass, Jump, Land 01 SND62077 4		26860
+	868728545	Footsteps, Human, Mud, Run, Isolated Steps SND62100	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\EF\{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100		44086
 	968058573	Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\AD\{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Ship\Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064_01		33366
 

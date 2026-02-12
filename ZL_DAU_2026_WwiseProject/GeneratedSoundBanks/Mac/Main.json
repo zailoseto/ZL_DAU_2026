@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{74E1CEF7-FF7A-2ACB-0173-0ED5179EF208}",
+    "Hash": "{CD1A34E8-52AB-D7BC-B30C-B67EA51BC5BC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "13461616",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Objects, Keys, Handling, Jingle, Soft 01 SND0298.wav",
+      "CachePath": "B1/{B1F63599-BDE4-7DAE-0CE1-6AB82C96E3A8}.wem"
+     },
      {
       "Id": "35848546",
       "Language": "SFX",
@@ -22,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "197775103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277.wav",
+      "CachePath": "A6/{A6542082-F03C-D4D5-E234-19796625A968}.wem"
+     },
+     {
+      "Id": "338863219",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Mud, Run, Isolated Steps SND62100.wav",
+      "CachePath": "C1/{C1BA1A8E-2520-6F40-B985-2AE927D07A94}.wem"
      },
      {
       "Id": "363247632",
@@ -56,6 +80,22 @@
       "CachePath": "5E/{5E5F1D52-6539-37C4-058C-7011960092A8}.wem"
      },
      {
+      "Id": "608003713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav",
+      "CachePath": "18/{18A06396-C1BA-594C-21A1-E0E4EBA2A734}.wem"
+     },
+     {
+      "Id": "651872240",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Objects, Keys, Handling, Jingle, Soft 01 SND0298.wav",
+      "CachePath": "B3/{B319BF6E-9069-111E-E52A-F4216E53B96D}.wem"
+     },
+     {
       "Id": "690924407",
       "Language": "SFX",
       "Streaming": "false",
@@ -64,20 +104,28 @@
       "CachePath": "F0/{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem"
      },
      {
-      "Id": "815674815",
+      "Id": "769204026",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav",
-      "CachePath": "6A/{6A7F6133-27D2-295C-5A5E-2D3036AAB8CA}.wem"
+      "ShortName": "Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829.wav",
+      "CachePath": "A1/{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem"
      },
      {
-      "Id": "872798416",
+      "Id": "771207298",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Wood, Creaky, Sneaker, Medium SND1113.wav",
-      "CachePath": "3D/{3D536729-DE7B-F0EA-5DC5-53744AB2FCDF}.wem"
+      "ShortName": "Footsteps, Human, Grass, Jump, Land 01 SND62077 4.wav",
+      "CachePath": "E2/{E20B9916-332A-39D1-6F48-B919F4F7FD75}.wem"
+     },
+     {
+      "Id": "868728545",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Human, Mud, Run, Isolated Steps SND62100.wav",
+      "CachePath": "EF/{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem"
      },
      {
       "Id": "968058573",
@@ -94,9 +142,18 @@
       "Name": "anim_player_footstep",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\anim_player_footstep",
       "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
+      "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.15699016",
-      "DurationMax": "0.38155997",
+      "DurationMin": "0.3108492",
+      "DurationMax": "0.45824412",
+      "MediaRefs": [
+       {
+        "Id": "13461616"
+       },
+       {
+        "Id": "651872240"
+       }
+      ],
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -118,7 +175,7 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "171170469",
-         "Id": "1216965916",
+         "Id": "2144363834",
          "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
         },
         "MediaRefs": [
@@ -139,10 +196,10 @@
         },
         "MediaRefs": [
          {
-          "Id": "815674815"
+          "Id": "338863219"
          },
          {
-          "Id": "872798416"
+          "Id": "868728545"
          }
         ]
        },
@@ -150,7 +207,7 @@
         "SwitchValue": {
          "GroupType": "Switch",
          "GroupId": "171170469",
-         "Id": "2195636714",
+         "Id": "4248645337",
          "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}",
          "Default": "true"
         },
@@ -178,6 +235,39 @@
         "Id": "690924407"
        }
       ]
+     },
+     {
+      "Id": "3778133004",
+      "Name": "Play_ChomperAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperAttack",
+      "GUID": "{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "1956494941",
+      "Name": "Play_ChomperFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperFootsteps",
+      "GUID": "{FBAED940-9A22-4B67-9657-5800E535DC80}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3733047999",
+      "Name": "Play_ChomperSpotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperSpotted",
+      "GUID": "{FF329C07-9376-459C-8A49-A6034F1129A6}",
+      "Color": "2",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "4136017490",
@@ -208,6 +298,36 @@
       ]
      },
      {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Jump",
+      "GUID": "{5458CA8C-D8DE-4F3C-A1C8-F33FEB538CF0}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26939583",
+      "DurationMax": "0.26939583",
+      "MediaRefs": [
+       {
+        "Id": "608003713"
+       }
+      ]
+     },
+     {
+      "Id": "4285282925",
+      "Name": "Play_Land",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Land",
+      "GUID": "{26F1786C-5D5A-4581-A120-01D348B4A976}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.27879167",
+      "DurationMax": "0.27879167",
+      "MediaRefs": [
+       {
+        "Id": "771207298"
+       }
+      ]
+     },
+     {
       "Id": "3019770429",
       "Name": "Play_MouseOver",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_MouseOver",
@@ -218,6 +338,36 @@
       "MediaRefs": [
        {
         "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "3405494551",
+      "Name": "Play_Staff_Swipe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\Play_Staff_Swipe",
+      "GUID": "{017F94CC-5C04-48AE-B068-AEFA0D4196BB}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28204378",
+      "DurationMax": "0.28204378",
+      "MediaRefs": [
+       {
+        "Id": "197775103"
+       }
+      ]
+     },
+     {
+      "Id": "214267519",
+      "Name": "Play_StaffActivate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\Play_StaffActivate",
+      "GUID": "{70A865B9-E1C0-4D8D-A27E-FAA442A3D1B5}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5108608",
+      "DurationMax": "1.5108608",
+      "MediaRefs": [
+       {
+        "Id": "769204026"
        }
       ]
      },
@@ -256,15 +406,15 @@
         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}"
        },
        {
-        "Id": "1216965916",
-        "Name": "Stone",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Stone",
+        "Id": "2144363834",
+        "Name": "Rock",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Rock",
         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
        },
        {
-        "Id": "2195636714",
-        "Name": "Dirt",
-        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Dirt",
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Grass",
         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"
        }
       ]
@@ -272,6 +422,6 @@
     ]
    }
   ],
-  "FileHash": "{0018DC01-4152-A9AF-5EFA-C994CBD19B79}"
+  "FileHash": "{522F9514-7DFB-528C-F9F2-EAEFED94BAD4}"
  }
 }

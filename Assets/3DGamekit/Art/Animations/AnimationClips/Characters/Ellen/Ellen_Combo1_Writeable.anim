@@ -75789,13 +75789,6 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.33333334
-    functionName: anim_player_footstep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.45
     functionName: anim_player_footstep
     data: 

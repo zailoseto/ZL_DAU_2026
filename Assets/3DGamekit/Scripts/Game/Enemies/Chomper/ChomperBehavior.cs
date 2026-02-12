@@ -1,5 +1,6 @@
 ﻿using Gamekit3D.Message;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -41,6 +42,7 @@ namespace Gamekit3D
         public RandomAudioPlayer gruntAudio;
         public RandomAudioPlayer deathAudio;
         public RandomAudioPlayer spottedAudio;
+            
 
         protected float m_TimerSinceLostTarget = 0.0f;
 

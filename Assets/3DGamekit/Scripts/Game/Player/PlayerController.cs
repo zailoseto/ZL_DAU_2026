@@ -32,6 +32,8 @@ namespace Gamekit3D
         public RandomAudioPlayer emoteAttackPlayer;
         public RandomAudioPlayer emoteJumpPlayer;
 
+        public PlayerSoundController playerSoundController;
+
         protected AnimatorStateInfo m_CurrentStateInfo;    // Information about the base layer of the animator cached.
         protected AnimatorStateInfo m_NextStateInfo;
         protected bool m_IsAnimatorTransitioning;
@@ -145,6 +147,7 @@ namespace Gamekit3D
             m_Input = GetComponent<PlayerInput>();
             m_Animator = GetComponent<Animator>();
             m_CharCtrl = GetComponent<CharacterController>();
+            playerSoundController = GetComponent<PlayerSoundController>();
 
             meleeWeapon.SetOwner(gameObject);
 
@@ -438,13 +441,16 @@ namespace Gamekit3D
 
             if (m_IsGrounded && !m_PreviouslyGrounded)
             {
-                landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
-                emoteLandingPlayer.PlayRandomClip();
+                //landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
+                //emoteLandingPlayer.PlayRandomClip();
+                playerSoundController.PlayJumpLandSound();
+
             }
 
             if (!m_IsGrounded && m_PreviouslyGrounded && m_VerticalSpeed > 0f)
             {
-                emoteJumpPlayer.PlayRandomClip();
+                //emoteJumpPlayer.PlayRandomClip();
+                playerSoundController.PlayJumpSound();
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)

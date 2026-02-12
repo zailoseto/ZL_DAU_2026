@@ -122897,22 +122897,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 1
     messageOptions: 0
-  - time: 0.31666666
-    functionName: anim_player_footstep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
   - time: 0.4493988
     functionName: MeleeAttackEnd
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.68333334
-    functionName: anim_player_footstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

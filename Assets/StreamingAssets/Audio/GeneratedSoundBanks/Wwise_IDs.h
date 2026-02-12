@@ -15,9 +15,16 @@ namespace AK
     {
         static const AkUniqueID ANIM_PLAYER_FOOTSTEP = 2109543175U;
         static const AkUniqueID PLAY_BACK = 1292086503U;
+        static const AkUniqueID PLAY_CHOMPERATTACK = 3778133004U;
+        static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
+        static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
         static const AkUniqueID PLAY_CONFIRM = 4136017490U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
+        static const AkUniqueID PLAY_JUMP = 3689126666U;
+        static const AkUniqueID PLAY_LAND = 4285282925U;
         static const AkUniqueID PLAY_MOUSEOVER = 3019770429U;
+        static const AkUniqueID PLAY_STAFF_SWIPE = 3405494551U;
+        static const AkUniqueID PLAY_STAFFACTIVATE = 214267519U;
         static const AkUniqueID PLAY_START = 2230670290U;
     } // namespace EVENTS
 
