@@ -27,6 +27,16 @@ public class PlayerSoundController : MonoBehaviour
     private GameObject player_jumpLand_source;
 
 
+    public AK.Wwise.Event player_hurt;
+    public GameObject player_hurt_source;
+
+    public AK.Wwise.Event player_attack;
+    public GameObject player_attack_source;
+
+    public AK.Wwise.Event player_death;
+    public GameObject player_death_source;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -39,11 +49,21 @@ public class PlayerSoundController : MonoBehaviour
         
     }
 
-    public void anim_player_footstep()
+    public void Play_PlayerFootstep()
     {
         GroundSwitch();
-        AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Dirt", gameObject);
+        AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", gameObject);
         player_footstep.Post(player_footstep_source);
+    }
+
+    public void PlayJumpSound()
+    {
+        player_jump.Post(player_jump_source);
+    }
+
+    public void PlayJumpLandSound()
+    {
+        player_jumpLand.Post(player_jumpLand_source);
     }
 
     private void GroundSwitch()
@@ -85,13 +105,18 @@ public class PlayerSoundController : MonoBehaviour
         }
     }
 
-    public void PlayJumpSound()
+    public void PlayHurt()
     {
-        player_jump.Post(player_jump_source);
+        player_hurt.Post(player_hurt_source);
     }
 
-    public void PlayJumpLandSound()
+    public void PlayAttack()
     {
-        player_jumpLand.Post(player_jumpLand_source);
+        player_attack.Post(player_attack_source);
+    }
+  
+    public void PlayDeath()
+    {
+        player_death.Post(player_death_source);
     }
 }

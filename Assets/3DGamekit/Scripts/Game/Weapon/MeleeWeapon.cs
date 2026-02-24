@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -30,8 +31,11 @@ namespace Gamekit3D
 
         public TimeEffect[] effects;
 
-        [Header("Audio")] public RandomAudioPlayer hitAudio;
+        [Header("Audio")] 
+        public RandomAudioPlayer hitAudio;
         public RandomAudioPlayer attackAudio;
+
+        
 
         public bool throwingHit
         {

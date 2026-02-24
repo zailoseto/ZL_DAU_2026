@@ -13,19 +13,28 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID ANIM_PLAYER_FOOTSTEP = 2109543175U;
+        static const AkUniqueID PLAY_ATTACK = 1519321238U;
         static const AkUniqueID PLAY_BACK = 1292086503U;
+        static const AkUniqueID PLAY_BOXDESTROY = 3985542137U;
         static const AkUniqueID PLAY_CHOMPERATTACK = 3778133004U;
-        static const AkUniqueID PLAY_CHOMPERFOOTSTEPS = 1956494941U;
-        static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
+        static const AkUniqueID PLAY_CHOMPERDEATH = 1130560958U;
+        static const AkUniqueID PLAY_CHOMPERGRUNT = 3373198502U;
+        static const AkUniqueID PLAY_CHOMPERHIT = 3580226607U;
+        static const AkUniqueID PLAY_CHOMPERRUNBACK = 544765150U;
+        static const AkUniqueID PLAY_CHOMPERRUNFRONT = 3659639408U;
         static const AkUniqueID PLAY_CONFIRM = 4136017490U;
+        static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
+        static const AkUniqueID PLAY_HURT = 2955259529U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LAND = 4285282925U;
+        static const AkUniqueID PLAY_LEVEL1AMB = 3690598599U;
         static const AkUniqueID PLAY_MOUSEOVER = 3019770429U;
+        static const AkUniqueID PLAY_PLAYERFOOTSTEP = 1592819191U;
         static const AkUniqueID PLAY_STAFF_SWIPE = 3405494551U;
         static const AkUniqueID PLAY_STAFFACTIVATE = 214267519U;
         static const AkUniqueID PLAY_START = 2230670290U;
+        static const AkUniqueID PLAY_WATERLOOP = 2890226053U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -40,6 +49,7 @@ namespace AK
                 static const AkUniqueID MUD = 712897245U;
                 static const AkUniqueID ROCK = 2144363834U;
                 static const AkUniqueID SHIP = 284967655U;
+                static const AkUniqueID VEGETATION = 2932679629U;
             } // namespace SWITCH
         } // namespace SURFACEMATERIAL
 

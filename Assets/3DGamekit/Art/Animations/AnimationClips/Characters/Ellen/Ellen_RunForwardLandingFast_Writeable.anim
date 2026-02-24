@@ -128825,28 +128825,14 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.016666668
-    functionName: anim_player_footstep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.11666667
-    functionName: anim_player_footstep
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
-  - time: 0.53333336
-    functionName: anim_player_footstep
+    functionName: PlayJumpLandSound
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
   - time: 0.8833333
-    functionName: anim_player_footstep
+    functionName: Play_PlayerFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

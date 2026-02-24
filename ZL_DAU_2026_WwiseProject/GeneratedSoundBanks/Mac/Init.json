@@ -68,6 +68,12 @@
         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
        },
        {
+        "Id": "2932679629",
+        "Name": "Vegetation",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Vegetation",
+        "GUID": "{EF7CCBF7-735F-4D6A-B534-3F5256207199}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Grass",
@@ -78,6 +84,6 @@
     ]
    }
   ],
-  "FileHash": "{A348DCE2-DE14-3C9A-6244-C4A778F2213D}"
+  "FileHash": "{C15F65EC-AAD2-5023-FCBF-F8A7A93DD6F7}"
  }
 }

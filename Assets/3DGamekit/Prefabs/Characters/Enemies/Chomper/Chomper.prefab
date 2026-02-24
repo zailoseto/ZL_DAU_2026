@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4676239010028134}
   - component: {fileID: 82530715343892518}
   - component: {fileID: 114857521794206750}
+  - component: {fileID: 7630263383478352096}
   m_Layer: 23
   m_Name: FrontFootstepSource
   m_TagString: Untagged
@@ -169,6 +170,30 @@ MonoBehaviour:
   overrides: []
   playing: 0
   canPlay: 0
+--- !u!114 &7630263383478352096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1012471776981518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88270aa0619d39b4bb3fed3005cffb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1014752118674108
 GameObject:
   m_ObjectHideFlags: 0
@@ -1662,6 +1687,7 @@ GameObject:
   - component: {fileID: 4386089710331718}
   - component: {fileID: 82493688059715234}
   - component: {fileID: 114736383910666334}
+  - component: {fileID: 8149674414330139157}
   m_Layer: 23
   m_Name: BackFootstepSource
   m_TagString: Untagged
@@ -1820,6 +1846,30 @@ MonoBehaviour:
   overrides: []
   playing: 0
   canPlay: 0
+--- !u!114 &8149674414330139157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1314737234912816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88270aa0619d39b4bb3fed3005cffb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1317009949410214
 GameObject:
   m_ObjectHideFlags: 0
@@ -3523,6 +3573,7 @@ GameObject:
   - component: {fileID: 65771025306039616}
   - component: {fileID: 114643127116660914}
   - component: {fileID: 195733995024529676}
+  - component: {fileID: 2445403961244974101}
   m_Layer: 23
   m_Name: Chomper
   m_TagString: Untagged
@@ -3594,17 +3645,32 @@ MonoBehaviour:
       m_Bits: 2147483648
   timeToStopPursuit: 3
   attackAudio: {fileID: 114190857395315650}
-  frontStepAudio: {fileID: 114857521794206750}
-  backStepAudio: {fileID: 114736383910666334}
-  hitAudio: {fileID: 114951439143794754}
-  gruntAudio: {fileID: 114720182369786316}
   deathAudio: {fileID: 114771674042626142}
   spottedAudio: {fileID: 114643955118306876}
-  Wwise_Test:
+  ChomperRunFront:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 79933abcf158ab14a93ed50b3bdc36d1,
+    WwiseObjectReference: {fileID: 11400000, guid: 693170419721d234288601eb2fb68230,
       type: 2}
+  ChomperRunBack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: f0018919836c1f943b03f821cbe99911,
+      type: 2}
+  ChomperHit:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 60f741790246d3641b2e6738cc5abab7,
+      type: 2}
+  ChomperGrunt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 9b1753daa4bcc1641b5b571491712d6f,
+      type: 2}
+  Chomper_RunFront_Source: {fileID: 1012471776981518}
+  Chomper_RunBack_Source: {fileID: 1314737234912816}
+  Chomper_Hit_Source: {fileID: 1286976262386736}
+  Chomper_Grunt_Source: {fileID: 1817494547040594}
 --- !u!114 &114700785457422906
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3709,6 +3775,30 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2445403961244974101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722084123150156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88270aa0619d39b4bb3fed3005cffb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  usePositionOffsetData: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  scalingFactor: 1
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!1 &1737964142438470
 GameObject:
   m_ObjectHideFlags: 0

@@ -28,6 +28,11 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="Gear" ID="{59404539-05BC-4F36-B0AE-99E2817FF0E0}" ShortID="377332939">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="InitialDelay" Type="Real64">
 											<ValueList>
 												<Value>0.04</Value>
@@ -385,9 +390,86 @@
 												</Sound>
 											</ChildrenList>
 										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Vegetation" ID="{CB920B03-9393-44B5-9A54-67C3C9FA1A08}" ShortID="954008685">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285" ID="{4B44314C-BEB5-41CF-B77D-151415F8BFEA}" ShortID="78259206">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285" ID="{E57BCE14-2E9D-43D9-A257-86450D073128}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0269341864178528"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.0954939336632963"/>
+																<Property Name="TrimEnd" Type="Real64" Value="0.361162910688263"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="566155273"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285" ID="{E57BCE14-2E9D-43D9-A257-86450D073128}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285_01" ID="{0E546185-1BF8-4CF7-8ED7-E14F15579F3F}" ShortID="476010081">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285" ID="{2D83B8A5-453A-42DC-A471-1EB2BEBBCB87}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0269341864178528"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.504403854734335"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1046797039"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Footsteps, Human, Slippers, Carpet, Wood, Jog, Run, Close SND128285" ID="{2D83B8A5-453A-42DC-A471-1EB2BEBBCB87}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 									<GroupingInfo>
 										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="Vegetation" ID="{CB920B03-9393-44B5-9A54-67C3C9FA1A08}"/>
+											</GroupingBehavior>
 											<GroupingBehavior>
 												<ItemRef Name="Ship" ID="{20EC484D-94E1-47DF-81A3-22B8B2A69A0D}"/>
 											</GroupingBehavior>
@@ -421,6 +503,12 @@
 												</ItemList>
 											</Grouping>
 											<Grouping>
+												<SwitchRef Name="Vegetation" ID="{EF7CCBF7-735F-4D6A-B534-3F5256207199}"/>
+												<ItemList>
+													<ItemRef Name="Vegetation" ID="{CB920B03-9393-44B5-9A54-67C3C9FA1A08}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
 												<SwitchRef Name="Grass" ID="{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"/>
 												<ItemList>
 													<ItemRef Name="Grass" ID="{B5D0ACCD-630B-4DF5-B27F-80C7E230653C}"/>
@@ -431,7 +519,7 @@
 								</SwitchContainer>
 							</ChildrenList>
 						</BlendContainer>
-						<RandomSequenceContainer Name="Jump" ID="{FFB4CD37-C411-42B8-81EA-6E039EB837CD}" ShortID="965134696">
+						<RandomSequenceContainer Name="JumpLife" ID="{FFB4CD37-C411-42B8-81EA-6E039EB837CD}" ShortID="965134696">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -442,6 +530,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{13246029-B161-4732-B7D4-0CEE6869D7BD}" ShortID="490277299">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -452,6 +547,9 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav</AudioFile>
 											<MediaIDList>
@@ -463,9 +561,37 @@
 										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{F7CABDC6-F03C-4448-9AF2-BEA3BA541A00}" ShortID="29530535">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{89941091-0E7E-48B0-BC72-7997745B5D6D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0458513775209742"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0682676065312283"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.332167760807698"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817893841"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{89941091-0E7E-48B0-BC72-7997745B5D6D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="Land" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" ShortID="162931334">
+						<RandomSequenceContainer Name="LandLife" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" ShortID="162931334">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -476,6 +602,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{1B0FA061-DD74-44D6-A305-D1FCD38A3D23}" ShortID="457280755">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -497,6 +630,153 @@
 										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{80406EC4-F472-472C-8A53-91FE8988323E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{952DE02C-9953-436B-AD30-5AD09BD763BD}" ShortID="571686447">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{E894C75A-62FC-4321-8333-8C42C9BCD5B0}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.00618145792815942"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0768266913928385"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0309072896407971"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.28169786073154"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="116134718"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{E894C75A-62FC-4321-8333-8C42C9BCD5B0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Hurt" ID="{EFBF1D9A-843E-4205-B593-C5BB0CFE1D65}" ShortID="1029626125">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{10E671BC-A9E4-4FA2-9285-E9158F32A3F9}" ShortID="455484458">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{3FA962FA-AF8C-4E22-B68A-3CE846770099}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.124397685208659"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0120684321471087"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="920905788"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{3FA962FA-AF8C-4E22-B68A-3CE846770099}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Attack" ID="{A010ADF8-D8F2-4011-89A4-A84024FD7EB2}" ShortID="31111815">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{FE982E1B-0298-4417-89EA-4A1FFFC6F202}" ShortID="495981257">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{37DB5CD3-78AF-46BF-B9D4-4FA71A0AC6E0}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.164159700235357"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.048681842138761"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.339640745040939"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="638539703"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{37DB5CD3-78AF-46BF-B9D4-4FA71A0AC6E0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Death" ID="{5809B79D-7C18-46CF-90CD-50F6B6A2E2F4}" ShortID="789262006">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{3E2B0D5A-5660-4906-8F1D-3F1FD0464AA2}" ShortID="441433250">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{B6BA2E94-4CFB-4D1B-826A-BD9019F4FD96}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.127431160508804"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00427940464395238"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1069972770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{B6BA2E94-4CFB-4D1B-826A-BD9019F4FD96}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 					</ChildrenList>
@@ -506,6 +786,371 @@
 						<Property Name="Color" Type="int16" Value="2"/>
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Chomper Attack" ID="{8D04E1DD-732F-4471-8786-0BBFBC357FF8}" ShortID="251563417">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Dog, German Shepherd, Barking SND60759" ID="{462F7C72-FC8E-4142-AF2A-5951F051728F}" ShortID="937058576">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, German Shepherd, Barking SND60759" ID="{BAEEFDA2-8D80-478C-A656-962EAF7E0B4D}">
+											<Language>SFX</Language>
+											<AudioFile>Animals, Dog, German Shepherd, Barking SND60759.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="650673341"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, German Shepherd, Barking SND60759" ID="{BAEEFDA2-8D80-478C-A656-962EAF7E0B4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Grunt" ID="{987BC7AB-D287-4234-9122-173FB38DBC46}" ShortID="186711705">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-16</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346" ID="{C35F7B1F-07AF-4A70-988F-13F0AA5CB51B}" ShortID="902140564">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346" ID="{3D6F40CA-112B-4ECB-9219-2970AD690D44}">
+											<Language>SFX</Language>
+											<AudioFile>Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="694507640"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346" ID="{3D6F40CA-112B-4ECB-9219-2970AD690D44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" ShortID="221935052">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bullets, Impact, Wood, Heavy SND6413" ID="{25CD6C2A-137B-4DB9-ADA2-5E49A2066FD0}" ShortID="375920256">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bullets, Impact, Wood, Heavy SND6413" ID="{EDC2BF57-6A80-4C7A-856C-409A0C9E0D99}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0607217878807249"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.00411137105442407"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Bullets, Impact, Wood, Heavy SND6413.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="374377276"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bullets, Impact, Wood, Heavy SND6413" ID="{EDC2BF57-6A80-4C7A-856C-409A0C9E0D99}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Death" ID="{BB742BAB-1051-48F7-BEBD-7C8E8D129EA3}" ShortID="935279017">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173" ID="{1F62AA83-E4F8-4A14-8B88-E579C4D84188}" ShortID="813837891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173" ID="{A260EFEB-4C7E-4613-90D7-ABB73990C0A3}">
+											<Language>SFX</Language>
+											<AudioFile>User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="933877617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173" ID="{A260EFEB-4C7E-4613-90D7-ABB73990C0A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Run Front" ID="{D5A0F895-08C2-4B82-9F79-3127EF8BF7EE}" ShortID="988361075">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{5D14F457-7C07-48B8-982F-9098FBC5F3F3}" ShortID="453671623">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{733CDD8A-5ADF-457C-83A6-30DDA1384647}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.116109294907332"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0540508786637579"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.314295866220241"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals, Dog, Walking Past, Hardwood Floor SND0900.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="151309620"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{733CDD8A-5ADF-457C-83A6-30DDA1384647}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Walking Past, Hardwood Floor SND0900_01" ID="{A4274AD0-F649-40C2-A5E6-B1222EA4853C}" ShortID="79096949">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{997CA1C9-2FB8-4DB0-A263-1E245408FB7E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.148139445226596"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.930876243653609"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.634597353200417"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.93488002865598"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals, Dog, Walking Past, Hardwood Floor SND0900.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="468605295"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{997CA1C9-2FB8-4DB0-A263-1E245408FB7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Run Back" ID="{61F15391-D72F-4801-A4D1-EB461818C09F}" ShortID="37732695">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{5C03D6A8-DB03-41E8-BD95-26A85A910F2A}" ShortID="810976236">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{A68FA219-14EB-41E4-83FF-78275D48226E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.12011306369724"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.314295850007778"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.646608675782605"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals, Dog, Walking Past, Hardwood Floor SND0900.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022096692"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{A68FA219-14EB-41E4-83FF-78275D48226E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Animals, Dog, Walking Past, Hardwood Floor SND0900_01" ID="{7FDDC8B1-2D38-4368-B327-B930C559B351}" ShortID="143497702">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{14A73697-2609-459E-B7DB-CF9BB8DD5AD9}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.14013190764678"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.926872474863701"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Animals, Dog, Walking Past, Hardwood Floor SND0900.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="495535085"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{14A73697-2609-459E-B7DB-CF9BB8DD5AD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{6242F5F8-3C45-428E-B729-E312ADE95399}" ShortID="803838548">
 					<ChildrenList>
@@ -731,6 +1376,9 @@
 					</PropertyList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="StaffActivate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" ShortID="651041976">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -818,6 +1466,139 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277" ID="{9CA4FDC6-F645-4BB3-AC4E-675E421E4D21}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Environment" ID="{26B4623A-F0A6-45E1-BBF8-9B682B84A6B3}" ShortID="134897896">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<BlendContainer Name="Level1 AMB" ID="{F81C5FDF-B2F1-4F20-AF7D-BA5B1A5509A3}" ShortID="416764629">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Outside Base" ID="{33CA9A44-79F8-43E5-9876-F08ABE29CC80}" ShortID="567588233">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-25</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682" ID="{0412E0DC-19FE-4664-9B01-CD27673D78CB}">
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1054134572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682" ID="{0412E0DC-19FE-4664-9B01-CD27673D78CB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<Sound Name="Water Loop" ID="{CA32DFB3-1364-43B1-8D79-C9DD62FC2FB3}" ShortID="313911192">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Water, Flow, Stream, Gentle 01 SND65667" ID="{143514F6-41C6-4597-A2B8-41A1A728A2BC}">
+									<Language>SFX</Language>
+									<AudioFile>Water, Flow, Stream, Gentle 01 SND65667.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="849355181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Water, Flow, Stream, Gentle 01 SND65667" ID="{143514F6-41C6-4597-A2B8-41A1A728A2BC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Interactables" ID="{57157214-592A-4671-B89A-826E15DB20BF}" ShortID="646428602">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="BoxDestroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" ShortID="246625332">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wood, Break, Sharp, Metal Details SND53074" ID="{FC73DF8E-C7BD-4D22-8D1F-ACB1BE2C34E1}" ShortID="356159157">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wood, Break, Sharp, Metal Details SND53074" ID="{7E1ABF2F-BAC3-4F83-A0B4-92A401C9B67E}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.120452048598217"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="0.527496896759802"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wood, Break, Sharp, Metal Details SND53074.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="837159731"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Wood, Break, Sharp, Metal Details SND53074" ID="{7E1ABF2F-BAC3-4F83-A0B4-92A401C9B67E}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

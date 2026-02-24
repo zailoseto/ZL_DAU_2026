@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{87EBF235-C5A9-4216-BEFE-D68AD542D080}">
 					<ObjectInclusionList>
+						<ObjectRef Name="Environment" ID="{E6698369-3D7F-4414-A6F1-1FC036A729D5}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Interactables" ID="{17382D01-A376-48B9-AE2B-7390DC0CEEA0}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI" ID="{67F0BB1E-D2BE-4A6F-91BA-A9B86909BB3A}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Player" ID="{35A63368-6427-4C80-B4F0-E81872546308}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemies" ID="{85D17234-E52D-4C91-A6FD-F8595A993BF4}" WorkUnitID="{4C7681F1-6F2C-4CFE-BEB6-714122EC62F0}" Origin="Manual" Filter="7"/>

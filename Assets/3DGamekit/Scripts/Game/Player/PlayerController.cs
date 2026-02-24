@@ -443,7 +443,8 @@ namespace Gamekit3D
             {
                 //landingPlayer.PlayRandomClip(m_CurrentWalkingSurface, bankId: m_ForwardSpeed < 4 ? 0 : 1);
                 //emoteLandingPlayer.PlayRandomClip();
-                playerSoundController.PlayJumpLandSound();
+
+              //  playerSoundController.PlayJumpLandSound();
 
             }
 
@@ -455,12 +456,14 @@ namespace Gamekit3D
 
             if (m_CurrentStateInfo.shortNameHash == m_HashHurt && m_PreviousCurrentStateInfo.shortNameHash != m_HashHurt)
             {
-                hurtAudioPlayer.PlayRandomClip();
+               // hurtAudioPlayer.PlayRandomClip();
+                playerSoundController.PlayHurt();
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenDeath && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenDeath)
             {
-                emoteDeathPlayer.PlayRandomClip();
+                //emoteDeathPlayer.PlayRandomClip();
+                playerSoundController.PlayDeath();
             }
 
             if (m_CurrentStateInfo.shortNameHash == m_HashEllenCombo1 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo1 ||
@@ -468,7 +471,8 @@ namespace Gamekit3D
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo3 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo3 ||
                 m_CurrentStateInfo.shortNameHash == m_HashEllenCombo4 && m_PreviousCurrentStateInfo.shortNameHash != m_HashEllenCombo4)
             {
-                emoteAttackPlayer.PlayRandomClip();
+                //emoteAttackPlayer.PlayRandomClip();
+                playerSoundController.PlayAttack();
             }
         }
 

@@ -75769,7 +75769,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 0.033333335
-    functionName: anim_player_footstep
+    functionName: Play_PlayerFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0
@@ -75790,7 +75790,7 @@ AnimationClip:
     intParameter: 0
     messageOptions: 0
   - time: 0.45
-    functionName: anim_player_footstep
+    functionName: Play_PlayerFootstep
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

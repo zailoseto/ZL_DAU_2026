@@ -36,13 +36,30 @@ namespace Gamekit3D
 
         [Header("Audio")]
         public RandomAudioPlayer attackAudio;
-        public RandomAudioPlayer frontStepAudio;
-        public RandomAudioPlayer backStepAudio;
-        public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer gruntAudio;
+        //public RandomAudioPlayer frontStepAudio;
+        //public RandomAudioPlayer backStepAudio;
+        //public RandomAudioPlayer hitAudio;
+        //public RandomAudioPlayer gruntAudio;
         public RandomAudioPlayer deathAudio;
         public RandomAudioPlayer spottedAudio;
-            
+
+
+        //public AK.Wwise.Event ChomperAttack;
+        public AK.Wwise.Event ChomperRunFront;
+        public AK.Wwise.Event ChomperRunBack;
+        public AK.Wwise.Event ChomperHit;
+        public AK.Wwise.Event ChomperGrunt;
+        //public AK.Wwise.Event ChomperDeath;
+
+
+        //public GameObject Chomper_Attack_Source;
+        public GameObject Chomper_RunFront_Source;
+        public GameObject Chomper_RunBack_Source;
+        public GameObject Chomper_Hit_Source;
+        public GameObject Chomper_Grunt_Source;
+        //public GameObject Chomper_Death_Source;
+
+
 
         protected float m_TimerSinceLostTarget = 0.0f;
 
@@ -68,11 +85,18 @@ namespace Gamekit3D
         /// </summary>
         /// <param name="frontFoot">Has a value of 1 when it's a front foot stepping and 0 when it's a back foot.</param>
         void PlayStep(int frontFoot)
-        {
-            if (frontStepAudio != null && frontFoot == 1)
-                frontStepAudio.PlayRandomClip();
-            else if (backStepAudio != null && frontFoot == 0)
-                backStepAudio.PlayRandomClip ();
+       //{
+       //     if (frontStepAudio != null && frontFoot == 1)
+       //         frontStepAudio.PlayRandomClip();
+       //     else if (backStepAudio != null && frontFoot == 0)
+       //         backStepAudio.PlayRandomClip ();
+       // }
+
+         {
+            if (ChomperRunFront != null && frontFoot == 1)
+                ChomperRunFront.Post(Chomper_RunFront_Source);
+            else if (ChomperRunBack != null && frontFoot == 0)
+                ChomperRunBack.Post(Chomper_RunBack_Source);
         }
 
         /// <summary>
@@ -80,8 +104,10 @@ namespace Gamekit3D
         /// </summary>
         public void Grunt ()
         {
-            if (gruntAudio != null)
-                gruntAudio.PlayRandomClip ();
+            //if (gruntAudio != null)
+                //gruntAudio.PlayRandomClip ();
+            if (ChomperGrunt != null)
+                ChomperGrunt.Post(Chomper_Grunt_Source);
         }
 
         public void Spotted()
@@ -246,9 +272,14 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashThrown);
 
             //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
+            
             deathAudio.transform.SetParent(null, true);
             deathAudio.PlayRandomClip();
             GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+
+            //ChomperDeath.transform.SetParent(null, true);
+            //ChomperDeath.Post(Chomper_Death_Source);
+            //GameObject.Destroy(ChomperDeath, ChomperDeath.clip == null ? 0.0f : ChomperDeath.clip.length + 0.5f);
         }
 
         public void ApplyDamage(Damageable.DamageMessage msg)
@@ -272,7 +303,8 @@ namespace Gamekit3D
 
             controller.animator.SetTrigger(hashHit);
 
-            hitAudio.PlayRandomClip();
+            //hitAudio.PlayRandomClip();
+            ChomperHit.Post(Chomper_Hit_Source);
         }
 
 #if UNITY_EDITOR

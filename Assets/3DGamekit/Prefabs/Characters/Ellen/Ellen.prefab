@@ -6548,7 +6548,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1137306918061848}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9e964bf448e90d4385537d91bc39838, type: 3}
   m_Name: 
@@ -22420,6 +22420,7 @@ MonoBehaviour:
   emoteDeathPlayer: {fileID: 114941003919540504}
   emoteAttackPlayer: {fileID: 114760947911017218}
   emoteJumpPlayer: {fileID: 114482031319434234}
+  playerSoundController: {fileID: 0}
 --- !u!114 &114166992771378430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22463,6 +22464,24 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: cb578f096b670d14982bc5a6ad5dca96,
       type: 2}
   player_jumpLand_source: {fileID: 1490652719919650}
+  player_hurt:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: e3af51a4ba51a114cb9d0523c7d07a9c,
+      type: 2}
+  player_hurt_source: {fileID: 1967731790908038}
+  player_attack:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5b26d7244bf8c1f498706d353c97c613,
+      type: 2}
+  player_attack_source: {fileID: 1042158210440120}
+  player_death:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 5754c283571e18d4c8ddee0eaf0eaca4,
+      type: 2}
+  player_death_source: {fileID: 1671338442142798}
 --- !u!1 &1991646998098166
 GameObject:
   m_ObjectHideFlags: 0

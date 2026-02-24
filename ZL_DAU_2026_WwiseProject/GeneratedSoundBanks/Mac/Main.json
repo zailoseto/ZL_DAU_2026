@@ -10,19 +10,11 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{CD1A34E8-52AB-D7BC-B30C-B67EA51BC5BC}",
+    "Hash": "{8D879037-85F7-E174-DA2B-17F8FCC6CD6C}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
-     {
-      "Id": "13461616",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Objects, Keys, Handling, Jingle, Soft 01 SND0298.wav",
-      "CachePath": "B1/{B1F63599-BDE4-7DAE-0CE1-6AB82C96E3A8}.wem"
-     },
      {
       "Id": "35848546",
       "Language": "SFX",
@@ -30,6 +22,22 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "116134718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2.wav",
+      "CachePath": "48/{488079DD-AB8C-87BB-068C-81F612D3B33D}.wem"
+     },
+     {
+      "Id": "151309620",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
+      "CachePath": "71/{7134D171-57FE-6A11-5822-90F1513BF22E}.wem"
      },
      {
       "Id": "197775103",
@@ -64,6 +72,30 @@
       "CachePath": "81/{8172E7D7-DC23-EF9F-85FE-96AD41D29758}.wem"
      },
      {
+      "Id": "374377276",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Impact, Wood, Heavy SND6413.wav",
+      "CachePath": "DA/{DA4DAB2F-4E27-C2AB-20E5-156D9772DB30}.wem"
+     },
+     {
+      "Id": "468605295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
+      "CachePath": "34/{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem"
+     },
+     {
+      "Id": "495535085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
+      "CachePath": "F6/{F67AE929-7524-7347-3BD3-1D1EC8966547}.wem"
+     },
+     {
       "Id": "497171569",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,20 +112,20 @@
       "CachePath": "5E/{5E5F1D52-6539-37C4-058C-7011960092A8}.wem"
      },
      {
-      "Id": "608003713",
+      "Id": "638539703",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav",
-      "CachePath": "18/{18A06396-C1BA-594C-21A1-E0E4EBA2A734}.wem"
+      "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3.wav",
+      "CachePath": "E5/{E5F709B3-BCAF-05BB-7AB4-63D4ED235B65}.wem"
      },
      {
-      "Id": "651872240",
+      "Id": "650673341",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Objects, Keys, Handling, Jingle, Soft 01 SND0298.wav",
-      "CachePath": "B3/{B319BF6E-9069-111E-E52A-F4216E53B96D}.wem"
+      "ShortName": "Animals, Dog, German Shepherd, Barking SND60759.wav",
+      "CachePath": "F7/{F7AAD97D-D9C5-8DA1-BD22-73E8BCDDEEA7}.wem"
      },
      {
       "Id": "690924407",
@@ -104,6 +136,14 @@
       "CachePath": "F0/{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem"
      },
      {
+      "Id": "694507640",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346.wav",
+      "CachePath": "E5/{E5D83752-335C-20EB-E030-87D3F3711B91}.wem"
+     },
+     {
       "Id": "769204026",
       "Language": "SFX",
       "Streaming": "false",
@@ -112,12 +152,28 @@
       "CachePath": "A1/{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem"
      },
      {
-      "Id": "771207298",
+      "Id": "817893841",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Footsteps, Human, Grass, Jump, Land 01 SND62077 4.wav",
-      "CachePath": "E2/{E20B9916-332A-39D1-6F48-B919F4F7FD75}.wem"
+      "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99.wav",
+      "CachePath": "DA/{DA9D6AC1-4653-DE87-FA4E-961BEE80A458}.wem"
+     },
+     {
+      "Id": "837159731",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Wood, Break, Sharp, Metal Details SND53074.wav",
+      "CachePath": "56/{5660F80D-621A-5591-042B-6BAECE456E48}.wem"
+     },
+     {
+      "Id": "849355181",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Water, Flow, Stream, Gentle 01 SND65667.wav",
+      "CachePath": "3F/{3F6BDF89-4CDF-C495-8994-1B0ADC08987B}.wem"
      },
      {
       "Id": "868728545",
@@ -128,30 +184,271 @@
       "CachePath": "EF/{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem"
      },
      {
+      "Id": "920905788",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1.wav",
+      "CachePath": "A2/{A2B5FAA3-7B86-7EA5-D86A-907A1A2F5E9E}.wem"
+     },
+     {
+      "Id": "933877617",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173.wav",
+      "CachePath": "79/{797EAF42-E495-1751-E31F-3E343A7D9D1F}.wem"
+     },
+     {
       "Id": "968058573",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "AD/{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem"
+     },
+     {
+      "Id": "1022096692",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
+      "CachePath": "BF/{BF287FF9-C259-20A5-02E8-23616649BAE1}.wem"
+     },
+     {
+      "Id": "1054134572",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682.wav",
+      "CachePath": "BC/{BCB109D8-2CD0-47D5-D28A-1D705D37B805}.wem"
+     },
+     {
+      "Id": "1069972770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4.wav",
+      "CachePath": "F2/{F2EA1429-E6AB-B9EC-19FA-BE5F185A0C3C}.wem"
      }
     ],
     "Events": [
      {
-      "Id": "2109543175",
-      "Name": "anim_player_footstep",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\anim_player_footstep",
-      "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
+      "Id": "1519321238",
+      "Name": "Play_Attack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Attack",
+      "GUID": "{656AA85C-D5C4-4A59-A5A5-8F4B2E31D2E3}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.3108492",
+      "DurationMin": "0.2909589",
+      "DurationMax": "0.2909589",
+      "MediaRefs": [
+       {
+        "Id": "638539703"
+       }
+      ]
+     },
+     {
+      "Id": "1292086503",
+      "Name": "Play_Back",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Back",
+      "GUID": "{60571415-3532-4974-B248-FE7A887A2E95}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.40913725",
+      "DurationMax": "0.40913725",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "3985542137",
+      "Name": "Play_BoxDestroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_BoxDestroy",
+      "GUID": "{CCFA0006-5FDE-4741-9154-F09B627E8734}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "0.5274969",
+      "DurationMax": "0.5274969",
+      "MediaRefs": [
+       {
+        "Id": "837159731"
+       }
+      ]
+     },
+     {
+      "Id": "3778133004",
+      "Name": "Play_ChomperAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperAttack",
+      "GUID": "{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.45771876",
+      "DurationMax": "0.45771876",
+      "MediaRefs": [
+       {
+        "Id": "650673341"
+       }
+      ]
+     },
+     {
+      "Id": "1130560958",
+      "Name": "Play_ChomperDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperDeath",
+      "GUID": "{FF329C07-9376-459C-8A49-A6034F1129A6}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17295833",
+      "DurationMax": "0.17295833",
+      "MediaRefs": [
+       {
+        "Id": "933877617"
+       }
+      ]
+     },
+     {
+      "Id": "3373198502",
+      "Name": "Play_ChomperGrunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperGrunt",
+      "GUID": "{AECA8E06-4049-4422-8750-66AE7DBAF288}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.46283334",
+      "DurationMax": "0.46283334",
+      "MediaRefs": [
+       {
+        "Id": "694507640"
+       }
+      ]
+     },
+     {
+      "Id": "3580226607",
+      "Name": "Play_ChomperHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperHit",
+      "GUID": "{769E9C77-81AF-4184-9080-CE2C023D876D}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.23687822",
+      "DurationMax": "0.23687822",
+      "MediaRefs": [
+       {
+        "Id": "374377276"
+       }
+      ]
+     },
+     {
+      "Id": "544765150",
+      "Name": "Play_ChomperRunBack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperRunBack",
+      "GUID": "{18C34491-11CF-4FFE-815A-E43475AF872A}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26825252",
+      "DurationMax": "0.33231282",
+      "MediaRefs": [
+       {
+        "Id": "495535085"
+       },
+       {
+        "Id": "1022096692"
+       }
+      ]
+     },
+     {
+      "Id": "3659639408",
+      "Name": "Play_ChomperRunFront",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperRunFront",
+      "GUID": "{FBAED940-9A22-4B67-9657-5800E535DC80}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.260245",
+      "DurationMax": "0.3002827",
+      "MediaRefs": [
+       {
+        "Id": "151309620"
+       },
+       {
+        "Id": "468605295"
+       }
+      ]
+     },
+     {
+      "Id": "4136017490",
+      "Name": "Play_Confirm",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Confirm",
+      "GUID": "{F465FD1C-C578-42DF-A896-1E11EBDEED85}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.2533125",
+      "DurationMax": "0.2533125",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "1172822028",
+      "Name": "Play_Death",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Death",
+      "GUID": "{564533E1-AE97-4ED5-A28B-3A175E30D0DD}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.35804352",
+      "DurationMax": "0.35804352",
+      "MediaRefs": [
+       {
+        "Id": "1069972770"
+       }
+      ]
+     },
+     {
+      "Id": "3794664810",
+      "Name": "Play_Exit",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Exit",
+      "GUID": "{7BB4AFE9-B9D9-4CC0-AF83-569F56D72969}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.6684957",
+      "DurationMax": "0.6684957",
+      "MediaRefs": [
+       {
+        "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "2955259529",
+      "Name": "Play_Hurt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Hurt",
+      "GUID": "{26507034-4178-4E27-BAAF-234677D5EE80}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.34162948",
+      "DurationMax": "0.34162948",
+      "MediaRefs": [
+       {
+        "Id": "920905788"
+       }
+      ]
+     },
+     {
+      "Id": "3689126666",
+      "Name": "Play_Jump",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Jump",
+      "GUID": "{5458CA8C-D8DE-4F3C-A1C8-F33FEB538CF0}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.26390016",
       "DurationMax": "0.45824412",
       "MediaRefs": [
        {
-        "Id": "13461616"
-       },
-       {
-        "Id": "651872240"
+        "Id": "817893841"
        }
       ],
       "SwitchContainers": [
@@ -223,107 +520,97 @@
       ]
      },
      {
-      "Id": "1292086503",
-      "Name": "Play_Back",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Back",
-      "GUID": "{60571415-3532-4974-B248-FE7A887A2E95}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.40913725",
-      "DurationMax": "0.40913725",
-      "MediaRefs": [
-       {
-        "Id": "690924407"
-       }
-      ]
-     },
-     {
-      "Id": "3778133004",
-      "Name": "Play_ChomperAttack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperAttack",
-      "GUID": "{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}",
-      "Color": "2",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "1956494941",
-      "Name": "Play_ChomperFootsteps",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperFootsteps",
-      "GUID": "{FBAED940-9A22-4B67-9657-5800E535DC80}",
-      "Color": "2",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "3733047999",
-      "Name": "Play_ChomperSpotted",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperSpotted",
-      "GUID": "{FF329C07-9376-459C-8A49-A6034F1129A6}",
-      "Color": "2",
-      "MaxAttenuation": "0",
-      "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
-     },
-     {
-      "Id": "4136017490",
-      "Name": "Play_Confirm",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Confirm",
-      "GUID": "{F465FD1C-C578-42DF-A896-1E11EBDEED85}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.2533125",
-      "DurationMax": "0.2533125",
-      "MediaRefs": [
-       {
-        "Id": "690924407"
-       }
-      ]
-     },
-     {
-      "Id": "3794664810",
-      "Name": "Play_Exit",
-      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Exit",
-      "GUID": "{7BB4AFE9-B9D9-4CC0-AF83-569F56D72969}",
-      "DurationType": "OneShot",
-      "DurationMin": "0.6684957",
-      "DurationMax": "0.6684957",
-      "MediaRefs": [
-       {
-        "Id": "690924407"
-       }
-      ]
-     },
-     {
-      "Id": "3689126666",
-      "Name": "Play_Jump",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Jump",
-      "GUID": "{5458CA8C-D8DE-4F3C-A1C8-F33FEB538CF0}",
-      "Color": "10",
-      "DurationType": "OneShot",
-      "DurationMin": "0.26939583",
-      "DurationMax": "0.26939583",
-      "MediaRefs": [
-       {
-        "Id": "608003713"
-       }
-      ]
-     },
-     {
       "Id": "4285282925",
       "Name": "Play_Land",
       "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Land",
       "GUID": "{26F1786C-5D5A-4581-A120-01D348B4A976}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.27879167",
-      "DurationMax": "0.27879167",
+      "DurationMin": "0.25079057",
+      "DurationMax": "0.45824412",
       "MediaRefs": [
        {
-        "Id": "771207298"
+        "Id": "116134718"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "284967655",
+         "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "35848546"
+         },
+         {
+          "Id": "968058573"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "2144363834",
+         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "363247632"
+         },
+         {
+          "Id": "497171569"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "712897245",
+         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "338863219"
+         },
+         {
+          "Id": "868728545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "4248645337",
+         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "368893645"
+         },
+         {
+          "Id": "553490913"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "3690598599",
+      "Name": "Play_Level1AMB",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_Level1AMB",
+      "GUID": "{0F50DEB5-3ABD-4FBC-8949-391E4A4BAF2D}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1054134572"
        }
       ]
      },
@@ -338,6 +625,83 @@
       "MediaRefs": [
        {
         "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "1592819191",
+      "Name": "Play_PlayerFootstep",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_PlayerFootstep",
+      "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "0.15699016",
+      "DurationMax": "0.45824412",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "284967655",
+         "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "35848546"
+         },
+         {
+          "Id": "968058573"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "2144363834",
+         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "363247632"
+         },
+         {
+          "Id": "497171569"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "712897245",
+         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "338863219"
+         },
+         {
+          "Id": "868728545"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "4248645337",
+         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "368893645"
+         },
+         {
+          "Id": "553490913"
+         }
+        ]
        }
       ]
      },
@@ -384,6 +748,19 @@
         "Id": "690924407"
        }
       ]
+     },
+     {
+      "Id": "2890226053",
+      "Name": "Play_WaterLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_WaterLoop",
+      "GUID": "{CD0BAF46-DE33-4327-A21C-1C0EAE0FD80D}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "849355181"
+       }
+      ]
      }
     ],
     "SwitchGroups": [
@@ -412,6 +789,12 @@
         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
        },
        {
+        "Id": "2932679629",
+        "Name": "Vegetation",
+        "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Vegetation",
+        "GUID": "{EF7CCBF7-735F-4D6A-B534-3F5256207199}"
+       },
+       {
         "Id": "4248645337",
         "Name": "Grass",
         "ObjectPath": "\\Switches\\Default Work Unit\\SurfaceMaterial\\Grass",
@@ -422,6 +805,6 @@
     ]
    }
   ],
-  "FileHash": "{522F9514-7DFB-528C-F9F2-EAEFED94BAD4}"
+  "FileHash": "{BF58D20B-2978-7A2D-FA64-533CC5F16223}"
  }
 }
