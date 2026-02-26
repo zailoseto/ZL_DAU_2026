@@ -792,13 +792,13 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -843,7 +843,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -880,10 +880,15 @@
 						<RandomSequenceContainer Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" ShortID="221935052">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -897,7 +902,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -914,7 +919,7 @@
 											<PropertyList>
 												<Property Name="FadeOutDuration" Type="Real64" Value="0.0607217878807249"/>
 												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.00411137105442407"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.0411375870750713"/>
 											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Bullets, Impact, Wood, Heavy SND6413.wav</AudioFile>
@@ -940,7 +945,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -980,7 +985,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -1069,7 +1074,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
-									<ObjectRef Name="ChomperSteps" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
 								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -1146,6 +1151,51 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Animals, Dog, Walking Past, Hardwood Floor SND0900" ID="{14A73697-2609-459E-B7DB-CF9BB8DD5AD9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Chomper Spotted" ID="{6CFD8F0D-0BEE-4818-A001-097AC9C14458}" ShortID="638413415">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Communications, Cellphone, Nokia M, Vibrate, Message SND1765" ID="{0F369E0E-D018-4447-A64C-1508A20510DB}" ShortID="357554138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Communications, Cellphone, Nokia M, Vibrate, Message SND1765" ID="{6CEAECE9-C44E-4075-BCBB-DEB528AD1B79}">
+											<Language>SFX</Language>
+											<AudioFile>Communications, Cellphone, Nokia M, Vibrate, Message SND1765.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="263220006"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Communications, Cellphone, Nokia M, Vibrate, Message SND1765" ID="{6CEAECE9-C44E-4075-BCBB-DEB528AD1B79}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1375,7 +1425,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="StaffActivate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" ShortID="651041976">
+						<RandomSequenceContainer Name="Staff Activate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" ShortID="651041976">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -1554,7 +1604,7 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="BoxDestroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" ShortID="246625332">
+						<RandomSequenceContainer Name="Box Destroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" ShortID="246625332">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -1603,6 +1653,173 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Health Box Open" ID="{A70CC88D-E700-46BB-8CB3-7676BA31047D}" ShortID="591687253">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771" ID="{7C0A76BC-646F-4601-AB0F-39AFA70E980D}" ShortID="357186333">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771" ID="{36EFE72E-1709-4E2A-AC92-4473AC42CFEF}">
+											<Language>SFX</Language>
+											<AudioFile>Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1002597688"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771" ID="{36EFE72E-1709-4E2A-AC92-4473AC42CFEF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Pressure Pad" ID="{ABFBE139-5499-4317-A3C4-FFA802F5FA05}" ShortID="368704050">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-13</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712" ID="{E52C0B4E-582C-4FE5-8675-A2E667742850}" ShortID="173892014">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712" ID="{798E7810-1C3E-4954-B4D1-D3B29E0F5281}">
+											<Language>SFX</Language>
+											<AudioFile>Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="99603305"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712" ID="{798E7810-1C3E-4954-B4D1-D3B29E0F5281}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Health Box Loop" ID="{DC66A9E2-9DA9-4D2E-B316-1630097DF95D}" ShortID="766776155">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Health Box" ID="{4F444935-F7C2-4AB5-8559-CCCA8FD7C210}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{609BA826-7EEE-4851-A5A6-9ABA743D9D0B}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.51915819501561"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557778822"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{609BA826-7EEE-4851-A5A6-9ABA743D9D0B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pressure Pad Loop" ID="{3905C8EC-4341-4A99-80F7-1FB08CB63FE0}" ShortID="916286385">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>900</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-11</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Health Box" ID="{4F444935-F7C2-4AB5-8559-CCCA8FD7C210}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{070EA627-DB21-4397-8D53-971CBDD6E1C7}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.260989900930038"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.0295460265203817"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.502282450846489"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.83431581123302"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1029728874"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{070EA627-DB21-4397-8D53-971CBDD6E1C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

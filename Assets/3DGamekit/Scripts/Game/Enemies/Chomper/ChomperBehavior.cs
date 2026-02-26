@@ -40,25 +40,26 @@ namespace Gamekit3D
         //public RandomAudioPlayer backStepAudio;
         //public RandomAudioPlayer hitAudio;
         //public RandomAudioPlayer gruntAudio;
-        public RandomAudioPlayer deathAudio;
-        public RandomAudioPlayer spottedAudio;
+        //public RandomAudioPlayer deathAudio;
+        //public RandomAudioPlayer spottedAudio;
 
 
-        //public AK.Wwise.Event ChomperAttack;
+        public AK.Wwise.Event ChomperAttack;
         public AK.Wwise.Event ChomperRunFront;
         public AK.Wwise.Event ChomperRunBack;
         public AK.Wwise.Event ChomperHit;
         public AK.Wwise.Event ChomperGrunt;
-        //public AK.Wwise.Event ChomperDeath;
+        public AK.Wwise.Event ChomperDeath;
+        public AK.Wwise.Event ChomperSpotted;
 
 
-        //public GameObject Chomper_Attack_Source;
+        public GameObject ChomperAttack_Source;
         public GameObject Chomper_RunFront_Source;
         public GameObject Chomper_RunBack_Source;
-        public GameObject Chomper_Hit_Source;
-        public GameObject Chomper_Grunt_Source;
-        //public GameObject Chomper_Death_Source;
-
+        public GameObject ChomperHit_Source;
+        public GameObject ChomperGrunt_Source;
+        public GameObject ChomperDeath_Source;
+        public GameObject ChomperSpotted_Source;
 
 
         protected float m_TimerSinceLostTarget = 0.0f;
@@ -107,13 +108,15 @@ namespace Gamekit3D
             //if (gruntAudio != null)
                 //gruntAudio.PlayRandomClip ();
             if (ChomperGrunt != null)
-                ChomperGrunt.Post(Chomper_Grunt_Source);
+                ChomperGrunt.Post(ChomperGrunt_Source);
         }
 
         public void Spotted()
         {
-            if (spottedAudio != null)
-                spottedAudio.PlayRandomClip();
+            //if (spottedAudio != null)
+                //spottedAudio.PlayRandomClip();
+            if (ChomperSpotted != null)
+                ChomperSpotted.Post(ChomperSpotted_Source);
         }
 
         protected void OnDisable()
@@ -244,6 +247,16 @@ namespace Gamekit3D
             meleeWeapon.EndAttack();
         }
 
+        public void Play_ChomperAttack()
+        {
+            ChomperAttack.Post(ChomperAttack_Source);
+        }
+
+        public void Play_ChomperHit()
+        {
+            ChomperHit.Post(ChomperHit_Source);
+        }
+
         public void OnReceiveMessage(Message.MessageType type, object sender, object msg)
         {
             switch (type)
@@ -273,12 +286,12 @@ namespace Gamekit3D
 
             //We unparent the hit source, as it would destroy it with the gameobject when it get replaced by the ragdol otherwise
             
-            deathAudio.transform.SetParent(null, true);
-            deathAudio.PlayRandomClip();
-            GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
+            //deathAudio.transform.SetParent(null, true);
+            //deathAudio.PlayRandomClip();
+            //GameObject.Destroy(deathAudio, deathAudio.clip == null ? 0.0f : deathAudio.clip.length + 0.5f);
 
             //ChomperDeath.transform.SetParent(null, true);
-            //ChomperDeath.Post(Chomper_Death_Source);
+            ChomperDeath.Post(ChomperDeath_Source);
             //GameObject.Destroy(ChomperDeath, ChomperDeath.clip == null ? 0.0f : ChomperDeath.clip.length + 0.5f);
         }
 
@@ -304,7 +317,7 @@ namespace Gamekit3D
             controller.animator.SetTrigger(hashHit);
 
             //hitAudio.PlayRandomClip();
-            ChomperHit.Post(Chomper_Hit_Source);
+            //ChomperHit.Post(Chomper_Hit_Source);
         }
 
 #if UNITY_EDITOR

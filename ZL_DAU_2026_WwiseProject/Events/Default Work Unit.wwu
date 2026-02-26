@@ -227,6 +227,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Play_ChomperSpotted" ID="{B2DFD07B-6C09-4BB4-B46E-733C5D94E94A}">
+							<ChildrenList>
+								<Action Name="" ID="{EC45508B-5654-4159-BDA9-8CBB7DEEDEF8}" ShortID="246714458">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Chomper Spotted" ID="{6CFD8F0D-0BEE-4818-A001-097AC9C14458}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{67F0BB1E-D2BE-4A6F-91BA-A9B86909BB3A}" ShortID="797899018">
@@ -299,13 +310,13 @@
 								<Action Name="" ID="{665E04CA-D51F-42C2-9EFD-9A8DD1B4CCE5}" ShortID="302713137">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="StaffActivate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Staff Activate" ID="{134D2D6E-08DE-40AE-AD47-8D9748D18C89}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Staff_Swipe" ID="{017F94CC-5C04-48AE-B068-AEFA0D4196BB}">
+						<Event Name="Play_StaffSwipe" ID="{017F94CC-5C04-48AE-B068-AEFA0D4196BB}">
 							<ChildrenList>
 								<Action Name="" ID="{9BFC99F9-17CB-43A7-891A-59A6B7865137}" ShortID="247695790">
 									<ReferenceList>
@@ -359,7 +370,51 @@
 								<Action Name="" ID="{10D0A4F4-C0B8-46F7-BA13-956E9F2BC6FD}" ShortID="700573919">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="BoxDestroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Box Destroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HealthBoxOpen" ID="{CAE22942-C849-45E6-BFA4-6F673E59DACF}">
+							<ChildrenList>
+								<Action Name="" ID="{9B2925E8-48A4-46BF-9C25-0866B90B87A6}" ShortID="353093130">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health Box Open" ID="{A70CC88D-E700-46BB-8CB3-7676BA31047D}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PressurePad" ID="{71B66A13-2279-4E3B-BF1E-6B3B981EF625}">
+							<ChildrenList>
+								<Action Name="" ID="{62F59E61-7053-4C2E-8C92-17DE4255333F}" ShortID="35130265">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pressure Pad" ID="{ABFBE139-5499-4317-A3C4-FFA802F5FA05}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_HealthBoxLoop" ID="{0435B55C-8498-425D-A84E-A8667B490199}">
+							<ChildrenList>
+								<Action Name="" ID="{0F643D8E-D5A1-4328-AC37-D7C779CEF836}" ShortID="868747206">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health Box Loop" ID="{DC66A9E2-9DA9-4D2E-B316-1630097DF95D}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_PressurePadLoop" ID="{4F388D5A-D8CE-4774-88E9-336ECFC9D959}">
+							<ChildrenList>
+								<Action Name="" ID="{9DC1CCE7-77D2-43B0-ADDC-A7659A524BB2}" ShortID="646599128">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Pressure Pad Loop" ID="{3905C8EC-4341-4A99-80F7-1FB08CB63FE0}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

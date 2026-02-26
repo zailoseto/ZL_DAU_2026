@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using AK.Wwise;
+
 
 namespace Gamekit3D
 {

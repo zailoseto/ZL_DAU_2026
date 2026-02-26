@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{8D879037-85F7-E174-DA2B-17F8FCC6CD6C}",
+    "Hash": "{27C11842-120B-2E8F-337F-289F470864A3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "99603305",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712.wav",
+      "CachePath": "5E/{5E101AA2-9128-2A57-1E6C-715E16EB83CE}.wem"
      },
      {
       "Id": "116134718",
@@ -46,6 +54,14 @@
       "Location": "Memory",
       "ShortName": "Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277.wav",
       "CachePath": "A6/{A6542082-F03C-D4D5-E234-19796625A968}.wem"
+     },
+     {
+      "Id": "263220006",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Communications, Cellphone, Nokia M, Vibrate, Message SND1765.wav",
+      "CachePath": "85/{855BABD8-7414-6AA5-0BD8-94FE87DB325E}.wem"
      },
      {
       "Id": "338863219",
@@ -77,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bullets, Impact, Wood, Heavy SND6413.wav",
-      "CachePath": "DA/{DA4DAB2F-4E27-C2AB-20E5-156D9772DB30}.wem"
+      "CachePath": "0B/{0BD3386B-8589-DE0C-2055-DF9F95487D9D}.wem"
      },
      {
       "Id": "468605295",
@@ -110,6 +126,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Gravel, Sneaker, Medium SND1052 3.wav",
       "CachePath": "5E/{5E5F1D52-6539-37C4-058C-7011960092A8}.wem"
+     },
+     {
+      "Id": "557778822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav",
+      "CachePath": "7D/{7DF89EC3-CB92-9A61-3BAA-CA4640547FEA}.wem"
      },
      {
       "Id": "638539703",
@@ -208,12 +232,28 @@
       "CachePath": "AD/{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem"
      },
      {
+      "Id": "1002597688",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771.wav",
+      "CachePath": "F5/{F55A857A-9F9A-8C8B-C213-7E1595308286}.wem"
+     },
+     {
       "Id": "1022096692",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
       "CachePath": "BF/{BF287FF9-C259-20A5-02E8-23616649BAE1}.wem"
+     },
+     {
+      "Id": "1029728874",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav",
+      "CachePath": "76/{767D6461-188F-044E-F9C9-F6296D243F1B}.wem"
      },
      {
       "Id": "1054134572",
@@ -333,8 +373,8 @@
       "Color": "2",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.23687822",
-      "DurationMax": "0.23687822",
+      "DurationMin": "0.19985199",
+      "DurationMax": "0.19985199",
       "MediaRefs": [
        {
         "Id": "374377276"
@@ -380,6 +420,22 @@
       ]
      },
      {
+      "Id": "3733047999",
+      "Name": "Play_ChomperSpotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperSpotted",
+      "GUID": "{B2DFD07B-6C09-4BB4-B46E-733C5D94E94A}",
+      "Color": "2",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1115834",
+      "DurationMax": "1.1115834",
+      "MediaRefs": [
+       {
+        "Id": "263220006"
+       }
+      ]
+     },
+     {
       "Id": "4136017490",
       "Name": "Play_Confirm",
       "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_Confirm",
@@ -419,6 +475,35 @@
       "MediaRefs": [
        {
         "Id": "690924407"
+       }
+      ]
+     },
+     {
+      "Id": "1945088721",
+      "Name": "Play_HealthBoxLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_HealthBoxLoop",
+      "GUID": "{0435B55C-8498-425D-A84E-A8667B490199}",
+      "Color": "13",
+      "MaxAttenuation": "70",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "557778822"
+       }
+      ]
+     },
+     {
+      "Id": "3166879883",
+      "Name": "Play_HealthBoxOpen",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_HealthBoxOpen",
+      "GUID": "{CAE22942-C849-45E6-BFA4-6F673E59DACF}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "0.75233334",
+      "DurationMax": "0.75233334",
+      "MediaRefs": [
+       {
+        "Id": "1002597688"
        }
       ]
      },
@@ -706,17 +791,31 @@
       ]
      },
      {
-      "Id": "3405494551",
-      "Name": "Play_Staff_Swipe",
-      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\Play_Staff_Swipe",
-      "GUID": "{017F94CC-5C04-48AE-B068-AEFA0D4196BB}",
-      "Color": "3",
+      "Id": "1624416746",
+      "Name": "Play_PressurePad",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePad",
+      "GUID": "{71B66A13-2279-4E3B-BF1E-6B3B981EF625}",
+      "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "0.28204378",
-      "DurationMax": "0.28204378",
+      "DurationMin": "1.3105209",
+      "DurationMax": "1.3105209",
       "MediaRefs": [
        {
-        "Id": "197775103"
+        "Id": "99603305"
+       }
+      ]
+     },
+     {
+      "Id": "4089302636",
+      "Name": "Play_PressurePadLoop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePadLoop",
+      "GUID": "{4F388D5A-D8CE-4774-88E9-336ECFC9D959}",
+      "Color": "13",
+      "MaxAttenuation": "70",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "1029728874"
        }
       ]
      },
@@ -732,6 +831,21 @@
       "MediaRefs": [
        {
         "Id": "769204026"
+       }
+      ]
+     },
+     {
+      "Id": "593513546",
+      "Name": "Play_StaffSwipe",
+      "ObjectPath": "\\Events\\Default Work Unit\\Weapon\\Play_StaffSwipe",
+      "GUID": "{017F94CC-5C04-48AE-B068-AEFA0D4196BB}",
+      "Color": "3",
+      "DurationType": "OneShot",
+      "DurationMin": "0.28204378",
+      "DurationMax": "0.28204378",
+      "MediaRefs": [
+       {
+        "Id": "197775103"
        }
       ]
      },
@@ -805,6 +919,6 @@
     ]
    }
   ],
-  "FileHash": "{5C68814F-C788-FD3A-A96A-CCAED6D127AF}"
+  "FileHash": "{9C4AA6BD-4A82-5040-C746-0E678CC824FB}"
  }
 }

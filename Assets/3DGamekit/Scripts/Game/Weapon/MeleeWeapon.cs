@@ -33,9 +33,13 @@ namespace Gamekit3D
 
         [Header("Audio")] 
         public RandomAudioPlayer hitAudio;
-        public RandomAudioPlayer attackAudio;
+        //public RandomAudioPlayer attackAudio;
 
-        
+        public AK.Wwise.Event staff_swipe;
+
+        public GameObject staff_swipe_source;
+
+
 
         public bool throwingHit
         {
@@ -83,8 +87,8 @@ namespace Gamekit3D
 
         public void BeginAttack(bool thowingAttack)
         {
-            if (attackAudio != null)
-                attackAudio.PlayRandomClip();
+            if (staff_swipe != null)
+                staff_swipe.Post(staff_swipe_source);
             throwingHit = thowingAttack;
 
             m_InAttack = true;
@@ -177,6 +181,7 @@ namespace Gamekit3D
             }
 
             if (hitAudio != null)
+            //if (ChomperHit != null)
             {
                 var renderer = other.GetComponent<Renderer>();
                 if (!renderer)
@@ -185,6 +190,11 @@ namespace Gamekit3D
                     hitAudio.PlayRandomClip (renderer.sharedMaterial);
                 else
                     hitAudio.PlayRandomClip ();
+
+                //if (renderer)
+                    //ChomperHit.Post(renderer.sharedMaterial);
+                //else
+                    //ChomperHit.Post(Chomper_Hit_Source);
             }
 
             Damageable.DamageMessage data;

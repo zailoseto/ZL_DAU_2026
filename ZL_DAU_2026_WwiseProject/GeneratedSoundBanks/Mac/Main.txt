@@ -1,24 +1,29 @@
 Event	ID	Name			Wwise Object Path	Notes
 	214267519	Play_StaffActivate			\Default Work Unit\Weapon\Play_StaffActivate	
 	544765150	Play_ChomperRunBack			\Default Work Unit\Enemies\Play_ChomperRunBack	
+	593513546	Play_StaffSwipe			\Default Work Unit\Weapon\Play_StaffSwipe	
 	1130560958	Play_ChomperDeath			\Default Work Unit\Enemies\Play_ChomperDeath	
 	1172822028	Play_Death			\Default Work Unit\Player\Play_Death	
 	1292086503	Play_Back			\Default Work Unit\UI\Play_Back	
 	1519321238	Play_Attack			\Default Work Unit\Player\Play_Attack	
 	1592819191	Play_PlayerFootstep			\Default Work Unit\Player\Play_PlayerFootstep	
+	1624416746	Play_PressurePad			\Default Work Unit\Interactables\Play_PressurePad	
+	1945088721	Play_HealthBoxLoop			\Default Work Unit\Interactables\Play_HealthBoxLoop	
 	2230670290	Play_Start			\Default Work Unit\UI\Play_Start	
 	2890226053	Play_WaterLoop			\Default Work Unit\Environment\Play_WaterLoop	
 	2955259529	Play_Hurt			\Default Work Unit\Player\Play_Hurt	
 	3019770429	Play_MouseOver			\Default Work Unit\UI\Play_MouseOver	
+	3166879883	Play_HealthBoxOpen			\Default Work Unit\Interactables\Play_HealthBoxOpen	
 	3373198502	Play_ChomperGrunt			\Default Work Unit\Enemies\Play_ChomperGrunt	
-	3405494551	Play_Staff_Swipe			\Default Work Unit\Weapon\Play_Staff_Swipe	
 	3580226607	Play_ChomperHit			\Default Work Unit\Enemies\Play_ChomperHit	
 	3659639408	Play_ChomperRunFront			\Default Work Unit\Enemies\Play_ChomperRunFront	
 	3689126666	Play_Jump			\Default Work Unit\Player\Play_Jump	
 	3690598599	Play_Level1AMB			\Default Work Unit\Environment\Play_Level1AMB	
+	3733047999	Play_ChomperSpotted			\Default Work Unit\Enemies\Play_ChomperSpotted	
 	3778133004	Play_ChomperAttack			\Default Work Unit\Enemies\Play_ChomperAttack	
 	3794664810	Play_Exit			\Default Work Unit\UI\Play_Exit	
 	3985542137	Play_BoxDestroy			\Default Work Unit\Interactables\Play_BoxDestroy	
+	4089302636	Play_PressurePadLoop			\Default Work Unit\Interactables\Play_PressurePadLoop	
 	4136017490	Play_Confirm			\Default Work Unit\UI\Play_Confirm	
 	4285282925	Play_Land			\Default Work Unit\Player\Play_Land	
 
@@ -34,30 +39,35 @@ Switch	ID	Name	Switch Group			Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	35848546	Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\4C\{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Ship\Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064		36726
+	99603305	Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\5E\{5E101AA2-9128-2A57-1E6C-715E16EB83CE}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Pressure Pad\Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712		251716
 	116134718	Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\48\{488079DD-AB8C-87BB-068C-81F612D3B33D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\LandLife\Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2		48248
 	151309620	Animals, Dog, Walking Past, Hardwood Floor SND0900	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\71\{7134D171-57FE-6A11-5822-90F1513BF22E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Run Front\Animals, Dog, Walking Past, Hardwood Floor SND0900		50060
 	197775103	Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A6\{A6542082-F03C-D4D5-E234-19796625A968}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Staff Swipe\Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277		54248
+	263220006	Communications, Cellphone, Nokia M, Vibrate, Message SND1765	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\85\{855BABD8-7414-6AA5-0BD8-94FE87DB325E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Spotted\Communications, Cellphone, Nokia M, Vibrate, Message SND1765		106808
 	338863219	Footsteps, Human, Mud, Run, Isolated Steps SND62100_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\C1\{C1BA1A8E-2520-6F40-B985-2AE927D07A94}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100_01		36310
 	363247632	Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\BE\{BE1FF867-0C6C-4EA1-CD25-19DEC116ED1A}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Rock\Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736		15168
 	368893645	Footsteps, Human, Gravel, Sneaker, Medium SND1052 3_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\81\{8172E7D7-DC23-EF9F-85FE-96AD41D29758}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Grass\Footsteps, Human, Gravel, Sneaker, Medium SND1052 3_01		24310
-	374377276	Bullets, Impact, Wood, Heavy SND6413	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\DA\{DA4DAB2F-4E27-C2AB-20E5-156D9772DB30}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Hit\Bullets, Impact, Wood, Heavy SND6413		45576
+	374377276	Bullets, Impact, Wood, Heavy SND6413	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\0B\{0BD3386B-8589-DE0C-2055-DF9F95487D9D}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Hit\Bullets, Impact, Wood, Heavy SND6413		38468
 	468605295	Animals, Dog, Walking Past, Hardwood Floor SND0900_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\34\{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Run Front\Animals, Dog, Walking Past, Hardwood Floor SND0900_01		57796
 	495535085	Animals, Dog, Walking Past, Hardwood Floor SND0900_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F6\{F67AE929-7524-7347-3BD3-1D1EC8966547}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Run Back\Animals, Dog, Walking Past, Hardwood Floor SND0900_01		51600
 	497171569	Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F1\{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Rock\Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736_01		18684
 	553490913	Footsteps, Human, Gravel, Sneaker, Medium SND1052 3	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\5E\{5E5F1D52-6539-37C4-058C-7011960092A8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Grass\Footsteps, Human, Gravel, Sneaker, Medium SND1052 3		20808
+	557778822	Health Box Loop	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\7D\{7DF89EC3-CB92-9A61-3BAA-CA4640547FEA}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Health Box Loop		291772
 	638539703	Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\E5\{E5F709B3-BCAF-05BB-7AB4-63D4ED235B65}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Attack\Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3		55960
 	650673341	Animals, Dog, German Shepherd, Barking SND60759	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F7\{F7AAD97D-D9C5-8DA1-BD22-73E8BCDDEEA7}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Attack\Animals, Dog, German Shepherd, Barking SND60759		87976
 	690924407	User Interface, Beep, Button Click, Plop, Short SND113031	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F0\{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\Mouse Over\User Interface, Beep, Button Click, Plop, Short SND113031		24414
 	694507640	Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\E5\{E5D83752-335C-20EB-E030-87D3F3711B91}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Grunt\Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346		88960
-	769204026	Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A1\{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\StaffActivate\Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829		290180
+	769204026	Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A1\{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapon\Staff Activate\Musical, Loop, Trailer Sequence, Cinematic, Boom, Metallic Rattles, Distorted Braams SND145829		290180
 	817893841	Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\DA\{DA9D6AC1-4653-DE87-FA4E-961BEE80A458}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\JumpLife\Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99		50764
-	837159731	Wood, Break, Sharp, Metal Details SND53074	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\56\{5660F80D-621A-5591-042B-6BAECE456E48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\BoxDestroy\Wood, Break, Sharp, Metal Details SND53074		101376
+	837159731	Wood, Break, Sharp, Metal Details SND53074	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\56\{5660F80D-621A-5591-042B-6BAECE456E48}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Box Destroy\Wood, Break, Sharp, Metal Details SND53074		101376
 	849355181	Water Loop	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\3F\{3F6BDF89-4CDF-C495-8994-1B0ADC08987B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Water Loop		3580180
 	868728545	Footsteps, Human, Mud, Run, Isolated Steps SND62100	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\EF\{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Mud\Footsteps, Human, Mud, Run, Isolated Steps SND62100		44086
 	920905788	Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\A2\{A2B5FAA3-7B86-7EA5-D86A-907A1A2F5E9E}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Hurt\Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1		65688
 	933877617	User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\79\{797EAF42-E495-1751-E31F-3E343A7D9D1F}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Death\User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173		33304
 	968058573	Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064_01	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\AD\{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Steps\Footsteps\Ship\Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064_01		33366
+	1002597688	Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F5\{F55A857A-9F9A-8C8B-C213-7E1595308286}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Health Box Open\Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771		144544
 	1022096692	Animals, Dog, Walking Past, Hardwood Floor SND0900	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\BF\{BF287FF9-C259-20A5-02E8-23616649BAE1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Enemies\Chomper Run Back\Animals, Dog, Walking Past, Hardwood Floor SND0900		63900
+	1029728874	Pressure Pad Loop	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\76\{767D6461-188F-044E-F9C9-F6296D243F1B}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interactables\Pressure Pad Loop		255844
 	1054134572	Outside Base	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\BC\{BCB109D8-2CD0-47D5-D28A-1D705D37B805}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\Level1 AMB\Outside Base		11155928
 	1069972770	Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4	C:\Users\Marisa\Documents\GitHub\ZL_DAU_2026\ZL_DAU_2026_WwiseProject\.cache\F2\{F2EA1429-E6AB-B9EC-19FA-BE5F185A0C3C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player\Death\Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4		68840
 

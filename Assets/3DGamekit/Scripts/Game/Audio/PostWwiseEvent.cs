@@ -23,4 +23,9 @@ public class PostWwiseEvent : MonoBehaviour
     {
         MyEvent.Post(gameObject);
     }
+
+    public void StopEvent()
+    {
+        MyEvent.Stop(gameObject);
+    }
 }

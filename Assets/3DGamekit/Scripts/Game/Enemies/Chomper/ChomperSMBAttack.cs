@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -23,6 +24,9 @@ namespace Gamekit3D
 
             if (m_MonoBehaviour.attackAudio != null)
                 m_MonoBehaviour.attackAudio.PlayRandomClip();
+
+            //if (m_MonoBehaviour.ChomperAttack != null)
+                //m_MonoBehaviour.ChomperAttack.Post(Chomper_Attack_Source);
         }
 
         public override void OnSLStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)

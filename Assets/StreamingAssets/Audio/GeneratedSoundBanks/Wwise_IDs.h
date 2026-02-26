@@ -22,17 +22,22 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPERHIT = 3580226607U;
         static const AkUniqueID PLAY_CHOMPERRUNBACK = 544765150U;
         static const AkUniqueID PLAY_CHOMPERRUNFRONT = 3659639408U;
+        static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
         static const AkUniqueID PLAY_CONFIRM = 4136017490U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
+        static const AkUniqueID PLAY_HEALTHBOXLOOP = 1945088721U;
+        static const AkUniqueID PLAY_HEALTHBOXOPEN = 3166879883U;
         static const AkUniqueID PLAY_HURT = 2955259529U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LAND = 4285282925U;
         static const AkUniqueID PLAY_LEVEL1AMB = 3690598599U;
         static const AkUniqueID PLAY_MOUSEOVER = 3019770429U;
         static const AkUniqueID PLAY_PLAYERFOOTSTEP = 1592819191U;
-        static const AkUniqueID PLAY_STAFF_SWIPE = 3405494551U;
+        static const AkUniqueID PLAY_PRESSUREPAD = 1624416746U;
+        static const AkUniqueID PLAY_PRESSUREPADLOOP = 4089302636U;
         static const AkUniqueID PLAY_STAFFACTIVATE = 214267519U;
+        static const AkUniqueID PLAY_STAFFSWIPE = 593513546U;
         static const AkUniqueID PLAY_START = 2230670290U;
         static const AkUniqueID PLAY_WATERLOOP = 2890226053U;
     } // namespace EVENTS

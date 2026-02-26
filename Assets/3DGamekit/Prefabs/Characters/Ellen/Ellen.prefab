@@ -6364,7 +6364,6 @@ GameObject:
   - component: {fileID: 82039615672304058}
   - component: {fileID: 114123880809106010}
   - component: {fileID: 7799545845122371758}
-  - component: {fileID: 987781677846046034}
   m_Layer: 0
   m_Name: SwingSound
   m_TagString: Untagged
@@ -6541,23 +6540,6 @@ MonoBehaviour:
   scalingFactor: 1
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &987781677846046034
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1137306918061848}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9e964bf448e90d4385537d91bc39838, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MyEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 32d24f2061710234596640a64846f85b,
-      type: 2}
 --- !u!1 &1138698240951000
 GameObject:
   m_ObjectHideFlags: 0
@@ -7344,7 +7326,12 @@ MonoBehaviour:
   - {fileID: 114764446501421412}
   - {fileID: 114947613401632800}
   hitAudio: {fileID: 114001727433233256}
-  attackAudio: {fileID: 114123880809106010}
+  staff_swipe:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 32d24f2061710234596640a64846f85b,
+      type: 2}
+  staff_swipe_source: {fileID: 1137306918061848}
 --- !u!114 &114642486581907182
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12463,7 +12450,6 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: b5c5f3cd82bfc524f94fff54f79e4010, type: 2}
-  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
