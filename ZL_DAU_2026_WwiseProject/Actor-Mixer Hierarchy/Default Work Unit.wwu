@@ -1785,7 +1785,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-11</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -1818,6 +1818,300 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{070EA627-DB21-4397-8D53-971CBDD6E1C7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="Doors" ID="{47406F18-7E41-4B64-B0E3-8E6373FFFAD4}" ShortID="141244376">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{AC45F85B-103C-4F77-8D93-9FA901B6DBDF}" ShortID="79700223">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{0AA5A141-A185-4F83-8EB6-7796B1569466}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0599749192496799"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="2.60890873177636"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="971386928"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{0AA5A141-A185-4F83-8EB6-7796B1569466}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1_01" ID="{E53717C8-E86E-4AD4-A010-C19703C7C764}" ShortID="250966865">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{FA5D98FD-8BA7-4FAC-B814-3D210810E2F6}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.199916397498933"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.94876686310926"/>
+												<Property Name="TrimEnd" Type="Real64" Value="4.88795566326419"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="210792231"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{FA5D98FD-8BA7-4FAC-B814-3D210810E2F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1_02" ID="{716FF64B-0D0F-4002-A0CD-13F459764544}" ShortID="304375610">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{A68F2483-BF35-4FDC-90DB-A7E6F32D96C7}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="5.11785977597268"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="593804315"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rocks, Movement, Stone, Slab, Scrape SND18188 1" ID="{A68F2483-BF35-4FDC-90DB-A7E6F32D96C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Switch Activate" ID="{62E5BF07-62F4-4501-804D-DF64454C84EF}" ShortID="392960382">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{2A4F5C0A-D646-4734-9663-EFA61F3ED12D}" ShortID="864593628">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{B3B5AA1A-FDB3-482E-B9D1-5416533722DA}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="1.5784545175245"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="889701221"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{B3B5AA1A-FDB3-482E-B9D1-5416533722DA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427_01" ID="{F5FDAC9F-4175-4AE7-ACAC-6F26DE565058}" ShortID="668322330">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{74B79E36-BF56-4AAD-807E-3873CB1119A6}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="2.14387112674334"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.36894029370575"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="880305850"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{74B79E36-BF56-4AAD-807E-3873CB1119A6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427_02" ID="{95BF30F3-6066-45D0-998E-61C8BD79556E}" ShortID="598273729">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-9</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{946301CD-E472-4ECB-ADD2-96378FF546FA}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0471180467416117"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="4.63327459625851"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.75625466194742"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="709155701"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427" ID="{946301CD-E472-4ECB-ADD2-96378FF546FA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<Sound Name="Switch Before Loop" ID="{9CFEA606-2F59-4D5F-96A3-733F834879C7}" ShortID="111403329">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{CD6F6367-C94D-45AF-B973-732E6D2EF9A6}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.340498295840838"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.431975449947332"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.373531712601517"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="946031915"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{CD6F6367-C94D-45AF-B973-732E6D2EF9A6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Switch After Loop" ID="{F948BD24-3288-4755-AF77-659EE0CDD415}" ShortID="384983105">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-300</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{3F3DC8B9-757B-46D0-BDB1-AE9F75785AD5}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.340498295840838"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.431975449947332"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.373531712601517"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="946031915"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{3F3DC8B9-757B-46D0-BDB1-AE9F75785AD5}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

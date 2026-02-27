@@ -1,4 +1,5 @@
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D.GameCommands
 {
@@ -19,7 +20,10 @@ namespace Gamekit3D.GameCommands
         public bool activate = false;
         public SendGameCommand OnStartCommand, OnStopCommand;
 
-        public AudioSource onStartAudio, onEndAudio;
+        //public AudioSource onStartAudio, onEndAudio;
+        public AK.Wwise.Event play_door;
+
+        public GameObject play_door_source;
 
         [Range(0, 1)]
         public float previewPosition;
@@ -30,10 +34,10 @@ namespace Gamekit3D.GameCommands
         protected Platform m_Platform;
 
         [ContextMenu("Test Start Audio")]
-        void TestPlayAudio()
-        {
-            if (onStartAudio != null) onStartAudio.Play();
-        }
+        //void TestPlayAudio()
+        //{
+        //    if (onStartAudio != null) onStartAudio.Play();
+        //}
 
         protected override void Awake()
         {
@@ -46,7 +50,8 @@ namespace Gamekit3D.GameCommands
         {
             activate = true;
             if (OnStartCommand != null) OnStartCommand.Send();
-            if (onStartAudio != null) onStartAudio.Play();
+            //if (onStartAudio != null) onStartAudio.Play();
+            if (play_door != null) play_door.Post(play_door_source);
         }
 
         public void FixedUpdate()

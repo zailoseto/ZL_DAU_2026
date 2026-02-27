@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{27C11842-120B-2E8F-337F-289F470864A3}",
+    "Hash": "{35ADE88C-7578-6637-4CF4-68C7B161A02A}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -56,6 +56,14 @@
       "CachePath": "A6/{A6542082-F03C-D4D5-E234-19796625A968}.wem"
      },
      {
+      "Id": "210792231",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
+      "CachePath": "A5/{A5ED4BBA-4E5F-90BE-E0ED-AFD689119B1B}.wem"
+     },
+     {
       "Id": "263220006",
       "Language": "SFX",
       "Streaming": "false",
@@ -93,7 +101,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bullets, Impact, Wood, Heavy SND6413.wav",
-      "CachePath": "0B/{0BD3386B-8589-DE0C-2055-DF9F95487D9D}.wem"
+      "CachePath": "12/{12398157-87C1-E8E0-FD8A-AA44A0753142}.wem"
      },
      {
       "Id": "468605295",
@@ -133,7 +141,15 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav",
-      "CachePath": "7D/{7DF89EC3-CB92-9A61-3BAA-CA4640547FEA}.wem"
+      "CachePath": "6E/{6E6EBB77-ED34-AE32-8AFD-913AF1EFEA08}.wem"
+     },
+     {
+      "Id": "593804315",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
+      "CachePath": "98/{98B043D8-D54A-23DB-3FDD-272EDAC73BC3}.wem"
      },
      {
       "Id": "638539703",
@@ -166,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346.wav",
       "CachePath": "E5/{E5D83752-335C-20EB-E030-87D3F3711B91}.wem"
+     },
+     {
+      "Id": "709155701",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
+      "CachePath": "50/{50DFA5FE-292C-D1C9-2A8F-71A12C96153C}.wem"
      },
      {
       "Id": "769204026",
@@ -208,6 +232,22 @@
       "CachePath": "EF/{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem"
      },
      {
+      "Id": "880305850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
+      "CachePath": "4B/{4BA206FC-1022-DB14-EFFD-26E6CE33389C}.wem"
+     },
+     {
+      "Id": "889701221",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
+      "CachePath": "DB/{DBFDA020-03B6-E7AF-8F88-0C2FC437CE93}.wem"
+     },
+     {
       "Id": "920905788",
       "Language": "SFX",
       "Streaming": "false",
@@ -224,12 +264,28 @@
       "CachePath": "79/{797EAF42-E495-1751-E31F-3E343A7D9D1F}.wem"
      },
      {
+      "Id": "946031915",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177.wav",
+      "CachePath": "2C/{2C59D8AC-5893-0F3E-E63B-7CE0C9CE95BC}.wem"
+     },
+     {
       "Id": "968058573",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "AD/{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem"
+     },
+     {
+      "Id": "971386928",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
+      "CachePath": "CD/{CDEA66F6-79EE-4109-0DF8-EE7C3BD2BF2A}.wem"
      },
      {
       "Id": "1002597688",
@@ -253,7 +309,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav",
-      "CachePath": "76/{767D6461-188F-044E-F9C9-F6296D243F1B}.wem"
+      "CachePath": "AA/{AA6D9633-795A-95AE-FA80-A5FED9BB749C}.wem"
      },
      {
       "Id": "1054134572",
@@ -461,6 +517,27 @@
       "MediaRefs": [
        {
         "Id": "1069972770"
+       }
+      ]
+     },
+     {
+      "Id": "2547633870",
+      "Name": "Play_Door",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Door",
+      "GUID": "{CAFAEE01-A63C-4181-B93F-F8A1303C5520}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9391888",
+      "DurationMax": "2.6089087",
+      "MediaRefs": [
+       {
+        "Id": "210792231"
+       },
+       {
+        "Id": "593804315"
+       },
+       {
+        "Id": "971386928"
        }
       ]
      },
@@ -864,6 +941,53 @@
       ]
      },
      {
+      "Id": "4080561429",
+      "Name": "Play_SwitchActivate",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchActivate",
+      "GUID": "{16F186C1-3D18-4340-8457-E3FA11889F2F}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1229801",
+      "DurationMax": "1.5784545",
+      "MediaRefs": [
+       {
+        "Id": "709155701"
+       },
+       {
+        "Id": "880305850"
+       },
+       {
+        "Id": "889701221"
+       }
+      ]
+     },
+     {
+      "Id": "3560419036",
+      "Name": "Play_SwitchAfter",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchAfter",
+      "GUID": "{14688B9A-4A22-4082-AEE8-5977A4958D1C}",
+      "Color": "13",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "946031915"
+       }
+      ]
+     },
+     {
+      "Id": "742850819",
+      "Name": "Play_SwitchBefore",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchBefore",
+      "GUID": "{04597A2B-6563-4D3C-998E-8DF3BB25C7B1}",
+      "Color": "13",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "946031915"
+       }
+      ]
+     },
+     {
       "Id": "2890226053",
       "Name": "Play_WaterLoop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_WaterLoop",
@@ -919,6 +1043,6 @@
     ]
    }
   ],
-  "FileHash": "{35400BD2-7C75-9D9C-95FC-AC3AD61E9F44}"
+  "FileHash": "{F72F3FBA-3293-ED66-8C15-F27DFAD94318}"
  }
 }

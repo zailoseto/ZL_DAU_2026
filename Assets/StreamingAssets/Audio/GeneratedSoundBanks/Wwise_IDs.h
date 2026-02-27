@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
         static const AkUniqueID PLAY_CONFIRM = 4136017490U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
+        static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
         static const AkUniqueID PLAY_HEALTHBOXLOOP = 1945088721U;
         static const AkUniqueID PLAY_HEALTHBOXOPEN = 3166879883U;
@@ -39,6 +40,9 @@ namespace AK
         static const AkUniqueID PLAY_STAFFACTIVATE = 214267519U;
         static const AkUniqueID PLAY_STAFFSWIPE = 593513546U;
         static const AkUniqueID PLAY_START = 2230670290U;
+        static const AkUniqueID PLAY_SWITCHACTIVATE = 4080561429U;
+        static const AkUniqueID PLAY_SWITCHAFTER = 3560419036U;
+        static const AkUniqueID PLAY_SWITCHBEFORE = 742850819U;
         static const AkUniqueID PLAY_WATERLOOP = 2890226053U;
     } // namespace EVENTS
 
