@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{35ADE88C-7578-6637-4CF4-68C7B161A02A}",
+    "Hash": "{EAB5B10F-D3C1-C426-3346-AADEF3C909B0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "96397481",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1.wav",
+      "CachePath": "F9/{F9E4A62E-FECF-401D-63CE-0C7C2008C7B1}.wem"
      },
      {
       "Id": "99603305",
@@ -40,12 +48,28 @@
       "CachePath": "48/{488079DD-AB8C-87BB-068C-81F612D3B33D}.wem"
      },
      {
+      "Id": "134740307",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694.wav",
+      "CachePath": "07/{07DD1B90-681F-C33C-DC52-091A6EF5D91D}.wem"
+     },
+     {
       "Id": "151309620",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
       "CachePath": "71/{7134D171-57FE-6A11-5822-90F1513BF22E}.wem"
+     },
+     {
+      "Id": "152436478",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Designed, Impact, Hit, Scifi Movement, Futuristic 02 SND121077.wav",
+      "CachePath": "15/{15308541-D1D4-B86A-A0E9-68D5EB925426}.wem"
      },
      {
       "Id": "197775103",
@@ -62,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
       "CachePath": "A5/{A5ED4BBA-4E5F-90BE-E0ED-AFD689119B1B}.wem"
+     },
+     {
+      "Id": "244868089",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Musical, Toy, Music Box, Wind Slow, Plays We Wish You A Merry Christmas, Mechanism Buzz SND134705.wav",
+      "CachePath": "84/{8484E1F6-BDC4-344D-EC66-9F56F358DAB6}.wem"
      },
      {
       "Id": "263220006",
@@ -104,12 +136,36 @@
       "CachePath": "12/{12398157-87C1-E8E0-FD8A-AA44A0753142}.wem"
      },
      {
+      "Id": "391892974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Food & Drink, Glassware, Glass, Small, Kitchen, Ding SND6595.wav",
+      "CachePath": "9D/{9DBA0142-F607-08B4-D631-770BFC390341}.wem"
+     },
+     {
+      "Id": "465091974",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Bullets, Impact, Metal, Burst, Multiple, Designed SND145777 1.wav",
+      "CachePath": "6E/{6EBFF010-A220-9B5E-C1E4-C030DE1652A2}.wem"
+     },
+     {
       "Id": "468605295",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
       "CachePath": "34/{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem"
+     },
+     {
+      "Id": "478817948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Scifi, Weapon, Spaceship Bomb SND59994.wav",
+      "CachePath": "E2/{E2F17C98-9CEB-D510-DCD9-D234E7D9DC61}.wem"
      },
      {
       "Id": "495535085",
@@ -126,6 +182,14 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736.wav",
       "CachePath": "F1/{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem"
+     },
+     {
+      "Id": "522503441",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Destruction, Crash & Debris, Car Crash, Heavy, Glass Break 02 SND14106.wav",
+      "CachePath": "40/{404C1485-C2F8-9144-90AE-E6F9B14BAA51}.wem"
      },
      {
       "Id": "553490913",
@@ -150,6 +214,14 @@
       "Location": "Memory",
       "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
       "CachePath": "98/{98B043D8-D54A-23DB-3FDD-272EDAC73BC3}.wem"
+     },
+     {
+      "Id": "620442833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Rubber, Impact, Balloon, Hit, Thudd SND37697 1.wav",
+      "CachePath": "FF/{FF74DECA-1BB8-1DE6-C4FC-9FC6456D136B}.wem"
      },
      {
       "Id": "638539703",
@@ -238,6 +310,14 @@
       "Location": "Memory",
       "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
       "CachePath": "4B/{4BA206FC-1022-DB14-EFFD-26E6CE33389C}.wem"
+     },
+     {
+      "Id": "887406169",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059.wav",
+      "CachePath": "57/{57DEB6BE-82CF-2E45-7BCA-2633615D6D48}.wem"
      },
      {
       "Id": "889701221",
@@ -376,9 +456,9 @@
      {
       "Id": "3778133004",
       "Name": "Play_ChomperAttack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperAttack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperAttack",
       "GUID": "{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.45771876",
@@ -392,9 +472,9 @@
      {
       "Id": "1130560958",
       "Name": "Play_ChomperDeath",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperDeath",
       "GUID": "{FF329C07-9376-459C-8A49-A6034F1129A6}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.17295833",
@@ -408,9 +488,9 @@
      {
       "Id": "3373198502",
       "Name": "Play_ChomperGrunt",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperGrunt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperGrunt",
       "GUID": "{AECA8E06-4049-4422-8750-66AE7DBAF288}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.46283334",
@@ -424,9 +504,9 @@
      {
       "Id": "3580226607",
       "Name": "Play_ChomperHit",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperHit",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperHit",
       "GUID": "{769E9C77-81AF-4184-9080-CE2C023D876D}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.19985199",
@@ -440,9 +520,9 @@
      {
       "Id": "544765150",
       "Name": "Play_ChomperRunBack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperRunBack",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperRunBack",
       "GUID": "{18C34491-11CF-4FFE-815A-E43475AF872A}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.26825252",
@@ -459,9 +539,9 @@
      {
       "Id": "3659639408",
       "Name": "Play_ChomperRunFront",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperRunFront",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperRunFront",
       "GUID": "{FBAED940-9A22-4B67-9657-5800E535DC80}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "0.260245",
@@ -478,9 +558,9 @@
      {
       "Id": "3733047999",
       "Name": "Play_ChomperSpotted",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Play_ChomperSpotted",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperSpotted",
       "GUID": "{B2DFD07B-6C09-4BB4-B46E-733C5D94E94A}",
-      "Color": "2",
+      "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
       "DurationMin": "1.1115834",
@@ -556,12 +636,161 @@
       ]
      },
      {
+      "Id": "2226544333",
+      "Name": "Play_GrenadierBounce",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierBounce",
+      "GUID": "{3EB3C0C3-03B5-4E1B-9515-9149A631FA3C}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.25797915",
+      "DurationMax": "0.25797915",
+      "MediaRefs": [
+       {
+        "Id": "391892974"
+       }
+      ]
+     },
+     {
+      "Id": "2872556972",
+      "Name": "Play_GrenadierCore",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierCore",
+      "GUID": "{8B3BC84C-27D3-45D9-8B39-C42D073E617E}",
+      "Color": "2",
+      "MaxAttenuation": "25",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "244868089"
+       }
+      ]
+     },
+     {
+      "Id": "3278392842",
+      "Name": "Play_GrenadierDamaged",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDamaged",
+      "GUID": "{EA02E8DA-484D-4841-94AA-7F9BD34FBB93}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.5017604",
+      "DurationMax": "1.5017604",
+      "MediaRefs": [
+       {
+        "Id": "522503441"
+       }
+      ]
+     },
+     {
+      "Id": "3440132657",
+      "Name": "Play_GrenadierDeath",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDeath",
+      "GUID": "{D32A969D-BA7A-4020-BD9C-9A2B4281C5D1}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.8236184",
+      "DurationMax": "0.8236184",
+      "MediaRefs": [
+       {
+        "Id": "620442833"
+       }
+      ]
+     },
+     {
+      "Id": "2752870638",
+      "Name": "Play_GrenadierDeathFall",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDeathFall",
+      "GUID": "{3BD0F344-A795-41EB-BAB9-8CE8039756AD}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "2.548288",
+      "DurationMax": "2.548288",
+      "MediaRefs": [
+       {
+        "Id": "465091974"
+       }
+      ]
+     },
+     {
+      "Id": "3296122978",
+      "Name": "Play_GrenadierExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierExplosion",
+      "GUID": "{6DBD8D06-826C-4B4A-B9B3-2FE83C3C2CC9}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.9390357",
+      "DurationMax": "1.9390357",
+      "MediaRefs": [
+       {
+        "Id": "478817948"
+       }
+      ]
+     },
+     {
+      "Id": "1373007782",
+      "Name": "Play_GrenadierFootsteps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierFootsteps",
+      "GUID": "{3B4D65B0-D97C-4F07-90CB-F69D2249A0ED}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "0.58500725",
+      "DurationMax": "0.58500725",
+      "MediaRefs": [
+       {
+        "Id": "96397481"
+       }
+      ]
+     },
+     {
+      "Id": "3306420443",
+      "Name": "Play_GrenadierPunch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierPunch",
+      "GUID": "{8F7A8812-A3D8-4596-99F9-5D1BF0181BE2}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4266459",
+      "DurationMax": "1.4266459",
+      "MediaRefs": [
+       {
+        "Id": "887406169"
+       }
+      ]
+     },
+     {
+      "Id": "1892053642",
+      "Name": "Play_GrenadierShield",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierShield",
+      "GUID": "{8D73D5CF-E5E9-4151-AAB8-4800E2DB2A20}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "4.3002677",
+      "DurationMax": "4.3002677",
+      "MediaRefs": [
+       {
+        "Id": "152436478"
+       }
+      ]
+     },
+     {
+      "Id": "3406034459",
+      "Name": "Play_GrenadierThrow",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierThrow",
+      "GUID": "{BF88C8AB-31A5-428E-A7A8-6A9B5F630A79}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0545312",
+      "DurationMax": "1.0545312",
+      "MediaRefs": [
+       {
+        "Id": "134740307"
+       }
+      ]
+     },
+     {
       "Id": "1945088721",
       "Name": "Play_HealthBoxLoop",
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_HealthBoxLoop",
       "GUID": "{0435B55C-8498-425D-A84E-A8667B490199}",
       "Color": "13",
-      "MaxAttenuation": "70",
+      "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -873,6 +1102,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePad",
       "GUID": "{71B66A13-2279-4E3B-BF1E-6B3B981EF625}",
       "Color": "13",
+      "MaxAttenuation": "55",
       "DurationType": "OneShot",
       "DurationMin": "1.3105209",
       "DurationMax": "1.3105209",
@@ -888,7 +1118,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePadLoop",
       "GUID": "{4F388D5A-D8CE-4774-88E9-336ECFC9D959}",
       "Color": "13",
-      "MaxAttenuation": "70",
+      "MaxAttenuation": "40",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -967,6 +1197,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchAfter",
       "GUID": "{14688B9A-4A22-4082-AEE8-5977A4958D1C}",
       "Color": "13",
+      "MaxAttenuation": "55",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -980,6 +1211,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchBefore",
       "GUID": "{04597A2B-6563-4D3C-998E-8DF3BB25C7B1}",
       "Color": "13",
+      "MaxAttenuation": "55",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -993,6 +1225,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Play_WaterLoop",
       "GUID": "{CD0BAF46-DE33-4327-A21C-1C0EAE0FD80D}",
       "Color": "4",
+      "MaxAttenuation": "60",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1043,6 +1276,6 @@
     ]
    }
   ],
-  "FileHash": "{F72F3FBA-3293-ED66-8C15-F27DFAD94318}"
+  "FileHash": "{17F9D379-4B18-B9CC-9960-8D3858F2A6AD}"
  }
 }

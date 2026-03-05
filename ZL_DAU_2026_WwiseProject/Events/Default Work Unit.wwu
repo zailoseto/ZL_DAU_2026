@@ -161,83 +161,265 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ChildrenList>
-						<Event Name="Play_ChomperAttack" ID="{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}">
+						<Folder Name="Chomper" ID="{3E26B69A-DE6D-436E-BDBD-7341590B0267}" ShortID="794725154">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="24"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{A4ACD6E2-C661-4B76-9E7F-0E82EC666F85}" ShortID="222633164">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Attack" ID="{8D04E1DD-732F-4471-8786-0BBFBC357FF8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_ChomperRunBack" ID="{18C34491-11CF-4FFE-815A-E43475AF872A}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{C2FBFFC6-ACEA-422B-B628-018109044E94}" ShortID="892187672">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Run Back" ID="{61F15391-D72F-4801-A4D1-EB461818C09F}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperAttack" ID="{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{A4ACD6E2-C661-4B76-9E7F-0E82EC666F85}" ShortID="222633164">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Attack" ID="{8D04E1DD-732F-4471-8786-0BBFBC357FF8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperDeath" ID="{FF329C07-9376-459C-8A49-A6034F1129A6}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{ECEC165E-F2EA-4127-A070-88BB0E87B755}" ShortID="342678472">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Death" ID="{BB742BAB-1051-48F7-BEBD-7C8E8D129EA3}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperRunFront" ID="{FBAED940-9A22-4B67-9657-5800E535DC80}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{96A64220-8D03-4AB4-93D8-773537F0014D}" ShortID="13415580">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Run Front" ID="{D5A0F895-08C2-4B82-9F79-3127EF8BF7EE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperGrunt" ID="{AECA8E06-4049-4422-8750-66AE7DBAF288}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{38DA7AE2-4CB4-466E-815D-DE10AA81BF3D}" ShortID="272075647">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Grunt" ID="{987BC7AB-D287-4234-9122-173FB38DBC46}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperHit" ID="{769E9C77-81AF-4184-9080-CE2C023D876D}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{108BFF03-F44F-48D2-B7F2-C6DDD32A8AD1}" ShortID="848932628">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_ChomperSpotted" ID="{B2DFD07B-6C09-4BB4-B46E-733C5D94E94A}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="24"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{EC45508B-5654-4159-BDA9-8CBB7DEEDEF8}" ShortID="246714458">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Chomper Spotted" ID="{6CFD8F0D-0BEE-4818-A001-097AC9C14458}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperDeath" ID="{FF329C07-9376-459C-8A49-A6034F1129A6}">
+						</Folder>
+						<Folder Name="Grenadier" ID="{EC939479-C79A-427D-8DF1-8FC77CA95648}" ShortID="1036665235">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 							<ChildrenList>
-								<Action Name="" ID="{ECEC165E-F2EA-4127-A070-88BB0E87B755}" ShortID="342678472">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Death" ID="{BB742BAB-1051-48F7-BEBD-7C8E8D129EA3}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
+								<Event Name="Play_GrenadierFootsteps" ID="{3B4D65B0-D97C-4F07-90CB-F69D2249A0ED}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{FA31EA1B-ACDB-4DD3-9376-7950B3705C11}" ShortID="356243862">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Footsteps" ID="{D7BEE559-15E1-4C5D-A2D1-64ADF059FD23}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierDeathFall" ID="{3BD0F344-A795-41EB-BAB9-8CE8039756AD}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{ED257E3F-5BD9-4096-ACBB-CE3F32C47E32}" ShortID="861950916">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Death Fall" ID="{396F4E32-D592-45DE-94B9-D0D8A3880A15}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierThrow" ID="{BF88C8AB-31A5-428E-A7A8-6A9B5F630A79}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{78C5E70E-A783-4F72-ADDD-8ED38D123B0E}" ShortID="1051706874">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Throw" ID="{2551EA71-7483-4684-A4C5-93A106F1B73E}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierDamaged" ID="{EA02E8DA-484D-4841-94AA-7F9BD34FBB93}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{4F967FC1-BC71-4896-944C-1672A39D04CC}" ShortID="572728349">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Damaged" ID="{CC0B4E7D-303F-4DBD-8985-D7B45E9FC3BC}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierShield" ID="{8D73D5CF-E5E9-4151-AAB8-4800E2DB2A20}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{16102033-380F-4E92-9999-B7F8618E3875}" ShortID="174210635">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier ShieldUp" ID="{9A75E185-2177-4DEF-97B9-2A628330B1F0}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierDeath" ID="{D32A969D-BA7A-4020-BD9C-9A2B4281C5D1}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{34B24F72-42F3-47F3-A13F-2E894C010FAB}" ShortID="479339282">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Death" ID="{78732300-BDEC-466E-BC8D-760374358958}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierPunch" ID="{8F7A8812-A3D8-4596-99F9-5D1BF0181BE2}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<Action Name="" ID="{8CD89FE9-1224-4C14-8B3B-456B6FB16E48}" ShortID="603192058">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Punch" ID="{1E7FA9D4-667B-427F-8234-DC68DB7EBEAB}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierCore" ID="{8B3BC84C-27D3-45D9-8B39-C42D073E617E}">
+									<ChildrenList>
+										<Action Name="" ID="{A77D9868-E23D-44A3-9A21-82E0E033F3ED}" ShortID="238465377">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Core" ID="{C34331FE-FA21-4934-8A4E-516CA71ECDBE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierBounce" ID="{3EB3C0C3-03B5-4E1B-9515-9149A631FA3C}">
+									<ChildrenList>
+										<Action Name="" ID="{A1299623-B438-48B7-BBF4-767DACBF5665}" ShortID="404518178">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Bounce" ID="{4A9E161E-0139-41E3-B122-EBD6F667502D}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_GrenadierExplosion" ID="{6DBD8D06-826C-4B4A-B9B3-2FE83C3C2CC9}">
+									<ChildrenList>
+										<Action Name="" ID="{26016B8C-724E-4294-AA07-DC08A2502614}" ShortID="1010642731">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Explosion" ID="{6B7EBE51-FAC1-4DBB-B5F3-B7527CE2B7C5}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperRunFront" ID="{FBAED940-9A22-4B67-9657-5800E535DC80}">
-							<ChildrenList>
-								<Action Name="" ID="{96A64220-8D03-4AB4-93D8-773537F0014D}" ShortID="13415580">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Run Front" ID="{D5A0F895-08C2-4B82-9F79-3127EF8BF7EE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperGrunt" ID="{AECA8E06-4049-4422-8750-66AE7DBAF288}">
-							<ChildrenList>
-								<Action Name="" ID="{38DA7AE2-4CB4-466E-815D-DE10AA81BF3D}" ShortID="272075647">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Grunt" ID="{987BC7AB-D287-4234-9122-173FB38DBC46}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperHit" ID="{769E9C77-81AF-4184-9080-CE2C023D876D}">
-							<ChildrenList>
-								<Action Name="" ID="{108BFF03-F44F-48D2-B7F2-C6DDD32A8AD1}" ShortID="848932628">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperRunBack" ID="{18C34491-11CF-4FFE-815A-E43475AF872A}">
-							<ChildrenList>
-								<Action Name="" ID="{C2FBFFC6-ACEA-422B-B628-018109044E94}" ShortID="892187672">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Run Back" ID="{61F15391-D72F-4801-A4D1-EB461818C09F}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="Play_ChomperSpotted" ID="{B2DFD07B-6C09-4BB4-B46E-733C5D94E94A}">
-							<ChildrenList>
-								<Action Name="" ID="{EC45508B-5654-4159-BDA9-8CBB7DEEDEF8}" ShortID="246714458">
-									<ReferenceList>
-										<Reference Name="Target">
-											<ObjectRef Name="Chomper Spotted" ID="{6CFD8F0D-0BEE-4818-A001-097AC9C14458}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
-										</Reference>
-									</ReferenceList>
-								</Action>
-							</ChildrenList>
-						</Event>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="UI" ID="{67F0BB1E-D2BE-4A6F-91BA-A9B86909BB3A}" ShortID="797899018">

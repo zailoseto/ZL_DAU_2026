@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -24,7 +25,13 @@ namespace Gamekit3D
         public bool vfxOnGround = false;
 
         public RandomAudioPlayer explosionPlayer;
-        public RandomAudioPlayer bouncePlayer;
+        //public RandomAudioPlayer bouncePlayer;
+
+        public AK.Wwise.Event Play_explosion;
+        public AK.Wwise.Event Play_bounce;
+
+        public GameObject Play_explosion_source;
+        public GameObject Play_bounce_source;
 
         protected float m_SinceFired;
 
@@ -89,8 +96,15 @@ namespace Gamekit3D
             if (explosionPlayer)
             {
                 explosionPlayer.transform.SetParent(null);
-                explosionPlayer.PlayRandomClip();
+                //explosionPlayer.PlayRandomClip();
+                Play_explosion.Post(Play_explosion_source);
             }
+
+            //if (Play_explosion)
+            //{
+                //Play_explosion.transform.SetParent(null);
+                //Play_explosion.Post(Play_explosion_source);
+            //}
 
             int count = Physics.OverlapSphereNonAlloc(transform.position, explosionRadius, m_ExplosionHitCache,
                 damageMask.value);
@@ -136,8 +150,10 @@ namespace Gamekit3D
 
         protected virtual void OnCollisionEnter(Collision other)
         {
-            if (bouncePlayer != null)
-                bouncePlayer.PlayRandomClip();
+            //if (bouncePlayer != null)
+                //bouncePlayer.PlayRandomClip();
+            if (Play_bounce != null)
+                Play_bounce.Post(Play_bounce_source);
         }
 
         private Vector3 GetVelocity(Vector3 target)

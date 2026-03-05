@@ -1,11 +1,19 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
     public class RangeWeapon : MonoBehaviour
     {
+        //public AK.Wwise.Event Play_explosion;
+        //public AK.Wwise.Event Play_bounce;
+
+        //public GameObject Play_explosion_source;
+        //public GameObject Play_bounce_source;
+
+
         public Vector3 muzzleOffset;
 
         public Projectile projectile;

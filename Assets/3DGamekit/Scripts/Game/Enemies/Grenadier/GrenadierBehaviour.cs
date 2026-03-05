@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using AK.Wwise;
 
 namespace Gamekit3D
 {
@@ -51,11 +52,26 @@ namespace Gamekit3D
         public Damageable damageable { get { return m_Damageable; } }
 
         [Header("Audio")]
-        public RandomAudioPlayer deathAudioPlayer;
-        public RandomAudioPlayer damageAudioPlayer;
-        public RandomAudioPlayer footstepAudioPlayer;
-        public RandomAudioPlayer throwAudioPlayer;
+        //public RandomAudioPlayer deathAudioPlayer;
+        //public RandomAudioPlayer damageAudioPlayer;
+        //public RandomAudioPlayer footstepAudioPlayer;
+        //public RandomAudioPlayer throwAudioPlayer;
         public RandomAudioPlayer punchAudioPlayer;
+
+        public AK.Wwise.Event grenadier_death;
+        public AK.Wwise.Event grenadier_damaged;
+        public AK.Wwise.Event grenadier_footsteps;
+        public AK.Wwise.Event grenadier_throw;
+        public AK.Wwise.Event grenadier_punch;
+
+
+        public GameObject grenadier_death_source;
+        public GameObject grenadier_damaged_source;
+        public GameObject grenadier_footsteps_source;
+        public GameObject grenadier_throw_source;
+        public GameObject grenadier_punch_source;
+
+
 
         protected PlayerController m_Target;
         //used to store the position of the target when the Grenadier decide to shoot, so if the player
@@ -128,14 +144,17 @@ namespace Gamekit3D
 
         public void Hit()
         {
-            damageAudioPlayer.PlayRandomClip();
+            //damageAudioPlayer.PlayRandomClip();
+
+            grenadier_damaged.Post(grenadier_damaged_source);
             m_EnemyController.animator.SetTrigger(hashHitParam);
             m_CoreMaterial.SetColor("_Color2", Color.red);
         }
 
         public void Die()
         {
-            deathAudioPlayer.PlayRandomClip();
+            //deathAudioPlayer.PlayRandomClip();
+            grenadier_death.Post(grenadier_death_source);
             m_EnemyController.animator.SetTrigger(hashDeathParam);
         }
 
@@ -164,12 +183,14 @@ namespace Gamekit3D
 
         public void PlayStep()
         {
-            footstepAudioPlayer.PlayRandomClip();
+            //footstepAudioPlayer.PlayRandomClip();
+            grenadier_footsteps.Post(grenadier_footsteps_source);
         }
 
         public void Shoot()
         {
-            throwAudioPlayer.PlayRandomClip();
+            //throwAudioPlayer.PlayRandomClip();
+            grenadier_throw.Post(grenadier_throw_source);
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 

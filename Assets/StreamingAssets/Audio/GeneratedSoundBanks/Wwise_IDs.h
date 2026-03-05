@@ -27,6 +27,16 @@ namespace AK
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DOOR = 2547633870U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
+        static const AkUniqueID PLAY_GRENADIERBOUNCE = 2226544333U;
+        static const AkUniqueID PLAY_GRENADIERCORE = 2872556972U;
+        static const AkUniqueID PLAY_GRENADIERDAMAGED = 3278392842U;
+        static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
+        static const AkUniqueID PLAY_GRENADIERDEATHFALL = 2752870638U;
+        static const AkUniqueID PLAY_GRENADIEREXPLOSION = 3296122978U;
+        static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
+        static const AkUniqueID PLAY_GRENADIERPUNCH = 3306420443U;
+        static const AkUniqueID PLAY_GRENADIERSHIELD = 1892053642U;
+        static const AkUniqueID PLAY_GRENADIERTHROW = 3406034459U;
         static const AkUniqueID PLAY_HEALTHBOXLOOP = 1945088721U;
         static const AkUniqueID PLAY_HEALTHBOXOPEN = 3166879883U;
         static const AkUniqueID PLAY_HURT = 2955259529U;
