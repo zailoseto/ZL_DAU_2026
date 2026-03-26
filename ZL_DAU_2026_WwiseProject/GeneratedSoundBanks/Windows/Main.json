@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{EAB5B10F-D3C1-C426-3346-AADEF3C909B0}",
+    "Hash": "{02518535-C752-54D3-0165-1946ABD55FC3}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -22,6 +22,38 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Metal, Run, Isolated Steps 03 SND62064.wav",
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
+     },
+     {
+      "Id": "51683295",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Staff Magic 1-004.wav",
+      "CachePath": "A2/{A203BB14-17C4-BD55-1F41-11C8E4DB98CE}.wem"
+     },
+     {
+      "Id": "77073071",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 1-003.wav",
+      "CachePath": "96/{963E5F8C-66F0-BCB0-9269-47A810580272}.wem"
+     },
+     {
+      "Id": "77907086",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 1-001.wav",
+      "CachePath": "D1/{D1AC8C08-2CA2-D799-98B8-57E7F9377C6B}.wem"
+     },
+     {
+      "Id": "89093449",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 2-002.wav",
+      "CachePath": "69/{693BCDDF-5B00-EAAE-435B-F28A080FC65C}.wem"
      },
      {
       "Id": "96397481",
@@ -38,6 +70,14 @@
       "Location": "Memory",
       "ShortName": "Magic, Shimmer, Christmas, Ding, Christmas Star, Twinkle 02 SND41712.wav",
       "CachePath": "5E/{5E101AA2-9128-2A57-1E6C-715E16EB83CE}.wem"
+     },
+     {
+      "Id": "105609712",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Staff Magic 1-003.wav",
+      "CachePath": "1B/{1B9C538D-68E5-1269-19A6-270688E6F934}.wem"
      },
      {
       "Id": "116134718",
@@ -69,23 +109,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Designed, Impact, Hit, Scifi Movement, Futuristic 02 SND121077.wav",
-      "CachePath": "15/{15308541-D1D4-B86A-A0E9-68D5EB925426}.wem"
-     },
-     {
-      "Id": "197775103",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Swooshes, Swish, Bamboo Stick, Swing, Whoosh, Air SND16277.wav",
-      "CachePath": "A6/{A6542082-F03C-D4D5-E234-19796625A968}.wem"
-     },
-     {
-      "Id": "210792231",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
-      "CachePath": "A5/{A5ED4BBA-4E5F-90BE-E0ED-AFD689119B1B}.wem"
+      "CachePath": "21/{210965A1-6DFB-D948-35C9-293B6BBC8C75}.wem"
      },
      {
       "Id": "244868089",
@@ -104,12 +128,44 @@
       "CachePath": "85/{855BABD8-7414-6AA5-0BD8-94FE87DB325E}.wem"
      },
      {
+      "Id": "310465850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Debris 1-003.wav",
+      "CachePath": "63/{63801E11-72F9-E922-CFA4-65E6E68D9595}.wem"
+     },
+     {
+      "Id": "329474687",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Hit 2-002.wav",
+      "CachePath": "DA/{DA19AF17-3512-31B8-6579-500B65418E58}.wem"
+     },
+     {
       "Id": "338863219",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Mud, Run, Isolated Steps SND62100.wav",
       "CachePath": "C1/{C1BA1A8E-2520-6F40-B985-2AE927D07A94}.wem"
+     },
+     {
+      "Id": "344271223",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 1-001.wav",
+      "CachePath": "B5/{B5FE3F48-B368-5D0F-6470-A3A7FAE87912}.wem"
+     },
+     {
+      "Id": "353198445",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Hit 1-001.wav",
+      "CachePath": "83/{8368F66A-035D-5D32-DC56-931C6CC20309}.wem"
      },
      {
       "Id": "363247632",
@@ -144,6 +200,14 @@
       "CachePath": "9D/{9DBA0142-F607-08B4-D631-770BFC390341}.wem"
      },
      {
+      "Id": "430527608",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Hit 1-003.wav",
+      "CachePath": "F7/{F7C293FE-79FE-98B5-A021-2600069D2D85}.wem"
+     },
+     {
       "Id": "465091974",
       "Language": "SFX",
       "Streaming": "false",
@@ -158,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
       "CachePath": "34/{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem"
+     },
+     {
+      "Id": "472460002",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 2-003.wav",
+      "CachePath": "F9/{F9910134-A274-2109-7A39-AD7F2831EAB3}.wem"
      },
      {
       "Id": "478817948",
@@ -184,6 +256,14 @@
       "CachePath": "F1/{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem"
      },
      {
+      "Id": "503478468",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Debris 2-001.wav",
+      "CachePath": "6C/{6C9BA8B8-6C3D-4733-2D0E-F09ED5113187}.wem"
+     },
+     {
       "Id": "522503441",
       "Language": "SFX",
       "Streaming": "false",
@@ -208,12 +288,68 @@
       "CachePath": "6E/{6E6EBB77-ED34-AE32-8AFD-913AF1EFEA08}.wem"
      },
      {
-      "Id": "593804315",
+      "Id": "561893672",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
-      "CachePath": "98/{98B043D8-D54A-23DB-3FDD-272EDAC73BC3}.wem"
+      "ShortName": "Box_Debris 1-001.wav",
+      "CachePath": "A7/{A7AA19CC-D340-58EE-ADFF-1B04090E5275}.wem"
+     },
+     {
+      "Id": "563423476",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 2-001.wav",
+      "CachePath": "56/{56A907FB-B916-9285-36C2-3EFD41ECFBB7}.wem"
+     },
+     {
+      "Id": "571654708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Debris 1-002.wav",
+      "CachePath": "10/{1084BB51-69B9-C642-F24C-0EE4E0E61379}.wem"
+     },
+     {
+      "Id": "585847873",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Hit 2-003.wav",
+      "CachePath": "5B/{5B95FFAF-B204-06E9-370F-180912EF8B60}.wem"
+     },
+     {
+      "Id": "587218066",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 2-003.wav",
+      "CachePath": "13/{134DD3EF-D9A6-07DC-46DF-2143250A3A08}.wem"
+     },
+     {
+      "Id": "590517463",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 1-004.wav",
+      "CachePath": "BE/{BEE0D29F-3437-F5A2-8150-A4B2EC34BAD2}.wem"
+     },
+     {
+      "Id": "608981536",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Debris 2-003.wav",
+      "CachePath": "FE/{FE76D799-B354-D9E4-4F88-CADE49DC1924}.wem"
+     },
+     {
+      "Id": "619552041",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Debris 2-002.wav",
+      "CachePath": "3C/{3CF18537-33B6-601D-84A9-20754133C557}.wem"
      },
      {
       "Id": "620442833",
@@ -224,6 +360,22 @@
       "CachePath": "FF/{FF74DECA-1BB8-1DE6-C4FC-9FC6456D136B}.wem"
      },
      {
+      "Id": "634045322",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door 1.wav",
+      "CachePath": "C4/{C4FDD28C-F463-4856-D047-24153CE0394C}.wem"
+     },
+     {
+      "Id": "635347980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Staff Magic 2.wav",
+      "CachePath": "91/{91CD3637-0EC5-480C-513D-5CD9F84C8490}.wem"
+     },
+     {
       "Id": "638539703",
       "Language": "SFX",
       "Streaming": "false",
@@ -232,12 +384,44 @@
       "CachePath": "E5/{E5F709B3-BCAF-05BB-7AB4-63D4ED235B65}.wem"
      },
      {
+      "Id": "644472490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 1-002.wav",
+      "CachePath": "62/{624DB39B-0784-FB5E-1466-26E4074C5CC7}.wem"
+     },
+     {
+      "Id": "647139598",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 3-004.wav",
+      "CachePath": "D5/{D5FD3CF8-A5FC-A9D9-65D8-A9D12C3EEB5A}.wem"
+     },
+     {
       "Id": "650673341",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Animals, Dog, German Shepherd, Barking SND60759.wav",
       "CachePath": "F7/{F7AAD97D-D9C5-8DA1-BD22-73E8BCDDEEA7}.wem"
+     },
+     {
+      "Id": "654058829",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 3-001.wav",
+      "CachePath": "38/{38EA2A47-C9BC-B643-3169-A7C22FF30F48}.wem"
+     },
+     {
+      "Id": "683604547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 1-002.wav",
+      "CachePath": "C2/{C2E7DB51-F87F-AF62-9B2D-0C7E16BD3ECD}.wem"
      },
      {
       "Id": "690924407",
@@ -272,6 +456,38 @@
       "CachePath": "A1/{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem"
      },
      {
+      "Id": "772069975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Staff Magic 1-001.wav",
+      "CachePath": "39/{39DF5933-E7D2-63A1-2361-5B158F5E5D7E}.wem"
+     },
+     {
+      "Id": "775406643",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 3-002.wav",
+      "CachePath": "9E/{9E71FDD1-A45B-05FD-F3E8-038C82055E3E}.wem"
+     },
+     {
+      "Id": "809190784",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door 2.wav",
+      "CachePath": "96/{961241B9-5D68-AB1E-EB03-AA096AE97160}.wem"
+     },
+     {
+      "Id": "811514700",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 3-005.wav",
+      "CachePath": "E2/{E26BE9B4-BE87-DBD6-0A45-814253147BDA}.wem"
+     },
+     {
       "Id": "817893841",
       "Language": "SFX",
       "Streaming": "false",
@@ -280,12 +496,12 @@
       "CachePath": "DA/{DA9D6AC1-4653-DE87-FA4E-961BEE80A458}.wem"
      },
      {
-      "Id": "837159731",
+      "Id": "848532217",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Wood, Break, Sharp, Metal Details SND53074.wav",
-      "CachePath": "56/{5660F80D-621A-5591-042B-6BAECE456E48}.wem"
+      "ShortName": "Temp Swoosh 2-002.wav",
+      "CachePath": "4D/{4D373F20-69AC-6EAB-4EFC-C4813B66F9DD}.wem"
      },
      {
       "Id": "849355181",
@@ -294,6 +510,14 @@
       "Location": "Memory",
       "ShortName": "Water, Flow, Stream, Gentle 01 SND65667.wav",
       "CachePath": "3F/{3F6BDF89-4CDF-C495-8994-1B0ADC08987B}.wem"
+     },
+     {
+      "Id": "851509219",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 2-001.wav",
+      "CachePath": "12/{12440CD3-4798-5726-7285-8AEF2C0BFC10}.wem"
      },
      {
       "Id": "868728545",
@@ -344,12 +568,28 @@
       "CachePath": "79/{797EAF42-E495-1751-E31F-3E343A7D9D1F}.wem"
      },
      {
+      "Id": "945582321",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Staff Magic 1-002.wav",
+      "CachePath": "AF/{AF702C00-61F2-BCD0-F7B9-6B5F1B6F7110}.wem"
+     },
+     {
       "Id": "946031915",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177.wav",
       "CachePath": "2C/{2C59D8AC-5893-0F3E-E63B-7CE0C9CE95BC}.wem"
+     },
+     {
+      "Id": "951152465",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 1-003.wav",
+      "CachePath": "12/{1218D166-DF28-9353-C454-E816CECC22CB}.wem"
      },
      {
       "Id": "968058573",
@@ -360,12 +600,12 @@
       "CachePath": "AD/{AD1FB9A4-CBFD-30F4-F8A2-647865C383CB}.wem"
      },
      {
-      "Id": "971386928",
+      "Id": "980806770",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Rocks, Movement, Stone, Slab, Scrape SND18188 1.wav",
-      "CachePath": "CD/{CDEA66F6-79EE-4109-0DF8-EE7C3BD2BF2A}.wem"
+      "ShortName": "Box_Hit 1-002.wav",
+      "CachePath": "7B/{7B4669B0-DC8D-5C5A-F559-8122DDF5195B}.wem"
      },
      {
       "Id": "1002597688",
@@ -374,6 +614,14 @@
       "Location": "Memory",
       "ShortName": "Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771.wav",
       "CachePath": "F5/{F55A857A-9F9A-8C8B-C213-7E1595308286}.wem"
+     },
+     {
+      "Id": "1011156766",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Temp Swoosh 2-004.wav",
+      "CachePath": "DA/{DA41372C-5155-05D6-5D50-00B8027696E1}.wem"
      },
      {
       "Id": "1022096692",
@@ -398,6 +646,22 @@
       "Location": "Memory",
       "ShortName": "Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682.wav",
       "CachePath": "BC/{BCB109D8-2CD0-47D5-D28A-1D705D37B805}.wem"
+     },
+     {
+      "Id": "1056091812",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Energy 3-003.wav",
+      "CachePath": "5C/{5C552F85-3AF5-54FC-253B-C0085270724E}.wem"
+     },
+     {
+      "Id": "1056268042",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Box_Hit 2-001.wav",
+      "CachePath": "92/{922892FF-D08A-2283-1DE3-F6D281FD5C7E}.wem"
      },
      {
       "Id": "1069972770",
@@ -445,11 +709,77 @@
       "GUID": "{CCFA0006-5FDE-4741-9154-F09B627E8734}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "0.5274969",
-      "DurationMax": "0.5274969",
+      "DurationMin": "1.7007291",
+      "DurationMax": "2.0018334",
       "MediaRefs": [
        {
-        "Id": "837159731"
+        "Id": "77073071"
+       },
+       {
+        "Id": "77907086"
+       },
+       {
+        "Id": "89093449"
+       },
+       {
+        "Id": "310465850"
+       },
+       {
+        "Id": "329474687"
+       },
+       {
+        "Id": "353198445"
+       },
+       {
+        "Id": "430527608"
+       },
+       {
+        "Id": "472460002"
+       },
+       {
+        "Id": "503478468"
+       },
+       {
+        "Id": "561893672"
+       },
+       {
+        "Id": "563423476"
+       },
+       {
+        "Id": "571654708"
+       },
+       {
+        "Id": "585847873"
+       },
+       {
+        "Id": "608981536"
+       },
+       {
+        "Id": "619552041"
+       },
+       {
+        "Id": "644472490"
+       },
+       {
+        "Id": "647139598"
+       },
+       {
+        "Id": "654058829"
+       },
+       {
+        "Id": "775406643"
+       },
+       {
+        "Id": "811514700"
+       },
+       {
+        "Id": "980806770"
+       },
+       {
+        "Id": "1056091812"
+       },
+       {
+        "Id": "1056268042"
        }
       ]
      },
@@ -601,25 +931,45 @@
       ]
      },
      {
-      "Id": "2547633870",
-      "Name": "Play_Door",
-      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Door",
+      "Id": "3655372411",
+      "Name": "Play_Door1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Door1",
       "GUID": "{CAFAEE01-A63C-4181-B93F-F8A1303C5520}",
       "Color": "13",
+      "MaxAttenuation": "100",
       "DurationType": "OneShot",
-      "DurationMin": "1.9391888",
-      "DurationMax": "2.6089087",
+      "DurationMin": "7.0286875",
+      "DurationMax": "7.0286875",
       "MediaRefs": [
        {
-        "Id": "210792231"
-       },
-       {
-        "Id": "593804315"
-       },
-       {
-        "Id": "971386928"
+        "Id": "634045322"
        }
       ]
+     },
+     {
+      "Id": "3655372408",
+      "Name": "Play_Door2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Door2",
+      "GUID": "{428A7B83-08D0-495E-B8CB-6280BCF3B0DD}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "4.426396",
+      "DurationMax": "4.426396",
+      "MediaRefs": [
+       {
+        "Id": "809190784"
+       }
+      ]
+     },
+     {
+      "Id": "3655372409",
+      "Name": "Play_Door3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_Door3",
+      "GUID": "{3FEA7971-C2B4-4D5A-8000-C026D4B46A22}",
+      "Color": "13",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      },
      {
       "Id": "3794664810",
@@ -836,7 +1186,7 @@
       "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.26390016",
-      "DurationMax": "0.45824412",
+      "DurationMax": "0.4716717",
       "MediaRefs": [
        {
         "Id": "817893841"
@@ -918,7 +1268,7 @@
       "Color": "10",
       "DurationType": "OneShot",
       "DurationMin": "0.25079057",
-      "DurationMax": "0.45824412",
+      "DurationMax": "0.4716717",
       "MediaRefs": [
        {
         "Id": "116134718"
@@ -1026,8 +1376,8 @@
       "GUID": "{92B7AB2F-8ED1-4AD1-BB33-F982138270CA}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.15699016",
-      "DurationMax": "0.45824412",
+      "DurationMin": "0.15252095",
+      "DurationMax": "0.4716717",
       "SwitchContainers": [
        {
         "SwitchValue": {
@@ -1102,7 +1452,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePad",
       "GUID": "{71B66A13-2279-4E3B-BF1E-6B3B981EF625}",
       "Color": "13",
-      "MaxAttenuation": "55",
+      "MaxAttenuation": "50",
       "DurationType": "OneShot",
       "DurationMin": "1.3105209",
       "DurationMax": "1.3105209",
@@ -1148,11 +1498,47 @@
       "GUID": "{017F94CC-5C04-48AE-B068-AEFA0D4196BB}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "0.28204378",
-      "DurationMax": "0.28204378",
+      "DurationMin": "1.8952987",
+      "DurationMax": "1.9284282",
       "MediaRefs": [
        {
-        "Id": "197775103"
+        "Id": "51683295"
+       },
+       {
+        "Id": "105609712"
+       },
+       {
+        "Id": "344271223"
+       },
+       {
+        "Id": "587218066"
+       },
+       {
+        "Id": "590517463"
+       },
+       {
+        "Id": "635347980"
+       },
+       {
+        "Id": "683604547"
+       },
+       {
+        "Id": "772069975"
+       },
+       {
+        "Id": "848532217"
+       },
+       {
+        "Id": "851509219"
+       },
+       {
+        "Id": "945582321"
+       },
+       {
+        "Id": "951152465"
+       },
+       {
+        "Id": "1011156766"
        }
       ]
      },
@@ -1197,7 +1583,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchAfter",
       "GUID": "{14688B9A-4A22-4082-AEE8-5977A4958D1C}",
       "Color": "13",
-      "MaxAttenuation": "55",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1211,7 +1597,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchBefore",
       "GUID": "{04597A2B-6563-4D3C-998E-8DF3BB25C7B1}",
       "Color": "13",
-      "MaxAttenuation": "55",
+      "MaxAttenuation": "50",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -1276,6 +1662,6 @@
     ]
    }
   ],
-  "FileHash": "{DEE1F247-94D9-C830-0FAE-BB5E40DAEC35}"
+  "FileHash": "{DBCAA0BE-1C7C-296B-BEC7-25EF15ECDC36}"
  }
 }

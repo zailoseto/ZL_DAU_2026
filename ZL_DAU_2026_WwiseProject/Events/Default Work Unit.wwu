@@ -500,10 +500,10 @@
 						</Event>
 						<Event Name="Play_StaffSwipe" ID="{017F94CC-5C04-48AE-B068-AEFA0D4196BB}">
 							<ChildrenList>
-								<Action Name="" ID="{9BFC99F9-17CB-43A7-891A-59A6B7865137}" ShortID="247695790">
+								<Action Name="" ID="{AA52F41F-704E-40CA-8A7B-4CD7D5B00D71}" ShortID="828682728">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Staff Swipe" ID="{6B47CEC0-9775-4B77-8DED-7C67BC0EF391}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Staff Swing" ID="{581F3F39-8407-406F-B3A1-6B9F8EEE166E}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -552,7 +552,7 @@
 								<Action Name="" ID="{10D0A4F4-C0B8-46F7-BA13-956E9F2BC6FD}" ShortID="700573919">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Box Destroy" ID="{ED4024B5-6687-4051-B222-BD50B73E00FA}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Box Destroy" ID="{22BEC114-6020-414C-BD6B-134D95963013}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -602,12 +602,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Door" ID="{CAFAEE01-A63C-4181-B93F-F8A1303C5520}">
+						<Event Name="Play_Door1" ID="{CAFAEE01-A63C-4181-B93F-F8A1303C5520}">
 							<ChildrenList>
 								<Action Name="" ID="{94DF8F9B-FC46-48A6-AD0C-E3AE5F7362A8}" ShortID="333250765">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Doors" ID="{47406F18-7E41-4B64-B0E3-8E6373FFFAD4}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Door 1" ID="{6737EC4B-7EAD-4009-BE74-78B30D7F00C8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -641,6 +641,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Switch After Loop" ID="{F948BD24-3288-4755-AF77-659EE0CDD415}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door2" ID="{428A7B83-08D0-495E-B8CB-6280BCF3B0DD}">
+							<ChildrenList>
+								<Action Name="" ID="{6CD6EB1B-4F65-45CF-AF45-6FC5D517C6A5}" ShortID="966519727">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door 2" ID="{1730FE46-3F85-40D5-B562-856A7B0E6CF0}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Door3" ID="{3FEA7971-C2B4-4D5A-8000-C026D4B46A22}">
+							<ChildrenList>
+								<Action Name="" ID="{53F3008B-B8F2-4A66-92B8-3953ED5FA428}" ShortID="498838328">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Door 3" ID="{FEAD48A7-8D60-470C-8E75-D92952BF2DBD}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

@@ -25,7 +25,9 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
         static const AkUniqueID PLAY_CONFIRM = 4136017490U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
-        static const AkUniqueID PLAY_DOOR = 2547633870U;
+        static const AkUniqueID PLAY_DOOR1 = 3655372411U;
+        static const AkUniqueID PLAY_DOOR2 = 3655372408U;
+        static const AkUniqueID PLAY_DOOR3 = 3655372409U;
         static const AkUniqueID PLAY_EXIT = 3794664810U;
         static const AkUniqueID PLAY_GRENADIERBOUNCE = 2226544333U;
         static const AkUniqueID PLAY_GRENADIERCORE = 2872556972U;
