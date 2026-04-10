@@ -1362,57 +1362,6 @@
 										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Grenadier Punch" ID="{1E7FA9D4-667B-427F-8234-DC68DB7EBEAB}" ShortID="1049729696">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Color" Type="int16" Value="2"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>4</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059" ID="{792A865E-84D2-4786-868A-1E42C2EE7032}" ShortID="827961615">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-7</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059" ID="{C2871F48-5637-4724-BAA3-4B62A0CE3B0D}">
-													<Language>SFX</Language>
-													<AudioFile>Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="887406169"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059" ID="{C2871F48-5637-4724-BAA3-4B62A0CE3B0D}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grenadier ShieldUp" ID="{9A75E185-2177-4DEF-97B9-2A628330B1F0}" ShortID="820240541">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
@@ -1474,13 +1423,29 @@
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="2"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{D85486EB-9038-4D7E-9C90-06626AE36A8F}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-4</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
 										</Reference>
@@ -1489,7 +1454,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694" ID="{1E6E3240-576B-44B4-A4BA-933FFF3BCE15}" ShortID="261341052">
+										<Sound Name="Grenadier Throw Temp" ID="{186FB0A6-152C-4668-8A5B-E3DDA4D4A5E6}" ShortID="322341547">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>4</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -1499,16 +1476,38 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694" ID="{5C8034AF-CAF6-47E3-8002-C3D51B33259A}">
+												<AudioFileSource Name="Grenadier Throw Temp" ID="{E56F0E4C-D381-4DC8-98A4-E597ACA54788}">
 													<Language>SFX</Language>
-													<AudioFile>Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694.wav</AudioFile>
+													<AudioFile>Grenadier Throw Temp.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="134740307"/>
+														<MediaID ID="759698229"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694" ID="{5C8034AF-CAF6-47E3-8002-C3D51B33259A}" Platform="Linked"/>
+												<ActiveSource Name="Grenadier Throw Temp" ID="{E56F0E4C-D381-4DC8-98A4-E597ACA54788}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Grenadier Throw Temp2" ID="{AF8BDF55-5739-42A8-B161-6C30642EF4E0}" ShortID="23152790">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Throw Temp2" ID="{D72D5EF9-CC8E-43C3-AE42-4C6CB41DF86A}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier Throw Temp2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="625811884"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grenadier Throw Temp2" ID="{D72D5EF9-CC8E-43C3-AE42-4C6CB41DF86A}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -1603,66 +1602,14 @@
 										<ActiveSource Name="Bullets, Impact, Metal, Burst, Multiple, Designed SND145777 1" ID="{644EFE7A-0C7B-4299-A01D-BA3CAF7ED478}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="Grenadier Footsteps" ID="{D7BEE559-15E1-4C5D-A2D1-64ADF059FD23}" ShortID="250430817">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Color" Type="int16" Value="2"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1" ID="{2A8BAA0E-DF3E-409B-A771-F8567E1C656D}" ShortID="91092933">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>80</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-7</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1" ID="{D513F41D-17D8-4E6E-ACF8-B93889DA21D1}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="0.493190413279249"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0406754980024123"/>
-														<Property Name="TrimEnd" Type="Real64" Value="0.653350124674917"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="96397481"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1" ID="{D513F41D-17D8-4E6E-ACF8-B93889DA21D1}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<Sound Name="Grenadier Core" ID="{C34331FE-FA21-4934-8A4E-516CA71ECDBE}" ShortID="787856336">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>20</Value>
+											</ValueList>
+										</Property>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1689,16 +1636,55 @@
 												<MediaID ID="244868089"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Grenadier Core Temp Loop" ID="{FE28009C-26D8-4DF2-9B02-254F2066F268}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Core Temp Loop.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="78550955"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Musical, Toy, Music Box, Wind Slow, Plays We Wish You A Merry Christmas, Mechanism Buzz SND134705" ID="{A7C18E49-1974-46CF-8CFD-1612D1839718}" Platform="Linked"/>
+										<ActiveSource Name="Grenadier Core Temp Loop" ID="{FE28009C-26D8-4DF2-9B02-254F2066F268}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<RandomSequenceContainer Name="Grenadier Explosion" ID="{6B7EBE51-FAC1-4DBB-B5F3-B7527CE2B7C5}" ShortID="236739448">
+								<BlendContainer Name="Grenadier Footsteps" ID="{EC0506D5-9ACD-4822-9A79-3954038773F3}" ShortID="982392040">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5C1461DB-C20F-4BB7-89DF-FC0BA39629FC}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-5"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-15</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1956AA68-20AB-44A6-98CF-8A1D7F559A81}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
 										</Reference>
@@ -1707,11 +1693,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Scifi, Weapon, Spaceship Bomb SND59994" ID="{7ACEE614-C7B4-4EA1-93A5-9E08D5219271}" ShortID="74408921">
+										<RandomSequenceContainer Name="Rock" ID="{D7BEE559-15E1-4C5D-A2D1-64ADF059FD23}" ShortID="250430817">
 											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-2</Value>
+														<Value>3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -1724,45 +1713,119 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Scifi, Weapon, Spaceship Bomb SND59994" ID="{482C00DC-9532-4344-8750-2C87ECF71064}">
-													<PropertyList>
-														<Property Name="FadeOutDuration" Type="Real64" Value="1.12589168548584"/>
-														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-														<Property Name="TrimBegin" Type="Real64" Value="0.0416996920550311"/>
-														<Property Name="TrimEnd" Type="Real64" Value="1.98073532556604"/>
-													</PropertyList>
-													<Language>SFX</Language>
-													<AudioFile>Scifi, Weapon, Spaceship Bomb SND59994.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="478817948"/>
-													</MediaIDList>
-												</AudioFileSource>
+												<Sound Name="Grenadier Footstep Rock-001" ID="{6C1EFE11-0C4D-4D6A-89A7-42CB75EE6DBC}" ShortID="762201473">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Rock-001" ID="{13EA7DF8-D292-4E4B-93A5-F7AF27DFEC2B}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Rock-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="144795706"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Rock-001" ID="{13EA7DF8-D292-4E4B-93A5-F7AF27DFEC2B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Rock-002" ID="{086B6DD1-8F00-4ED1-9A61-DB08782E344C}" ShortID="85653633">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Rock-002" ID="{B14A31CF-8408-42A4-92F2-3E91778259CB}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Rock-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="179625686"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Rock-002" ID="{B14A31CF-8408-42A4-92F2-3E91778259CB}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Rock-003" ID="{2BE656E3-3908-44DC-8827-772CAC5F6706}" ShortID="445831595">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Rock-003" ID="{EB8E0316-30FA-414E-BF32-4B08680BA07B}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Rock-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="629681671"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Rock-003" ID="{EB8E0316-30FA-414E-BF32-4B08680BA07B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Rock-004" ID="{D84B6B8B-4E2B-4E84-9654-A3B5B57987F9}" ShortID="398046948">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Rock-004" ID="{689DA78D-BC1E-4985-B20E-D66CE8E0994F}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Rock-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="470217057"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Rock-004" ID="{689DA78D-BC1E-4985-B20E-D66CE8E0994F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Rock-005" ID="{0B1B1F14-FF39-43F4-887D-51B9121738A0}" ShortID="76961049">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Rock-005" ID="{35889536-ACEC-488A-AEAA-8544D377CFC2}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Rock-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1002273719"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Rock-005" ID="{35889536-ACEC-488A-AEAA-8544D377CFC2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
 											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Scifi, Weapon, Spaceship Bomb SND59994" ID="{482C00DC-9532-4344-8750-2C87ECF71064}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Grenadier Bounce" ID="{4A9E161E-0139-41E3-B122-EBD6F667502D}" ShortID="426949133">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Food &amp; Drink, Glassware, Glass, Small, Kitchen, Ding SND6595" ID="{6262E34D-ED8F-4AD4-99BA-33B856A44618}" ShortID="544554961">
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Garage" ID="{37768013-18C4-4F8D-AC14-B5B733846B6A}" ShortID="426487051">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -1772,20 +1835,1700 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Food &amp; Drink, Glassware, Glass, Small, Kitchen, Ding SND6595" ID="{507DC587-3E0A-49A8-96CA-C09F43B95AB6}">
+												<Sound Name="Grenadier Footstep Metal Garage-001" ID="{1E85FD2B-B879-471B-BBBF-99511A990677}" ShortID="289652246">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-001" ID="{2FEFC27F-D97D-4E83-B5A5-3ACE0E124683}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="627356145"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-001" ID="{2FEFC27F-D97D-4E83-B5A5-3ACE0E124683}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-002" ID="{3E5A37B8-D321-473D-B7BC-CB5B7EB75945}" ShortID="867278454">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-002" ID="{B85E7EB1-600E-438A-9A02-EB8C1AB494A3}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="516820818"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-002" ID="{B85E7EB1-600E-438A-9A02-EB8C1AB494A3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-003" ID="{2C463E3B-D370-47D1-97AD-01CB2FDD7625}" ShortID="32515467">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-003" ID="{B06D4ED4-1F00-4397-B6EF-A36C1ECC2211}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="58646353"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-003" ID="{B06D4ED4-1F00-4397-B6EF-A36C1ECC2211}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-004" ID="{1AC88444-2D42-4B2F-80DC-A146533B8771}" ShortID="857588961">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-004" ID="{49257216-D1CD-4351-94DA-9E9EA889C257}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="777077678"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-004" ID="{49257216-D1CD-4351-94DA-9E9EA889C257}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-005" ID="{9E32D141-9836-4F1D-A714-E1BC468B88E5}" ShortID="75076362">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-005" ID="{ABF85B39-8893-4422-8EF6-FDF7FCA9C7BC}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="737316193"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-005" ID="{ABF85B39-8893-4422-8EF6-FDF7FCA9C7BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-006" ID="{5E98C24E-6AF5-4A91-942C-16E744492852}" ShortID="918052882">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-006" ID="{FE2A511B-38B2-4D5A-B7D0-6306728D6992}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="11967961"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-006" ID="{FE2A511B-38B2-4D5A-B7D0-6306728D6992}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-007" ID="{1172ECC2-5CD4-4C6B-95C4-6B43F23BBE76}" ShortID="562782217">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-007" ID="{7C133C1F-28D4-4EEE-93A6-E643F9CAF0F0}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="999016016"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-007" ID="{7C133C1F-28D4-4EEE-93A6-E643F9CAF0F0}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-008" ID="{164D96B5-47CA-4EE3-9F99-CC82F36C2904}" ShortID="1023639990">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-008" ID="{41325A36-FB17-4DB0-BDD6-AD359F14E34C}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="749124613"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-008" ID="{41325A36-FB17-4DB0-BDD6-AD359F14E34C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-009" ID="{B36F0FF5-5D1B-4894-BAD0-0885EADA0327}" ShortID="660878230">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-009" ID="{E06DBC26-E072-43B4-8005-818D994F0E2C}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1001676239"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-009" ID="{E06DBC26-E072-43B4-8005-818D994F0E2C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Garage-010" ID="{11B1BA4D-45F2-4261-B648-8D06B285158D}" ShortID="128292859">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Garage-010" ID="{A6C4D290-8606-44F3-A623-6D591796ACB4}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Garage-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="690716383"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Garage-010" ID="{A6C4D290-8606-44F3-A623-6D591796ACB4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Concrete" ID="{4DACFAA1-6404-44D1-B8F2-34D0C74F311B}" ShortID="101974979">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{CE0BD80F-737B-4E33-A96C-A890AC079594}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{46F40F7D-CF0F-4941-874A-F52D574B3BA8}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="100"/>
+																	<Property Name="Min" Type="Real64" Value="-100"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Footstep Metal Concrete-001" ID="{10E886AE-B3BC-4992-B7F2-1623EE1B9AA0}" ShortID="534373937">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Concrete-001" ID="{CB3AE6BB-5DA4-49DB-B57D-E0D4C4E8458A}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Concrete-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1063238584"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Concrete-001" ID="{CB3AE6BB-5DA4-49DB-B57D-E0D4C4E8458A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Concrete-002" ID="{33340D28-BDA1-4422-8BFD-77F38246FD95}" ShortID="373179165">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Concrete-002" ID="{D90C0ED8-6431-4E99-80B3-9D5902C7E76F}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Concrete-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="581216791"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Concrete-002" ID="{D90C0ED8-6431-4E99-80B3-9D5902C7E76F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Concrete-003" ID="{5A66A5AF-0455-470A-B96A-5B9C8972C948}" ShortID="654231498">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Concrete-003" ID="{FBB8CB90-2DDE-478D-9198-F65FA0A70183}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Concrete-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="142767538"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Concrete-003" ID="{FBB8CB90-2DDE-478D-9198-F65FA0A70183}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Concrete-004" ID="{A363B365-130B-45ED-9834-7F99B5C8949D}" ShortID="650008671">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Concrete-004" ID="{5AADD5E0-FCE5-41A5-AB87-6BEAA51B69ED}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Concrete-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="801215808"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Concrete-004" ID="{5AADD5E0-FCE5-41A5-AB87-6BEAA51B69ED}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Footstep Metal Concrete-005" ID="{099842EE-FBB2-4A75-8A64-AC616341A1B9}" ShortID="167561477">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Footstep Metal Concrete-005" ID="{B5E02220-5C05-4428-990D-BD54EDA43520}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Footstep Metal Concrete-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="816980910"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Footstep Metal Concrete-005" ID="{B5E02220-5C05-4428-990D-BD54EDA43520}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Grenadier Bounce" ID="{3DCA08D6-8B95-45A4-BC78-EA09B741CE84}" ShortID="204544306">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E325E255-C8E3-46A1-BC7E-69D26F0F9435}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{58297271-0869-4050-9A29-3D339CFAAC08}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="3"/>
+															<Property Name="Min" Type="Real64" Value="-3"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Bounce Crystal" ID="{4A9E161E-0139-41E3-B122-EBD6F667502D}" ShortID="426949133">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Bounce Crystal Temp-001" ID="{D1D4C14C-0C78-4BB9-8C47-E39A4B1651BF}" ShortID="463895590">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Crystal Temp-001" ID="{4D676EE8-39C7-49AE-BF89-ABC7FC4E17BC}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Crystal Temp-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="338647331"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Crystal Temp-001" ID="{4D676EE8-39C7-49AE-BF89-ABC7FC4E17BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Crystal Temp-002" ID="{5659958D-3C55-45AA-B52B-762CC9AE070A}" ShortID="815341946">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Crystal Temp-002" ID="{66BC5BB0-A715-4F99-B001-1DB77D666FDD}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Crystal Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="786790842"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Crystal Temp-002" ID="{66BC5BB0-A715-4F99-B001-1DB77D666FDD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Crystal Temp-003" ID="{C4451947-487A-4D23-8F5B-C9EF5450F41E}" ShortID="660255246">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Crystal Temp-003" ID="{F7D9749B-91CB-42AC-B91B-34322132E146}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Crystal Temp-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="531206018"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Crystal Temp-003" ID="{F7D9749B-91CB-42AC-B91B-34322132E146}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Crystal Temp-004" ID="{B12DD022-0A3C-4FEF-A89D-6A3291293A13}" ShortID="1054812364">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Crystal Temp-004" ID="{20E81AEF-81A6-4209-B918-8F37A9A37466}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Crystal Temp-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="931902254"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Crystal Temp-004" ID="{20E81AEF-81A6-4209-B918-8F37A9A37466}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bounce Glass" ID="{5BD348E0-6D54-41DB-9884-7586F7CA2464}" ShortID="673483402">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Bounce Glass Temp-001" ID="{FCFC3E10-DB92-4B91-BBD8-EE3AF07FB1AE}" ShortID="24851014">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Glass Temp-001" ID="{BEAFDA39-A77F-450A-8B43-A455C016FE85}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Glass Temp-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="300737457"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Glass Temp-001" ID="{BEAFDA39-A77F-450A-8B43-A455C016FE85}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Glass Temp-002" ID="{30D838BB-8B62-4124-B51F-B404E58AAB96}" ShortID="725659886">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Glass Temp-002" ID="{82BBE089-C0E1-44D5-9A93-55B9344D8E73}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Glass Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="412117381"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Glass Temp-002" ID="{82BBE089-C0E1-44D5-9A93-55B9344D8E73}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Glass Temp-003" ID="{D674CDBC-2580-421D-8DEE-4E9D0D4527A1}" ShortID="114906794">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Glass Temp-003" ID="{2FC1829E-BFE0-4E2E-B623-5035194BE18E}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Glass Temp-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="468197354"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Glass Temp-003" ID="{2FC1829E-BFE0-4E2E-B623-5035194BE18E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Glass Temp-004" ID="{982F1FF1-3492-43AA-B8AD-709A7254F857}" ShortID="162250276">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Glass Temp-004" ID="{EEC88FE8-F1B0-468C-8184-CD49EDC32BB5}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Glass Temp-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="473767863"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Glass Temp-004" ID="{EEC88FE8-F1B0-468C-8184-CD49EDC32BB5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Bounce Bottle" ID="{844DFCE8-9CB6-4ECD-B502-03F9E77AA9F1}" ShortID="1059104023">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Bounce Bottle Temp-001" ID="{C7A1D6D4-8D01-4515-80C5-125ABE9B3932}" ShortID="513880306">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Bottle Temp-001" ID="{079D7B05-31C2-4EC9-AD29-558AF3685217}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Bottle Temp-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="503387856"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Bottle Temp-001" ID="{079D7B05-31C2-4EC9-AD29-558AF3685217}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Bottle Temp-002" ID="{19CADC02-AE66-4969-97E6-321A0D0A4E59}" ShortID="511305616">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Bottle Temp-002" ID="{7813B3FB-622A-48CA-94BB-D834A41EFBB6}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Bottle Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="58551877"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Bottle Temp-002" ID="{7813B3FB-622A-48CA-94BB-D834A41EFBB6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Bottle Temp-003" ID="{E40A931C-4F6B-4D69-8C85-F3078D6807A1}" ShortID="1033724586">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Bottle Temp-003" ID="{10C02C49-63EB-48A8-9EEB-F7058F8EE1C4}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Bottle Temp-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="70442514"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Bottle Temp-003" ID="{10C02C49-63EB-48A8-9EEB-F7058F8EE1C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Bounce Bottle Temp-004" ID="{3B51698D-ECB7-45E8-84BC-C9BA73AB4B4B}" ShortID="969453642">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Bounce Bottle Temp-004" ID="{7577EF90-6573-4E36-A923-0853587C9AFD}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Bounce Bottle Temp-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="439779804"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Bounce Bottle Temp-004" ID="{7577EF90-6573-4E36-A923-0853587C9AFD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Grenadier Explosion" ID="{F146DD0C-2B4B-4CCA-ACF2-72A0161251ED}" ShortID="886260459">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{0AD4B218-1021-421F-BD9F-9C8824A5D589}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="70"/>
+															<Property Name="Min" Type="Real64" Value="-70"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Glass" ID="{6B7EBE51-FAC1-4DBB-B5F3-B7527CE2B7C5}" ShortID="236739448">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Explode Glass Temp-001" ID="{6E67FA93-01D5-4DEE-ABBB-5859C66FC2C8}" ShortID="590575133">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Explode Glass Temp-001" ID="{03EB01CB-7B93-471C-AFA8-81A4622C681E}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Explode Glass Temp-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="675812360"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Explode Glass Temp-001" ID="{03EB01CB-7B93-471C-AFA8-81A4622C681E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Explode Glass Temp-002" ID="{C913FBBE-330F-46E7-92BF-7D719EC0EA21}" ShortID="218058743">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Explode Glass Temp-002" ID="{3B0DB3E8-A4E6-439B-889F-DE06C3C590C4}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Explode Glass Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="164018614"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Explode Glass Temp-002" ID="{3B0DB3E8-A4E6-439B-889F-DE06C3C590C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Explode Glass Temp-003" ID="{2FEF1AE3-0085-433C-9869-663D230E775F}" ShortID="906267106">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Explode Glass Temp-003" ID="{9E7854A9-D858-4C41-A8D1-6473E70758E6}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Explode Glass Temp-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1039114373"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Explode Glass Temp-003" ID="{9E7854A9-D858-4C41-A8D1-6473E70758E6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<Sound Name="Grenadier Explode Whoosh Temp" ID="{BC557949-7B57-483E-B145-815831C0F1E4}" ShortID="501242083">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Explode Whoosh Temp" ID="{5F896CE3-87B2-49ED-92F4-39636EEB9377}">
 													<Language>SFX</Language>
-													<AudioFile>Food &amp; Drink, Glassware, Glass, Small, Kitchen, Ding SND6595.wav</AudioFile>
+													<AudioFile>Grenadier Explode Whoosh Temp.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="391892974"/>
+														<MediaID ID="767186854"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Food &amp; Drink, Glassware, Glass, Small, Kitchen, Ding SND6595" ID="{507DC587-3E0A-49A8-96CA-C09F43B95AB6}" Platform="Linked"/>
+												<ActiveSource Name="Grenadier Explode Whoosh Temp" ID="{5F896CE3-87B2-49ED-92F4-39636EEB9377}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Grenadier Explode Radiance Temp" ID="{AB022E6E-0F6D-4CB8-9AD0-FDFBF55B73CF}" ShortID="692554804">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Explode Radiance Temp" ID="{99C9F5B6-8960-4809-BDB2-A5BDDF33D9F5}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier Explode Radiance Temp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="136118414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grenadier Explode Radiance Temp" ID="{99C9F5B6-8960-4809-BDB2-A5BDDF33D9F5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Grenadier Explode Space Temp" ID="{66059396-A847-45D6-BCF4-16317AA64375}" ShortID="862042880">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{EED87D9F-666F-4305-AC01-F5501F303874}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="650"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Explode Space Temp" ID="{D16B1D86-5E70-477B-9F67-1E3C9FA68156}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier Explode Space Temp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="9238980"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grenadier Explode Space Temp" ID="{D16B1D86-5E70-477B-9F67-1E3C9FA68156}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Grenadier Explode Crash Temp" ID="{C0AFADD7-D95D-4882-A52B-73DBEFFB70FD}" ShortID="142775249">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Explode Crash Temp" ID="{3CDB1070-38BE-4525-B7AF-264F0AB75523}">
+													<Language>SFX</Language>
+													<AudioFile>Grenadier Explode Crash Temp.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1003868170"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grenadier Explode Crash Temp" ID="{3CDB1070-38BE-4525-B7AF-264F0AB75523}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Firework" ID="{470ECACD-A683-438C-848A-2F0B9C8C77D0}" ShortID="48945857">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{28100740-B5CA-4B87-A66E-86200F380B9E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="80"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Explode Firework Temp-001" ID="{2BEE8516-7D84-4B26-9ED7-961C4BB3895A}" ShortID="361717404">
+													<PropertyList>
+														<Property Name="3DSpatialization" Type="int16" Value="2"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Attenuation">
+															<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+														</Reference>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Explode Firework Temp" ID="{54C56A3A-F188-45D4-8B73-389973AD897E}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Explode Firework Temp.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="564181166"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Explode Firework Temp" ID="{54C56A3A-F188-45D4-8B73-389973AD897E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Explode Firework Temp-002" ID="{DB34FF97-A581-4441-BD99-BDCB080B358A}" ShortID="149767383">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Explode Firework Temp-002" ID="{D0B1BA6A-A30A-4388-BEC4-F9A5B8EBACC4}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0672316070473486"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Explode Firework Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="43412889"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Explode Firework Temp-002" ID="{D0B1BA6A-A30A-4388-BEC4-F9A5B8EBACC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
-								</RandomSequenceContainer>
+								</BlendContainer>
+								<BlendContainer Name="Grenadier Punch" ID="{68486747-F1C8-41F9-94FD-76DC69A5CCF8}" ShortID="272579859">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Grenadier" ID="{6EE5BACE-CFDB-4928-91B7-7001DD1A91A1}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Click" ID="{1E7FA9D4-667B-427F-8234-DC68DB7EBEAB}" ShortID="1049729696">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Color" Type="int16" Value="2"/>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Click-001" ID="{DED87DB0-691B-4285-8B25-992A6CBDFA5B}" ShortID="539715728">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Click-001" ID="{06F1B0FB-E1B6-411B-BE86-18B4F4393EC5}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Click-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="430249844"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Click-001" ID="{06F1B0FB-E1B6-411B-BE86-18B4F4393EC5}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Click-002" ID="{A748E87E-0A6C-4F46-A03F-F074EDB07CF0}" ShortID="613202934">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Click-002" ID="{DA125590-5674-4F41-B6A7-AA95AF36B97B}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Click-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1034070318"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Click-002" ID="{DA125590-5674-4F41-B6A7-AA95AF36B97B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Click-003" ID="{291D1EAE-1106-4394-91D0-8D2893B187A8}" ShortID="695439079">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Click-003" ID="{3DCD95A9-471D-44C2-BF4B-771B8DEC3AD1}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Click-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1042979359"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Click-003" ID="{3DCD95A9-471D-44C2-BF4B-771B8DEC3AD1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Garage" ID="{4D153CC5-9E6D-49A4-8959-FBFF5A90D7A4}" ShortID="262596155">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Garage-001" ID="{69196DEF-8086-410B-BEB4-4F392B9781F4}" ShortID="451805222">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Garage-001" ID="{6A2D6F1F-F37E-4119-9D79-37FBFF732851}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Garage-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1038399956"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Garage-001" ID="{6A2D6F1F-F37E-4119-9D79-37FBFF732851}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Garage-002" ID="{EAE0FE49-1586-4A74-8C23-FD70381C0715}" ShortID="8140668">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Garage-002" ID="{C4796EA3-3F7C-472F-965F-5F495B633FE6}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Garage-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="184152418"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Garage-002" ID="{C4796EA3-3F7C-472F-965F-5F495B633FE6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Gear" ID="{84A1AD97-F504-4E95-8AEB-1482277B1A72}" ShortID="338623369">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Gear-001" ID="{8BD826D5-D008-4FED-A3B1-D7788E9CFC27}" ShortID="819549282">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Gear-001" ID="{FEDEC0F4-A8AA-4FDB-A18E-B0340410EEFC}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Gear-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="581571556"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Gear-001" ID="{FEDEC0F4-A8AA-4FDB-A18E-B0340410EEFC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Gear-002" ID="{F2A7E5A5-D858-4B36-A4E8-91DBCEB22D5B}" ShortID="520753150">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Gear-002" ID="{9D8E1123-1DE1-4046-A6FD-28569C90CD79}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Gear-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="309127501"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Gear-002" ID="{9D8E1123-1DE1-4046-A6FD-28569C90CD79}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Gear-003" ID="{627CFAE4-EE17-44BF-B626-269B378B6837}" ShortID="510280000">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Gear-003" ID="{75A523B9-6901-4C11-B9B4-8177EB48DAD3}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Gear-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="850755547"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Gear-003" ID="{75A523B9-6901-4C11-B9B4-8177EB48DAD3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Impact" ID="{FE17B49C-778C-43B3-961E-62E4278B3A38}" ShortID="28137511">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Impact-001" ID="{54B5E510-B52F-45A8-AFC1-F4155D9B36BD}" ShortID="810283118">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Impact-001" ID="{A0C8310D-464A-4983-8EEE-813D3D06D5A4}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Impact-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="71849093"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Impact-001" ID="{A0C8310D-464A-4983-8EEE-813D3D06D5A4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Impact-002" ID="{CA1BDB3F-DB44-429B-84EA-3A2ED53BA02C}" ShortID="115652823">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Impact-002" ID="{75BD1033-7E72-4FCF-A72C-D0B98DD426FF}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Impact-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="75136265"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Impact-002" ID="{75BD1033-7E72-4FCF-A72C-D0B98DD426FF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Impact-003" ID="{40F3FFA9-9788-4658-9F64-E78D6463C0D8}" ShortID="267036193">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Impact-003" ID="{B8F49E8B-EBBD-4905-A24F-32E2F4D7A295}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Impact-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="622890678"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Impact-003" ID="{B8F49E8B-EBBD-4905-A24F-32E2F4D7A295}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Laser" ID="{21286F04-9155-4E30-8614-B02A009A8FD5}" ShortID="84540924">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Laser-001" ID="{00DE06F6-B88A-4ADE-BE1F-1D5A703947F9}" ShortID="1002947822">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Laser-001" ID="{D7EF0DC3-90A3-4E98-A388-8AAABBCA25C4}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Laser-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1008669567"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Laser-001" ID="{D7EF0DC3-90A3-4E98-A388-8AAABBCA25C4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Laser-002" ID="{B6E55915-4FE0-4EDE-8A0D-03736FA424AF}" ShortID="455336674">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Laser-002" ID="{B4E5179C-2DA5-487A-A3EE-8C2F8D598223}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Laser-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="565811146"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Laser-002" ID="{B4E5179C-2DA5-487A-A3EE-8C2F8D598223}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Laser-003" ID="{84FD12CA-8908-44E5-A84C-619504576F0B}" ShortID="1032842071">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Laser-003" ID="{2A7BA9DB-F35E-4C36-9902-588EDDE5AE84}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Laser-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="987877654"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Laser-003" ID="{2A7BA9DB-F35E-4C36-9902-588EDDE5AE84}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Laser-004" ID="{C8CC3F59-E77F-485E-A6C0-2ED5C0D584C2}" ShortID="5582010">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Laser-004" ID="{DEFA0F30-D95B-45EF-9EBC-19E0D4C33BB2}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Laser-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="309211176"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Laser-004" ID="{DEFA0F30-D95B-45EF-9EBC-19E0D4C33BB2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Lever" ID="{B1F295A4-A663-4251-94D9-DDAA79CB3889}" ShortID="476299647">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch Lever-001" ID="{39F2FFE7-0451-4BDF-AFBD-FD30EBCA5A08}" ShortID="69596332">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Lever-001" ID="{79EA70FB-D17F-4FDB-953F-3F2F6A168A7C}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Lever-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="693843159"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Lever-001" ID="{79EA70FB-D17F-4FDB-953F-3F2F6A168A7C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Lever-002" ID="{1F81BCD8-9E6E-4405-9056-6F08009A5016}" ShortID="474221120">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Lever-002" ID="{C05884BE-EF17-4908-8478-5BA356890480}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Lever-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="85814832"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Lever-002" ID="{C05884BE-EF17-4908-8478-5BA356890480}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch Lever-003" ID="{079FBADC-406B-42E5-A88F-4669EE08BFBE}" ShortID="621376812">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch Lever-003" ID="{84A6EEB8-FD23-4EEF-B4B3-C7EC0DAF5CA1}">
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch Lever-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="885014972"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch Lever-003" ID="{84A6EEB8-FD23-4EEF-B4B3-C7EC0DAF5CA1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Punch Full" ID="{E6E816BA-8000-4F88-B1A9-D7C09C270069}" ShortID="60978802">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>3</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Grenadier Punch-001" ID="{9C8A843C-6B17-4093-ACD4-55EBAFE6ED17}" ShortID="573787036">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch-001" ID="{AD34B1DF-CD67-4800-B0A0-DCC0D24889FA}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0382339934886962"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="1.02594549194669"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="76887822"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch-001" ID="{AD34B1DF-CD67-4800-B0A0-DCC0D24889FA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch-002" ID="{FE567163-91AB-4689-8EC4-BCB2A056C22C}" ShortID="457139954">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch-002" ID="{4D32107F-C3FD-45C6-AC75-522F3E26B2F6}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.036335490380061"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.77515712810797"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="156017830"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch-002" ID="{4D32107F-C3FD-45C6-AC75-522F3E26B2F6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Grenadier Punch-003" ID="{DC9C842B-8E30-460B-B699-D0353EE7FCC7}" ShortID="213796751">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Grenadier Punch-003" ID="{37ED1D5D-7374-4B2D-8731-A3CD3F6E192A}">
+															<PropertyList>
+																<Property Name="FadeOutDuration" Type="Real64" Value="0.0460445029858996"/>
+																<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+																<Property Name="TrimBegin" Type="Real64" Value="0.825923272309576"/>
+															</PropertyList>
+															<Language>SFX</Language>
+															<AudioFile>Grenadier Punch-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="691652961"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Grenadier Punch-003" ID="{37ED1D5D-7374-4B2D-8731-A3CD3F6E192A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 						</Folder>
 					</ChildrenList>
@@ -2309,6 +4052,11 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-5</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -2645,7 +4393,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-20</Value>
+										<Value>-28</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2688,7 +4436,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-16</Value>
+										<Value>-21</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2844,6 +4592,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2884,6 +4637,11 @@
 										<Value>-300</Value>
 									</ValueList>
 								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -2917,9 +4675,9 @@
 						</Sound>
 						<Sound Name="Door 3" ID="{FEAD48A7-8D60-470C-8E75-D92952BF2DBD}" ShortID="1063742150">
 							<PropertyList>
-								<Property Name="Inclusion" Type="bool">
+								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>False</Value>
+										<Value>-3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2931,6 +4689,21 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Door 3" ID="{EB2A9121-AC2E-4519-923C-B9D24966BA8E}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Door 3.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="225260848"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Door 3" ID="{EB2A9121-AC2E-4519-923C-B9D24966BA8E}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 						<BlendContainer Name="Box Destroy" ID="{22BEC114-6020-414C-BD6B-134D95963013}" ShortID="47554829">
 							<PropertyList>
@@ -3977,6 +5750,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Door 2" ID="{1730FE46-3F85-40D5-B562-856A7B0E6CF0}" ShortID="142896872">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>

@@ -187,10 +187,20 @@ namespace Gamekit3D
             grenadier_footsteps.Post(grenadier_footsteps_source);
         }
 
+        public void PlayThrow()
+        {
+            grenadier_throw.Post(grenadier_throw_source);
+        }
+
+        //public void PlayPunch()
+        //{
+            //grenadier_punch.Post(grenadier_punch_source);
+        //}
+
         public void Shoot()
         {
             //throwAudioPlayer.PlayRandomClip();
-            grenadier_throw.Post(grenadier_throw_source);
+            //grenadier_throw.Post(grenadier_throw_source);
 
             Vector3 toTarget = m_GrenadeTarget - transform.position;
 

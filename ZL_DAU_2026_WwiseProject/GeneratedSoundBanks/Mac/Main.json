@@ -10,11 +10,27 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{02518535-C752-54D3-0165-1946ABD55FC3}",
+    "Hash": "{9AC2D338-3F38-9865-9DC1-3047A14C71B4}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "9238980",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Space Temp.wav",
+      "CachePath": "AD/{AD244962-B9E6-234F-A8BE-48D3D97453E0}.wem"
+     },
+     {
+      "Id": "11967961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-006.wav",
+      "CachePath": "2C/{2C0E357E-9871-9B87-3C91-7D9CBFF2BBC3}.wem"
+     },
      {
       "Id": "35848546",
       "Language": "SFX",
@@ -24,12 +40,52 @@
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
      },
      {
+      "Id": "43412889",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Firework Temp-002.wav",
+      "CachePath": "DE/{DE4D179C-0199-86BF-071F-96B109CCDCFF}.wem"
+     },
+     {
       "Id": "51683295",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp Staff Magic 1-004.wav",
       "CachePath": "A2/{A203BB14-17C4-BD55-1F41-11C8E4DB98CE}.wem"
+     },
+     {
+      "Id": "58551877",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Bottle Temp-002.wav",
+      "CachePath": "7A/{7A1CBDC9-D01C-3FFF-50D2-3F753031F8A1}.wem"
+     },
+     {
+      "Id": "58646353",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-003.wav",
+      "CachePath": "F6/{F6A28A36-AF6E-4145-5B6A-E620C5CDD61D}.wem"
+     },
+     {
+      "Id": "70442514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Bottle Temp-003.wav",
+      "CachePath": "CB/{CB573C6F-5F13-BD42-8431-03DC6B6A2102}.wem"
+     },
+     {
+      "Id": "76887822",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch-001.wav",
+      "CachePath": "A9/{A9E41C5E-0177-4035-60BC-3E782793FA85}.wem"
      },
      {
       "Id": "77073071",
@@ -48,20 +104,20 @@
       "CachePath": "D1/{D1AC8C08-2CA2-D799-98B8-57E7F9377C6B}.wem"
      },
      {
+      "Id": "78550955",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Core Temp Loop.wav",
+      "CachePath": "67/{67C522D8-320C-6752-9658-E425F2B353EB}.wem"
+     },
+     {
       "Id": "89093449",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Energy 2-002.wav",
       "CachePath": "69/{693BCDDF-5B00-EAAE-435B-F28A080FC65C}.wem"
-     },
-     {
-      "Id": "96397481",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Footsteps, Creature, Troll, Rock Giant, Huge Steps 02 SND83739 - Pitch 200 1.wav",
-      "CachePath": "F9/{F9E4A62E-FECF-401D-63CE-0C7C2008C7B1}.wem"
      },
      {
       "Id": "99603305",
@@ -88,12 +144,28 @@
       "CachePath": "48/{488079DD-AB8C-87BB-068C-81F612D3B33D}.wem"
      },
      {
-      "Id": "134740307",
+      "Id": "136118414",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Games, Arcade, Las Vegas, Slot Machine, Racing Game, Symbol Land, Button SND135694.wav",
-      "CachePath": "07/{07DD1B90-681F-C33C-DC52-091A6EF5D91D}.wem"
+      "ShortName": "Grenadier Explode Radiance Temp.wav",
+      "CachePath": "6C/{6C0171DF-2624-C4C7-F95B-0E6998331E5E}.wem"
+     },
+     {
+      "Id": "142767538",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Concrete-003.wav",
+      "CachePath": "66/{6683328C-C168-FE14-9E0C-B42B7CC23790}.wem"
+     },
+     {
+      "Id": "144795706",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Rock-001.wav",
+      "CachePath": "7A/{7A743EDA-26B1-B8DF-442D-C83BD021377D}.wem"
      },
      {
       "Id": "151309620",
@@ -112,12 +184,36 @@
       "CachePath": "21/{210965A1-6DFB-D948-35C9-293B6BBC8C75}.wem"
      },
      {
-      "Id": "244868089",
+      "Id": "156017830",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Musical, Toy, Music Box, Wind Slow, Plays We Wish You A Merry Christmas, Mechanism Buzz SND134705.wav",
-      "CachePath": "84/{8484E1F6-BDC4-344D-EC66-9F56F358DAB6}.wem"
+      "ShortName": "Grenadier Punch-002.wav",
+      "CachePath": "27/{27CE4B22-5FCB-D97A-AB21-7E7357291C86}.wem"
+     },
+     {
+      "Id": "164018614",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Glass Temp-002.wav",
+      "CachePath": "15/{155B356E-CFE0-BB03-86A9-AC4A9B5554FB}.wem"
+     },
+     {
+      "Id": "179625686",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Rock-002.wav",
+      "CachePath": "D0/{D0B3E151-9F7A-0309-569E-36D66F220EFD}.wem"
+     },
+     {
+      "Id": "225260848",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Door 3.wav",
+      "CachePath": "77/{772E5763-057D-0FB1-763D-3509F358EFB8}.wem"
      },
      {
       "Id": "263220006",
@@ -126,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "Communications, Cellphone, Nokia M, Vibrate, Message SND1765.wav",
       "CachePath": "85/{855BABD8-7414-6AA5-0BD8-94FE87DB325E}.wem"
+     },
+     {
+      "Id": "300737457",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Glass Temp-001.wav",
+      "CachePath": "F2/{F27B8E49-F610-5390-E477-4D151576E259}.wem"
      },
      {
       "Id": "310465850",
@@ -142,6 +246,14 @@
       "Location": "Memory",
       "ShortName": "Box_Hit 2-002.wav",
       "CachePath": "DA/{DA19AF17-3512-31B8-6579-500B65418E58}.wem"
+     },
+     {
+      "Id": "338647331",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Crystal Temp-001.wav",
+      "CachePath": "95/{95BCCC81-1403-4DF1-0FED-5A3F6057A78F}.wem"
      },
      {
       "Id": "338863219",
@@ -192,12 +304,12 @@
       "CachePath": "12/{12398157-87C1-E8E0-FD8A-AA44A0753142}.wem"
      },
      {
-      "Id": "391892974",
+      "Id": "412117381",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Food & Drink, Glassware, Glass, Small, Kitchen, Ding SND6595.wav",
-      "CachePath": "9D/{9DBA0142-F607-08B4-D631-770BFC390341}.wem"
+      "ShortName": "Grenadier Bounce Glass Temp-002.wav",
+      "CachePath": "C9/{C9D7FA1B-190A-11B1-34F4-1F9A69F65A68}.wem"
      },
      {
       "Id": "430527608",
@@ -208,12 +320,28 @@
       "CachePath": "F7/{F7C293FE-79FE-98B5-A021-2600069D2D85}.wem"
      },
      {
+      "Id": "439779804",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Bottle Temp-004.wav",
+      "CachePath": "69/{6944DC49-47FC-F254-30F8-7E09AAEF9F36}.wem"
+     },
+     {
       "Id": "465091974",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Bullets, Impact, Metal, Burst, Multiple, Designed SND145777 1.wav",
       "CachePath": "6E/{6EBFF010-A220-9B5E-C1E4-C030DE1652A2}.wem"
+     },
+     {
+      "Id": "468197354",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Glass Temp-003.wav",
+      "CachePath": "10/{10380E0A-7B55-6D79-A8B5-22C6251C33C8}.wem"
      },
      {
       "Id": "468605295",
@@ -224,6 +352,14 @@
       "CachePath": "34/{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem"
      },
      {
+      "Id": "470217057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Rock-004.wav",
+      "CachePath": "CF/{CF82E78D-5A02-6A66-1BE8-8D517C061C3F}.wem"
+     },
+     {
       "Id": "472460002",
       "Language": "SFX",
       "Streaming": "false",
@@ -232,12 +368,12 @@
       "CachePath": "F9/{F9910134-A274-2109-7A39-AD7F2831EAB3}.wem"
      },
      {
-      "Id": "478817948",
+      "Id": "473767863",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Scifi, Weapon, Spaceship Bomb SND59994.wav",
-      "CachePath": "E2/{E2F17C98-9CEB-D510-DCD9-D234E7D9DC61}.wem"
+      "ShortName": "Grenadier Bounce Glass Temp-004.wav",
+      "CachePath": "52/{52911A2E-9E72-2E83-C908-CA28A4D96E11}.wem"
      },
      {
       "Id": "495535085",
@@ -256,6 +392,14 @@
       "CachePath": "F1/{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem"
      },
      {
+      "Id": "503387856",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Bottle Temp-001.wav",
+      "CachePath": "53/{53B5FF30-B942-4CF8-C072-B86F254B7B91}.wem"
+     },
+     {
       "Id": "503478468",
       "Language": "SFX",
       "Streaming": "false",
@@ -264,12 +408,28 @@
       "CachePath": "6C/{6C9BA8B8-6C3D-4733-2D0E-F09ED5113187}.wem"
      },
      {
+      "Id": "516820818",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-002.wav",
+      "CachePath": "78/{784467F7-220E-4DDB-624C-CA0C3D256EDE}.wem"
+     },
+     {
       "Id": "522503441",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Destruction, Crash & Debris, Car Crash, Heavy, Glass Break 02 SND14106.wav",
       "CachePath": "40/{404C1485-C2F8-9144-90AE-E6F9B14BAA51}.wem"
+     },
+     {
+      "Id": "531206018",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Crystal Temp-003.wav",
+      "CachePath": "B2/{B2DC37AF-DFA3-D62F-A5CD-A5B86FDFBC67}.wem"
      },
      {
       "Id": "553490913",
@@ -304,12 +464,28 @@
       "CachePath": "56/{56A907FB-B916-9285-36C2-3EFD41ECFBB7}.wem"
      },
      {
+      "Id": "564181166",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Firework Temp.wav",
+      "CachePath": "5B/{5B7EAB98-3BE1-42B0-746F-DA3B05488F09}.wem"
+     },
+     {
       "Id": "571654708",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Debris 1-002.wav",
       "CachePath": "10/{1084BB51-69B9-C642-F24C-0EE4E0E61379}.wem"
+     },
+     {
+      "Id": "581216791",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Concrete-002.wav",
+      "CachePath": "84/{84CCE4F9-2D94-7B2C-75CD-9C1187967BF1}.wem"
      },
      {
       "Id": "585847873",
@@ -358,6 +534,30 @@
       "Location": "Memory",
       "ShortName": "Rubber, Impact, Balloon, Hit, Thudd SND37697 1.wav",
       "CachePath": "FF/{FF74DECA-1BB8-1DE6-C4FC-9FC6456D136B}.wem"
+     },
+     {
+      "Id": "625811884",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Throw Temp2.wav",
+      "CachePath": "29/{29BD2AE0-ECBA-5788-1C9D-669C4202C9FC}.wem"
+     },
+     {
+      "Id": "627356145",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-001.wav",
+      "CachePath": "2D/{2D977D52-EB02-B441-5B60-F685559E514D}.wem"
+     },
+     {
+      "Id": "629681671",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Rock-003.wav",
+      "CachePath": "BA/{BA3F3CC7-8B10-B8FE-E5DA-DC6834D1D155}.wem"
      },
      {
       "Id": "634045322",
@@ -416,6 +616,14 @@
       "CachePath": "38/{38EA2A47-C9BC-B643-3169-A7C22FF30F48}.wem"
      },
      {
+      "Id": "675812360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Glass Temp-001.wav",
+      "CachePath": "D9/{D9F6D8BB-223D-2BA2-2E08-CE8EA32654FE}.wem"
+     },
+     {
       "Id": "683604547",
       "Language": "SFX",
       "Streaming": "false",
@@ -424,12 +632,28 @@
       "CachePath": "C2/{C2E7DB51-F87F-AF62-9B2D-0C7E16BD3ECD}.wem"
      },
      {
+      "Id": "690716383",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-010.wav",
+      "CachePath": "A7/{A7909C3D-94BF-5E9C-DC28-04B96F1A869D}.wem"
+     },
+     {
       "Id": "690924407",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "User Interface, Beep, Button Click, Plop, Short SND113031.wav",
       "CachePath": "F0/{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem"
+     },
+     {
+      "Id": "691652961",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch-003.wav",
+      "CachePath": "4C/{4C1201E1-7405-446C-ED6D-94F48C2CCCF8}.wem"
      },
      {
       "Id": "694507640",
@@ -446,6 +670,30 @@
       "Location": "Memory",
       "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
       "CachePath": "50/{50DFA5FE-292C-D1C9-2A8F-71A12C96153C}.wem"
+     },
+     {
+      "Id": "737316193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-005.wav",
+      "CachePath": "50/{5032E59E-4954-3E53-F660-F86D33BE6652}.wem"
+     },
+     {
+      "Id": "749124613",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-008.wav",
+      "CachePath": "0B/{0B0F9FB4-B6D4-E76C-CB40-ECC45BC60367}.wem"
+     },
+     {
+      "Id": "767186854",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Whoosh Temp.wav",
+      "CachePath": "0D/{0DBEB22F-1EE0-AC1A-7DC9-6AB32F1844D2}.wem"
      },
      {
       "Id": "769204026",
@@ -472,6 +720,30 @@
       "CachePath": "9E/{9E71FDD1-A45B-05FD-F3E8-038C82055E3E}.wem"
      },
      {
+      "Id": "777077678",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-004.wav",
+      "CachePath": "27/{27889D1B-3162-78C6-6CEF-30E66D33CAF8}.wem"
+     },
+     {
+      "Id": "786790842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Crystal Temp-002.wav",
+      "CachePath": "6A/{6A097693-2CF5-EF64-BC19-559ECC6911C6}.wem"
+     },
+     {
+      "Id": "801215808",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Concrete-004.wav",
+      "CachePath": "AD/{AD0492DA-8B38-9134-6E19-573D6A0ABA2F}.wem"
+     },
+     {
       "Id": "809190784",
       "Language": "SFX",
       "Streaming": "false",
@@ -486,6 +758,14 @@
       "Location": "Memory",
       "ShortName": "Box_Energy 3-005.wav",
       "CachePath": "E2/{E26BE9B4-BE87-DBD6-0A45-814253147BDA}.wem"
+     },
+     {
+      "Id": "816980910",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Concrete-005.wav",
+      "CachePath": "14/{1446AC8F-5018-6686-2F34-AEBFE7E2D6B2}.wem"
      },
      {
       "Id": "817893841",
@@ -536,14 +816,6 @@
       "CachePath": "4B/{4BA206FC-1022-DB14-EFFD-26E6CE33389C}.wem"
      },
      {
-      "Id": "887406169",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Designed, Impact, Hit, Large, Big Thud, Deep, Variations SND121059.wav",
-      "CachePath": "57/{57DEB6BE-82CF-2E45-7BCA-2633615D6D48}.wem"
-     },
-     {
       "Id": "889701221",
       "Language": "SFX",
       "Streaming": "false",
@@ -558,6 +830,14 @@
       "Location": "Memory",
       "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1.wav",
       "CachePath": "A2/{A2B5FAA3-7B86-7EA5-D86A-907A1A2F5E9E}.wem"
+     },
+     {
+      "Id": "931902254",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Bounce Crystal Temp-004.wav",
+      "CachePath": "3C/{3C35C497-A947-5485-F40E-98659C071032}.wem"
      },
      {
       "Id": "933877617",
@@ -608,12 +888,44 @@
       "CachePath": "7B/{7B4669B0-DC8D-5C5A-F559-8122DDF5195B}.wem"
      },
      {
+      "Id": "999016016",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-007.wav",
+      "CachePath": "78/{78CA32D0-F8E0-C6D6-3ECA-35C88E1D2C02}.wem"
+     },
+     {
+      "Id": "1001676239",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Garage-009.wav",
+      "CachePath": "B8/{B84618B9-C0DC-4857-B8ED-7570CDED1026}.wem"
+     },
+     {
+      "Id": "1002273719",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Rock-005.wav",
+      "CachePath": "94/{94988D84-4D04-DA21-4EBA-25B024A7F21B}.wem"
+     },
+     {
       "Id": "1002597688",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771.wav",
       "CachePath": "F5/{F55A857A-9F9A-8C8B-C213-7E1595308286}.wem"
+     },
+     {
+      "Id": "1003868170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Crash Temp.wav",
+      "CachePath": "BB/{BBA48208-7A1D-E952-CBA6-5AD7A1CDD6F0}.wem"
      },
      {
       "Id": "1011156766",
@@ -640,6 +952,14 @@
       "CachePath": "AA/{AA6D9633-795A-95AE-FA80-A5FED9BB749C}.wem"
      },
      {
+      "Id": "1039114373",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Explode Glass Temp-003.wav",
+      "CachePath": "70/{702A519A-AB12-816A-866E-F1464F8A2A90}.wem"
+     },
+     {
       "Id": "1054134572",
       "Language": "SFX",
       "Streaming": "false",
@@ -662,6 +982,14 @@
       "Location": "Memory",
       "ShortName": "Box_Hit 2-001.wav",
       "CachePath": "92/{922892FF-D08A-2283-1DE3-F6D281FD5C7E}.wem"
+     },
+     {
+      "Id": "1063238584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Footstep Metal Concrete-001.wav",
+      "CachePath": "C3/{C3ED2789-33BB-81D5-4FC9-BE17D6591329}.wem"
      },
      {
       "Id": "1069972770",
@@ -968,8 +1296,13 @@
       "GUID": "{3FEA7971-C2B4-4D5A-8000-C026D4B46A22}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "6.780354",
+      "DurationMax": "6.780354",
+      "MediaRefs": [
+       {
+        "Id": "225260848"
+       }
+      ]
      },
      {
       "Id": "3794664810",
@@ -991,12 +1324,46 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierBounce",
       "GUID": "{3EB3C0C3-03B5-4E1B-9515-9149A631FA3C}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "0.25797915",
-      "DurationMax": "0.25797915",
+      "DurationMin": "0.77221376",
+      "DurationMax": "0.77629155",
       "MediaRefs": [
        {
-        "Id": "391892974"
+        "Id": "58551877"
+       },
+       {
+        "Id": "70442514"
+       },
+       {
+        "Id": "300737457"
+       },
+       {
+        "Id": "338647331"
+       },
+       {
+        "Id": "412117381"
+       },
+       {
+        "Id": "439779804"
+       },
+       {
+        "Id": "468197354"
+       },
+       {
+        "Id": "473767863"
+       },
+       {
+        "Id": "503387856"
+       },
+       {
+        "Id": "531206018"
+       },
+       {
+        "Id": "786790842"
+       },
+       {
+        "Id": "931902254"
        }
       ]
      },
@@ -1010,7 +1377,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "244868089"
+        "Id": "78550955"
        }
       ]
      },
@@ -1065,12 +1432,37 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierExplosion",
       "GUID": "{6DBD8D06-826C-4B4A-B9B3-2FE83C3C2CC9}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "1.9390357",
-      "DurationMax": "1.9390357",
+      "DurationMin": "1.9914134",
+      "DurationMax": "2.1711183",
       "MediaRefs": [
        {
-        "Id": "478817948"
+        "Id": "9238980"
+       },
+       {
+        "Id": "43412889"
+       },
+       {
+        "Id": "136118414"
+       },
+       {
+        "Id": "164018614"
+       },
+       {
+        "Id": "564181166"
+       },
+       {
+        "Id": "675812360"
+       },
+       {
+        "Id": "767186854"
+       },
+       {
+        "Id": "1003868170"
+       },
+       {
+        "Id": "1039114373"
        }
       ]
      },
@@ -1080,12 +1472,70 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierFootsteps",
       "GUID": "{3B4D65B0-D97C-4F07-90CB-F69D2249A0ED}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "0.58500725",
-      "DurationMax": "0.58500725",
+      "DurationMin": "0.88749564",
+      "DurationMax": "1.0784875",
       "MediaRefs": [
        {
-        "Id": "96397481"
+        "Id": "11967961"
+       },
+       {
+        "Id": "58646353"
+       },
+       {
+        "Id": "142767538"
+       },
+       {
+        "Id": "144795706"
+       },
+       {
+        "Id": "179625686"
+       },
+       {
+        "Id": "470217057"
+       },
+       {
+        "Id": "516820818"
+       },
+       {
+        "Id": "581216791"
+       },
+       {
+        "Id": "627356145"
+       },
+       {
+        "Id": "629681671"
+       },
+       {
+        "Id": "690716383"
+       },
+       {
+        "Id": "737316193"
+       },
+       {
+        "Id": "749124613"
+       },
+       {
+        "Id": "777077678"
+       },
+       {
+        "Id": "801215808"
+       },
+       {
+        "Id": "816980910"
+       },
+       {
+        "Id": "999016016"
+       },
+       {
+        "Id": "1001676239"
+       },
+       {
+        "Id": "1002273719"
+       },
+       {
+        "Id": "1063238584"
        }
       ]
      },
@@ -1095,12 +1545,19 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierPunch",
       "GUID": "{8F7A8812-A3D8-4596-99F9-5D1BF0181BE2}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "1.4266459",
-      "DurationMax": "1.4266459",
+      "DurationMin": "1.2863684",
+      "DurationMax": "1.4473637",
       "MediaRefs": [
        {
-        "Id": "887406169"
+        "Id": "76887822"
+       },
+       {
+        "Id": "156017830"
+       },
+       {
+        "Id": "691652961"
        }
       ]
      },
@@ -1125,12 +1582,13 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierThrow",
       "GUID": "{BF88C8AB-31A5-428E-A7A8-6A9B5F630A79}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "1.0545312",
-      "DurationMax": "1.0545312",
+      "DurationMin": "2.79692",
+      "DurationMax": "2.8066301",
       "MediaRefs": [
        {
-        "Id": "134740307"
+        "Id": "625811884"
        }
       ]
      },
@@ -1662,6 +2120,6 @@
     ]
    }
   ],
-  "FileHash": "{4C457E89-D84A-4FEA-EEE6-A40EF9CDE67B}"
+  "FileHash": "{014CFEB4-2368-6F84-4736-117522544E11}"
  }
 }

@@ -12,7 +12,7 @@ namespace Gamekit3D
         {
             if (m_MonoBehaviour.punchAudioPlayer)
                 m_MonoBehaviour.punchAudioPlayer.PlayRandomClip();
-            //if (m_MonoBehaviour.grenadier_punch)
+           //if (m_MonoBehaviour.grenadier_punch)
                 //m_MonoBehaviour.grenadier_punch.Post(grenadier_punch_source);
         }
     }
