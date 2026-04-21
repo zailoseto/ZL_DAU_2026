@@ -1189,7 +1189,11 @@ MonoBehaviour:
     attackRoot: {fileID: 4667632706155090}
   effects: []
   hitAudio: {fileID: 0}
-  attackAudio: {fileID: 0}
+  staff_swipe:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  staff_swipe_source: {fileID: 0}
 --- !u!1 &1246684386998542
 GameObject:
   m_ObjectHideFlags: 0
@@ -3670,11 +3674,15 @@ MonoBehaviour:
       m_Bits: 2147483648
   timeToStopPursuit: 3
   attackAudio: {fileID: 114190857395315650}
-  hitAudio: {fileID: 0}
-  ChomperAttack:
+  ChomperAttackGrowl:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a87a6e3c93d70b745ae5670f985a0379,
+      type: 2}
+  ChomperAttackBite:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 30ea560381e968c4e9b974571a4034f5,
       type: 2}
   ChomperRunFront:
     idInternal: 0

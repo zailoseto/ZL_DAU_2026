@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{9AC2D338-3F38-9865-9DC1-3047A14C71B4}",
+    "Hash": "{3DD54D6E-8098-681E-AF16-DB4DF71F6375}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
     "Media": [
+     {
+      "Id": "2839602",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Click-001.wav",
+      "CachePath": "46/{467C13CA-D178-CC8A-5182-175E8A78A7A4}.wem"
+     },
      {
       "Id": "9238980",
       "Language": "SFX",
@@ -32,6 +40,46 @@
       "CachePath": "2C/{2C0E357E-9871-9B87-3C91-7D9CBFF2BBC3}.wem"
      },
      {
+      "Id": "15628674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-006.wav",
+      "CachePath": "37/{377914E2-6289-ECBC-EDC5-F37E99798F46}.wem"
+     },
+     {
+      "Id": "16824727",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-001.wav",
+      "CachePath": "2C/{2C8C1B8E-4B79-15EC-6333-007D87CA178B}.wem"
+     },
+     {
+      "Id": "20570630",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-003.wav",
+      "CachePath": "2F/{2F30F395-EE09-A3F9-C20F-EBC25760AF0F}.wem"
+     },
+     {
+      "Id": "23544570",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Drone.wav",
+      "CachePath": "FE/{FE8D3D39-9AA7-6DB5-8D22-FCBCC7EE81B8}.wem"
+     },
+     {
+      "Id": "33936021",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Growl-004.wav",
+      "CachePath": "55/{55BF488F-CDA9-376E-0FE8-8701A0113D8F}.wem"
+     },
+     {
       "Id": "35848546",
       "Language": "SFX",
       "Streaming": "false",
@@ -40,12 +88,28 @@
       "CachePath": "4C/{4C740A12-7645-E5F3-D36A-38F47B8B10B6}.wem"
      },
      {
+      "Id": "41401427",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-001.wav",
+      "CachePath": "40/{40459C73-3855-BBD5-B542-05822C03C10A}.wem"
+     },
+     {
       "Id": "43412889",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Explode Firework Temp-002.wav",
       "CachePath": "DE/{DE4D179C-0199-86BF-071F-96B109CCDCFF}.wem"
+     },
+     {
+      "Id": "50873095",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Hit.wav",
+      "CachePath": "71/{71B47318-484D-0FBD-9E1F-F7A200B37C52}.wem"
      },
      {
       "Id": "51683295",
@@ -72,6 +136,30 @@
       "CachePath": "F6/{F6A28A36-AF6E-4145-5B6A-E620C5CDD61D}.wem"
      },
      {
+      "Id": "63676384",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Bite-002.wav",
+      "CachePath": "66/{662CBD99-27E3-047D-1BBA-8C3B0CBEC569}.wem"
+     },
+     {
+      "Id": "63804842",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-002.wav",
+      "CachePath": "C6/{C62DF1D6-76AC-33C7-BB96-F3FA54035B78}.wem"
+     },
+     {
+      "Id": "68870627",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss Low-001.wav",
+      "CachePath": "E9/{E9140837-51B5-1F2D-F1BE-3A7E07493547}.wem"
+     },
+     {
       "Id": "70442514",
       "Language": "SFX",
       "Streaming": "false",
@@ -80,12 +168,36 @@
       "CachePath": "CB/{CB573C6F-5F13-BD42-8431-03DC6B6A2102}.wem"
      },
      {
-      "Id": "76887822",
+      "Id": "71849093",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grenadier Punch-001.wav",
-      "CachePath": "A9/{A9E41C5E-0177-4035-60BC-3E782793FA85}.wem"
+      "ShortName": "Grenadier Punch Impact-001.wav",
+      "CachePath": "20/{20F11057-0B18-557F-B461-19833ACCF46D}.wem"
+     },
+     {
+      "Id": "72003085",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -002.wav",
+      "CachePath": "5A/{5AA8D653-DC1B-F0ED-DBD0-E1AF11D5D99E}.wem"
+     },
+     {
+      "Id": "72025512",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-010.wav",
+      "CachePath": "69/{6932CBF3-756B-92EF-83FA-CD849CA31053}.wem"
+     },
+     {
+      "Id": "75136265",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Impact-002.wav",
+      "CachePath": "74/{7445D9C6-4B9A-1441-B199-92E3574412D9}.wem"
      },
      {
       "Id": "77073071",
@@ -112,12 +224,44 @@
       "CachePath": "67/{67C522D8-320C-6752-9658-E425F2B353EB}.wem"
      },
      {
+      "Id": "82898834",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Click-003.wav",
+      "CachePath": "F2/{F20C03C5-DF62-F628-664C-A97A0D6F9862}.wem"
+     },
+     {
+      "Id": "85814832",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Lever-002.wav",
+      "CachePath": "54/{5463F9DD-DEF0-6F13-6724-19BA6C45D65F}.wem"
+     },
+     {
+      "Id": "86372442",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-006.wav",
+      "CachePath": "7B/{7BB7029F-4CED-8338-3849-0047B6426739}.wem"
+     },
+     {
       "Id": "89093449",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Energy 2-002.wav",
       "CachePath": "69/{693BCDDF-5B00-EAAE-435B-F28A080FC65C}.wem"
+     },
+     {
+      "Id": "94619097",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-008.wav",
+      "CachePath": "75/{75A87262-29E6-3077-C977-699E2D2751C6}.wem"
      },
      {
       "Id": "99603305",
@@ -134,6 +278,14 @@
       "Location": "Memory",
       "ShortName": "Temp Staff Magic 1-003.wav",
       "CachePath": "1B/{1B9C538D-68E5-1269-19A6-270688E6F934}.wem"
+     },
+     {
+      "Id": "108081104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss Low-005.wav",
+      "CachePath": "8F/{8FB3B672-8284-5F9C-EADA-7E6F806FDEC2}.wem"
      },
      {
       "Id": "116134718",
@@ -168,36 +320,28 @@
       "CachePath": "7A/{7A743EDA-26B1-B8DF-442D-C83BD021377D}.wem"
      },
      {
-      "Id": "151309620",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
-      "CachePath": "71/{7134D171-57FE-6A11-5822-90F1513BF22E}.wem"
-     },
-     {
-      "Id": "152436478",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Designed, Impact, Hit, Scifi Movement, Futuristic 02 SND121077.wav",
-      "CachePath": "21/{210965A1-6DFB-D948-35C9-293B6BBC8C75}.wem"
-     },
-     {
-      "Id": "156017830",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Grenadier Punch-002.wav",
-      "CachePath": "27/{27CE4B22-5FCB-D97A-AB21-7E7357291C86}.wem"
-     },
-     {
       "Id": "164018614",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Explode Glass Temp-002.wav",
       "CachePath": "15/{155B356E-CFE0-BB03-86A9-AC4A9B5554FB}.wem"
+     },
+     {
+      "Id": "165215534",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Growl-001.wav",
+      "CachePath": "8D/{8D9911DE-F2DA-736E-5200-BC6C59096FF3}.wem"
+     },
+     {
+      "Id": "169264814",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-001.wav",
+      "CachePath": "AD/{ADFF973A-4BEE-D4DB-5829-7CC0D579183A}.wem"
      },
      {
       "Id": "179625686",
@@ -208,6 +352,46 @@
       "CachePath": "D0/{D0B3E151-9F7A-0309-569E-36D66F220EFD}.wem"
      },
      {
+      "Id": "184152418",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Garage-002.wav",
+      "CachePath": "F9/{F9A594FA-7CDA-B46D-F24E-5D7521FB0A51}.wem"
+     },
+     {
+      "Id": "201826170",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-009.wav",
+      "CachePath": "B0/{B0938D3C-8011-61B9-32D1-8CA894EF4E38}.wem"
+     },
+     {
+      "Id": "213760840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Shield Temp.wav",
+      "CachePath": "C9/{C9EC07F4-E2A7-7DEE-818D-8982E7A27137}.wem"
+     },
+     {
+      "Id": "215162361",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-003.wav",
+      "CachePath": "67/{67E181E8-D786-77E3-DAC5-81CAB90F0F1A}.wem"
+     },
+     {
+      "Id": "221157528",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-009.wav",
+      "CachePath": "29/{29386C18-A559-CEB4-4E72-E407FCC8C578}.wem"
+     },
+     {
       "Id": "225260848",
       "Language": "SFX",
       "Streaming": "false",
@@ -216,12 +400,52 @@
       "CachePath": "77/{772E5763-057D-0FB1-763D-3509F358EFB8}.wem"
      },
      {
-      "Id": "263220006",
+      "Id": "225540313",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Communications, Cellphone, Nokia M, Vibrate, Message SND1765.wav",
-      "CachePath": "85/{855BABD8-7414-6AA5-0BD8-94FE87DB325E}.wem"
+      "ShortName": "Chomper Attack Growl-003.wav",
+      "CachePath": "33/{3322B600-6373-BBB4-677C-0EB887009B5D}.wem"
+     },
+     {
+      "Id": "270784232",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -001.wav",
+      "CachePath": "2F/{2F8DBBB9-2939-6ACB-29D5-B11D0664D1CF}.wem"
+     },
+     {
+      "Id": "272421298",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-010.wav",
+      "CachePath": "98/{982D175C-C60F-36D8-9155-753152A6E0C7}.wem"
+     },
+     {
+      "Id": "278657582",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Growl-001.wav",
+      "CachePath": "B7/{B734EDEE-F695-3786-4A0C-22BDABF3D059}.wem"
+     },
+     {
+      "Id": "287433110",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -004.wav",
+      "CachePath": "84/{8411E3B6-888B-7B51-F06F-24BD9787724E}.wem"
+     },
+     {
+      "Id": "300476799",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Rattle-004.wav",
+      "CachePath": "19/{190B34B2-3424-525B-E66A-3B5A604FD17D}.wem"
      },
      {
       "Id": "300737457",
@@ -232,12 +456,52 @@
       "CachePath": "F2/{F27B8E49-F610-5390-E477-4D151576E259}.wem"
      },
      {
+      "Id": "307666245",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Bite-001.wav",
+      "CachePath": "3D/{3D376A4B-14F9-5FB7-F18E-62BD34B576A7}.wem"
+     },
+     {
+      "Id": "309127501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Gear-002.wav",
+      "CachePath": "82/{82B970AF-82F9-C285-E056-E2116C24421B}.wem"
+     },
+     {
+      "Id": "309211176",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Laser-004.wav",
+      "CachePath": "44/{448C640C-D920-65E3-B617-619FF981CD54}.wem"
+     },
+     {
       "Id": "310465850",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Debris 1-003.wav",
       "CachePath": "63/{63801E11-72F9-E922-CFA4-65E6E68D9595}.wem"
+     },
+     {
+      "Id": "318538451",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss-001.wav",
+      "CachePath": "36/{3665A28F-B74C-22B4-27E7-CF1EBE6D6113}.wem"
+     },
+     {
+      "Id": "323065490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-011.wav",
+      "CachePath": "B2/{B2A2B565-61F9-DD6D-F107-6AED2303054A}.wem"
      },
      {
       "Id": "329474687",
@@ -264,6 +528,14 @@
       "CachePath": "C1/{C1BA1A8E-2520-6F40-B985-2AE927D07A94}.wem"
      },
      {
+      "Id": "339718302",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-001.wav",
+      "CachePath": "6B/{6B71BAD6-A789-D2A1-A2DF-C89449A54FFD}.wem"
+     },
+     {
       "Id": "344271223",
       "Language": "SFX",
       "Streaming": "false",
@@ -278,6 +550,22 @@
       "Location": "Memory",
       "ShortName": "Box_Hit 1-001.wav",
       "CachePath": "83/{8368F66A-035D-5D32-DC56-931C6CC20309}.wem"
+     },
+     {
+      "Id": "358979767",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss-002.wav",
+      "CachePath": "F4/{F4FA6441-854F-A569-4A5F-2E1E93D77A54}.wem"
+     },
+     {
+      "Id": "359428371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-002.wav",
+      "CachePath": "B0/{B03F8874-2E41-96CE-4AB3-9B3BB2A21005}.wem"
      },
      {
       "Id": "363247632",
@@ -296,12 +584,44 @@
       "CachePath": "81/{8172E7D7-DC23-EF9F-85FE-96AD41D29758}.wem"
      },
      {
-      "Id": "374377276",
+      "Id": "373428002",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Bullets, Impact, Wood, Heavy SND6413.wav",
-      "CachePath": "12/{12398157-87C1-E8E0-FD8A-AA44A0753142}.wem"
+      "ShortName": "Chomper Death Hiss Low-004.wav",
+      "CachePath": "ED/{EDBC04A3-3E7D-EC72-7225-3CD484E63FFC}.wem"
+     },
+     {
+      "Id": "377654433",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-009.wav",
+      "CachePath": "C8/{C81655D2-6C26-1FA6-075C-2099ACD8501A}.wem"
+     },
+     {
+      "Id": "382029379",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-002.wav",
+      "CachePath": "A2/{A24A332C-ADDB-4C44-E1D2-175D7E860096}.wem"
+     },
+     {
+      "Id": "391218948",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Growl-005.wav",
+      "CachePath": "93/{9390F05B-475C-9C0D-725D-3A1B448DC95D}.wem"
+     },
+     {
+      "Id": "407199840",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-001.wav",
+      "CachePath": "81/{81C70059-97D0-0BF2-30E8-F65FC11B66C7}.wem"
      },
      {
       "Id": "412117381",
@@ -310,6 +630,46 @@
       "Location": "Memory",
       "ShortName": "Grenadier Bounce Glass Temp-002.wav",
       "CachePath": "C9/{C9D7FA1B-190A-11B1-34F4-1F9A69F65A68}.wem"
+     },
+     {
+      "Id": "415748934",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Sword-001.wav",
+      "CachePath": "DD/{DD0EC4F7-E9C7-4EB9-036D-6CD5F715AB85}.wem"
+     },
+     {
+      "Id": "416250454",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -004.wav",
+      "CachePath": "C3/{C35B231B-4A56-366C-A588-022DAAD02DA9}.wem"
+     },
+     {
+      "Id": "416757535",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-004.wav",
+      "CachePath": "B5/{B568551A-4E08-397B-51EB-BB6D000C52D4}.wem"
+     },
+     {
+      "Id": "422665275",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-008.wav",
+      "CachePath": "85/{859F166B-BF48-C23C-DF1C-B4C830A2D481}.wem"
+     },
+     {
+      "Id": "430249844",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Click-001.wav",
+      "CachePath": "6B/{6BC3C706-3FC0-A1A4-15BF-A34CA47841F0}.wem"
      },
      {
       "Id": "430527608",
@@ -328,12 +688,12 @@
       "CachePath": "69/{6944DC49-47FC-F254-30F8-7E09AAEF9F36}.wem"
      },
      {
-      "Id": "465091974",
+      "Id": "462117587",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Bullets, Impact, Metal, Burst, Multiple, Designed SND145777 1.wav",
-      "CachePath": "6E/{6EBFF010-A220-9B5E-C1E4-C030DE1652A2}.wem"
+      "ShortName": "Chomper Attack Clicks -006.wav",
+      "CachePath": "24/{24C27C1C-C370-CD49-AE55-C400C577983C}.wem"
      },
      {
       "Id": "468197354",
@@ -342,14 +702,6 @@
       "Location": "Memory",
       "ShortName": "Grenadier Bounce Glass Temp-003.wav",
       "CachePath": "10/{10380E0A-7B55-6D79-A8B5-22C6251C33C8}.wem"
-     },
-     {
-      "Id": "468605295",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
-      "CachePath": "34/{34239EEE-E1E9-BA68-A301-402EC143A7E6}.wem"
      },
      {
       "Id": "470217057",
@@ -376,12 +728,20 @@
       "CachePath": "52/{52911A2E-9E72-2E83-C908-CA28A4D96E11}.wem"
      },
      {
-      "Id": "495535085",
+      "Id": "478290419",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
-      "CachePath": "F6/{F67AE929-7524-7347-3BD3-1D1EC8966547}.wem"
+      "ShortName": "Chomper Footsteps Thump-005.wav",
+      "CachePath": "3C/{3CB87CBE-D8DF-3B50-1542-FD86CE58F490}.wem"
+     },
+     {
+      "Id": "481859828",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Growl-004.wav",
+      "CachePath": "C7/{C729D863-B1DA-CB5E-17E5-910CEE5C0E25}.wem"
      },
      {
       "Id": "497171569",
@@ -390,6 +750,22 @@
       "Location": "Memory",
       "ShortName": "Footsteps, Human, Boots, Cobblestone, Walk, Close SND125736.wav",
       "CachePath": "F1/{F188CF1B-9F0E-D04C-D5FF-DC8EC1976A00}.wem"
+     },
+     {
+      "Id": "497348793",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Bite-003.wav",
+      "CachePath": "E0/{E06E92D2-3CC8-AC21-7432-3EEAF15B5AC9}.wem"
+     },
+     {
+      "Id": "502895227",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-002.wav",
+      "CachePath": "A8/{A851603D-4501-6684-6CE9-9BF42042BEB8}.wem"
      },
      {
       "Id": "503387856",
@@ -416,12 +792,20 @@
       "CachePath": "78/{784467F7-220E-4DDB-624C-CA0C3D256EDE}.wem"
      },
      {
-      "Id": "522503441",
+      "Id": "520424312",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Destruction, Crash & Debris, Car Crash, Heavy, Glass Break 02 SND14106.wav",
-      "CachePath": "40/{404C1485-C2F8-9144-90AE-E6F9B14BAA51}.wem"
+      "ShortName": "Chomper Death Hiss-004.wav",
+      "CachePath": "32/{321E2C6C-59B6-B7B5-DC6E-709A248CB61E}.wem"
+     },
+     {
+      "Id": "525697279",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -001.wav",
+      "CachePath": "5F/{5F47A55C-5B67-ACDE-B0C9-B579008E6184}.wem"
      },
      {
       "Id": "531206018",
@@ -430,6 +814,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Bounce Crystal Temp-003.wav",
       "CachePath": "B2/{B2DC37AF-DFA3-D62F-A5CD-A5B86FDFBC67}.wem"
+     },
+     {
+      "Id": "552934625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Idle Grunt.wav",
+      "CachePath": "7A/{7A16F632-79C6-E3CC-CEF9-2F679379D5FE}.wem"
      },
      {
       "Id": "553490913",
@@ -472,6 +864,22 @@
       "CachePath": "5B/{5B7EAB98-3BE1-42B0-746F-DA3B05488F09}.wem"
      },
      {
+      "Id": "565811146",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Laser-002.wav",
+      "CachePath": "02/{028A76B0-E51E-E26F-DC0B-EC5BF8719766}.wem"
+     },
+     {
+      "Id": "569440783",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-006.wav",
+      "CachePath": "05/{05B1FFFE-CF02-B49F-6E7A-008A96555BAD}.wem"
+     },
+     {
       "Id": "571654708",
       "Language": "SFX",
       "Streaming": "false",
@@ -486,6 +894,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Concrete-002.wav",
       "CachePath": "84/{84CCE4F9-2D94-7B2C-75CD-9C1187967BF1}.wem"
+     },
+     {
+      "Id": "581571556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Gear-001.wav",
+      "CachePath": "09/{09F64960-16AE-4491-8B6A-97FB26746DAC}.wem"
      },
      {
       "Id": "585847873",
@@ -512,6 +928,30 @@
       "CachePath": "BE/{BEE0D29F-3437-F5A2-8150-A4B2EC34BAD2}.wem"
      },
      {
+      "Id": "591632255",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Rattle-001.wav",
+      "CachePath": "B1/{B18AE73E-4F20-9F78-024A-497DF0E66F94}.wem"
+     },
+     {
+      "Id": "599065612",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Growl-005.wav",
+      "CachePath": "83/{834BF01A-F71A-1B45-1179-3A4B6E4E177E}.wem"
+     },
+     {
+      "Id": "599631038",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Growl-002.wav",
+      "CachePath": "9D/{9D7DAC5B-5816-0A98-E8EC-49C7AE63781D}.wem"
+     },
+     {
       "Id": "608981536",
       "Language": "SFX",
       "Streaming": "false",
@@ -528,12 +968,12 @@
       "CachePath": "3C/{3CF18537-33B6-601D-84A9-20754133C557}.wem"
      },
      {
-      "Id": "620442833",
+      "Id": "622890678",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Rubber, Impact, Balloon, Hit, Thudd SND37697 1.wav",
-      "CachePath": "FF/{FF74DECA-1BB8-1DE6-C4FC-9FC6456D136B}.wem"
+      "ShortName": "Grenadier Punch Impact-003.wav",
+      "CachePath": "89/{89BB6F55-011A-25E0-245D-358F878253A3}.wem"
      },
      {
       "Id": "625811884",
@@ -568,6 +1008,14 @@
       "CachePath": "C4/{C4FDD28C-F463-4856-D047-24153CE0394C}.wem"
      },
      {
+      "Id": "635342055",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-007.wav",
+      "CachePath": "1F/{1F21F70E-63E8-AED8-B5AF-401CFB987004}.wem"
+     },
+     {
       "Id": "635347980",
       "Language": "SFX",
       "Streaming": "false",
@@ -600,20 +1048,20 @@
       "CachePath": "D5/{D5FD3CF8-A5FC-A9D9-65D8-A9D12C3EEB5A}.wem"
      },
      {
-      "Id": "650673341",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Animals, Dog, German Shepherd, Barking SND60759.wav",
-      "CachePath": "F7/{F7AAD97D-D9C5-8DA1-BD22-73E8BCDDEEA7}.wem"
-     },
-     {
       "Id": "654058829",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Energy 3-001.wav",
       "CachePath": "38/{38EA2A47-C9BC-B643-3169-A7C22FF30F48}.wem"
+     },
+     {
+      "Id": "666059605",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-003.wav",
+      "CachePath": "1D/{1D22F4BB-E66A-9A22-5901-4FC6495096D3}.wem"
      },
      {
       "Id": "675812360",
@@ -648,20 +1096,36 @@
       "CachePath": "F0/{F04A0322-2C27-1B90-1C06-72E9150A820F}.wem"
      },
      {
-      "Id": "691652961",
+      "Id": "693843159",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Grenadier Punch-003.wav",
-      "CachePath": "4C/{4C1201E1-7405-446C-ED6D-94F48C2CCCF8}.wem"
+      "ShortName": "Grenadier Punch Lever-001.wav",
+      "CachePath": "28/{286E4CF4-8ED2-DDB2-ADCB-28FC0D39B7BE}.wem"
      },
      {
-      "Id": "694507640",
+      "Id": "700031966",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Animals, Reptile, Viper, Snake Attack, Biting, Hissing, Dangerous SND130346.wav",
-      "CachePath": "E5/{E5D83752-335C-20EB-E030-87D3F3711B91}.wem"
+      "ShortName": "Chomper Attack Clicks -003.wav",
+      "CachePath": "E8/{E82F91B3-D750-772D-2AA0-DA80D292D2D3}.wem"
+     },
+     {
+      "Id": "701122885",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Rattle-003.wav",
+      "CachePath": "0E/{0EC3533C-D59E-E05C-F0A6-70C6BBD98865}.wem"
+     },
+     {
+      "Id": "703424850",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-003.wav",
+      "CachePath": "43/{4348BAC3-45F3-B83E-F669-9B07D88A0A09}.wem"
      },
      {
       "Id": "709155701",
@@ -672,6 +1136,14 @@
       "CachePath": "50/{50DFA5FE-292C-D1C9-2A8F-71A12C96153C}.wem"
      },
      {
+      "Id": "723394785",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -005.wav",
+      "CachePath": "3E/{3E665EEA-0546-86ED-FAA1-E27E0FDFF948}.wem"
+     },
+     {
       "Id": "737316193",
       "Language": "SFX",
       "Streaming": "false",
@@ -680,12 +1152,28 @@
       "CachePath": "50/{5032E59E-4954-3E53-F660-F86D33BE6652}.wem"
      },
      {
+      "Id": "744443012",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Hit Temp-005.wav",
+      "CachePath": "20/{2085ABC4-469B-6A58-F774-8A4E04652E1C}.wem"
+     },
+     {
       "Id": "749124613",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Garage-008.wav",
       "CachePath": "0B/{0B0F9FB4-B6D4-E76C-CB40-ECC45BC60367}.wem"
+     },
+     {
+      "Id": "750850130",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss Low-002.wav",
+      "CachePath": "ED/{ED7E6911-D3FE-1F2A-DBFD-26532A8F7D8F}.wem"
      },
      {
       "Id": "767186854",
@@ -704,6 +1192,14 @@
       "CachePath": "A1/{A1DA6515-4A2C-00AE-EC9C-A939567F71E8}.wem"
      },
      {
+      "Id": "770742506",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Growl-003.wav",
+      "CachePath": "74/{749FE2E2-11DE-936A-380B-A90800A821D1}.wem"
+     },
+     {
       "Id": "772069975",
       "Language": "SFX",
       "Streaming": "false",
@@ -718,6 +1214,22 @@
       "Location": "Memory",
       "ShortName": "Box_Energy 3-002.wav",
       "CachePath": "9E/{9E71FDD1-A45B-05FD-F3E8-038C82055E3E}.wem"
+     },
+     {
+      "Id": "776169262",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-003.wav",
+      "CachePath": "B7/{B7273295-4DBC-58A6-0765-A06115DB24A6}.wem"
+     },
+     {
+      "Id": "776579228",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-008.wav",
+      "CachePath": "35/{3526DC08-290E-2E24-A3B8-65F35DC4690E}.wem"
      },
      {
       "Id": "777077678",
@@ -736,12 +1248,44 @@
       "CachePath": "6A/{6A097693-2CF5-EF64-BC19-559ECC6911C6}.wem"
      },
      {
+      "Id": "789230698",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -006.wav",
+      "CachePath": "9A/{9A07C0C9-A94C-37B1-CFA6-063F1B259879}.wem"
+     },
+     {
+      "Id": "795016385",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-007.wav",
+      "CachePath": "A2/{A289CE50-D5FB-EDB2-0C33-5D92762B8663}.wem"
+     },
+     {
       "Id": "801215808",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Concrete-004.wav",
       "CachePath": "AD/{AD0492DA-8B38-9134-6E19-573D6A0ABA2F}.wem"
+     },
+     {
+      "Id": "805223438",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Sword-002.wav",
+      "CachePath": "5B/{5B26673F-065B-3522-686D-D42A4734790B}.wem"
+     },
+     {
+      "Id": "808988823",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-004.wav",
+      "CachePath": "2C/{2CB1F78F-9539-4017-D1A7-3C96EB8C7B89}.wem"
      },
      {
       "Id": "809190784",
@@ -760,6 +1304,22 @@
       "CachePath": "E2/{E26BE9B4-BE87-DBD6-0A45-814253147BDA}.wem"
      },
      {
+      "Id": "811549190",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss-003.wav",
+      "CachePath": "63/{637793BD-2230-B4A1-51A9-D5312E64B851}.wem"
+     },
+     {
+      "Id": "811671334",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-003.wav",
+      "CachePath": "E7/{E7370C0C-F81C-8642-A5E8-68BC4A127945}.wem"
+     },
+     {
       "Id": "816980910",
       "Language": "SFX",
       "Streaming": "false",
@@ -774,6 +1334,14 @@
       "Location": "Memory",
       "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99.wav",
       "CachePath": "DA/{DA9D6AC1-4653-DE87-FA4E-961BEE80A458}.wem"
+     },
+     {
+      "Id": "824214123",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-005.wav",
+      "CachePath": "6B/{6B836412-136D-6895-45A3-84649870D20D}.wem"
      },
      {
       "Id": "848532217",
@@ -792,12 +1360,44 @@
       "CachePath": "3F/{3F6BDF89-4CDF-C495-8994-1B0ADC08987B}.wem"
      },
      {
+      "Id": "850755547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Gear-003.wav",
+      "CachePath": "F9/{F9455083-5E70-B850-49BD-2E16A6B8D41D}.wem"
+     },
+     {
       "Id": "851509219",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp Swoosh 2-001.wav",
       "CachePath": "12/{12440CD3-4798-5726-7285-8AEF2C0BFC10}.wem"
+     },
+     {
+      "Id": "852171466",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -005.wav",
+      "CachePath": "9F/{9FB01B9A-12A7-CFE6-8A70-591DC7C28300}.wem"
+     },
+     {
+      "Id": "852834422",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -002.wav",
+      "CachePath": "D9/{D9C664C6-171F-676A-D093-8AB1D34A2772}.wem"
+     },
+     {
+      "Id": "860327363",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-010.wav",
+      "CachePath": "39/{393E314C-6222-AA3B-394F-51797FDED4A1}.wem"
      },
      {
       "Id": "868728545",
@@ -808,12 +1408,28 @@
       "CachePath": "EF/{EF80D293-A53C-D41B-6E73-6C9C4CD08D02}.wem"
      },
      {
+      "Id": "871348285",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-007.wav",
+      "CachePath": "09/{093FF99E-9EBE-34EB-C79B-83FAC154C1C5}.wem"
+     },
+     {
       "Id": "880305850",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Magic, Shimmer, Wand, Ping, Twinkle, Sweet SND30427.wav",
       "CachePath": "4B/{4BA206FC-1022-DB14-EFFD-26E6CE33389C}.wem"
+     },
+     {
+      "Id": "885014972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Lever-003.wav",
+      "CachePath": "89/{89AC5187-444D-14CE-C56A-2840DA85A1FE}.wem"
      },
      {
       "Id": "889701221",
@@ -824,12 +1440,44 @@
       "CachePath": "DB/{DBFDA020-03B6-E7AF-8F88-0C2FC437CE93}.wem"
      },
      {
+      "Id": "898942708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Sword-003.wav",
+      "CachePath": "44/{44C2D462-2469-6DD9-1F61-DE0B20522A5B}.wem"
+     },
+     {
+      "Id": "899455460",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-002.wav",
+      "CachePath": "11/{11976DB9-E8CC-0A84-BB3D-C5E9DEEBBF71}.wem"
+     },
+     {
+      "Id": "903659147",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-007.wav",
+      "CachePath": "63/{631298F0-CE58-2CF8-8D70-24469C1A8709}.wem"
+     },
+     {
       "Id": "920905788",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1.wav",
       "CachePath": "A2/{A2B5FAA3-7B86-7EA5-D86A-907A1A2F5E9E}.wem"
+     },
+     {
+      "Id": "925169026",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Damaged Glass-004.wav",
+      "CachePath": "B4/{B48AF8D3-4EE9-B733-1279-28AE2881ABCB}.wem"
      },
      {
       "Id": "931902254",
@@ -840,12 +1488,28 @@
       "CachePath": "3C/{3C35C497-A947-5485-F40E-98659C071032}.wem"
      },
      {
-      "Id": "933877617",
+      "Id": "937724843",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "User Interface, Alert, Video Game Death, Futzed, Walkie, Beep, Meme Redesign SND140173.wav",
-      "CachePath": "79/{797EAF42-E495-1751-E31F-3E343A7D9D1F}.wem"
+      "ShortName": "Chomper Hit Temp-006.wav",
+      "CachePath": "26/{264DFF9A-A206-EB09-6C58-707B27966640}.wem"
+     },
+     {
+      "Id": "937963371",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-002.wav",
+      "CachePath": "5C/{5C3FAE2B-039D-BEF2-D032-9D478B519607}.wem"
+     },
+     {
+      "Id": "939833452",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Death Temp.wav",
+      "CachePath": "CA/{CAC7AF81-D583-3C5A-C3CA-8E6ECEEF8FC4}.wem"
      },
      {
       "Id": "945582321",
@@ -856,6 +1520,14 @@
       "CachePath": "AF/{AF702C00-61F2-BCD0-F7B9-6B5F1B6F7110}.wem"
      },
      {
+      "Id": "945735437",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Idle Purr.wav",
+      "CachePath": "1C/{1C6EB867-CCEE-32A2-0F8C-2612AB572C9A}.wem"
+     },
+     {
       "Id": "946031915",
       "Language": "SFX",
       "Streaming": "false",
@@ -864,12 +1536,28 @@
       "CachePath": "2C/{2C59D8AC-5893-0F3E-E63B-7CE0C9CE95BC}.wem"
      },
      {
+      "Id": "947875050",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-011.wav",
+      "CachePath": "63/{63A45EB9-2E05-157F-DA5B-82B9E94CD3BF}.wem"
+     },
+     {
       "Id": "951152465",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp Swoosh 1-003.wav",
       "CachePath": "12/{1218D166-DF28-9353-C454-E816CECC22CB}.wem"
+     },
+     {
+      "Id": "965382847",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss-005.wav",
+      "CachePath": "51/{51973857-24F1-EB92-CC24-DF02714ECB4F}.wem"
      },
      {
       "Id": "968058573",
@@ -886,6 +1574,30 @@
       "Location": "Memory",
       "ShortName": "Box_Hit 1-002.wav",
       "CachePath": "7B/{7B4669B0-DC8D-5C5A-F559-8122DDF5195B}.wem"
+     },
+     {
+      "Id": "987877654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Laser-003.wav",
+      "CachePath": "A7/{A7ED3A8A-0E57-2155-70E3-05AAD35E53F3}.wem"
+     },
+     {
+      "Id": "991658754",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-004.wav",
+      "CachePath": "9C/{9CD46D48-5B3D-473F-B0C6-0B3BA34D7F7C}.wem"
+     },
+     {
+      "Id": "991796412",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Spotted Rattle-002.wav",
+      "CachePath": "2F/{2FDFA6A2-2E5E-4775-A702-1797893EF09B}.wem"
      },
      {
       "Id": "999016016",
@@ -928,6 +1640,22 @@
       "CachePath": "BB/{BBA48208-7A1D-E952-CBA6-5AD7A1CDD6F0}.wem"
      },
      {
+      "Id": "1005400918",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Click-002.wav",
+      "CachePath": "B3/{B3346D70-E0FA-0EED-D1E9-1CAA1A78A876}.wem"
+     },
+     {
+      "Id": "1008669567",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Laser-001.wav",
+      "CachePath": "A1/{A16EFAEF-0851-9AF7-3704-5C2D7D6F226E}.wem"
+     },
+     {
       "Id": "1011156766",
       "Language": "SFX",
       "Streaming": "false",
@@ -936,12 +1664,20 @@
       "CachePath": "DA/{DA41372C-5155-05D6-5D50-00B8027696E1}.wem"
      },
      {
-      "Id": "1022096692",
+      "Id": "1016708953",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Animals, Dog, Walking Past, Hardwood Floor SND0900.wav",
-      "CachePath": "BF/{BF287FF9-C259-20A5-02E8-23616649BAE1}.wem"
+      "ShortName": "Chomper Spotted Growl-002.wav",
+      "CachePath": "36/{360508BF-90B7-FBBB-E64A-AD12F3BA09E4}.wem"
+     },
+     {
+      "Id": "1019981855",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Thump-008.wav",
+      "CachePath": "3F/{3F31FD51-8B42-C887-CA6F-5CE55C930758}.wem"
      },
      {
       "Id": "1029728874",
@@ -952,6 +1688,30 @@
       "CachePath": "AA/{AA6D9633-795A-95AE-FA80-A5FED9BB749C}.wem"
      },
      {
+      "Id": "1030422626",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Footsteps Rock-005.wav",
+      "CachePath": "69/{69C36EE8-96FC-DEB5-56EA-D71BEF9FE6D5}.wem"
+     },
+     {
+      "Id": "1034070318",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Click-002.wav",
+      "CachePath": "97/{97E00756-7B1F-E3AF-369C-1CFE06DD8DD6}.wem"
+     },
+     {
+      "Id": "1038399956",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Garage-001.wav",
+      "CachePath": "96/{962B1FDE-B1E8-E976-A787-6C59EA7E9607}.wem"
+     },
+     {
       "Id": "1039114373",
       "Language": "SFX",
       "Streaming": "false",
@@ -960,12 +1720,36 @@
       "CachePath": "70/{702A519A-AB12-816A-866E-F1464F8A2A90}.wem"
      },
      {
+      "Id": "1042979359",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Punch Click-003.wav",
+      "CachePath": "E8/{E8DE642D-B2EC-AE24-19D6-FB01E4A616B5}.wem"
+     },
+     {
+      "Id": "1044713269",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Lion-001.wav",
+      "CachePath": "41/{41779594-60F1-CC33-B11C-7D2CB2A2E175}.wem"
+     },
+     {
       "Id": "1054134572",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience, Forest, Winter, Quiet, Vegetation Crust, Distant Birds, Distant Traffic SND65682.wav",
       "CachePath": "BC/{BCB109D8-2CD0-47D5-D28A-1D705D37B805}.wem"
+     },
+     {
+      "Id": "1055198249",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Death Hiss Low-003.wav",
+      "CachePath": "CC/{CCFF8ADF-9F22-9EE0-0D78-82C8BFC43632}.wem"
      },
      {
       "Id": "1056091812",
@@ -990,6 +1774,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Concrete-001.wav",
       "CachePath": "C3/{C3ED2789-33BB-81D5-4FC9-BE17D6591329}.wem"
+     },
+     {
+      "Id": "1067882517",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Clicks -003.wav",
+      "CachePath": "3B/{3BF39824-F4FD-3D4A-F2F4-BD02D1FD7CAA}.wem"
      },
      {
       "Id": "1069972770",
@@ -1112,18 +1904,106 @@
       ]
      },
      {
-      "Id": "3778133004",
-      "Name": "Play_ChomperAttack",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperAttack",
+      "Id": "3021453386",
+      "Name": "Play_ChomperAttackBite",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperAttackBite",
+      "GUID": "{C73E1963-A7CE-40AB-9E78-45435E82A458}",
+      "Color": "24",
+      "MaxAttenuation": "20",
+      "DurationType": "OneShot",
+      "DurationMin": "0.41943997",
+      "DurationMax": "0.60182214",
+      "MediaRefs": [
+       {
+        "Id": "63676384"
+       },
+       {
+        "Id": "270784232"
+       },
+       {
+        "Id": "287433110"
+       },
+       {
+        "Id": "307666245"
+       },
+       {
+        "Id": "497348793"
+       },
+       {
+        "Id": "776169262"
+       },
+       {
+        "Id": "789230698"
+       },
+       {
+        "Id": "852171466"
+       },
+       {
+        "Id": "852834422"
+       },
+       {
+        "Id": "937963371"
+       },
+       {
+        "Id": "1044713269"
+       },
+       {
+        "Id": "1067882517"
+       }
+      ]
+     },
+     {
+      "Id": "1432362683",
+      "Name": "Play_ChomperAttackGrowl",
+      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Chomper\\Play_ChomperAttackGrowl",
       "GUID": "{AEE8AC54-CBAF-470A-8EF7-76B1FA3D31AF}",
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.45771876",
-      "DurationMax": "0.45771876",
+      "DurationMin": "0.6833495",
+      "DurationMax": "1.1263508",
       "MediaRefs": [
        {
-        "Id": "650673341"
+        "Id": "16824727"
+       },
+       {
+        "Id": "72003085"
+       },
+       {
+        "Id": "165215534"
+       },
+       {
+        "Id": "215162361"
+       },
+       {
+        "Id": "225540313"
+       },
+       {
+        "Id": "359428371"
+       },
+       {
+        "Id": "416250454"
+       },
+       {
+        "Id": "462117587"
+       },
+       {
+        "Id": "481859828"
+       },
+       {
+        "Id": "525697279"
+       },
+       {
+        "Id": "599065612"
+       },
+       {
+        "Id": "599631038"
+       },
+       {
+        "Id": "700031966"
+       },
+       {
+        "Id": "723394785"
        }
       ]
      },
@@ -1135,11 +2015,47 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.17295833",
-      "DurationMax": "0.17295833",
+      "DurationMin": "0.744",
+      "DurationMax": "0.78010416",
       "MediaRefs": [
        {
-        "Id": "933877617"
+        "Id": "2839602"
+       },
+       {
+        "Id": "68870627"
+       },
+       {
+        "Id": "82898834"
+       },
+       {
+        "Id": "108081104"
+       },
+       {
+        "Id": "318538451"
+       },
+       {
+        "Id": "358979767"
+       },
+       {
+        "Id": "373428002"
+       },
+       {
+        "Id": "520424312"
+       },
+       {
+        "Id": "750850130"
+       },
+       {
+        "Id": "811549190"
+       },
+       {
+        "Id": "965382847"
+       },
+       {
+        "Id": "1005400918"
+       },
+       {
+        "Id": "1055198249"
        }
       ]
      },
@@ -1151,11 +2067,14 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.46283334",
-      "DurationMax": "0.46283334",
+      "DurationMin": "5.0096664",
+      "DurationMax": "5.0096664",
       "MediaRefs": [
        {
-        "Id": "694507640"
+        "Id": "552934625"
+       },
+       {
+        "Id": "945735437"
        }
       ]
      },
@@ -1167,11 +2086,38 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.19985199",
-      "DurationMax": "0.19985199",
+      "DurationMin": "0.35388803",
+      "DurationMax": "0.36306602",
       "MediaRefs": [
        {
-        "Id": "374377276"
+        "Id": "169264814"
+       },
+       {
+        "Id": "272421298"
+       },
+       {
+        "Id": "377654433"
+       },
+       {
+        "Id": "416757535"
+       },
+       {
+        "Id": "422665275"
+       },
+       {
+        "Id": "502895227"
+       },
+       {
+        "Id": "635342055"
+       },
+       {
+        "Id": "703424850"
+       },
+       {
+        "Id": "744443012"
+       },
+       {
+        "Id": "937724843"
        }
       ]
      },
@@ -1183,14 +2129,41 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.26825252",
-      "DurationMax": "0.33231282",
+      "DurationMin": "0.26063073",
+      "DurationMax": "0.27689427",
       "MediaRefs": [
        {
-        "Id": "495535085"
+        "Id": "20570630"
        },
        {
-        "Id": "1022096692"
+        "Id": "63804842"
+       },
+       {
+        "Id": "94619097"
+       },
+       {
+        "Id": "221157528"
+       },
+       {
+        "Id": "407199840"
+       },
+       {
+        "Id": "478290419"
+       },
+       {
+        "Id": "569440783"
+       },
+       {
+        "Id": "808988823"
+       },
+       {
+        "Id": "860327363"
+       },
+       {
+        "Id": "871348285"
+       },
+       {
+        "Id": "947875050"
        }
       ]
      },
@@ -1202,14 +2175,41 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.260245",
-      "DurationMax": "0.3002827",
+      "DurationMin": "0.24600263",
+      "DurationMax": "0.25388616",
       "MediaRefs": [
        {
-        "Id": "151309620"
+        "Id": "15628674"
        },
        {
-        "Id": "468605295"
+        "Id": "72025512"
+       },
+       {
+        "Id": "201826170"
+       },
+       {
+        "Id": "323065490"
+       },
+       {
+        "Id": "339718302"
+       },
+       {
+        "Id": "666059605"
+       },
+       {
+        "Id": "795016385"
+       },
+       {
+        "Id": "899455460"
+       },
+       {
+        "Id": "991658754"
+       },
+       {
+        "Id": "1019981855"
+       },
+       {
+        "Id": "1030422626"
        }
       ]
      },
@@ -1221,11 +2221,35 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "1.1115834",
-      "DurationMax": "1.1115834",
+      "DurationMin": "0.629",
+      "DurationMax": "0.77872914",
       "MediaRefs": [
        {
-        "Id": "263220006"
+        "Id": "33936021"
+       },
+       {
+        "Id": "278657582"
+       },
+       {
+        "Id": "300476799"
+       },
+       {
+        "Id": "391218948"
+       },
+       {
+        "Id": "591632255"
+       },
+       {
+        "Id": "701122885"
+       },
+       {
+        "Id": "770742506"
+       },
+       {
+        "Id": "991796412"
+       },
+       {
+        "Id": "1016708953"
        }
       ]
      },
@@ -1387,27 +2411,49 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDamaged",
       "GUID": "{EA02E8DA-484D-4841-94AA-7F9BD34FBB93}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "1.5017604",
-      "DurationMax": "1.5017604",
+      "DurationMin": "3.129653",
+      "DurationMax": "3.1368928",
       "MediaRefs": [
        {
-        "Id": "522503441"
-       }
-      ]
-     },
-     {
-      "Id": "3440132657",
-      "Name": "Play_GrenadierDeath",
-      "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDeath",
-      "GUID": "{D32A969D-BA7A-4020-BD9C-9A2B4281C5D1}",
-      "Color": "2",
-      "DurationType": "OneShot",
-      "DurationMin": "0.8236184",
-      "DurationMax": "0.8236184",
-      "MediaRefs": [
+        "Id": "23544570"
+       },
        {
-        "Id": "620442833"
+        "Id": "41401427"
+       },
+       {
+        "Id": "50873095"
+       },
+       {
+        "Id": "86372442"
+       },
+       {
+        "Id": "382029379"
+       },
+       {
+        "Id": "415748934"
+       },
+       {
+        "Id": "776579228"
+       },
+       {
+        "Id": "805223438"
+       },
+       {
+        "Id": "811671334"
+       },
+       {
+        "Id": "824214123"
+       },
+       {
+        "Id": "898942708"
+       },
+       {
+        "Id": "903659147"
+       },
+       {
+        "Id": "925169026"
        }
       ]
      },
@@ -1417,12 +2463,13 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Enemies\\Grenadier\\Play_GrenadierDeathFall",
       "GUID": "{3BD0F344-A795-41EB-BAB9-8CE8039756AD}",
       "Color": "2",
+      "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "2.548288",
-      "DurationMax": "2.548288",
+      "DurationMin": "6.234104",
+      "DurationMax": "6.234104",
       "MediaRefs": [
        {
-        "Id": "465091974"
+        "Id": "939833452"
        }
       ]
      },
@@ -1547,17 +2594,62 @@
       "Color": "2",
       "MaxAttenuation": "60",
       "DurationType": "OneShot",
-      "DurationMin": "1.2863684",
-      "DurationMax": "1.4473637",
+      "DurationMin": "2.0837293",
+      "DurationMax": "2.2225208",
       "MediaRefs": [
        {
-        "Id": "76887822"
+        "Id": "71849093"
        },
        {
-        "Id": "156017830"
+        "Id": "75136265"
        },
        {
-        "Id": "691652961"
+        "Id": "85814832"
+       },
+       {
+        "Id": "184152418"
+       },
+       {
+        "Id": "309127501"
+       },
+       {
+        "Id": "309211176"
+       },
+       {
+        "Id": "430249844"
+       },
+       {
+        "Id": "565811146"
+       },
+       {
+        "Id": "581571556"
+       },
+       {
+        "Id": "622890678"
+       },
+       {
+        "Id": "693843159"
+       },
+       {
+        "Id": "850755547"
+       },
+       {
+        "Id": "885014972"
+       },
+       {
+        "Id": "987877654"
+       },
+       {
+        "Id": "1008669567"
+       },
+       {
+        "Id": "1034070318"
+       },
+       {
+        "Id": "1038399956"
+       },
+       {
+        "Id": "1042979359"
        }
       ]
      },
@@ -1568,11 +2660,11 @@
       "GUID": "{8D73D5CF-E5E9-4151-AAB8-4800E2DB2A20}",
       "Color": "2",
       "DurationType": "OneShot",
-      "DurationMin": "4.3002677",
-      "DurationMax": "4.3002677",
+      "DurationMin": "5.7095623",
+      "DurationMax": "5.7095623",
       "MediaRefs": [
        {
-        "Id": "152436478"
+        "Id": "213760840"
        }
       ]
      },
@@ -2120,6 +3212,6 @@
     ]
    }
   ],
-  "FileHash": "{014CFEB4-2368-6F84-4736-117522544E11}"
+  "FileHash": "{636C3DBC-4D3A-9671-3643-6EAD8D32D9DE}"
  }
 }

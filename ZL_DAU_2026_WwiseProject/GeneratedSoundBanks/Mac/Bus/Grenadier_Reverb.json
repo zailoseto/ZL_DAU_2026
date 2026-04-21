@@ -1,0 +1,48 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "154",
+  "SoundBanks": [
+   {
+    "Id": "1089453751",
+    "Type": "Bus",
+    "GUID": "{4704F02D-3422-4990-A7C4-841387A020FC}",
+    "Language": "SFX",
+    "Hash": "{4B87ADA8-9B77-854D-4DCB-1DA48D5B4B05}",
+    "ObjectPath": "Grenadier_Reverb",
+    "ShortName": "Grenadier_Reverb",
+    "Path": "Bus/Grenadier_Reverb.bnk",
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1089453751",
+       "Name": "Grenadier_Reverb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Grenadier_Reverb",
+       "GUID": "{C3D605D7-8F3B-4B69-B76E-4B39EA48C13E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
+    "AuxBusses": [
+     {
+      "Id": "1089453751",
+      "Name": "Grenadier_Reverb",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Grenadier_Reverb",
+      "GUID": "{4704F02D-3422-4990-A7C4-841387A020FC}",
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
+     }
+    ]
+   }
+  ],
+  "FileHash": "{AD985F8A-E148-B005-F7BA-9C30BDE0CF7E}"
+ }
+}

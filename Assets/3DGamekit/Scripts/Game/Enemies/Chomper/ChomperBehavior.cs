@@ -44,13 +44,15 @@ namespace Gamekit3D
         //public RandomAudioPlayer spottedAudio;
 
 
-        public AK.Wwise.Event ChomperAttack;
+        public AK.Wwise.Event ChomperAttackGrowl;
+        public AK.Wwise.Event ChomperAttackBite;
         public AK.Wwise.Event ChomperRunFront;
         public AK.Wwise.Event ChomperRunBack;
         public AK.Wwise.Event ChomperHit;
         public AK.Wwise.Event ChomperGrunt;
         public AK.Wwise.Event ChomperDeath;
         public AK.Wwise.Event ChomperSpotted;
+        public AK.Wwise.Event ChomperIdle;
 
 
         public GameObject ChomperAttack_Source;
@@ -110,6 +112,7 @@ namespace Gamekit3D
             if (ChomperGrunt != null)
                 ChomperGrunt.Post(ChomperGrunt_Source);
         }
+
 
         public void Spotted()
         {
@@ -247,15 +250,21 @@ namespace Gamekit3D
             meleeWeapon.EndAttack();
         }
 
-        public void Play_ChomperAttack()
+        public void Play_ChomperAttackGrowl()
         {
-            ChomperAttack.Post(ChomperAttack_Source);
+            ChomperAttackGrowl.Post(ChomperAttack_Source);
+        }
+
+        public void Play_ChomperAttackBite()
+        {
+            ChomperAttackBite.Post(ChomperAttack_Source);
         }
 
         public void Play_ChomperHit()
         {
             ChomperHit.Post(ChomperHit_Source);
         }
+
 
         public void OnReceiveMessage(Message.MessageType type, object sender, object msg)
         {

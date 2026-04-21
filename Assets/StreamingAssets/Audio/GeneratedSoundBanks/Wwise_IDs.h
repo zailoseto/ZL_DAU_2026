@@ -16,7 +16,8 @@ namespace AK
         static const AkUniqueID PLAY_ATTACK = 1519321238U;
         static const AkUniqueID PLAY_BACK = 1292086503U;
         static const AkUniqueID PLAY_BOXDESTROY = 3985542137U;
-        static const AkUniqueID PLAY_CHOMPERATTACK = 3778133004U;
+        static const AkUniqueID PLAY_CHOMPERATTACKBITE = 3021453386U;
+        static const AkUniqueID PLAY_CHOMPERATTACKGROWL = 1432362683U;
         static const AkUniqueID PLAY_CHOMPERDEATH = 1130560958U;
         static const AkUniqueID PLAY_CHOMPERGRUNT = 3373198502U;
         static const AkUniqueID PLAY_CHOMPERHIT = 3580226607U;
@@ -32,7 +33,6 @@ namespace AK
         static const AkUniqueID PLAY_GRENADIERBOUNCE = 2226544333U;
         static const AkUniqueID PLAY_GRENADIERCORE = 2872556972U;
         static const AkUniqueID PLAY_GRENADIERDAMAGED = 3278392842U;
-        static const AkUniqueID PLAY_GRENADIERDEATH = 3440132657U;
         static const AkUniqueID PLAY_GRENADIERDEATHFALL = 2752870638U;
         static const AkUniqueID PLAY_GRENADIEREXPLOSION = 3296122978U;
         static const AkUniqueID PLAY_GRENADIERFOOTSTEPS = 1373007782U;
@@ -86,6 +86,11 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
+
+    namespace AUX_BUSSES
+    {
+        static const AkUniqueID GRENADIER_REVERB = 1089453751U;
+    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

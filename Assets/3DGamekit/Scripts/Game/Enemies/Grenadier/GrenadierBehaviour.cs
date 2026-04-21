@@ -192,10 +192,10 @@ namespace Gamekit3D
             grenadier_throw.Post(grenadier_throw_source);
         }
 
-        //public void PlayPunch()
-        //{
-            //grenadier_punch.Post(grenadier_punch_source);
-        //}
+        public void PlayPunch()
+        {
+            grenadier_punch.Post(grenadier_punch_source);
+        }
 
         public void Shoot()
         {
