@@ -14,7 +14,6 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID PLAY_ATTACK = 1519321238U;
-        static const AkUniqueID PLAY_BACK = 1292086503U;
         static const AkUniqueID PLAY_BOXDESTROY = 3985542137U;
         static const AkUniqueID PLAY_CHOMPERATTACKBITE = 3021453386U;
         static const AkUniqueID PLAY_CHOMPERATTACKGROWL = 1432362683U;
@@ -24,12 +23,10 @@ namespace AK
         static const AkUniqueID PLAY_CHOMPERRUNBACK = 544765150U;
         static const AkUniqueID PLAY_CHOMPERRUNFRONT = 3659639408U;
         static const AkUniqueID PLAY_CHOMPERSPOTTED = 3733047999U;
-        static const AkUniqueID PLAY_CONFIRM = 4136017490U;
         static const AkUniqueID PLAY_DEATH = 1172822028U;
         static const AkUniqueID PLAY_DOOR1 = 3655372411U;
         static const AkUniqueID PLAY_DOOR2 = 3655372408U;
         static const AkUniqueID PLAY_DOOR3 = 3655372409U;
-        static const AkUniqueID PLAY_EXIT = 3794664810U;
         static const AkUniqueID PLAY_GRENADIERBOUNCE = 2226544333U;
         static const AkUniqueID PLAY_GRENADIERCORE = 2872556972U;
         static const AkUniqueID PLAY_GRENADIERDAMAGED = 3278392842U;
@@ -45,17 +42,17 @@ namespace AK
         static const AkUniqueID PLAY_JUMP = 3689126666U;
         static const AkUniqueID PLAY_LAND = 4285282925U;
         static const AkUniqueID PLAY_LEVEL1AMB = 3690598599U;
-        static const AkUniqueID PLAY_MOUSEOVER = 3019770429U;
         static const AkUniqueID PLAY_PLAYERFOOTSTEP = 1592819191U;
+        static const AkUniqueID PLAY_PLAYERRESPAWN = 309249463U;
         static const AkUniqueID PLAY_PRESSUREPAD = 1624416746U;
         static const AkUniqueID PLAY_PRESSUREPADLOOP = 4089302636U;
         static const AkUniqueID PLAY_STAFFACTIVATE = 214267519U;
         static const AkUniqueID PLAY_STAFFSWIPE = 593513546U;
-        static const AkUniqueID PLAY_START = 2230670290U;
         static const AkUniqueID PLAY_SWITCHACTIVATE = 4080561429U;
         static const AkUniqueID PLAY_SWITCHAFTER = 3560419036U;
         static const AkUniqueID PLAY_SWITCHBEFORE = 742850819U;
         static const AkUniqueID PLAY_WATERLOOP = 2890226053U;
+        static const AkUniqueID PLAY_WHEREAMI = 702196994U;
     } // namespace EVENTS
 
     namespace SWITCHES

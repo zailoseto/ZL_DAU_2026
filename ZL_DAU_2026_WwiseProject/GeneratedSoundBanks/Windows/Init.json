@@ -10,17 +10,17 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{8EFB7383-E43B-3EEB-B04B-28896B8852FF}",
+    "Hash": "{896AE9C0-49C1-C04C-9EF5-09A6760C5F03}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
     "Plugins": {
-     "ShareSets": [
+     "Custom": [
       {
-       "Id": "1089453751",
-       "Name": "Grenadier_Reverb",
-       "ObjectPath": "\\Effects\\Default Work Unit\\Grenadier_Reverb",
-       "GUID": "{C3D605D7-8F3B-4B69-B76E-4B39EA48C13E}",
+       "Id": "208347690",
+       "Name": "Grenadier_Reverb (Custom)",
+       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Grenadier_Reverb\\[Effect Slot [0]: (RoomVerb)]\\Grenadier_Reverb (Custom)",
+       "GUID": "{D68EE0CA-2B03-45C5-ABFF-DD4D28F8953C}",
        "LibName": "Wwise RoomVerb",
        "LibId": "7733251"
       }
@@ -59,9 +59,9 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Grenadier_Reverb",
       "GUID": "{4704F02D-3422-4990-A7C4-841387A020FC}",
       "PluginRefs": {
-       "ShareSets": [
+       "Custom": [
         {
-         "Id": "1089453751"
+         "Id": "208347690"
         }
        ]
       }
@@ -109,6 +109,6 @@
     ]
    }
   ],
-  "FileHash": "{E3123D63-72CF-1B71-B5B5-EB6DBADDFA31}"
+  "FileHash": "{0FC85366-2F76-2B34-0DFE-D61DB52C89FD}"
  }
 }

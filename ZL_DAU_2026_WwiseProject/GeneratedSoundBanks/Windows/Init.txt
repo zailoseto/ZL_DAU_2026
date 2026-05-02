@@ -5,7 +5,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1089453751	Grenadier_Reverb			\Default Work Unit\Master Audio Bus\Grenadier_Reverb	
 
 Effect plug-ins	ID	Name	Type				Notes
-	1089453751	Grenadier_Reverb	Wwise RoomVerb			
+	208347690	Grenadier_Reverb (Custom)	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			

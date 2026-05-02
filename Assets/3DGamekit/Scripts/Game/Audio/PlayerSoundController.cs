@@ -36,6 +36,10 @@ public class PlayerSoundController : MonoBehaviour
     public AK.Wwise.Event player_death;
     public GameObject player_death_source;
 
+    public AK.Wwise.Event player_respawn;
+    public GameObject player_respawn_source;
+
+
 
     // Start is called before the first frame update
     void Start()
@@ -118,5 +122,10 @@ public class PlayerSoundController : MonoBehaviour
     public void PlayDeath()
     {
         player_death.Post(player_death_source);
+    }
+
+    public void PlayRespawn()
+    {
+        player_respawn.Post(player_respawn_source);
     }
 }
