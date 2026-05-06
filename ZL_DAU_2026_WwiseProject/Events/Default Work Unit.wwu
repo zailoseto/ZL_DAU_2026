@@ -169,9 +169,23 @@
 								<Event Name="Play_WhereAmI" ID="{76CF99E0-BB84-4C85-A2F7-24CB324A8A80}">
 									<ChildrenList>
 										<Action Name="" ID="{BF614DD4-2B6A-4ECC-B2EE-51F158F65973}" ShortID="1012584199">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1.5"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Temp where am i" ID="{B1CC5DD8-3B10-4E7C-9DC8-A4B41752B6F8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+													<ObjectRef Name="Where am I" ID="{B1CC5DD8-3B10-4E7C-9DC8-A4B41752B6F8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_WonderDoorCrystals" ID="{2FEB17D1-EB05-4B41-9445-132E2FC87F82}">
+									<ChildrenList>
+										<Action Name="" ID="{0AB0074C-17CC-4E86-917E-0BE6FBCB1C14}" ShortID="965590601">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Character Vox Door crystals are for" ID="{06B4E0A6-CEE0-4A9C-80C3-02159CF82216}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -362,10 +376,24 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 									<ChildrenList>
+										<Action Name="" ID="{1DAC59E9-AC0A-4A1B-B3E9-707C65B6736F}" ShortID="393622953">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Damaged" ID="{826C3533-3EA1-4611-ABF1-C5CB5D5BE6C8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{476899F0-C127-4AC3-9D0B-492940BDBEFD}" ShortID="124651357">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Death Vox" ID="{BA371994-B835-4BE7-A02E-DBEE7CC57C00}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 										<Action Name="" ID="{ED257E3F-5BD9-4096-ACBB-CE3F32C47E32}" ShortID="861950916">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Grenadier Death Temp" ID="{851A02BB-E696-4B61-B9C9-7085749C32BE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+													<ObjectRef Name="Grenadier Death" ID="{851A02BB-E696-4B61-B9C9-7085749C32BE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -378,6 +406,13 @@
 									</PropertyList>
 									<ChildrenList>
 										<Action Name="" ID="{78C5E70E-A783-4F72-ADDD-8ED38D123B0E}" ShortID="1051706874">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Grenadier Throw" ID="{2551EA71-7483-4684-A4C5-93A106F1B73E}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
@@ -589,6 +624,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{4785F278-2D3F-4020-9C6D-B8BD4173BB6E}" ShortID="502655877">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="This just got interesting2" ID="{C4115AA1-AFD2-485C-B8DF-C9A4201B62B0}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_StaffSwipe" ID="{017F94CC-5C04-48AE-B068-AEFA0D4196BB}">
@@ -660,6 +705,16 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
+								<Action Name="" ID="{8F8B4AC4-5141-4FDF-9DDB-39AC6118F29B}" ShortID="217521588">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Health Box" ID="{36496E23-06CC-4F11-BCF1-A1D522C74344}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 							</ChildrenList>
 						</Event>
 						<Event Name="Play_PressurePad" ID="{71B66A13-2279-4E3B-BF1E-6B3B981EF625}">
@@ -701,6 +756,16 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Door 1" ID="{6737EC4B-7EAD-4009-BE74-78B30D7F00C8}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A96BE6E0-B0A6-46EE-8A61-4D34FA28E6F7}" ShortID="821448444">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="I gotta check that out" ID="{9B900566-AFA9-46C8-ACAC-9F50FA6C33F2}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -756,6 +821,26 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Door 3" ID="{FEAD48A7-8D60-470C-8E75-D92952BF2DBD}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D4363C63-149A-455E-A48E-B3610EA71547}" ShortID="500378787">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="2.8"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grenadier Entry Vox" ID="{DEF714AA-A05D-45D1-A4C8-FCE39C273D90}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{86FDE394-1322-4E29-8023-9A0E7355C22B}" ShortID="988592878">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="6.2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="That doesn't sound good" ID="{835A0B44-C73A-4B22-AB25-5E545A0BFE22}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

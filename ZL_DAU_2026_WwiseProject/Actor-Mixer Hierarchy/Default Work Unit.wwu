@@ -25,66 +25,6 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Grenadier Death" ID="{78732300-BDEC-466E-BC8D-760374358958}" ShortID="613822617">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="2"/>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-420</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Rubber, Impact, Balloon, Hit, Thudd SND37697 1" ID="{55A618B3-BCEF-43FF-A4FA-CA5A382AFFF7}" ShortID="267478415">
-											<PropertyList>
-												<Property Name="Pitch" Type="int32">
-													<ValueList>
-														<Value>40</Value>
-													</ValueList>
-												</Property>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-8</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Rubber, Impact, Balloon, Hit, Thudd SND37697 1" ID="{177DC6AF-E9C4-4612-9835-3C89E26AD57C}">
-													<Language>SFX</Language>
-													<AudioFile>Rubber, Impact, Balloon, Hit, Thudd SND37697 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="620442833"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Rubber, Impact, Balloon, Hit, Thudd SND37697 1" ID="{177DC6AF-E9C4-4612-9835-3C89E26AD57C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Grenadier Throw" ID="{2551EA71-7483-4684-A4C5-93A106F1B73E}" ShortID="993453944">
 									<PropertyList>
 										<Property Name="Color" Type="int16" Value="2"/>
@@ -104,7 +44,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2557,7 +2497,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-10</Value>
+												<Value>-8</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -2955,7 +2895,14 @@
 										</Sound>
 									</ChildrenList>
 								</BlendContainer>
-								<Sound Name="Grenadier Death Temp" ID="{851A02BB-E696-4B61-B9C9-7085749C32BE}" ShortID="611959400">
+								<Sound Name="Grenadier Death" ID="{851A02BB-E696-4B61-B9C9-7085749C32BE}" ShortID="611959400">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -2972,9 +2919,16 @@
 												<MediaID ID="939833452"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Grenadier Death 2" ID="{B4F289F7-FA10-450E-A38B-D7262FD44A3B}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Death 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="271802121"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Grenadier Death Temp" ID="{7BE02C90-D196-4E65-BBA6-58AF62FA1B05}" Platform="Linked"/>
+										<ActiveSource Name="Grenadier Death 2" ID="{B4F289F7-FA10-450E-A38B-D7262FD44A3B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<RandomSequenceContainer Name="Throw Vox" ID="{E37DD369-609A-47A8-9FF3-4DC890A80866}" ShortID="98486039">
@@ -3175,7 +3129,7 @@
 										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>5</Value>
+												<Value>7</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -3189,6 +3143,13 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="Grenadier Damage Vox 1 All" ID="{41EEA61F-2A09-4CF4-B1E5-07A984A71BDF}" ShortID="886710234">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -3210,8 +3171,99 @@
 												<ActiveSource Name="Grenadier Damage Vox 1 All" ID="{7F10B4CC-415E-462A-A230-C7ED86B44F73}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="Grenadier Damaged Vox 1_2 All" ID="{0F7F5206-1557-4A85-8399-281F20E95C8B}" ShortID="584569229">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Grenadier Damaged Vox 1_2 All" ID="{B7A9307C-BB3E-437A-824D-5ED02D67C66F}">
+													<PropertyList>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.0360139301073112"/>
+														<Property Name="LoopBegin" Type="Real64" Value="0"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+													</PropertyList>
+													<Language>SFX</Language>
+													<AudioFile>Grenadier Damaged Vox 1.2 All.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="413469075"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Grenadier Damaged Vox 1_2 All" ID="{B7A9307C-BB3E-437A-824D-5ED02D67C66F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</RandomSequenceContainer>
+								<Sound Name="Grenadier Death Vox" ID="{BA371994-B835-4BE7-A02E-DBEE7CC57C00}" ShortID="988565746">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier Death Vox" ID="{1A91246B-ABA5-4139-B337-C9AEA61207E9}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Death Vox.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1022081001"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier Death Vox" ID="{1A91246B-ABA5-4139-B337-C9AEA61207E9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Grenadier Entry Vox" ID="{DEF714AA-A05D-45D1-A4C8-FCE39C273D90}" ShortID="757690974">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier Entry Vox" ID="{8FA983AE-1466-4B98-8A39-08BD3EBC4E6D}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.99822898013495"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.12717187751885"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Entry Vox.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="592798063"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier Entry Vox" ID="{8FA983AE-1466-4B98-8A39-08BD3EBC4E6D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</ActorMixer>
 						<ActorMixer Name="Chomper" ID="{F38D0805-775E-4114-ADEA-A0FD11C80257}" ShortID="685390929">
@@ -11461,14 +11513,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{1B0FA061-DD74-44D6-A305-D1FCD38A3D23}" ShortID="457280755">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Character Land Vox-001" ID="{937DA9D3-D834-4F84-9AC9-161FA27D09EB}" ShortID="1045912445">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11478,19 +11523,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{80406EC4-F472-472C-8A53-91FE8988323E}">
+										<AudioFileSource Name="Character Land Vox-001" ID="{588FBCA5-35B2-4BC1-991F-BB2AA7231489}">
 											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 4.wav</AudioFile>
+											<AudioFile>Character Land Vox-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="771207298"/>
+												<MediaID ID="58263590"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 4" ID="{80406EC4-F472-472C-8A53-91FE8988323E}" Platform="Linked"/>
+										<ActiveSource Name="Character Land Vox-001" ID="{588FBCA5-35B2-4BC1-991F-BB2AA7231489}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{952DE02C-9953-436B-AD30-5AD09BD763BD}" ShortID="571686447">
+								<Sound Name="Character Land Vox-002" ID="{E6AC761F-57C0-4D37-9030-AEBD84EB504A}" ShortID="150812793">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11500,23 +11545,126 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{E894C75A-62FC-4321-8333-8C42C9BCD5B0}">
-											<PropertyList>
-												<Property Name="FadeInDuration" Type="Real64" Value="0.00618145792815942"/>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0768266913928385"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0309072896407971"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.28169786073154"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Land Vox-002" ID="{51A6D54D-76D2-4A4F-921F-854588F55D49}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2.wav</AudioFile>
+											<AudioFile>Character Land Vox-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="116134718"/>
+												<MediaID ID="568560589"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 2" ID="{E894C75A-62FC-4321-8333-8C42C9BCD5B0}" Platform="Linked"/>
+										<ActiveSource Name="Character Land Vox-002" ID="{51A6D54D-76D2-4A4F-921F-854588F55D49}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Land Vox-003" ID="{273A4C39-E74D-498C-AF1F-AE055195111F}" ShortID="708563412">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Land Vox-003" ID="{B50A6A0E-B581-437C-A805-E22D09C53770}">
+											<Language>SFX</Language>
+											<AudioFile>Character Land Vox-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="589315223"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Land Vox-003" ID="{B50A6A0E-B581-437C-A805-E22D09C53770}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Land Vox-004" ID="{AD48F9AE-A92D-43AD-86A0-34250596E326}" ShortID="148043746">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Land Vox-004" ID="{8006947B-E3EA-4153-A1EC-6C6BD931F786}">
+											<Language>SFX</Language>
+											<AudioFile>Character Land Vox-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="440916713"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Land Vox-004" ID="{8006947B-E3EA-4153-A1EC-6C6BD931F786}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Land Vox-005" ID="{74EB9958-DA32-48D7-94E6-8266D6C0EDBC}" ShortID="455585887">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Land Vox-005" ID="{32858864-B532-41A8-ADFB-DA3ED1058976}">
+											<Language>SFX</Language>
+											<AudioFile>Character Land Vox-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="504162390"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Land Vox-005" ID="{32858864-B532-41A8-ADFB-DA3ED1058976}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Land Vox-006" ID="{1A710F34-6A2B-4CE6-8256-2B5FAF79FB3B}" ShortID="294671678">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Land Vox-006" ID="{BE68B4C7-5807-40CC-A788-D61E2F2FED05}">
+											<Language>SFX</Language>
+											<AudioFile>Character Land Vox-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="435464710"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Land Vox-006" ID="{BE68B4C7-5807-40CC-A788-D61E2F2FED05}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Land Vox-007" ID="{50A9B79B-4C4E-4B9C-8097-F472B22E04A1}" ShortID="494621734">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Land Vox-007" ID="{AE2181FD-5D4E-4AE6-9128-61E17208AE37}">
+											<Language>SFX</Language>
+											<AudioFile>Character Land Vox-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="881973930"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Land Vox-007" ID="{AE2181FD-5D4E-4AE6-9128-61E17208AE37}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -11531,7 +11679,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{3E2B0D5A-5660-4906-8F1D-3F1FD0464AA2}" ShortID="441433250">
+								<Sound Name="Character Death Vox -001" ID="{E05824C3-B817-4B47-92A1-5F4BABB63E27}" ShortID="541484655">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11541,26 +11689,226 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{B6BA2E94-4CFB-4D1B-826A-BD9019F4FD96}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.127431160508804"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.00427940464395238"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Death Vox -001" ID="{64E40278-1A86-4D60-B1A1-A819CCCDEF5D}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4.wav</AudioFile>
+											<AudioFile>Character Death Vox -001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="1069972770"/>
+												<MediaID ID="11266235"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 4" ID="{B6BA2E94-4CFB-4D1B-826A-BD9019F4FD96}" Platform="Linked"/>
+										<ActiveSource Name="Character Death Vox -001" ID="{64E40278-1A86-4D60-B1A1-A819CCCDEF5D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -002" ID="{746257BB-9B29-40B1-A673-8EAE303DF7D3}" ShortID="842693315">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -002" ID="{07974B4E-A61B-40B4-82EE-46F10766F39F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="547087485"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -002" ID="{07974B4E-A61B-40B4-82EE-46F10766F39F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -003" ID="{0F7A354C-3BF3-41C8-9F74-F7A094932215}" ShortID="865350338">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -003" ID="{C074176F-FD96-4DC4-BF86-F83C1B21A49E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="352106800"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -003" ID="{C074176F-FD96-4DC4-BF86-F83C1B21A49E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -004" ID="{10575B7E-4CB9-4CA5-9F43-B30DDC4C5944}" ShortID="936950115">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -004" ID="{A5D1E55B-453B-4751-8CA7-17B093D5EAC4}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="662985137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -004" ID="{A5D1E55B-453B-4751-8CA7-17B093D5EAC4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -005" ID="{D5CE5F7A-0171-4874-8435-C04B9F9F2F0A}" ShortID="791842658">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -005" ID="{0032831F-3BA5-4A49-B730-E100C31EA062}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="337221468"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -005" ID="{0032831F-3BA5-4A49-B730-E100C31EA062}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -006" ID="{5306B894-982B-45F4-96FA-4C1B42AFC6C1}" ShortID="285405990">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -006" ID="{5CD5BAB5-346D-4FE6-BC5E-3FCCEF41717C}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5669732"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -006" ID="{5CD5BAB5-346D-4FE6-BC5E-3FCCEF41717C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -007" ID="{B3A84D16-E8C5-4EA7-A4EE-CB93A82BC5AF}" ShortID="820109121">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -007" ID="{4FD89CE4-F473-450E-989B-650974FE2CE4}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1052767701"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -007" ID="{4FD89CE4-F473-450E-989B-650974FE2CE4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -008" ID="{1532AD7D-B780-43C1-AA45-5E96515A9FCC}" ShortID="785381163">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -008" ID="{2E5B7949-FEB7-4390-9AA2-20066DEE6EA6}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="392843174"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -008" ID="{2E5B7949-FEB7-4390-9AA2-20066DEE6EA6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -009" ID="{26546714-D517-4BF3-93C3-15EC6C5A71B9}" ShortID="949385315">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -009" ID="{4AF4AB23-7797-4C4C-8B28-906B936CD69D}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="884631517"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -009" ID="{4AF4AB23-7797-4C4C-8B28-906B936CD69D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Death Vox -010" ID="{BF207E66-595E-4907-8386-BD187D09519C}" ShortID="1008549423">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Death Vox -010" ID="{A05B200C-A087-4B9B-881B-5FAC1150D03F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Death Vox -010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496245388"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Death Vox -010" ID="{A05B200C-A087-4B9B-881B-5FAC1150D03F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Attack" ID="{A010ADF8-D8F2-4011-89A4-A84024FD7EB2}" ShortID="31111815">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11570,7 +11918,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{FE982E1B-0298-4417-89EA-4A1FFFC6F202}" ShortID="495981257">
+								<Sound Name="Character Attack Vox-001" ID="{0C6F8D2D-0910-4005-B2E9-3E7D9ED6983D}" ShortID="141336013">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11580,27 +11928,336 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{37DB5CD3-78AF-46BF-B9D4-4FA71A0AC6E0}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.164159700235357"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.048681842138761"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.339640745040939"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Attack Vox-001" ID="{6E5C3818-7BBD-4B3C-8BCD-E7358B4DD27D}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3.wav</AudioFile>
+											<AudioFile>Character Attack Vox-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="638539703"/>
+												<MediaID ID="766670863"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 3" ID="{37DB5CD3-78AF-46BF-B9D4-4FA71A0AC6E0}" Platform="Linked"/>
+										<ActiveSource Name="Character Attack Vox-001" ID="{6E5C3818-7BBD-4B3C-8BCD-E7358B4DD27D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-002" ID="{7769E56C-5F0D-4486-B7CD-249495CF6B7B}" ShortID="778404472">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-002" ID="{05BF4CB1-21BE-4D28-9943-42F5C5359262}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="21575364"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-002" ID="{05BF4CB1-21BE-4D28-9943-42F5C5359262}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-003" ID="{28F7B2F8-A7B3-4756-A1A0-7B568FAFE88F}" ShortID="495647419">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-003" ID="{150CAF20-1007-4353-9734-0F8A9BA0438A}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="174621401"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-003" ID="{150CAF20-1007-4353-9734-0F8A9BA0438A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-004" ID="{BABED8C8-C7A3-45FF-BD36-5E93C1437100}" ShortID="719605771">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-004" ID="{0789739F-BE1C-442E-99EE-DC0FFB783B86}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="817422031"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-004" ID="{0789739F-BE1C-442E-99EE-DC0FFB783B86}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-005" ID="{1FD515D5-B89B-40F5-8B4D-CD90620AC906}" ShortID="370798775">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-005" ID="{E654C80D-30F4-4AF1-8EB8-D0519E60B4CA}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="449027737"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-005" ID="{E654C80D-30F4-4AF1-8EB8-D0519E60B4CA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-006" ID="{67CF011C-EC9B-4F3C-A75C-3E4CE9D64D5E}" ShortID="371065273">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-006" ID="{8B07E525-7736-4F7D-A7E8-BE5CB08DDB45}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123865082"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-006" ID="{8B07E525-7736-4F7D-A7E8-BE5CB08DDB45}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-007" ID="{4774437A-ED85-4768-9127-2C9E28E464B6}" ShortID="399924493">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-007" ID="{4DCB4158-685A-464A-B218-01E196AF3F3C}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857053251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-007" ID="{4DCB4158-685A-464A-B218-01E196AF3F3C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-008" ID="{3ACEF55B-B346-4A62-99FA-33EDFEBDEB67}" ShortID="559677154">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-008" ID="{FB88BDE6-5B2E-45BB-A97A-61BF7112E8AE}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="478223572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-008" ID="{FB88BDE6-5B2E-45BB-A97A-61BF7112E8AE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-009" ID="{73307D1B-0D34-4EA3-AEB6-EFE0F5A016B5}" ShortID="736203860">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-009" ID="{3041A4C1-3062-4C9E-8C7F-430320943A8F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="335347106"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-009" ID="{3041A4C1-3062-4C9E-8C7F-430320943A8F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-010" ID="{C0CCA182-9D4E-424B-9FE0-080C01AF3376}" ShortID="405021807">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-010" ID="{96034C0A-586B-41FF-9597-6692C4AC099A}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="816207264"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-010" ID="{96034C0A-586B-41FF-9597-6692C4AC099A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-011" ID="{29C8EA3D-B0DF-4E72-A316-D7D503C5BBD5}" ShortID="667929554">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-011" ID="{78483CF0-BF83-4F93-B038-5B37439F8331}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454985505"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-011" ID="{78483CF0-BF83-4F93-B038-5B37439F8331}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-012" ID="{610E9110-9EB6-43B6-A820-CEDCB61B7C81}" ShortID="364967632">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-012" ID="{971D09DF-9031-4CCF-A056-2E6847BB3FC8}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="864913704"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-012" ID="{971D09DF-9031-4CCF-A056-2E6847BB3FC8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-013" ID="{8230638C-EEF1-49E1-948B-A6653E0BCCB9}" ShortID="850165992">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-013" ID="{A21DEC03-96AA-481B-B26B-F0666BBD5C6E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="421403946"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-013" ID="{A21DEC03-96AA-481B-B26B-F0666BBD5C6E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-014" ID="{1DC579A1-2BEB-4620-A19C-718AD495D09B}" ShortID="270944520">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-014" ID="{7D7D422E-5C67-45F5-BDAB-EE5FE1AA231D}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-014.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710238077"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-014" ID="{7D7D422E-5C67-45F5-BDAB-EE5FE1AA231D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Attack Vox-015" ID="{4CE0F555-3A61-4AA5-94F5-D777A70B4B02}" ShortID="446586072">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Attack Vox-015" ID="{EAB3FAE1-CCC4-4CEB-A838-D872AF3E3C0A}">
+											<Language>SFX</Language>
+											<AudioFile>Character Attack Vox-015.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365964942"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Attack Vox-015" ID="{EAB3FAE1-CCC4-4CEB-A838-D872AF3E3C0A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="JumpLife" ID="{FFB4CD37-C411-42B8-81EA-6E039EB837CD}" ShortID="965134696">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11610,14 +12267,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{13246029-B161-4732-B7D4-0CEE6869D7BD}" ShortID="490277299">
-									<PropertyList>
-										<Property Name="Inclusion" Type="bool">
-											<ValueList>
-												<Value>False</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
+								<Sound Name="Character Jump Vox-001" ID="{45210EDA-6545-4E9E-B8F8-8863730DD7F4}" ShortID="776256198">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11627,22 +12277,19 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}">
-											<PropertyList>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Jump Vox-001" ID="{B58433D7-3E80-4B47-B3A0-C74D2F33F38D}">
 											<Language>SFX</Language>
-											<AudioFile>Footsteps, Human, Grass, Jump, Land 01 SND62077 3.wav</AudioFile>
+											<AudioFile>Character Jump Vox-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="608003713"/>
+												<MediaID ID="436450613"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Footsteps, Human, Grass, Jump, Land 01 SND62077 3" ID="{A63C4E7A-2B2F-4224-920E-3CACA93C830C}" Platform="Linked"/>
+										<ActiveSource Name="Character Jump Vox-001" ID="{B58433D7-3E80-4B47-B3A0-C74D2F33F38D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{F7CABDC6-F03C-4448-9AF2-BEA3BA541A00}" ShortID="29530535">
+								<Sound Name="Character Jump Vox-002" ID="{676BFABC-0418-4251-9B77-4CFD4FF6A31C}" ShortID="711639269">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11652,27 +12299,314 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{89941091-0E7E-48B0-BC72-7997745B5D6D}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0458513775209742"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0682676065312283"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.332167760807698"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Jump Vox-002" ID="{B3F55B7C-28ED-407B-AC81-1CFE930A2E53}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99.wav</AudioFile>
+											<AudioFile>Character Jump Vox-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="817893841"/>
+												<MediaID ID="750626026"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{89941091-0E7E-48B0-BC72-7997745B5D6D}" Platform="Linked"/>
+										<ActiveSource Name="Character Jump Vox-002" ID="{B3F55B7C-28ED-407B-AC81-1CFE930A2E53}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-003" ID="{3CC99A86-1139-4BA2-A2E0-27B0E182562D}" ShortID="338949925">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-003" ID="{F78D2C69-2F70-4651-B60F-8AA4B8F63D81}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019766289"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-003" ID="{F78D2C69-2F70-4651-B60F-8AA4B8F63D81}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-004" ID="{3891C5FB-0BAF-473A-9C08-21E8B265694E}" ShortID="647251436">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-004" ID="{0665E3C7-A3FF-4208-BD52-49853232967E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="365142943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-004" ID="{0665E3C7-A3FF-4208-BD52-49853232967E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-005" ID="{89F65565-7F2F-4F69-8B3E-80459A4618E5}" ShortID="1048545325">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-005" ID="{7BB4510E-8C10-4582-AFB6-3EDA38B1B860}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="271825039"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-005" ID="{7BB4510E-8C10-4582-AFB6-3EDA38B1B860}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-006" ID="{91E63A5D-E8AA-4206-A0EE-AFF398A71C55}" ShortID="279793512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-006" ID="{EA38DBFB-74F7-4866-88D4-F80381E2258F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="74353924"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-006" ID="{EA38DBFB-74F7-4866-88D4-F80381E2258F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-007" ID="{57007373-54E4-47F9-8F4F-4FA25DAA7809}" ShortID="922669286">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-007" ID="{115EE995-1070-4DBA-B7EC-63A45F0979D1}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="162557478"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-007" ID="{115EE995-1070-4DBA-B7EC-63A45F0979D1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-008" ID="{A21F38ED-38B8-4B4F-A150-CBE7B562A669}" ShortID="113790802">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-008" ID="{B7ACBA77-E158-4896-A10C-F3B047E94990}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="566643039"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-008" ID="{B7ACBA77-E158-4896-A10C-F3B047E94990}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-009" ID="{D1E45B21-9C51-4C07-A308-ED275F8783F4}" ShortID="786335690">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-009" ID="{1146CA3E-23C3-416A-9ECE-13338AB34D6F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="532476833"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-009" ID="{1146CA3E-23C3-416A-9ECE-13338AB34D6F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-010" ID="{4B3A812E-1E77-47E4-BC2E-743E8926048F}" ShortID="233986895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-010" ID="{0EB0CB86-629F-4948-883D-735DBC08F157}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1019876779"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-010" ID="{0EB0CB86-629F-4948-883D-735DBC08F157}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-011" ID="{D35ABB78-B411-476E-8DF1-AFF1959337ED}" ShortID="943303160">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-011" ID="{D1573422-0266-4DE9-9503-101938A5C11E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="826885813"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-011" ID="{D1573422-0266-4DE9-9503-101938A5C11E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-012" ID="{3389DA3E-1DED-45A0-AAD3-59D1797DE6E8}" ShortID="91345151">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-012" ID="{0121D64F-C731-4A6E-B953-2E30E8164A75}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="492235544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-012" ID="{0121D64F-C731-4A6E-B953-2E30E8164A75}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-013" ID="{FC81B7F0-4E04-4B61-A41A-FB0475F006F8}" ShortID="686557794">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-013" ID="{B1F55560-E9FD-458F-89AF-CD11793F478F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="841259936"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-013" ID="{B1F55560-E9FD-458F-89AF-CD11793F478F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-014" ID="{ED1A8E29-8512-4642-9218-A75A86E434B4}" ShortID="353912439">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-014" ID="{8429D388-E132-4B92-BB24-1AF7B1667DEE}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-014.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="987646755"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-014" ID="{8429D388-E132-4B92-BB24-1AF7B1667DEE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Jump Vox-015" ID="{1B1BC94F-C59A-4084-917F-7F686C14EEB1}" ShortID="774729823">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Jump Vox-015" ID="{2D5F6E66-6F64-4EAE-A571-8D49F65CCFD1}">
+											<Language>SFX</Language>
+											<AudioFile>Character Jump Vox-015.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="925274372"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Jump Vox-015" ID="{2D5F6E66-6F64-4EAE-A571-8D49F65CCFD1}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hurt" ID="{EFBF1D9A-843E-4205-B593-C5BB0CFE1D65}" ShortID="1029626125">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11682,7 +12616,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{10E671BC-A9E4-4FA2-9285-E9158F32A3F9}" ShortID="455484458">
+								<Sound Name="Character Damaged Vox-001" ID="{930DE8D7-68B2-4AA5-BEEC-B33CF2445760}" ShortID="956794709">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -11692,21 +12626,346 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{3FA962FA-AF8C-4E22-B68A-3CE846770099}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.124397685208659"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0120684321471087"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Damaged Vox-001" ID="{52FF0889-F01A-4816-8F2C-2D7023D30752}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1.wav</AudioFile>
+											<AudioFile>Character Damaged Vox-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="920905788"/>
+												<MediaID ID="389821761"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99 1" ID="{3FA962FA-AF8C-4E22-B68A-3CE846770099}" Platform="Linked"/>
+										<ActiveSource Name="Character Damaged Vox-001" ID="{52FF0889-F01A-4816-8F2C-2D7023D30752}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-002" ID="{2A87D508-404C-4522-BF56-765C6B2A448E}" ShortID="971402983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-002" ID="{E097328B-507B-41A3-A37E-D12382608399}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="586942806"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-002" ID="{E097328B-507B-41A3-A37E-D12382608399}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-003" ID="{EF35C105-8E48-474F-BB53-291082E91500}" ShortID="67263189">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-003" ID="{690B37FE-8821-48D9-A5D6-C132A082015F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605256050"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-003" ID="{690B37FE-8821-48D9-A5D6-C132A082015F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-004" ID="{A57604C3-DBAF-4988-9AF2-269C1317C0BA}" ShortID="98376639">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-004" ID="{0FA5907B-CBE6-444F-9C70-DE84B1DF1B20}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="155468395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-004" ID="{0FA5907B-CBE6-444F-9C70-DE84B1DF1B20}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-005" ID="{92FDB168-25A2-40EC-9475-07401028AA13}" ShortID="632480524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-005" ID="{D04C5472-E327-442F-A6E8-D5B4C8863EEA}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="217873251"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-005" ID="{D04C5472-E327-442F-A6E8-D5B4C8863EEA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-006" ID="{7C704A62-8CB3-4CED-9B19-76C1278CF0D2}" ShortID="813461831">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-006" ID="{BCDC40A7-27BA-48DD-9BEE-6245EB4FEE50}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="851731396"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-006" ID="{BCDC40A7-27BA-48DD-9BEE-6245EB4FEE50}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-007" ID="{55981D93-6964-4F2D-93C7-E3386F41E111}" ShortID="842686337">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-007" ID="{C7BAEB9F-2E6C-4C09-AB86-E8562111D3FC}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="744274454"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-007" ID="{C7BAEB9F-2E6C-4C09-AB86-E8562111D3FC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-008" ID="{02F1B321-CCB9-4AB6-BEE5-804C6C6F5E41}" ShortID="99095470">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-008" ID="{D757FA80-E696-47CF-80F5-B1B2DD85481E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-008.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="567359501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-008" ID="{D757FA80-E696-47CF-80F5-B1B2DD85481E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-009" ID="{400A4C54-A2E1-4D1D-BAF9-67733D568C4E}" ShortID="426325809">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-009" ID="{AB9625A1-27D9-4709-B4CD-2A4CF4D76482}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-009.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="307814370"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-009" ID="{AB9625A1-27D9-4709-B4CD-2A4CF4D76482}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-010" ID="{A0C5C05B-4A0C-4980-9532-B2B85B36D1E9}" ShortID="717953739">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-010" ID="{92D23893-2169-4A6E-9679-B33A18A9B502}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-010.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="799710590"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-010" ID="{92D23893-2169-4A6E-9679-B33A18A9B502}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-011" ID="{523789AE-8D91-4987-ABD2-C1CE1A68F8B1}" ShortID="673117512">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-011" ID="{FDA0FC16-AE5B-41EB-A6FC-449B7254CE0E}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-011.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="123447385"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-011" ID="{FDA0FC16-AE5B-41EB-A6FC-449B7254CE0E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-012" ID="{68D96195-51B0-46CB-925E-26346A844F06}" ShortID="625086170">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-012" ID="{17E1E7FA-D5D9-4EC3-9759-287E0A76AF93}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-012.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="496414943"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-012" ID="{17E1E7FA-D5D9-4EC3-9759-287E0A76AF93}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-013" ID="{BE09582D-7C71-4B30-ACAD-1B1BF6C3D88F}" ShortID="196465664">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-013" ID="{E44F648A-3FFF-4BD5-956F-66054A02201C}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-013.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="904776262"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-013" ID="{E44F648A-3FFF-4BD5-956F-66054A02201C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-014" ID="{B9269B0E-B37B-4BB4-8C7A-2FD835A1FFE2}" ShortID="283985544">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-014" ID="{CD2BA1DA-3D5D-4DE2-86B8-80BEC9F8643F}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-014.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="192198826"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-014" ID="{CD2BA1DA-3D5D-4DE2-86B8-80BEC9F8643F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-015" ID="{AE4F3E7C-C33A-44D8-8340-DC0866AFC8B7}" ShortID="428195476">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-015" ID="{6A13FB2D-46E4-4105-B008-1AA854D73CB2}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-015.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="809345435"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-015" ID="{6A13FB2D-46E4-4105-B008-1AA854D73CB2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Damaged Vox-016" ID="{4CC9558A-065C-45A9-A700-7530D97B8348}" ShortID="110428018">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Damaged Vox-016" ID="{82F3987F-5639-40C4-9231-64C2B0ECE3AC}">
+											<Language>SFX</Language>
+											<AudioFile>Character Damaged Vox-016.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="824009844"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Damaged Vox-016" ID="{82F3987F-5639-40C4-9231-64C2B0ECE3AC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -11721,11 +12980,77 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{CCEFF50C-5366-471B-879E-1518742CBD5E}" ShortID="188211565">
+								<Sound Name="Character Vox That was unnecessary" ID="{7ECFDECB-10A0-487D-8895-F8631F46750C}" ShortID="989762249">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox That was unnecessary" ID="{0A549EC2-DD41-402E-B92B-8508D621481A}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox That was unnecessary.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="505985643"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox That was unnecessary" ID="{0A549EC2-DD41-402E-B92B-8508D621481A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Vox Not done yet" ID="{67EAFCE4-4864-4825-BFB5-BA564951A6EE}" ShortID="1047494345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Not done yet" ID="{740CDE9E-8DBF-438B-9105-29DCE2F547C0}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Not done yet.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="798748255"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Not done yet" ID="{740CDE9E-8DBF-438B-9105-29DCE2F547C0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Vox Can't Kill Me" ID="{C95647FB-FA58-4422-9530-843E8B8B4980}" ShortID="656500922">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Can't Kill Me" ID="{12AF6686-F4E3-42D8-B980-60A5F6197230}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Can't Kill Me.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="795676352"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Can't Kill Me" ID="{12AF6686-F4E3-42D8-B980-60A5F6197230}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Vox Oh I'm not done yet" ID="{98721738-4012-4004-9463-EF84CC866C73}" ShortID="807095111">
 									<PropertyList>
-										<Property Name="Pitch" Type="int32">
+										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-170</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -11738,47 +13063,31 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{6A8A166E-4B41-4DE3-AED1-FEF7A86BBE31}">
-											<PropertyList>
-												<Property Name="FadeOutDuration" Type="Real64" Value="0.0458513775209742"/>
-												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-												<Property Name="TrimBegin" Type="Real64" Value="0.0682676065312283"/>
-												<Property Name="TrimEnd" Type="Real64" Value="0.332167760807698"/>
-											</PropertyList>
+										<AudioFileSource Name="Character Vox Oh I'm not done yet" ID="{CB111AFB-38AE-420A-8E98-5BE35470F648}">
 											<Language>SFX</Language>
-											<AudioFile>Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99.wav</AudioFile>
+											<AudioFile>Character Vox Oh I'm not done yet.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="817893841"/>
+												<MediaID ID="847717732"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Voices, Efforts, Female Voice, Attack, Hit, Fight, LoFi SND97238 - Pitch 99" ID="{6A8A166E-4B41-4DE3-AED1-FEF7A86BBE31}" Platform="Linked"/>
+										<ActiveSource Name="Character Vox Oh I'm not done yet" ID="{CB111AFB-38AE-420A-8E98-5BE35470F648}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<Folder Name="Voice lines" ID="{B2BEDC0B-D729-473D-B58D-AFFB89DB2E5E}" ShortID="951936049">
 							<ChildrenList>
-								<Sound Name="Temp where am i" ID="{B1CC5DD8-3B10-4E7C-9DC8-A4B41752B6F8}" ShortID="948212259">
+								<Sound Name="Where am I" ID="{B1CC5DD8-3B10-4E7C-9DC8-A4B41752B6F8}" ShortID="948212259">
 									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
 										<Property Name="MaxSoundPerInstance" Type="int16">
 											<ValueList>
 												<Value>1</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Pitch" Type="int32">
-											<ValueList>
-												<Value>-800</Value>
-											</ValueList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-26</Value>
-											</ValueList>
-										</Property>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -11796,13 +13105,236 @@
 												<MediaID ID="344886089"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Character Vox Where am I" ID="{35A3168F-8B0C-4202-8E90-0E91BE2375C1}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0450489771394571"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="LoopEnd" Type="Real64" Value="0.755020833333333"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Where am I.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="751335544"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Spell Ultimate C" ID="{DD8B8748-3E91-4599-8181-52BFA0EA701C}" Platform="Linked"/>
+										<ActiveSource Name="Character Vox Where am I" ID="{35A3168F-8B0C-4202-8E90-0E91BE2375C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="I gotta check that out" ID="{9B900566-AFA9-46C8-ACAC-9F50FA6C33F2}" ShortID="14957259">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox I gotta check that out" ID="{E59ABE07-D78F-4980-B1D6-A1DBE19D40B8}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0187456237956847"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character Vox I gotta check that out.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="330436787"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox I gotta check that out" ID="{E59ABE07-D78F-4980-B1D6-A1DBE19D40B8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Looks like this just got interesting" ID="{340C1050-8D9B-4365-B69E-CE0BBB3FEBF1}" ShortID="310392103">
+									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Just got interesting" ID="{010BC1EE-7079-4CA3-BE21-605BEF31A2DF}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Just got interesting.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="336763499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Just got interesting" ID="{010BC1EE-7079-4CA3-BE21-605BEF31A2DF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="This just got interesting2" ID="{C4115AA1-AFD2-485C-B8DF-C9A4201B62B0}" ShortID="102909929">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Just got interesting2" ID="{A4C3D714-FDD7-421F-A05A-0B8370FAA766}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Just got interesting2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="257636497"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Just got interesting2" ID="{A4C3D714-FDD7-421F-A05A-0B8370FAA766}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="That doesn't sound good" ID="{835A0B44-C73A-4B22-AB25-5E545A0BFE22}" ShortID="644253726">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox That doesn't sound good" ID="{137A11D6-7BD9-4046-82F6-EE1BD8DCC1F2}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox That doesn't sound good.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="644682631"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox That doesn't sound good" ID="{137A11D6-7BD9-4046-82F6-EE1BD8DCC1F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Vox Door crystals are for" ID="{06B4E0A6-CEE0-4A9C-80C3-02159CF82216}" ShortID="781558360">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Door crystals are for" ID="{39888D96-5B1A-4EF2-AC3E-AD84BA3A8E94}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.0273725402742011"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Door crystals are for.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="827869070"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Door crystals are for" ID="{39888D96-5B1A-4EF2-AC3E-AD84BA3A8E94}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
 						</Folder>
+						<RandomSequenceContainer Name="Health Box" ID="{36496E23-06CC-4F11-BCF1-A1D522C74344}" ShortID="91691786">
+							<PropertyList>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Character Vox Health Much Better" ID="{DDBA2180-2794-4AF5-82D0-22EEBD191EAF}" ShortID="920394864">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Health Much Better" ID="{376519B9-DB39-4068-B4E1-A8156B9D866A}">
+											<PropertyList>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.014978429912466"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Health Much Better.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1000165812"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Health Much Better" ID="{376519B9-DB39-4068-B4E1-A8156B9D866A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Character Vox Health Nice" ID="{72A9A7EE-68B4-4118-8320-F47ABE84839D}" ShortID="912541289">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Character Vox Health Nice" ID="{72259160-3B5B-45DD-A1F2-3A41D5EDB502}">
+											<Language>SFX</Language>
+											<AudioFile>Character Vox Health Nice.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1000739121"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Character Vox Health Nice" ID="{72259160-3B5B-45DD-A1F2-3A41D5EDB502}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Playlist">
+									<Reference>
+										<ObjectRef Name="Character Vox Health Much Better" ID="{DDBA2180-2794-4AF5-82D0-22EEBD191EAF}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+									</Reference>
+									<Reference>
+										<ObjectRef Name="Character Vox Health Nice" ID="{72A9A7EE-68B4-4118-8320-F47ABE84839D}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

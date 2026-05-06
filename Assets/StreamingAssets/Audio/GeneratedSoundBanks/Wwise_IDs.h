@@ -53,6 +53,7 @@ namespace AK
         static const AkUniqueID PLAY_SWITCHBEFORE = 742850819U;
         static const AkUniqueID PLAY_WATERLOOP = 2890226053U;
         static const AkUniqueID PLAY_WHEREAMI = 702196994U;
+        static const AkUniqueID PLAY_WONDERDOORCRYSTALS = 2525304970U;
     } // namespace EVENTS
 
     namespace SWITCHES
