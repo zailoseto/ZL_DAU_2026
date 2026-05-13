@@ -21,10 +21,16 @@ public class PlayerSoundController : MonoBehaviour
 
 
     [SerializeField]
-    private AK.Wwise.Event player_jumpLand;
+    private AK.Wwise.Event player_jumpLandHard;
 
     [SerializeField]
-    private GameObject player_jumpLand_source;
+    private GameObject player_jumpLandHard_source;
+
+    [SerializeField]
+    private AK.Wwise.Event player_jumpLandSoft;
+
+    [SerializeField]
+    private GameObject player_jumpLandSoft_source;
 
 
     public AK.Wwise.Event player_hurt;
@@ -62,12 +68,23 @@ public class PlayerSoundController : MonoBehaviour
 
     public void PlayJumpSound()
     {
-        player_jump.Post(player_jump_source);
+        GroundSwitch();
+        AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", gameObject);
+        player_jump.Post(player_footstep_source);
     }
 
-    public void PlayJumpLandSound()
+    public void PlayJumpLandHardSound()
     {
-        player_jumpLand.Post(player_jumpLand_source);
+        GroundSwitch();
+        AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", gameObject);
+        player_jumpLandHard.Post(player_footstep_source);
+    }
+
+    public void PlayJumpLandSoftSound()
+    {
+        GroundSwitch();
+        AkUnitySoundEngine.SetSwitch("SurfaceMaterial", "Mud", gameObject);
+        player_jumpLandSoft.Post(player_footstep_source);
     }
 
     private void GroundSwitch()

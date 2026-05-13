@@ -9,27 +9,6 @@
 							<ObjectRef Name="System" ID="{01A1010B-A1B2-40E5-8571-9F2E2CCB42E8}" WorkUnitID="{15756310-AB5E-412D-9280-4E7344F61B8A}"/>
 						</Reference>
 					</ReferenceList>
-					<ChildrenList>
-						<AuxBus Name="Grenadier_Reverb" ID="{4704F02D-3422-4990-A7C4-841387A020FC}">
-							<ObjectLists>
-								<ObjectList Name="Effects">
-									<Reference>
-										<Local>
-											<EffectSlot Name="" ID="{451D23D4-9835-4912-9BAE-5C077B993DD6}" ShortID="820027941">
-												<ReferenceList>
-													<Reference Name="Effect">
-														<Custom CreatedFrom="{C3D605D7-8F3B-4B69-B76E-4B39EA48C13E}">
-															<Effect Name="Grenadier_Reverb (Custom)" ID="{D68EE0CA-2B03-45C5-ABFF-DD4D28F8953C}" ShortID="208347690" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3"/>
-														</Custom>
-													</Reference>
-												</ReferenceList>
-											</EffectSlot>
-										</Local>
-									</Reference>
-								</ObjectList>
-							</ObjectLists>
-						</AuxBus>
-					</ChildrenList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -40,7 +40,8 @@ namespace AK
         static const AkUniqueID PLAY_HEALTHBOXOPEN = 3166879883U;
         static const AkUniqueID PLAY_HURT = 2955259529U;
         static const AkUniqueID PLAY_JUMP = 3689126666U;
-        static const AkUniqueID PLAY_LAND = 4285282925U;
+        static const AkUniqueID PLAY_LANDHARD = 2350165574U;
+        static const AkUniqueID PLAY_LANDSOFT = 766290169U;
         static const AkUniqueID PLAY_LEVEL1AMB = 3690598599U;
         static const AkUniqueID PLAY_PLAYERFOOTSTEP = 1592819191U;
         static const AkUniqueID PLAY_PLAYERRESPAWN = 309249463U;
@@ -84,11 +85,6 @@ namespace AK
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
     } // namespace BUSSES
-
-    namespace AUX_BUSSES
-    {
-        static const AkUniqueID GRENADIER_REVERB = 1089453751U;
-    } // namespace AUX_BUSSES
 
     namespace AUDIO_DEVICES
     {

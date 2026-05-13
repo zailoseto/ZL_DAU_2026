@@ -18096,7 +18096,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1490652719919650}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243921076603134450, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}
@@ -18421,7 +18421,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1520815856060986}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 243921076603134450, guid: 248799cb4acba48f7b3ee842a80f788c,
     type: 2}
@@ -22444,12 +22444,18 @@ MonoBehaviour:
     WwiseObjectReference: {fileID: 11400000, guid: ba834545aa474d746842819d578cc61b,
       type: 2}
   player_jump_source: {fileID: 1610931583159142}
-  player_jumpLand:
+  player_jumpLandHard:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: cb578f096b670d14982bc5a6ad5dca96,
       type: 2}
-  player_jumpLand_source: {fileID: 1490652719919650}
+  player_jumpLandHard_source: {fileID: 1520815856060986}
+  player_jumpLandSoft:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fb21da0b9f0f19347bc66ad662a5ab9a,
+      type: 2}
+  player_jumpLandSoft_source: {fileID: 1490652719919650}
   player_hurt:
     idInternal: 0
     valueGuidInternal: 

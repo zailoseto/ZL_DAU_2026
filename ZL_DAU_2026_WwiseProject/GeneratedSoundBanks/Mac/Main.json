@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{6EFC220B-65AB-AF08-B824-6C1F90408301}",
+    "Hash": "{ABF02113-D8EE-BD00-520E-76A885EF9231}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -80,6 +80,14 @@
       "CachePath": "2C/{2C8C1B8E-4B79-15EC-6333-007D87CA178B}.wem"
      },
      {
+      "Id": "18013114",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Health Box Open temp.wav",
+      "CachePath": "2F/{2FC35A1F-F2DF-2C26-2202-FAA30D6048DB}.wem"
+     },
+     {
       "Id": "20570630",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,20 +96,36 @@
       "CachePath": "2F/{2F30F395-EE09-A3F9-C20F-EBC25760AF0F}.wem"
      },
      {
-      "Id": "21575364",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-002.wav",
-      "CachePath": "4E/{4EB560BB-07E1-9B84-3064-6CF8BF39FE7A}.wem"
-     },
-     {
       "Id": "23544570",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Damaged Drone.wav",
       "CachePath": "21/{21BE5B61-01E3-C357-067B-66326D11F06B}.wem"
+     },
+     {
+      "Id": "26319259",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite Low-005.wav",
+      "CachePath": "E0/{E0753E27-3B84-52BF-42BA-791765F3FCAE}.wem"
+     },
+     {
+      "Id": "27966601",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Purr-001.wav",
+      "CachePath": "32/{3221A9CA-3380-5CC3-0C46-F12AC0B18A9C}.wem"
+     },
+     {
+      "Id": "32601137",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-014.wav",
+      "CachePath": "40/{40020185-7240-7DB0-A420-487C354419F1}.wem"
      },
      {
       "Id": "33936021",
@@ -136,6 +160,14 @@
       "CachePath": "DE/{DE4D179C-0199-86BF-071F-96B109CCDCFF}.wem"
      },
      {
+      "Id": "44809919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-015.wav",
+      "CachePath": "22/{22FB2BD4-2B66-2ED4-F475-C9144A9B543E}.wem"
+     },
+     {
       "Id": "48070420",
       "Language": "SFX",
       "Streaming": "false",
@@ -168,12 +200,12 @@
       "CachePath": "86/{864D4300-43E5-4D20-57D0-75A4BBADB33E}.wem"
      },
      {
-      "Id": "58263590",
+      "Id": "57407918",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Land Vox-001.wav",
-      "CachePath": "BF/{BF1E578B-8FE6-5F4C-9355-53DC2764C437}.wem"
+      "ShortName": "Character Attack Vox 2-011.wav",
+      "CachePath": "F7/{F78197CF-C036-4760-2AB3-E2DC95BAB7C6}.wem"
      },
      {
       "Id": "58551877",
@@ -190,6 +222,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Garage-003.wav",
       "CachePath": "F6/{F6A28A36-AF6E-4145-5B6A-E620C5CDD61D}.wem"
+     },
+     {
+      "Id": "62630001",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite Low-002.wav",
+      "CachePath": "F3/{F326EE01-A67E-0EEE-4757-F82CABA2D16F}.wem"
      },
      {
       "Id": "63676384",
@@ -245,7 +285,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -002.wav",
-      "CachePath": "5A/{5AA8D653-DC1B-F0ED-DBD0-E1AF11D5D99E}.wem"
+      "CachePath": "EF/{EF230DFB-012C-CFE4-800C-C96AA251953C}.wem"
      },
      {
       "Id": "72025512",
@@ -254,14 +294,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Footsteps Thump-010.wav",
       "CachePath": "69/{6932CBF3-756B-92EF-83FA-CD849CA31053}.wem"
-     },
-     {
-      "Id": "74353924",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-006.wav",
-      "CachePath": "EF/{EF566C17-06DE-5FD2-1EE4-8678AB1B575D}.wem"
      },
      {
       "Id": "75136265",
@@ -310,6 +342,22 @@
       "Location": "Memory",
       "ShortName": "Chomper Death Click-003.wav",
       "CachePath": "F2/{F20C03C5-DF62-F628-664C-A97A0D6F9862}.wem"
+     },
+     {
+      "Id": "83237299",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-013.wav",
+      "CachePath": "A6/{A6700C63-46EA-1AA2-4FF8-E07DABC1827E}.wem"
+     },
+     {
+      "Id": "84418858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite Low-001.wav",
+      "CachePath": "82/{82148A63-38CA-7D30-A641-CF4786741017}.wem"
      },
      {
       "Id": "85730643",
@@ -376,6 +424,22 @@
       "CachePath": "8F/{8FB3B672-8284-5F9C-EADA-7E6F806FDEC2}.wem"
      },
      {
+      "Id": "108135739",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Gurgle-003.wav",
+      "CachePath": "E0/{E0E7C688-2524-5E06-3A3A-B65ADB5E2AC5}.wem"
+     },
+     {
+      "Id": "109375708",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Gurgle-004.wav",
+      "CachePath": "0D/{0DF54FD2-EED4-66F8-C51E-A49121DC6676}.wem"
+     },
+     {
       "Id": "110289107",
       "Language": "SFX",
       "Streaming": "false",
@@ -392,20 +456,20 @@
       "CachePath": "1B/{1B2C0A24-DB83-E664-964C-FE709EABDA13}.wem"
      },
      {
-      "Id": "123447385",
+      "Id": "116813826",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Damaged Vox-011.wav",
-      "CachePath": "2A/{2A579B5A-2F36-72A2-292F-4549BDA6CDB6}.wem"
+      "ShortName": "Character Attack Vox 2-012.wav",
+      "CachePath": "9B/{9B9B05DD-F654-409D-0D35-9B7E66B61A1C}.wem"
      },
      {
-      "Id": "123865082",
+      "Id": "131070502",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-006.wav",
-      "CachePath": "46/{46A563EB-D8E8-BF6B-5E1F-93675FE22CC4}.wem"
+      "ShortName": "Chomper Attack Purr-003.wav",
+      "CachePath": "6E/{6E2320D2-5A02-BC5F-370B-A584920EC43A}.wem"
      },
      {
       "Id": "136118414",
@@ -448,6 +512,14 @@
       "CachePath": "4C/{4C1FAE4A-225A-A71D-E7CD-9742B4626F25}.wem"
      },
      {
+      "Id": "149678195",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-007.wav",
+      "CachePath": "86/{86C6E4DF-F050-2694-A65E-165F75785DA0}.wem"
+     },
+     {
       "Id": "151212863",
       "Language": "SFX",
       "Streaming": "false",
@@ -456,12 +528,12 @@
       "CachePath": "22/{22E20F89-4D58-0007-8BCF-7A26D9879A45}.wem"
      },
      {
-      "Id": "155468395",
+      "Id": "151380230",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Damaged Vox-004.wav",
-      "CachePath": "9A/{9A63AD07-E6A4-EBF2-EE4A-5973DF4B9FC7}.wem"
+      "ShortName": "Chomper Attack Vox Bite High-004.wav",
+      "CachePath": "30/{30FECE25-8E9A-F0D8-7272-B574480AF00B}.wem"
      },
      {
       "Id": "158987425",
@@ -470,14 +542,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Spotted Yelp Long-001.wav",
       "CachePath": "56/{5643219E-0DE1-A4B5-5662-7856A621503A}.wem"
-     },
-     {
-      "Id": "162557478",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-007.wav",
-      "CachePath": "F5/{F592B1E1-6ACD-512C-6794-1EC51B31D299}.wem"
      },
      {
       "Id": "164018614",
@@ -512,12 +576,20 @@
       "CachePath": "AD/{ADFF973A-4BEE-D4DB-5829-7CC0D579183A}.wem"
      },
      {
-      "Id": "174621401",
+      "Id": "171973040",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-003.wav",
-      "CachePath": "96/{9681A901-2388-3D3D-466E-0EF799D0F3B7}.wem"
+      "ShortName": "Chomper Attack Vox Bite High-005.wav",
+      "CachePath": "0E/{0E7172D0-ABD3-0ACF-2E53-3B02F33EFB56}.wem"
+     },
+     {
+      "Id": "174225186",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-016.wav",
+      "CachePath": "61/{61582602-763D-BB0D-59BE-93569DC000AB}.wem"
      },
      {
       "Id": "179625686",
@@ -552,12 +624,12 @@
       "CachePath": "87/{87F0B810-107B-51B6-32EB-9AF227992C52}.wem"
      },
      {
-      "Id": "192198826",
+      "Id": "195222388",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Damaged Vox-014.wav",
-      "CachePath": "63/{63FBEF66-9591-83DB-5C9A-EC608E7636E7}.wem"
+      "ShortName": "Character Jump Vox 2-002.wav",
+      "CachePath": "C6/{C6A1DCD7-7D90-0536-207A-BE0228C9E572}.wem"
      },
      {
       "Id": "197057620",
@@ -566,6 +638,14 @@
       "Location": "Memory",
       "ShortName": "Chomper Idle Yelp-005.wav",
       "CachePath": "74/{7412496F-6717-0705-A2F4-300B185366B3}.wem"
+     },
+     {
+      "Id": "197568709",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-006.wav",
+      "CachePath": "34/{345B01AC-B76B-00A7-7C90-E462D8459A14}.wem"
      },
      {
       "Id": "198609170",
@@ -584,6 +664,22 @@
       "CachePath": "B0/{B0938D3C-8011-61B9-32D1-8CA894EF4E38}.wem"
      },
      {
+      "Id": "203152919",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-010.wav",
+      "CachePath": "A2/{A236EC04-BA78-BC78-0A0D-82EA05B83B4B}.wem"
+     },
+     {
+      "Id": "206082312",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Not Done Yet 2.wav",
+      "CachePath": "39/{394F4815-CF25-9E52-47BD-0D572223B8FB}.wem"
+     },
+     {
       "Id": "206416741",
       "Language": "SFX",
       "Streaming": "false",
@@ -592,20 +688,20 @@
       "CachePath": "D2/{D22A27E2-D75E-7708-3956-95673B2755DD}.wem"
      },
      {
+      "Id": "214074595",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-009.wav",
+      "CachePath": "08/{08A770E2-7AC2-659D-6077-926F3C304032}.wem"
+     },
+     {
       "Id": "215162361",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Lion-003.wav",
       "CachePath": "67/{67E181E8-D786-77E3-DAC5-81CAB90F0F1A}.wem"
-     },
-     {
-      "Id": "217873251",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-005.wav",
-      "CachePath": "F4/{F48ED1AB-A148-01C0-CC55-2D19BC956947}.wem"
      },
      {
       "Id": "221157528",
@@ -648,6 +744,14 @@
       "CachePath": "09/{09471272-24F6-FF59-6038-3AD4E7257484}.wem"
      },
      {
+      "Id": "234570306",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-001.wav",
+      "CachePath": "34/{34482AF1-25EA-FDBF-25B8-4A83A6DDA3C3}.wem"
+     },
+     {
       "Id": "245174591",
       "Language": "SFX",
       "Streaming": "false",
@@ -680,12 +784,12 @@
       "CachePath": "3A/{3A540A22-C719-C376-0663-0C344117ACA6}.wem"
      },
      {
-      "Id": "257636497",
+      "Id": "260037329",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Vox Just got interesting2.wav",
-      "CachePath": "68/{68BDD4F7-46F8-6624-FB4C-2ACD0EF06362}.wem"
+      "ShortName": "Chomper Attack Vox Bite High-010.wav",
+      "CachePath": "D3/{D359A8F8-AEE4-4951-C0B4-47BE6855B0B5}.wem"
      },
      {
       "Id": "262391486",
@@ -701,7 +805,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -001.wav",
-      "CachePath": "2F/{2F8DBBB9-2939-6ACB-29D5-B11D0664D1CF}.wem"
+      "CachePath": "5F/{5F822755-BCE5-168A-2B57-5D10554A4D18}.wem"
      },
      {
       "Id": "271802121",
@@ -712,12 +816,12 @@
       "CachePath": "F1/{F1E4EBEE-BF1D-FE4D-AAAB-1FF9650ECC9F}.wem"
      },
      {
-      "Id": "271825039",
+      "Id": "271830375",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Jump Vox-005.wav",
-      "CachePath": "B2/{B201C819-C535-BF3B-934A-CE19D599ECAC}.wem"
+      "ShortName": "Character Damaged Vox 2-002.wav",
+      "CachePath": "25/{25605A09-4BE4-3952-3F1E-8BFCB330893F}.wem"
      },
      {
       "Id": "272421298",
@@ -736,6 +840,14 @@
       "CachePath": "5C/{5C877CFB-2317-A545-D626-2D2F729B37F7}.wem"
      },
      {
+      "Id": "276624417",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-002.wav",
+      "CachePath": "D6/{D65D4621-673B-0FEC-0B07-2D312CD05C13}.wem"
+     },
+     {
       "Id": "276720588",
       "Language": "SFX",
       "Streaming": "false",
@@ -752,6 +864,14 @@
       "CachePath": "A4/{A4856454-55EE-7344-B570-AF82F8A264AC}.wem"
      },
      {
+      "Id": "281225975",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-014.wav",
+      "CachePath": "89/{89397450-0AED-F243-86CD-0730289199DF}.wem"
+     },
+     {
       "Id": "284298905",
       "Language": "SFX",
       "Streaming": "false",
@@ -765,7 +885,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -004.wav",
-      "CachePath": "84/{8411E3B6-888B-7B51-F06F-24BD9787724E}.wem"
+      "CachePath": "C5/{C56E44DD-E351-A7AD-FCC3-327894163149}.wem"
+     },
+     {
+      "Id": "295351972",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-004.wav",
+      "CachePath": "51/{510E1893-190B-4939-9A45-F577348F5AFA}.wem"
+     },
+     {
+      "Id": "298461149",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-004.wav",
+      "CachePath": "81/{818254C6-6332-493E-FECC-A4F0ACDE5D4A}.wem"
      },
      {
       "Id": "300476799",
@@ -790,14 +926,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Attack Bite-001.wav",
       "CachePath": "3D/{3D376A4B-14F9-5FB7-F18E-62BD34B576A7}.wem"
-     },
-     {
-      "Id": "307814370",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-009.wav",
-      "CachePath": "5E/{5EC270DE-B22D-3EAD-FA67-F55E2E8D8D93}.wem"
      },
      {
       "Id": "309127501",
@@ -864,20 +992,12 @@
       "CachePath": "DA/{DA19AF17-3512-31B8-6579-500B65418E58}.wem"
      },
      {
-      "Id": "330436787",
+      "Id": "333030881",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Vox I gotta check that out.wav",
-      "CachePath": "61/{61AE4997-A5F7-69F0-34DA-AEBB48EF855A}.wem"
-     },
-     {
-      "Id": "335347106",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-009.wav",
-      "CachePath": "3C/{3C36A97C-A35A-2A5C-F0DA-D83BC0F9B31C}.wem"
+      "ShortName": "Character Vox Oh I'm not done yet 2.wav",
+      "CachePath": "CC/{CCFB62E1-994F-43FA-662C-305841E655C1}.wem"
      },
      {
       "Id": "337221468",
@@ -936,6 +1056,22 @@
       "CachePath": "46/{46A1E33E-3D9D-FE19-F287-6A54F3AD5E15}.wem"
      },
      {
+      "Id": "352116556",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-010.wav",
+      "CachePath": "99/{99D72738-D561-B879-9A58-9F0BA9572CCE}.wem"
+     },
+     {
+      "Id": "352350631",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-009.wav",
+      "CachePath": "E3/{E3974DDE-12CB-ECCA-7228-DC74A46A843A}.wem"
+     },
+     {
       "Id": "353198445",
       "Language": "SFX",
       "Streaming": "false",
@@ -968,12 +1104,12 @@
       "CachePath": "B0/{B03F8874-2E41-96CE-4AB3-9B3BB2A21005}.wem"
      },
      {
-      "Id": "365142943",
+      "Id": "365350799",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Jump Vox-004.wav",
-      "CachePath": "48/{48FC9781-7B7D-9927-50C2-875F40B98AB2}.wem"
+      "ShortName": "Chomper Attack Vox Bite High-002.wav",
+      "CachePath": "AD/{AD9E3B5D-23CC-56B3-FF22-FE01812124E5}.wem"
      },
      {
       "Id": "365748186",
@@ -982,14 +1118,6 @@
       "Location": "Memory",
       "ShortName": "Grenadier Steps Gravel-001.wav",
       "CachePath": "24/{24CB9F63-A3A7-372C-C5A0-8A360E46225A}.wem"
-     },
-     {
-      "Id": "365964942",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-015.wav",
-      "CachePath": "93/{93DC4B63-2082-726F-2F31-42C0C6EF853D}.wem"
      },
      {
       "Id": "372656528",
@@ -1024,6 +1152,14 @@
       "CachePath": "C8/{C81655D2-6C26-1FA6-075C-2099ACD8501A}.wem"
      },
      {
+      "Id": "380813263",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-003.wav",
+      "CachePath": "2A/{2AD97F21-1C02-039C-EBED-EC56D7F84033}.wem"
+     },
+     {
       "Id": "381940002",
       "Language": "SFX",
       "Streaming": "false",
@@ -1054,14 +1190,6 @@
       "Location": "Memory",
       "ShortName": "Footsteps Mud-005.wav",
       "CachePath": "C8/{C8395C48-2E87-9B51-65AF-CE83F9ACB73B}.wem"
-     },
-     {
-      "Id": "389821761",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-001.wav",
-      "CachePath": "96/{964C005D-3A9F-43C8-15BB-A0FF5ACDD223}.wem"
      },
      {
       "Id": "391218948",
@@ -1133,7 +1261,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -004.wav",
-      "CachePath": "C3/{C35B231B-4A56-366C-A588-022DAAD02DA9}.wem"
+      "CachePath": "44/{4487F4CC-BE66-EC98-7ADF-5C343F255102}.wem"
      },
      {
       "Id": "416757535",
@@ -1144,12 +1272,28 @@
       "CachePath": "B5/{B568551A-4E08-397B-51EB-BB6D000C52D4}.wem"
      },
      {
-      "Id": "421403946",
+      "Id": "418398395",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-013.wav",
-      "CachePath": "AD/{AD2FD302-9DA7-F312-E4FC-E4BD583B93D9}.wem"
+      "ShortName": "Health Box Loop.wav",
+      "CachePath": "6F/{6FFBA5A8-4705-D4B5-09B0-0C4AF1090DD0}.wem"
+     },
+     {
+      "Id": "419036398",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-003.wav",
+      "CachePath": "45/{4537E129-6622-0E3A-BB56-34AD22D25A3E}.wem"
+     },
+     {
+      "Id": "421855581",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-007.wav",
+      "CachePath": "3A/{3A489A5E-8A47-0D43-2DAD-8BFFEEA2C757}.wem"
      },
      {
       "Id": "422665275",
@@ -1184,22 +1328,6 @@
       "CachePath": "F7/{F7C293FE-79FE-98B5-A021-2600069D2D85}.wem"
      },
      {
-      "Id": "435464710",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Land Vox-006.wav",
-      "CachePath": "5A/{5A97E622-7342-AA84-0BA7-1374A2880CCA}.wem"
-     },
-     {
-      "Id": "436450613",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-001.wav",
-      "CachePath": "F4/{F4AAB297-1986-C8B1-FF8A-DE38AC82FEBC}.wem"
-     },
-     {
       "Id": "439779804",
       "Language": "SFX",
       "Streaming": "false",
@@ -1208,12 +1336,12 @@
       "CachePath": "69/{6944DC49-47FC-F254-30F8-7E09AAEF9F36}.wem"
      },
      {
-      "Id": "440916713",
+      "Id": "440443099",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Land Vox-004.wav",
-      "CachePath": "BE/{BED16FA6-A51A-9E1F-4043-61424B868D90}.wem"
+      "ShortName": "Character Attack Vox 2-014.wav",
+      "CachePath": "85/{8542B1DF-5544-5775-D106-4FFEE0D9ACDA}.wem"
      },
      {
       "Id": "446046019",
@@ -1240,28 +1368,12 @@
       "CachePath": "FA/{FA9DC93F-AD6C-89AA-419E-7EA4FB5FBC9A}.wem"
      },
      {
-      "Id": "449027737",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-005.wav",
-      "CachePath": "9C/{9CCFF283-3C44-D56E-254B-5A38E9957E1F}.wem"
-     },
-     {
-      "Id": "454985505",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-011.wav",
-      "CachePath": "70/{70C6D7B9-8F9A-AF21-F77F-0E0ECEAD384E}.wem"
-     },
-     {
       "Id": "462117587",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -006.wav",
-      "CachePath": "24/{24C27C1C-C370-CD49-AE55-C400C577983C}.wem"
+      "CachePath": "42/{42118FF5-D871-A563-D3A9-75F3BC3290BF}.wem"
      },
      {
       "Id": "467427447",
@@ -1312,14 +1424,6 @@
       "CachePath": "DE/{DE2E04CA-76F2-F55A-21AB-54006CAF4AA5}.wem"
      },
      {
-      "Id": "478223572",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-008.wav",
-      "CachePath": "9C/{9C557C57-8F60-27D8-EFCE-86C0F615E7AF}.wem"
-     },
-     {
       "Id": "478290419",
       "Language": "SFX",
       "Streaming": "false",
@@ -1342,14 +1446,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Spotted Growl2-003.wav",
       "CachePath": "DE/{DE0DC17B-3C0F-179A-6F92-37978FE1BA86}.wem"
-     },
-     {
-      "Id": "492235544",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-012.wav",
-      "CachePath": "30/{30572ACA-03AC-82C4-E68A-043DEAD0E29E}.wem"
      },
      {
       "Id": "492647866",
@@ -1376,20 +1472,20 @@
       "CachePath": "C5/{C57BB2ED-2968-BDE2-EC9F-327151D79C8F}.wem"
      },
      {
-      "Id": "496414943",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-012.wav",
-      "CachePath": "9E/{9E6B74B6-3170-97DB-8B73-867842B7C9E9}.wem"
-     },
-     {
       "Id": "497348793",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Bite-003.wav",
       "CachePath": "E0/{E06E92D2-3CC8-AC21-7432-3EEAF15B5AC9}.wem"
+     },
+     {
+      "Id": "502371247",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite Low-004.wav",
+      "CachePath": "0F/{0FE49F31-AD90-A415-46B6-1EB8903B4A0F}.wem"
      },
      {
       "Id": "502895227",
@@ -1416,14 +1512,6 @@
       "CachePath": "6C/{6C9BA8B8-6C3D-4733-2D0E-F09ED5113187}.wem"
      },
      {
-      "Id": "504162390",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Land Vox-005.wav",
-      "CachePath": "3E/{3E9A2CD0-DFAE-E93F-EB3E-B28BB5C4A8A5}.wem"
-     },
-     {
       "Id": "504204586",
       "Language": "SFX",
       "Streaming": "false",
@@ -1432,20 +1520,20 @@
       "CachePath": "73/{73AE6791-64B6-E2C2-C5E5-22E71DE0C1DB}.wem"
      },
      {
-      "Id": "505985643",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox That was unnecessary.wav",
-      "CachePath": "7A/{7A25009D-9F10-4EC9-7F76-26C6D60D3AB6}.wem"
-     },
-     {
       "Id": "511626052",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps Rock-006.wav",
       "CachePath": "8E/{8EC9121A-2B18-AF75-FB83-289511CE00BF}.wem"
+     },
+     {
+      "Id": "513194943",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-005.wav",
+      "CachePath": "2D/{2DB429D3-7C54-75DA-7868-A990670D47DA}.wem"
      },
      {
       "Id": "515846903",
@@ -1464,6 +1552,14 @@
       "CachePath": "78/{784467F7-220E-4DDB-624C-CA0C3D256EDE}.wem"
      },
      {
+      "Id": "519237338",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Heath Nice 2.wav",
+      "CachePath": "C7/{C7F9C066-9094-EFA0-9B8C-769F644513DE}.wem"
+     },
+     {
       "Id": "520424312",
       "Language": "SFX",
       "Streaming": "false",
@@ -1477,7 +1573,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -001.wav",
-      "CachePath": "5F/{5F47A55C-5B67-ACDE-B0C9-B579008E6184}.wem"
+      "CachePath": "5F/{5FF29265-3FF6-6798-34F7-7442D3791152}.wem"
      },
      {
       "Id": "530069628",
@@ -1504,14 +1600,6 @@
       "CachePath": "B2/{B2DC37AF-DFA3-D62F-A5CD-A5B86FDFBC67}.wem"
      },
      {
-      "Id": "532476833",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-009.wav",
-      "CachePath": "B0/{B0CD24EB-A0DE-B9CF-70EA-6B3B3C525C1A}.wem"
-     },
-     {
       "Id": "533556807",
       "Language": "SFX",
       "Streaming": "false",
@@ -1528,12 +1616,12 @@
       "CachePath": "06/{064D5049-7A17-7DCD-E2ED-2E93B160E1CF}.wem"
      },
      {
-      "Id": "557778822",
+      "Id": "559682950",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057.wav",
-      "CachePath": "6E/{6E6EBB77-ED34-AE32-8AFD-913AF1EFEA08}.wem"
+      "ShortName": "Chomper Attack Purr-002.wav",
+      "CachePath": "18/{1894512C-A8A1-FF52-368F-201C79BD4766}.wem"
      },
      {
       "Id": "561893672",
@@ -1576,28 +1664,12 @@
       "CachePath": "02/{028A76B0-E51E-E26F-DC0B-EC5BF8719766}.wem"
      },
      {
-      "Id": "566643039",
+      "Id": "566015491",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Jump Vox-008.wav",
-      "CachePath": "D9/{D9F20D3B-1072-EB15-1B96-473872AEC906}.wem"
-     },
-     {
-      "Id": "567359501",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-008.wav",
-      "CachePath": "28/{28D49C9A-62AB-8C9E-185C-69CC5F32065C}.wem"
-     },
-     {
-      "Id": "568560589",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Land Vox-002.wav",
-      "CachePath": "22/{22637446-2180-46AB-B066-C8EAC7063356}.wem"
+      "ShortName": "Character Damaged Vox 2-015.wav",
+      "CachePath": "B0/{B03815F6-F921-1587-8A56-9E25D8A74E0B}.wem"
      },
      {
       "Id": "569440783",
@@ -1614,6 +1686,14 @@
       "Location": "Memory",
       "ShortName": "Box_Debris 1-002.wav",
       "CachePath": "10/{1084BB51-69B9-C642-F24C-0EE4E0E61379}.wem"
+     },
+     {
+      "Id": "578347193",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-001.wav",
+      "CachePath": "D7/{D7D56EBA-11B1-C4BA-36CA-D48FE7627757}.wem"
      },
      {
       "Id": "581216791",
@@ -1640,28 +1720,12 @@
       "CachePath": "5B/{5B95FFAF-B204-06E9-370F-180912EF8B60}.wem"
      },
      {
-      "Id": "586942806",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-002.wav",
-      "CachePath": "E2/{E2675B5E-C179-64B7-9FDF-BABB107D82D0}.wem"
-     },
-     {
       "Id": "587218066",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Temp Swoosh 2-003.wav",
       "CachePath": "13/{134DD3EF-D9A6-07DC-46DF-2143250A3A08}.wem"
-     },
-     {
-      "Id": "589315223",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Land Vox-003.wav",
-      "CachePath": "D5/{D5B127C6-FA36-CDCE-58C7-FED644B4C948}.wem"
      },
      {
       "Id": "590517463",
@@ -1712,20 +1776,44 @@
       "CachePath": "9D/{9D7DAC5B-5816-0A98-E8EC-49C7AE63781D}.wem"
      },
      {
-      "Id": "605256050",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-003.wav",
-      "CachePath": "0F/{0FB25C84-10A9-A698-98E2-43DBE3784F1F}.wem"
-     },
-     {
       "Id": "608981536",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Debris 2-003.wav",
       "CachePath": "FE/{FE76D799-B354-D9E4-4F88-CADE49DC1924}.wem"
+     },
+     {
+      "Id": "610177526",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Well that doesn't sound good 2.wav",
+      "CachePath": "B9/{B9279E47-1A56-81E1-402B-07F18743F7F7}.wem"
+     },
+     {
+      "Id": "612518400",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-009.wav",
+      "CachePath": "C2/{C22CF89B-FEEB-E21E-E085-F4303A242864}.wem"
+     },
+     {
+      "Id": "612850931",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite Low-003.wav",
+      "CachePath": "29/{29C4EEBB-5CFA-2734-3E69-E872FAFE6EA1}.wem"
+     },
+     {
+      "Id": "615032982",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-001.wav",
+      "CachePath": "D0/{D0EB6EA2-DA6C-C817-5E80-675B1FDF8EC3}.wem"
      },
      {
       "Id": "619552041",
@@ -1760,6 +1848,14 @@
       "CachePath": "2D/{2D977D52-EB02-B441-5B60-F685559E514D}.wem"
      },
      {
+      "Id": "628302964",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-007.wav",
+      "CachePath": "27/{277D87C5-CCC2-964B-8C7A-3D92F31B7ABF}.wem"
+     },
+     {
       "Id": "629681671",
       "Language": "SFX",
       "Streaming": "false",
@@ -1792,14 +1888,6 @@
       "CachePath": "62/{624DB39B-0784-FB5E-1466-26E4074C5CC7}.wem"
      },
      {
-      "Id": "644682631",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox That doesn't sound good.wav",
-      "CachePath": "BF/{BF58990E-76B7-E89B-172A-2724906C2E32}.wem"
-     },
-     {
       "Id": "646482590",
       "Language": "SFX",
       "Streaming": "false",
@@ -1816,6 +1904,14 @@
       "CachePath": "D5/{D5FD3CF8-A5FC-A9D9-65D8-A9D12C3EEB5A}.wem"
      },
      {
+      "Id": "651296697",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-009.wav",
+      "CachePath": "74/{741D05B9-26AE-D657-E76B-B0E0A81BBC15}.wem"
+     },
+     {
       "Id": "654058829",
       "Language": "SFX",
       "Streaming": "false",
@@ -1830,6 +1926,22 @@
       "Location": "Memory",
       "ShortName": "Grenadier Throw Vox 1 All.wav",
       "CachePath": "92/{92222C2A-BB6C-92DF-2595-5FFC1BDFD86D}.wem"
+     },
+     {
+      "Id": "655345415",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-010.wav",
+      "CachePath": "6D/{6DD9CA38-2AE3-A0B3-D301-848AD2C63AA2}.wem"
+     },
+     {
+      "Id": "660546858",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-003.wav",
+      "CachePath": "E6/{E65A77A9-7FEE-DFDE-CA70-3189528E1765}.wem"
      },
      {
       "Id": "661344698",
@@ -1872,6 +1984,22 @@
       "CachePath": "19/{194F5E50-9AE7-4365-CB67-8135524FF024}.wem"
      },
      {
+      "Id": "670609774",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-001.wav",
+      "CachePath": "DB/{DB3606C0-CF8C-44D9-115C-C848AB801E99}.wem"
+     },
+     {
+      "Id": "674979875",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Gurgle-006.wav",
+      "CachePath": "40/{40AE6A8A-D4E2-FD72-A312-F86377540FCD}.wem"
+     },
+     {
       "Id": "675812360",
       "Language": "SFX",
       "Streaming": "false",
@@ -1886,6 +2014,14 @@
       "Location": "Memory",
       "ShortName": "Temp Swoosh 1-002.wav",
       "CachePath": "C2/{C2E7DB51-F87F-AF62-9B2D-0C7E16BD3ECD}.wem"
+     },
+     {
+      "Id": "688850103",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-005.wav",
+      "CachePath": "EC/{ECAAAC34-C20B-75F2-3987-CF4E39135249}.wem"
      },
      {
       "Id": "690716383",
@@ -1917,7 +2053,23 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -003.wav",
-      "CachePath": "E8/{E82F91B3-D750-772D-2AA0-DA80D292D2D3}.wem"
+      "CachePath": "DB/{DB1B528F-544F-BDF1-C60A-4EBC171C1129}.wem"
+     },
+     {
+      "Id": "700387207",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-008.wav",
+      "CachePath": "E7/{E70B5120-2011-5A2D-077C-55751345F9A5}.wem"
+     },
+     {
+      "Id": "700453758",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-003.wav",
+      "CachePath": "3B/{3B0C98B9-709A-D450-1E88-581C0D68A5D5}.wem"
      },
      {
       "Id": "701122885",
@@ -1952,6 +2104,22 @@
       "CachePath": "15/{1569F95D-5DB9-06D7-D706-4ACD7D83048E}.wem"
      },
      {
+      "Id": "707585769",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-012.wav",
+      "CachePath": "68/{680D23C0-F3AD-ABFC-22B9-ED01AF9A8678}.wem"
+     },
+     {
+      "Id": "708091794",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Looks like this just got interesting 3.wav",
+      "CachePath": "53/{534B57E6-7C93-CA8D-3F75-530EE9CCEC56}.wem"
+     },
+     {
       "Id": "709155701",
       "Language": "SFX",
       "Streaming": "false",
@@ -1960,12 +2128,12 @@
       "CachePath": "50/{50DFA5FE-292C-D1C9-2A8F-71A12C96153C}.wem"
      },
      {
-      "Id": "710238077",
+      "Id": "713183226",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-014.wav",
-      "CachePath": "BE/{BE419B5C-C965-3F3A-85DB-4ABF3FB43737}.wem"
+      "ShortName": "Character Jump Vox 2-008.wav",
+      "CachePath": "A0/{A04524D9-567D-AF93-608B-7F10BF2C1245}.wem"
      },
      {
       "Id": "718901679",
@@ -1976,12 +2144,20 @@
       "CachePath": "EE/{EE9857E9-A98E-0683-ED90-8F8AFF90E1E5}.wem"
      },
      {
+      "Id": "722054039",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-008.wav",
+      "CachePath": "6C/{6CFEDDD1-B41D-BDF3-C76E-4AB733D37F88}.wem"
+     },
+     {
       "Id": "723394785",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -005.wav",
-      "CachePath": "3E/{3E665EEA-0546-86ED-FAA1-E27E0FDFF948}.wem"
+      "CachePath": "BF/{BFEEA709-8AFE-86BB-3219-0D49AF27CED4}.wem"
      },
      {
       "Id": "723654036",
@@ -1990,6 +2166,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Shield 2.wav",
       "CachePath": "07/{07ED4EC3-9E62-2603-6FBF-9059B17D94CB}.wem"
+     },
+     {
+      "Id": "729000805",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-011.wav",
+      "CachePath": "01/{01361BFA-6C97-7FF9-7BFD-F3117B1395E2}.wem"
      },
      {
       "Id": "732654726",
@@ -2008,14 +2192,6 @@
       "CachePath": "50/{5032E59E-4954-3E53-F660-F86D33BE6652}.wem"
      },
      {
-      "Id": "744274454",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-007.wav",
-      "CachePath": "1F/{1FAD4FE5-B13C-A8F6-85FC-CB9A684CEC7A}.wem"
-     },
-     {
       "Id": "744443012",
       "Language": "SFX",
       "Streaming": "false",
@@ -2030,14 +2206,6 @@
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Metal Garage-008.wav",
       "CachePath": "0B/{0B0F9FB4-B6D4-E76C-CB40-ECC45BC60367}.wem"
-     },
-     {
-      "Id": "750626026",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-002.wav",
-      "CachePath": "14/{140B07D6-B81C-3881-51C2-0193F740DC57}.wem"
      },
      {
       "Id": "750642041",
@@ -2056,12 +2224,12 @@
       "CachePath": "ED/{ED7E6911-D3FE-1F2A-DBFD-26532A8F7D8F}.wem"
      },
      {
-      "Id": "751335544",
+      "Id": "756876235",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Vox Where am I.wav",
-      "CachePath": "A1/{A146A7D4-6059-A5BD-91DC-CE031AF8C4F8}.wem"
+      "ShortName": "Character Respawn Temp.wav",
+      "CachePath": "6B/{6BAAA151-D12D-9F20-3CF6-A70A5A676E83}.wem"
      },
      {
       "Id": "760650962",
@@ -2088,20 +2256,20 @@
       "CachePath": "7F/{7F800976-C77A-A071-77AB-DFFB33020CCC}.wem"
      },
      {
-      "Id": "766670863",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-001.wav",
-      "CachePath": "81/{8189AB60-C357-BA98-2238-51CFDB1D494C}.wem"
-     },
-     {
       "Id": "767186854",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Explode Whoosh Temp.wav",
       "CachePath": "0D/{0DBEB22F-1EE0-AC1A-7DC9-6AB32F1844D2}.wem"
+     },
+     {
+      "Id": "768732971",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Where am I 2.wav",
+      "CachePath": "1E/{1E8264F3-451A-C4A0-34AB-502753598AF3}.wem"
      },
      {
       "Id": "770742506",
@@ -2120,20 +2288,20 @@
       "CachePath": "19/{1992BF24-3547-52AF-4FE6-C9AE8F68327E}.wem"
      },
      {
+      "Id": "773701866",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Damaged Vox 2-006.wav",
+      "CachePath": "A7/{A77778E5-45F3-4502-87F1-84CA01B64C3E}.wem"
+     },
+     {
       "Id": "775406643",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Box_Energy 3-002.wav",
       "CachePath": "9E/{9E71FDD1-A45B-05FD-F3E8-038C82055E3E}.wem"
-     },
-     {
-      "Id": "776169262",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Chomper Attack Lion-003.wav",
-      "CachePath": "B7/{B7273295-4DBC-58A6-0765-A06115DB24A6}.wem"
      },
      {
       "Id": "776579228",
@@ -2165,7 +2333,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -006.wav",
-      "CachePath": "9A/{9A07C0C9-A94C-37B1-CFA6-063F1B259879}.wem"
+      "CachePath": "D6/{D6919EC4-73DF-6EBA-E817-DC083CA99774}.wem"
      },
      {
       "Id": "795016385",
@@ -2176,20 +2344,12 @@
       "CachePath": "A2/{A289CE50-D5FB-EDB2-0C33-5D92762B8663}.wem"
      },
      {
-      "Id": "795676352",
+      "Id": "795699949",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Vox Can't Kill Me.wav",
-      "CachePath": "B9/{B955F76A-4237-4F29-F14F-4683DC97EE95}.wem"
-     },
-     {
-      "Id": "798748255",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox Not done yet.wav",
-      "CachePath": "88/{8862E49C-C16D-6EE3-85E1-A6314106BA42}.wem"
+      "ShortName": "Character Vox Much Better 2.wav",
+      "CachePath": "1C/{1C5654F5-DBE7-D86C-F714-28C87E45D9A5}.wem"
      },
      {
       "Id": "799031878",
@@ -2200,12 +2360,12 @@
       "CachePath": "86/{86C25821-E6CC-C4DB-D626-160535FD4056}.wem"
      },
      {
-      "Id": "799710590",
+      "Id": "800923238",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Damaged Vox-010.wav",
-      "CachePath": "6C/{6C7A6584-73D6-026D-0280-A2C241438588}.wem"
+      "ShortName": "Character Vox That was unnecessary 2.wav",
+      "CachePath": "9D/{9DEC2E74-3985-9610-AFE3-E002CF12E099}.wem"
      },
      {
       "Id": "801215808",
@@ -2248,14 +2408,6 @@
       "CachePath": "96/{961241B9-5D68-AB1E-EB03-AA096AE97160}.wem"
      },
      {
-      "Id": "809345435",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-015.wav",
-      "CachePath": "7A/{7A9CF31F-6684-7E13-0307-8296D1E2245D}.wem"
-     },
-     {
       "Id": "811514700",
       "Language": "SFX",
       "Streaming": "false",
@@ -2280,12 +2432,12 @@
       "CachePath": "E7/{E7370C0C-F81C-8642-A5E8-68BC4A127945}.wem"
      },
      {
-      "Id": "816207264",
+      "Id": "813050252",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-010.wav",
-      "CachePath": "2F/{2FFF0144-532C-6550-3EB3-EC14EBDC881F}.wem"
+      "ShortName": "Chomper Attack Gurgle-005.wav",
+      "CachePath": "3C/{3C1BF22A-146D-F554-A716-2919615CE27B}.wem"
      },
      {
       "Id": "816980910",
@@ -2296,12 +2448,28 @@
       "CachePath": "14/{1446AC8F-5018-6686-2F34-AEBFE7E2D6B2}.wem"
      },
      {
-      "Id": "817422031",
+      "Id": "818010656",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Attack Vox-004.wav",
-      "CachePath": "57/{5725F376-0BEB-C7F9-7376-DA25C0B50F29}.wem"
+      "ShortName": "Character Damaged Vox 2-013.wav",
+      "CachePath": "90/{90A2FEC7-D3D0-49A1-C368-F04439DDC2D9}.wem"
+     },
+     {
+      "Id": "818503547",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-005.wav",
+      "CachePath": "AB/{ABE6F4DC-2601-6979-E772-506933AAFC6A}.wem"
+     },
+     {
+      "Id": "819621584",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-015.wav",
+      "CachePath": "BD/{BD3BEE63-5737-2386-F75F-8F5DF5264B96}.wem"
      },
      {
       "Id": "819860924",
@@ -2312,12 +2480,12 @@
       "CachePath": "EB/{EB00D783-E537-CEB6-4B08-29DCC9C50AAF}.wem"
      },
      {
-      "Id": "824009844",
+      "Id": "823896957",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Damaged Vox-016.wav",
-      "CachePath": "B0/{B0A62ED2-1029-FACC-E6E8-B871BAD72B57}.wem"
+      "ShortName": "Character Land Vox 2-001.wav",
+      "CachePath": "CE/{CEFD166A-56B4-79BF-83BF-EDB341E59B2B}.wem"
      },
      {
       "Id": "824214123",
@@ -2328,44 +2496,12 @@
       "CachePath": "6B/{6B836412-136D-6895-45A3-84649870D20D}.wem"
      },
      {
-      "Id": "826885813",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-011.wav",
-      "CachePath": "89/{89EDCC21-04E0-B055-FCCF-A86D4D40C6FC}.wem"
-     },
-     {
-      "Id": "827869070",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox Door crystals are for.wav",
-      "CachePath": "3C/{3CAE6C62-7046-E61D-ABF5-AA8671DAC239}.wem"
-     },
-     {
-      "Id": "841259936",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-013.wav",
-      "CachePath": "5E/{5E89DD37-122F-3C44-6147-6D2D904799CB}.wem"
-     },
-     {
       "Id": "843409308",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Idle Yelp-013.wav",
       "CachePath": "CF/{CF45F996-C2C2-A1B6-BADF-B7F111C110A9}.wem"
-     },
-     {
-      "Id": "847717732",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox Oh I'm not done yet.wav",
-      "CachePath": "EF/{EF02963F-D695-64BB-91A9-EE1DA71DFB97}.wem"
      },
      {
       "Id": "848532217",
@@ -2400,20 +2536,12 @@
       "CachePath": "12/{12440CD3-4798-5726-7285-8AEF2C0BFC10}.wem"
      },
      {
-      "Id": "851731396",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-006.wav",
-      "CachePath": "9D/{9D3F38DD-43C0-C501-8FFD-BD684A2DB466}.wem"
-     },
-     {
       "Id": "852171466",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -005.wav",
-      "CachePath": "9F/{9FB01B9A-12A7-CFE6-8A70-591DC7C28300}.wem"
+      "CachePath": "7A/{7AC9B85D-0B60-4E79-F196-243179A1E8B8}.wem"
      },
      {
       "Id": "852834422",
@@ -2421,7 +2549,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -002.wav",
-      "CachePath": "D9/{D9C664C6-171F-676A-D093-8AB1D34A2772}.wem"
+      "CachePath": "23/{238F1345-41F7-5C47-8A81-DB685DA5552A}.wem"
      },
      {
       "Id": "854028745",
@@ -2430,14 +2558,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Spotted Growl2-001.wav",
       "CachePath": "B4/{B4C198EB-4D06-21C7-F50B-44A0440B2E61}.wem"
-     },
-     {
-      "Id": "857053251",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-007.wav",
-      "CachePath": "8F/{8F08CA61-BD14-0009-DA56-C3E66830BEC0}.wem"
      },
      {
       "Id": "860327363",
@@ -2454,14 +2574,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Spotted Walrus-004.wav",
       "CachePath": "E2/{E211377E-9411-BA9D-C23A-B1CEBEE331D8}.wem"
-     },
-     {
-      "Id": "864913704",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Attack Vox-012.wav",
-      "CachePath": "0D/{0D097D20-C689-3DC4-F38E-A473ABE583DD}.wem"
      },
      {
       "Id": "870483572",
@@ -2496,20 +2608,20 @@
       "CachePath": "4B/{4BA206FC-1022-DB14-EFFD-26E6CE33389C}.wem"
      },
      {
-      "Id": "881973930",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Land Vox-007.wav",
-      "CachePath": "73/{73C7A8CB-4E79-3AD7-DCA1-8A765D1A5BF7}.wem"
-     },
-     {
       "Id": "882831893",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Steps Gravel-002.wav",
       "CachePath": "F2/{F2AAAD7B-60C9-6468-7B3D-8910B428BF4B}.wem"
+     },
+     {
+      "Id": "883621656",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-008.wav",
+      "CachePath": "98/{98EF5653-A1BC-743F-689F-8DF937F1CFF8}.wem"
      },
      {
       "Id": "883970154",
@@ -2544,6 +2656,14 @@
       "CachePath": "DB/{DBFDA020-03B6-E7AF-8F88-0C2FC437CE93}.wem"
      },
      {
+      "Id": "898184562",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-007.wav",
+      "CachePath": "37/{372D16D5-BBBF-1F90-A215-BE5CEAF0148C}.wem"
+     },
+     {
       "Id": "898942708",
       "Language": "SFX",
       "Streaming": "false",
@@ -2576,20 +2696,68 @@
       "CachePath": "63/{631298F0-CE58-2CF8-8D70-24469C1A8709}.wem"
      },
      {
-      "Id": "904776262",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Damaged Vox-013.wav",
-      "CachePath": "9D/{9D48B4D1-0F3D-BB09-D617-57EE9A92B332}.wem"
-     },
-     {
       "Id": "905929665",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Footsteps Stone-006.wav",
       "CachePath": "A2/{A2FD63A3-30CF-8A05-0833-6AC1A3DD8E21}.wem"
+     },
+     {
+      "Id": "906054732",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Vox Bite High-003.wav",
+      "CachePath": "CA/{CA57BDB1-1817-6A5B-EEE8-32843CF18DA6}.wem"
+     },
+     {
+      "Id": "906949811",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Can't Kill Me 2.wav",
+      "CachePath": "90/{9092D6DD-3DCA-74EC-2BBA-86F573086B18}.wem"
+     },
+     {
+      "Id": "908229067",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-002.wav",
+      "CachePath": "73/{7372297C-C036-FA54-29A7-220403427E71}.wem"
+     },
+     {
+      "Id": "911263124",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-011.wav",
+      "CachePath": "CB/{CB1BEAF9-63BE-A80A-234E-AB863A24A5D1}.wem"
+     },
+     {
+      "Id": "916045407",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-007.wav",
+      "CachePath": "9E/{9EEA6385-6723-3AEA-2B86-BFE7AAAD3924}.wem"
+     },
+     {
+      "Id": "922952514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox Door Crystals are for 2.wav",
+      "CachePath": "D0/{D0A4AB29-EEB6-3570-A641-F943F2CF0DB3}.wem"
+     },
+     {
+      "Id": "924485576",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-004.wav",
+      "CachePath": "62/{6205367D-7608-A568-3A60-9AC08912DFD4}.wem"
      },
      {
       "Id": "925169026",
@@ -2600,20 +2768,20 @@
       "CachePath": "B4/{B48AF8D3-4EE9-B733-1279-28AE2881ABCB}.wem"
      },
      {
-      "Id": "925274372",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-015.wav",
-      "CachePath": "C2/{C22681B4-EB14-A55B-5303-844A4D5CA37F}.wem"
-     },
-     {
       "Id": "931902254",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Grenadier Bounce Crystal Temp-004.wav",
       "CachePath": "3C/{3C35C497-A947-5485-F40E-98659C071032}.wem"
+     },
+     {
+      "Id": "934327592",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Vox I gotta check that out 2.wav",
+      "CachePath": "0A/{0A317B66-0A0C-5E9D-C667-0D9177FB139B}.wem"
      },
      {
       "Id": "937701960",
@@ -2630,14 +2798,6 @@
       "Location": "Memory",
       "ShortName": "Chomper Hit Temp-006.wav",
       "CachePath": "26/{264DFF9A-A206-EB09-6C58-707B27966640}.wem"
-     },
-     {
-      "Id": "937963371",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Chomper Attack Lion-002.wav",
-      "CachePath": "5C/{5C3FAE2B-039D-BEF2-D032-9D478B519607}.wem"
      },
      {
       "Id": "945735437",
@@ -2704,14 +2864,6 @@
       "CachePath": "7B/{7B4669B0-DC8D-5C5A-F559-8122DDF5195B}.wem"
      },
      {
-      "Id": "987646755",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-014.wav",
-      "CachePath": "25/{2544EADE-9938-662E-90E5-5A4885D699CB}.wem"
-     },
-     {
       "Id": "987877654",
       "Language": "SFX",
       "Streaming": "false",
@@ -2760,22 +2912,6 @@
       "CachePath": "78/{78CA32D0-F8E0-C6D6-3ECA-35C88E1D2C02}.wem"
      },
      {
-      "Id": "1000165812",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox Health Much Better.wav",
-      "CachePath": "46/{4614FA2F-E0DA-6387-F52E-AB31C7CFE82F}.wem"
-     },
-     {
-      "Id": "1000739121",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Vox Health Nice.wav",
-      "CachePath": "E3/{E3ED3486-EAA8-A6B6-0D43-B2777DF2857A}.wem"
-     },
-     {
       "Id": "1001676239",
       "Language": "SFX",
       "Streaming": "false",
@@ -2790,14 +2926,6 @@
       "Location": "Memory",
       "ShortName": "Grenadier Footstep Rock-005.wav",
       "CachePath": "94/{94988D84-4D04-DA21-4EBA-25B024A7F21B}.wem"
-     },
-     {
-      "Id": "1002597688",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Doors, Metal, Hotel, Room, Enter, Keycard, Automatic, Close, Open, Electric, Lock, Unlock SND145771.wav",
-      "CachePath": "F5/{F55A857A-9F9A-8C8B-C213-7E1595308286}.wem"
      },
      {
       "Id": "1003868170",
@@ -2864,20 +2992,12 @@
       "CachePath": "DB/{DBE443AC-90DB-BA32-5F74-EF6495F3E0A0}.wem"
      },
      {
-      "Id": "1019766289",
+      "Id": "1019833381",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Character Jump Vox-003.wav",
-      "CachePath": "A2/{A2B96FB0-FD35-54BF-259F-70BE478635C6}.wem"
-     },
-     {
-      "Id": "1019876779",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox-010.wav",
-      "CachePath": "13/{13D6D09E-B0A6-C3BC-125C-A100760DC9A4}.wem"
+      "ShortName": "Chomper Attack Gurgle-001.wav",
+      "CachePath": "34/{34BD7F7F-100D-76DC-C982-56B2CCA2AAB9}.wem"
      },
      {
       "Id": "1019981855",
@@ -2920,6 +3040,14 @@
       "CachePath": "69/{69C36EE8-96FC-DEB5-56EA-D71BEF9FE6D5}.wem"
      },
      {
+      "Id": "1030523487",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Attack Vox 2-006.wav",
+      "CachePath": "8A/{8AAB5AF6-3143-BD19-A0F1-55A592E6610B}.wem"
+     },
+     {
       "Id": "1031036885",
       "Language": "SFX",
       "Streaming": "false",
@@ -2934,6 +3062,14 @@
       "Location": "Memory",
       "ShortName": "Grenadier Punch Click-002.wav",
       "CachePath": "97/{97E00756-7B1F-E3AF-369C-1CFE06DD8DD6}.wem"
+     },
+     {
+      "Id": "1034568713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Gurgle-002.wav",
+      "CachePath": "F2/{F2F5E674-3F30-E213-D05E-3C07E9A126A9}.wem"
      },
      {
       "Id": "1035087908",
@@ -2968,6 +3104,14 @@
       "CachePath": "70/{702A519A-AB12-816A-866E-F1464F8A2A90}.wem"
      },
      {
+      "Id": "1039151798",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Chomper Attack Gurgle-007.wav",
+      "CachePath": "59/{591E2E5D-D47C-9FF8-DFFF-1E4825FBD9DC}.wem"
+     },
+     {
       "Id": "1042979359",
       "Language": "SFX",
       "Streaming": "false",
@@ -2976,12 +3120,12 @@
       "CachePath": "E8/{E8DE642D-B2EC-AE24-19D6-FB01E4A616B5}.wem"
      },
      {
-      "Id": "1044713269",
+      "Id": "1047538533",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Chomper Attack Lion-001.wav",
-      "CachePath": "41/{41779594-60F1-CC33-B11C-7D2CB2A2E175}.wem"
+      "ShortName": "Character Jump Vox 2-006.wav",
+      "CachePath": "16/{16F78498-DE7A-429B-CB3B-CD0AD7C936C0}.wem"
      },
      {
       "Id": "1052767701",
@@ -3048,14 +3192,50 @@
       "CachePath": "C3/{C3ED2789-33BB-81D5-4FC9-BE17D6591329}.wem"
      },
      {
+      "Id": "1063959718",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-012.wav",
+      "CachePath": "52/{523CC426-0CD9-13EA-17C9-F2901DB693DA}.wem"
+     },
+     {
       "Id": "1067882517",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Chomper Attack Clicks -003.wav",
-      "CachePath": "3B/{3BF39824-F4FD-3D4A-F2F4-BD02D1FD7CAA}.wem"
+      "CachePath": "49/{49696B93-8FA7-CB69-728F-A2B2C41C3112}.wem"
+     },
+     {
+      "Id": "1070612189",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Jump Vox 2-004.wav",
+      "CachePath": "E4/{E40F860B-136E-F070-E6F2-FD3EDBF908EB}.wem"
+     },
+     {
+      "Id": "1071810680",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Character Land Vox 2-006.wav",
+      "CachePath": "2F/{2FF85125-E1A9-F368-4DAB-1E368D6FA115}.wem"
      }
     ],
+    "Plugins": {
+     "ShareSets": [
+      {
+       "Id": "1089453751",
+       "Name": "Grenadier_Reverb",
+       "ObjectPath": "\\Effects\\Default Work Unit\\Grenadier_Reverb",
+       "GUID": "{C3D605D7-8F3B-4B69-B76E-4B39EA48C13E}",
+       "LibName": "Wwise RoomVerb",
+       "LibId": "7733251"
+      }
+     ]
+    },
     "Events": [
      {
       "Id": "1519321238",
@@ -3064,53 +3244,53 @@
       "GUID": "{656AA85C-D5C4-4A59-A5A5-8F4B2E31D2E3}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.3620625",
-      "DurationMax": "0.5243125",
+      "DurationMin": "0.27733332",
+      "DurationMax": "0.41052082",
       "MediaRefs": [
        {
-        "Id": "21575364"
+        "Id": "44809919"
        },
        {
-        "Id": "123865082"
+        "Id": "57407918"
        },
        {
-        "Id": "174621401"
+        "Id": "83237299"
        },
        {
-        "Id": "335347106"
+        "Id": "116813826"
        },
        {
-        "Id": "365964942"
+        "Id": "234570306"
        },
        {
-        "Id": "421403946"
+        "Id": "295351972"
        },
        {
-        "Id": "449027737"
+        "Id": "352116556"
        },
        {
-        "Id": "454985505"
+        "Id": "352350631"
        },
        {
-        "Id": "478223572"
+        "Id": "440443099"
        },
        {
-        "Id": "710238077"
+        "Id": "700387207"
        },
        {
-        "Id": "766670863"
+        "Id": "700453758"
        },
        {
-        "Id": "816207264"
+        "Id": "818503547"
        },
        {
-        "Id": "817422031"
+        "Id": "898184562"
        },
        {
-        "Id": "857053251"
+        "Id": "908229067"
        },
        {
-        "Id": "864913704"
+        "Id": "1030523487"
        }
       ]
      },
@@ -3203,29 +3383,110 @@
       "Color": "24",
       "MaxAttenuation": "20",
       "DurationType": "OneShot",
-      "DurationMin": "0.41943997",
-      "DurationMax": "0.60182214",
+      "DurationMin": "0.48794693",
+      "DurationMax": "0.5477422",
       "MediaRefs": [
+       {
+        "Id": "26319259"
+       },
+       {
+        "Id": "48261063"
+       },
+       {
+        "Id": "62630001"
+       },
        {
         "Id": "63676384"
        },
        {
-        "Id": "270784232"
+        "Id": "84418858"
        },
        {
-        "Id": "287433110"
+        "Id": "85730643"
+       },
+       {
+        "Id": "144938152"
+       },
+       {
+        "Id": "151380230"
+       },
+       {
+        "Id": "171973040"
+       },
+       {
+        "Id": "197057620"
+       },
+       {
+        "Id": "197568709"
+       },
+       {
+        "Id": "214074595"
+       },
+       {
+        "Id": "222315405"
+       },
+       {
+        "Id": "233063889"
+       },
+       {
+        "Id": "245410338"
+       },
+       {
+        "Id": "254447528"
+       },
+       {
+        "Id": "260037329"
+       },
+       {
+        "Id": "262391486"
        },
        {
         "Id": "307666245"
        },
        {
+        "Id": "320224947"
+       },
+       {
+        "Id": "365350799"
+       },
+       {
+        "Id": "416250454"
+       },
+       {
+        "Id": "496042782"
+       },
+       {
         "Id": "497348793"
        },
        {
-        "Id": "776169262"
+        "Id": "502371247"
+       },
+       {
+        "Id": "504204586"
+       },
+       {
+        "Id": "525697279"
+       },
+       {
+        "Id": "533556807"
+       },
+       {
+        "Id": "612850931"
+       },
+       {
+        "Id": "628302964"
+       },
+       {
+        "Id": "670609774"
+       },
+       {
+        "Id": "703642477"
        },
        {
         "Id": "789230698"
+       },
+       {
+        "Id": "843409308"
        },
        {
         "Id": "852171466"
@@ -3234,10 +3495,10 @@
         "Id": "852834422"
        },
        {
-        "Id": "937963371"
+        "Id": "883621656"
        },
        {
-        "Id": "1044713269"
+        "Id": "906054732"
        },
        {
         "Id": "1067882517"
@@ -3259,7 +3520,19 @@
         "Id": "16824727"
        },
        {
+        "Id": "27966601"
+       },
+       {
         "Id": "72003085"
+       },
+       {
+        "Id": "108135739"
+       },
+       {
+        "Id": "109375708"
+       },
+       {
+        "Id": "131070502"
        },
        {
         "Id": "165215534"
@@ -3271,10 +3544,13 @@
         "Id": "225540313"
        },
        {
-        "Id": "359428371"
+        "Id": "270784232"
        },
        {
-        "Id": "416250454"
+        "Id": "287433110"
+       },
+       {
+        "Id": "359428371"
        },
        {
         "Id": "462117587"
@@ -3283,7 +3559,7 @@
         "Id": "481859828"
        },
        {
-        "Id": "525697279"
+        "Id": "559682950"
        },
        {
         "Id": "599065612"
@@ -3292,10 +3568,25 @@
         "Id": "599631038"
        },
        {
+        "Id": "674979875"
+       },
+       {
         "Id": "700031966"
        },
        {
         "Id": "723394785"
+       },
+       {
+        "Id": "813050252"
+       },
+       {
+        "Id": "1019833381"
+       },
+       {
+        "Id": "1034568713"
+       },
+       {
+        "Id": "1039151798"
        }
       ]
      },
@@ -3720,14 +4011,14 @@
       "GUID": "{CAFAEE01-A63C-4181-B93F-F8A1303C5520}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "7.963604",
-      "DurationMax": "7.963604",
+      "DurationMin": "7.748104",
+      "DurationMax": "7.748104",
       "MediaRefs": [
        {
-        "Id": "330436787"
+        "Id": "634045322"
        },
        {
-        "Id": "634045322"
+        "Id": "934327592"
        }
       ]
      },
@@ -3753,8 +4044,8 @@
       "GUID": "{3FEA7971-C2B4-4D5A-8000-C026D4B46A22}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "7.6796875",
-      "DurationMax": "7.6796875",
+      "DurationMin": "8.870324",
+      "DurationMax": "8.870324",
       "MediaRefs": [
        {
         "Id": "225260848"
@@ -3763,9 +4054,16 @@
         "Id": "592798063"
        },
        {
-        "Id": "644682631"
+        "Id": "610177526"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "2226544333",
@@ -3814,7 +4112,14 @@
        {
         "Id": "931902254"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "2872556972",
@@ -3828,7 +4133,14 @@
        {
         "Id": "78550955"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "3278392842",
@@ -3883,7 +4195,14 @@
        {
         "Id": "925169026"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "2752870638",
@@ -3941,7 +4260,14 @@
        {
         "Id": "1022081001"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "3296122978",
@@ -3981,7 +4307,14 @@
        {
         "Id": "1039114373"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "1373007782",
@@ -4078,7 +4411,14 @@
        {
         "Id": "1063238584"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "3306420443",
@@ -4145,7 +4485,14 @@
        {
         "Id": "1042979359"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "1892053642",
@@ -4161,7 +4508,14 @@
        {
         "Id": "723654036"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "3406034459",
@@ -4186,7 +4540,14 @@
        {
         "Id": "995014805"
        }
-      ]
+      ],
+      "PluginRefs": {
+       "ShareSets": [
+        {
+         "Id": "1089453751"
+        }
+       ]
+      }
      },
      {
       "Id": "1945088721",
@@ -4198,7 +4559,7 @@
       "DurationType": "Infinite",
       "MediaRefs": [
        {
-        "Id": "557778822"
+        "Id": "418398395"
        }
       ]
      },
@@ -4209,17 +4570,17 @@
       "GUID": "{CAE22942-C849-45E6-BFA4-6F673E59DACF}",
       "Color": "13",
       "DurationType": "OneShot",
-      "DurationMin": "1.2473541",
+      "DurationMin": "1.1283126",
       "DurationMax": "2.1925626",
       "MediaRefs": [
        {
-        "Id": "1000165812"
+        "Id": "18013114"
        },
        {
-        "Id": "1000739121"
+        "Id": "519237338"
        },
        {
-        "Id": "1002597688"
+        "Id": "795699949"
        }
       ]
      },
@@ -4230,56 +4591,56 @@
       "GUID": "{26507034-4178-4E27-BAAF-234677D5EE80}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.40375",
-      "DurationMax": "0.70720834",
+      "DurationMin": "0.35860416",
+      "DurationMax": "0.74635416",
       "MediaRefs": [
        {
-        "Id": "123447385"
+        "Id": "174225186"
        },
        {
-        "Id": "155468395"
+        "Id": "271830375"
        },
        {
-        "Id": "192198826"
+        "Id": "281225975"
        },
        {
-        "Id": "217873251"
+        "Id": "298461149"
        },
        {
-        "Id": "307814370"
+        "Id": "380813263"
        },
        {
-        "Id": "389821761"
+        "Id": "421855581"
        },
        {
-        "Id": "496414943"
+        "Id": "566015491"
        },
        {
-        "Id": "567359501"
+        "Id": "578347193"
        },
        {
-        "Id": "586942806"
+        "Id": "651296697"
        },
        {
-        "Id": "605256050"
+        "Id": "655345415"
        },
        {
-        "Id": "744274454"
+        "Id": "688850103"
        },
        {
-        "Id": "799710590"
+        "Id": "707585769"
        },
        {
-        "Id": "809345435"
+        "Id": "722054039"
        },
        {
-        "Id": "824009844"
+        "Id": "729000805"
        },
        {
-        "Id": "851731396"
+        "Id": "773701866"
        },
        {
-        "Id": "904776262"
+        "Id": "818010656"
        }
       ]
      },
@@ -4294,49 +4655,43 @@
       "DurationMax": "1.4603525",
       "MediaRefs": [
        {
-        "Id": "74353924"
+        "Id": "32601137"
        },
        {
-        "Id": "162557478"
+        "Id": "149678195"
        },
        {
-        "Id": "271825039"
+        "Id": "195222388"
        },
        {
-        "Id": "365142943"
+        "Id": "203152919"
        },
        {
-        "Id": "436450613"
+        "Id": "612518400"
        },
        {
-        "Id": "492235544"
+        "Id": "615032982"
        },
        {
-        "Id": "532476833"
+        "Id": "660546858"
        },
        {
-        "Id": "566643039"
+        "Id": "713183226"
        },
        {
-        "Id": "750626026"
+        "Id": "819621584"
        },
        {
-        "Id": "826885813"
+        "Id": "911263124"
        },
        {
-        "Id": "841259936"
+        "Id": "1047538533"
        },
        {
-        "Id": "925274372"
+        "Id": "1063959718"
        },
        {
-        "Id": "987646755"
-       },
-       {
-        "Id": "1019766289"
-       },
-       {
-        "Id": "1019876779"
+        "Id": "1070612189"
        }
       ],
       "SwitchContainers": [
@@ -4549,56 +4904,484 @@
       ]
      },
      {
-      "Id": "4285282925",
-      "Name": "Play_Land",
-      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_Land",
+      "Id": "2350165574",
+      "Name": "Play_LandHard",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_LandHard",
       "GUID": "{26F1786C-5D5A-4581-A120-01D348B4A976}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.5684138",
-      "DurationMax": "0.72847205",
+      "DurationMin": "1.1898818",
+      "DurationMax": "1.4603525",
       "MediaRefs": [
        {
-        "Id": "58263590"
+        "Id": "276624417"
        },
        {
-        "Id": "110289107"
+        "Id": "419036398"
        },
        {
-        "Id": "388312422"
+        "Id": "513194943"
        },
        {
-        "Id": "435464710"
+        "Id": "823896957"
        },
        {
-        "Id": "440916713"
+        "Id": "916045407"
        },
        {
-        "Id": "504162390"
+        "Id": "924485576"
        },
        {
-        "Id": "530069628"
+        "Id": "1071810680"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "284967655",
+         "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144402356"
+         },
+         {
+          "Id": "467427447"
+         },
+         {
+          "Id": "666714305"
+         },
+         {
+          "Id": "870483572"
+         },
+         {
+          "Id": "1006454649"
+         },
+         {
+          "Id": "1038172345"
+         }
+        ]
        },
        {
-        "Id": "568560589"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "2144363834",
+         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "37615142"
+         },
+         {
+          "Id": "48070420"
+         },
+         {
+          "Id": "67371479"
+         },
+         {
+          "Id": "75195539"
+         },
+         {
+          "Id": "97103850"
+         },
+         {
+          "Id": "111449002"
+         },
+         {
+          "Id": "276720588"
+         },
+         {
+          "Id": "315711343"
+         },
+         {
+          "Id": "348024467"
+         },
+         {
+          "Id": "372656528"
+         },
+         {
+          "Id": "374634145"
+         },
+         {
+          "Id": "391443697"
+         },
+         {
+          "Id": "422997841"
+         },
+         {
+          "Id": "446046019"
+         },
+         {
+          "Id": "446732021"
+         },
+         {
+          "Id": "475824081"
+         },
+         {
+          "Id": "492647866"
+         },
+         {
+          "Id": "511626052"
+         },
+         {
+          "Id": "515846903"
+         },
+         {
+          "Id": "718901679"
+         },
+         {
+          "Id": "761139060"
+         },
+         {
+          "Id": "765510582"
+         },
+         {
+          "Id": "799031878"
+         },
+         {
+          "Id": "905929665"
+         },
+         {
+          "Id": "1031036885"
+         },
+         {
+          "Id": "1056910489"
+         }
+        ]
        },
        {
-        "Id": "589315223"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "712897245",
+         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "110289107"
+         },
+         {
+          "Id": "187851598"
+         },
+         {
+          "Id": "383265548"
+         },
+         {
+          "Id": "388312422"
+         },
+         {
+          "Id": "530069628"
+         },
+         {
+          "Id": "530606154"
+         },
+         {
+          "Id": "596681085"
+         },
+         {
+          "Id": "624134468"
+         },
+         {
+          "Id": "646482590"
+         },
+         {
+          "Id": "691639158"
+         },
+         {
+          "Id": "702656811"
+         },
+         {
+          "Id": "732654726"
+         },
+         {
+          "Id": "819860924"
+         },
+         {
+          "Id": "883970154"
+         },
+         {
+          "Id": "937701960"
+         }
+        ]
        },
        {
-        "Id": "624134468"
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "4248645337",
+         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "187851598"
+         },
+         {
+          "Id": "383265548"
+         },
+         {
+          "Id": "530606154"
+         },
+         {
+          "Id": "596681085"
+         },
+         {
+          "Id": "646482590"
+         },
+         {
+          "Id": "691639158"
+         },
+         {
+          "Id": "702656811"
+         },
+         {
+          "Id": "883970154"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Id": "766290169",
+      "Name": "Play_LandSoft",
+      "ObjectPath": "\\Events\\Default Work Unit\\Player\\Play_LandSoft",
+      "GUID": "{D8D7E5F3-815E-495A-B2FC-8544632E2636}",
+      "Color": "10",
+      "DurationType": "OneShot",
+      "DurationMin": "1.1898818",
+      "DurationMax": "1.4603525",
+      "MediaRefs": [
+       {
+        "Id": "276624417"
        },
        {
-        "Id": "732654726"
+        "Id": "419036398"
        },
        {
-        "Id": "819860924"
+        "Id": "513194943"
        },
        {
-        "Id": "881973930"
+        "Id": "823896957"
        },
        {
-        "Id": "937701960"
+        "Id": "916045407"
+       },
+       {
+        "Id": "924485576"
+       },
+       {
+        "Id": "1071810680"
+       }
+      ],
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "284967655",
+         "GUID": "{A3F5184E-A48F-474A-AE4D-8040446FB92E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "144402356"
+         },
+         {
+          "Id": "467427447"
+         },
+         {
+          "Id": "666714305"
+         },
+         {
+          "Id": "870483572"
+         },
+         {
+          "Id": "1006454649"
+         },
+         {
+          "Id": "1038172345"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "2144363834",
+         "GUID": "{E58EA95B-E307-439F-97D3-89027869F1F8}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "37615142"
+         },
+         {
+          "Id": "48070420"
+         },
+         {
+          "Id": "67371479"
+         },
+         {
+          "Id": "75195539"
+         },
+         {
+          "Id": "97103850"
+         },
+         {
+          "Id": "111449002"
+         },
+         {
+          "Id": "276720588"
+         },
+         {
+          "Id": "315711343"
+         },
+         {
+          "Id": "348024467"
+         },
+         {
+          "Id": "372656528"
+         },
+         {
+          "Id": "374634145"
+         },
+         {
+          "Id": "391443697"
+         },
+         {
+          "Id": "422997841"
+         },
+         {
+          "Id": "446046019"
+         },
+         {
+          "Id": "446732021"
+         },
+         {
+          "Id": "475824081"
+         },
+         {
+          "Id": "492647866"
+         },
+         {
+          "Id": "511626052"
+         },
+         {
+          "Id": "515846903"
+         },
+         {
+          "Id": "718901679"
+         },
+         {
+          "Id": "761139060"
+         },
+         {
+          "Id": "765510582"
+         },
+         {
+          "Id": "799031878"
+         },
+         {
+          "Id": "905929665"
+         },
+         {
+          "Id": "1031036885"
+         },
+         {
+          "Id": "1056910489"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "712897245",
+         "GUID": "{AC638C65-FE28-40F2-8E5A-E7C26AF33937}",
+         "Default": "true"
+        },
+        "MediaRefs": [
+         {
+          "Id": "110289107"
+         },
+         {
+          "Id": "187851598"
+         },
+         {
+          "Id": "383265548"
+         },
+         {
+          "Id": "388312422"
+         },
+         {
+          "Id": "530069628"
+         },
+         {
+          "Id": "530606154"
+         },
+         {
+          "Id": "596681085"
+         },
+         {
+          "Id": "624134468"
+         },
+         {
+          "Id": "646482590"
+         },
+         {
+          "Id": "691639158"
+         },
+         {
+          "Id": "702656811"
+         },
+         {
+          "Id": "732654726"
+         },
+         {
+          "Id": "819860924"
+         },
+         {
+          "Id": "883970154"
+         },
+         {
+          "Id": "937701960"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "Switch",
+         "GroupId": "171170469",
+         "Id": "4248645337",
+         "GUID": "{784535FF-B1EF-49A4-BA65-3D7DE7FE36B7}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "187851598"
+         },
+         {
+          "Id": "383265548"
+         },
+         {
+          "Id": "530606154"
+         },
+         {
+          "Id": "596681085"
+         },
+         {
+          "Id": "646482590"
+         },
+         {
+          "Id": "691639158"
+         },
+         {
+          "Id": "702656811"
+         },
+         {
+          "Id": "883970154"
+         }
+        ]
        }
       ]
      },
@@ -4840,20 +5623,23 @@
       "GUID": "{F3BD1B3F-5B7E-4599-B43E-85DA285EEEB6}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "0.9697083",
-      "DurationMax": "1.6771041",
+      "DurationMin": "2.2420416",
+      "DurationMax": "2.2420416",
       "MediaRefs": [
        {
-        "Id": "505985643"
+        "Id": "206082312"
        },
        {
-        "Id": "795676352"
+        "Id": "333030881"
        },
        {
-        "Id": "798748255"
+        "Id": "756876235"
        },
        {
-        "Id": "847717732"
+        "Id": "800923238"
+       },
+       {
+        "Id": "906949811"
        }
       ]
      },
@@ -4894,14 +5680,14 @@
       "GUID": "{70A865B9-E1C0-4D8D-A27E-FAA442A3D1B5}",
       "Color": "3",
       "DurationType": "OneShot",
-      "DurationMin": "2.1223125",
-      "DurationMax": "2.1223125",
+      "DurationMin": "2.0668335",
+      "DurationMax": "2.0668335",
       "MediaRefs": [
        {
-        "Id": "257636497"
+        "Id": "344886089"
        },
        {
-        "Id": "344886089"
+        "Id": "708091794"
        }
       ]
      },
@@ -5011,11 +5797,11 @@
       "GUID": "{76CF99E0-BB84-4C85-A2F7-24CB324A8A80}",
       "Color": "10",
       "DurationType": "OneShot",
-      "DurationMin": "2.2550209",
-      "DurationMax": "2.2550209",
+      "DurationMin": "2.2487707",
+      "DurationMax": "2.2487707",
       "MediaRefs": [
        {
-        "Id": "751335544"
+        "Id": "768732971"
        }
       ]
      },
@@ -5030,7 +5816,7 @@
       "DurationMax": "4.639646",
       "MediaRefs": [
        {
-        "Id": "827869070"
+        "Id": "922952514"
        }
       ]
      }
@@ -5077,6 +5863,6 @@
     ]
    }
   ],
-  "FileHash": "{E9AC4602-8516-70CE-47CA-F68F321E60A0}"
+  "FileHash": "{176FDB00-AF13-62EC-49A7-763B326562B3}"
  }
 }

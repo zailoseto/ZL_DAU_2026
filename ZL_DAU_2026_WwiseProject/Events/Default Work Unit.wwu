@@ -71,17 +71,27 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{207168F2-C40C-41CB-B25A-EBEE121601BA}" ShortID="417825419">
+								<Action Name="" ID="{3C864EC6-56DB-4CFF-86B2-D9856796FC0F}" ShortID="702908092">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Footsteps" ID="{D649642D-A4CE-4D1F-B544-4F3AE58B822B}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Play_Land" ID="{26F1786C-5D5A-4581-A120-01D348B4A976}">
+						<Event Name="Play_LandHard" ID="{26F1786C-5D5A-4581-A120-01D348B4A976}">
 							<ChildrenList>
+								<Action Name="" ID="{C57DC681-388A-4AE2-81CF-134A3489861B}" ShortID="460182565">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="16"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LandLife" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{76BE848B-EB9B-4464-ACE6-AE44CE05B417}" ShortID="111470894">
 									<ReferenceList>
 										<Reference Name="Target">
@@ -103,7 +113,7 @@
 								<Action Name="" ID="{E92F4B6C-46C5-44BB-9D1A-A8C03A43E57D}" ShortID="676577361">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="12"/>
-										<Property Name="Volume" Type="Real64" Value="5"/>
+										<Property Name="Volume" Type="Real64" Value="4"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
@@ -114,7 +124,7 @@
 								<Action Name="" ID="{1F7B6452-EB0A-4250-B015-8CE0E35CB1C8}" ShortID="1015944125">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mud" ID="{512A3AF4-2201-4F8E-A623-DBC000C9BFD3}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -155,10 +165,17 @@
 						</Event>
 						<Event Name="Play_PlayerRespawn" ID="{F3BD1B3F-5B7E-4599-B43E-85DA285EEEB6}">
 							<ChildrenList>
+								<Action Name="" ID="{A8F74221-E7A3-49C5-9892-0814396C438E}" ShortID="554368882">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Respawn" ID="{6A70B9DE-C5B1-4B6C-BBA1-4B873FD722CD}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
 								<Action Name="" ID="{88D09691-9193-450F-9A0D-BB038AA85F6C}" ShortID="374073566">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Respawn" ID="{3B971CA8-1EEC-4B74-8E69-F0D3A15E433E}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Respawn Vox" ID="{3B971CA8-1EEC-4B74-8E69-F0D3A15E433E}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -185,7 +202,7 @@
 										<Action Name="" ID="{0AB0074C-17CC-4E86-917E-0BE6FBCB1C14}" ShortID="965590601">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Character Vox Door crystals are for" ID="{06B4E0A6-CEE0-4A9C-80C3-02159CF82216}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+													<ObjectRef Name="Door crystals are for" ID="{06B4E0A6-CEE0-4A9C-80C3-02159CF82216}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -193,6 +210,57 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Event Name="Play_LandSoft" ID="{D8D7E5F3-815E-495A-B2FC-8544632E2636}">
+							<ChildrenList>
+								<Action Name="" ID="{48D6B513-C798-40F6-8B71-81F199B54EF8}" ShortID="572301629">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="-7"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LandLife" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CA19F270-F7E0-4BB9-8BA8-A7CA1E626CCF}" ShortID="721360174">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="LandLife" ID="{F3FBC8F7-2B59-46A3-9645-5EAB11D3F39C}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{50643E6D-A262-45B7-8658-CE40DF5C2D93}" ShortID="292341266">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="13"/>
+										<Property Name="Pitch" Type="int32" Value="-50"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{D649642D-A4CE-4D1F-B544-4F3AE58B822B}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2DE603CC-B177-4FA5-BE3A-F19BDC4D0B25}" ShortID="576345120">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="12"/>
+										<Property Name="Volume" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Footsteps" ID="{D649642D-A4CE-4D1F-B544-4F3AE58B822B}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2955C5AC-729C-428D-A953-4F23DBE8670C}" ShortID="131122752">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Steps" ID="{83F61280-66E9-4019-B64F-E3124E6C79CE}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemies" ID="{85D17234-E52D-4C91-A6FD-F8595A993BF4}" ShortID="678214337">
@@ -624,13 +692,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{4785F278-2D3F-4020-9C6D-B8BD4173BB6E}" ShortID="502655877">
+								<Action Name="" ID="{0D867156-F97C-4403-B816-A49C579BF1B1}" ShortID="618063062">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="0.5"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="This just got interesting2" ID="{C4115AA1-AFD2-485C-B8DF-C9A4201B62B0}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Looks like this just got interesting" ID="{5D30DCD9-116D-4047-8036-EF18AA6DCD47}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -701,7 +769,7 @@
 								<Action Name="" ID="{9B2925E8-48A4-46BF-9C25-0866B90B87A6}" ShortID="353093130">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Health Box Open" ID="{A70CC88D-E700-46BB-8CB3-7676BA31047D}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Health Box Open temp" ID="{B5C6C7E4-1899-4CCF-9B21-8E41C2655C19}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -834,13 +902,13 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{86FDE394-1322-4E29-8023-9A0E7355C22B}" ShortID="988592878">
+								<Action Name="" ID="{E9A5694B-3786-4FB1-B6B7-9DCB8A3BDE41}" ShortID="469585334">
 									<PropertyList>
 										<Property Name="Delay" Type="Real64" Value="6.2"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="That doesn't sound good" ID="{835A0B44-C73A-4B22-AB25-5E545A0BFE22}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+											<ObjectRef Name="Well that doesn't sound good" ID="{C07CE61F-E32E-4A7F-9D1C-7DF0FF3923E3}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
