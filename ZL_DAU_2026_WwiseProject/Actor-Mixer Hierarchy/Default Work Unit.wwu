@@ -3271,6 +3271,40 @@
 										<ActiveSource Name="Grenadier Entry Vox" ID="{8FA983AE-1466-4B98-8A39-08BD3EBC4E6D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Grenadier Punch Vox" ID="{5E80FC16-68C1-4FF3-9C65-E40DF2F38770}" ShortID="590249311">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier Punch Vox" ID="{E804906D-312D-48D1-9059-54985B2FF7EE}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.313055554255224"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.453529200395389"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Punch Vox.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="883948837"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier Punch Vox" ID="{E804906D-312D-48D1-9059-54985B2FF7EE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
@@ -6446,7 +6480,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-5</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -6461,6 +6495,11 @@
 									<ChildrenList>
 										<RandomSequenceContainer Name="Death Hiss" ID="{8BC34091-9487-4BFC-B480-7A2C7AB0A2A1}" ShortID="286022855">
 											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
 														<Value>-4</Value>
@@ -6594,7 +6633,7 @@
 												<Property Name="OverrideColor" Type="bool" Value="True"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>10</Value>
+														<Value>3</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -6676,6 +6715,13 @@
 											</ChildrenList>
 										</RandomSequenceContainer>
 										<RandomSequenceContainer Name="Death Hiss Low" ID="{A10D58D3-949C-4C95-91AD-281E3F7B8BB7}" ShortID="510069887">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -6793,6 +6839,925 @@
 													</ChildrenList>
 													<ActiveSourceList>
 														<ActiveSource Name="Chomper Death Hiss Low-005" ID="{AD03E65A-D622-4130-95CE-97A13FF52374}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Squeak" ID="{2E222619-888F-4450-903B-3BDF5BE2123A}" ShortID="193368820">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E4A67259-B426-4ACC-82C8-BC1B98653AF1}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="8"/>
+																	<Property Name="Min" Type="Real64" Value="-8"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>6</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Death Vox Squeak-001" ID="{1569D900-2780-445C-8A71-48CFAF365A83}" ShortID="55930910">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-001" ID="{875AED57-3591-4381-B1BE-5DA19FB8B192}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="27807113"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-001" ID="{875AED57-3591-4381-B1BE-5DA19FB8B192}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Squeak-002" ID="{5305B50E-485A-4B8F-97E8-E1F1FF702BEA}" ShortID="545380275">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-002" ID="{70967008-8FD1-42CF-AB25-ECC510233CF3}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="365637927"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-002" ID="{70967008-8FD1-42CF-AB25-ECC510233CF3}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Squeak-003" ID="{727BB644-899C-4381-A062-16A696B00B11}" ShortID="297900286">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-003" ID="{6DBDB802-C2E4-4B7F-91F8-625CCB14979B}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="894587046"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-003" ID="{6DBDB802-C2E4-4B7F-91F8-625CCB14979B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Squeak-004" ID="{A2A54255-3124-4026-BCE9-E6F365FCB1F0}" ShortID="121245390">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-004" ID="{84C579A2-3366-48E8-9B91-4310BCF3B331}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="544681502"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-004" ID="{84C579A2-3366-48E8-9B91-4310BCF3B331}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Squeak-005" ID="{AE8D98EA-1B53-4622-8741-28DFFA13DAF9}" ShortID="1071676444">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-005" ID="{34FBA0B9-A912-4D35-A38B-D269B734041C}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="803630204"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-005" ID="{34FBA0B9-A912-4D35-A38B-D269B734041C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Squeak-006" ID="{4BBCC794-A694-4423-9A0B-E83E746DF966}" ShortID="873080844">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Squeak-006" ID="{1CCB9C39-F09F-43C7-B20D-55B0F9A61095}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Squeak-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="371943113"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Squeak-006" ID="{1CCB9C39-F09F-43C7-B20D-55B0F9A61095}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Whine" ID="{044493A8-4AD8-42F5-8B2B-F8226059C011}" ShortID="744790424">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{E244AEB4-1A0E-47DE-8664-CCC9D00F86D0}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="5"/>
+																	<Property Name="Min" Type="Real64" Value="-5"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Death Vox Whine-001" ID="{BC04528C-D0B7-46EF-8E71-EA7C1A2A7EFE}" ShortID="493180769">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-001" ID="{89BB324B-5A65-4553-BA87-EE75FFC43665}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="532337902"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-001" ID="{89BB324B-5A65-4553-BA87-EE75FFC43665}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-002" ID="{F318AA60-11DA-4346-82FD-E3B91DCC8C24}" ShortID="659899082">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-002" ID="{B8BB3F47-71A3-4F47-9A98-275482A64265}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="227069745"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-002" ID="{B8BB3F47-71A3-4F47-9A98-275482A64265}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-003" ID="{AF22E642-0AAE-4624-ADAD-B540BBF53A0F}" ShortID="171783194">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-003" ID="{C940DEA8-A3F4-4C85-AA74-409B98FC5E35}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="504597661"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-003" ID="{C940DEA8-A3F4-4C85-AA74-409B98FC5E35}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-004" ID="{01F6D637-A8A3-4475-8824-F5B4BFF1FE6B}" ShortID="91937591">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-004" ID="{954A4748-B7A0-4E88-A0D8-73812B429153}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="204232466"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-004" ID="{954A4748-B7A0-4E88-A0D8-73812B429153}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-005" ID="{3AC27592-427F-44E2-9A3D-EB97407DF064}" ShortID="476636544">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-005" ID="{C4A870A6-D686-4EC7-BB57-1327CF5B8628}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="645596209"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-005" ID="{C4A870A6-D686-4EC7-BB57-1327CF5B8628}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-006" ID="{48D084B7-2A3A-44B6-BF8A-9329503DE0A7}" ShortID="986314588">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-006" ID="{4A0AC3EA-0A60-44B3-9117-150A0CE1A424}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="67178030"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-006" ID="{4A0AC3EA-0A60-44B3-9117-150A0CE1A424}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-007" ID="{0307EDB6-B52C-486B-9EA0-B1EDB7CC9B93}" ShortID="987603439">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-007" ID="{59044D80-96E5-4084-BE30-C8FED8AF4690}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="11991210"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-007" ID="{59044D80-96E5-4084-BE30-C8FED8AF4690}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-008" ID="{940A2805-F93D-400E-97CF-08A1CB154322}" ShortID="196093526">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-008" ID="{5C195571-C12C-4164-A913-734E88ABAFB1}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="868984584"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-008" ID="{5C195571-C12C-4164-A913-734E88ABAFB1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-009" ID="{DE740282-2B64-4367-8598-C2A49D1E2329}" ShortID="947071950">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-009" ID="{BB03931A-A54C-481D-B8C4-F99C9B5C1F09}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="287468899"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-009" ID="{BB03931A-A54C-481D-B8C4-F99C9B5C1F09}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-010" ID="{C76C7678-3CE6-41BF-BAE4-0CC5F5689DCA}" ShortID="414984127">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-010" ID="{37F55B33-6393-40A7-A7F9-17364A2EB681}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1044637729"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-010" ID="{37F55B33-6393-40A7-A7F9-17364A2EB681}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-011" ID="{BF7E2CA4-F8BD-492F-8E4D-FCA94CA90AC5}" ShortID="29218424">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-011" ID="{22890252-7A2F-4451-B8BF-98E38E86022F}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="602557969"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-011" ID="{22890252-7A2F-4451-B8BF-98E38E86022F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-012" ID="{A1077965-4A50-4511-8C64-0357BA9BB887}" ShortID="35561450">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-012" ID="{4CC91925-9E4F-4363-8F66-454C59256AF8}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="154703232"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-012" ID="{4CC91925-9E4F-4363-8F66-454C59256AF8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-013" ID="{66D854FF-85A3-471D-9A56-AD706283DD94}" ShortID="785329957">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-013" ID="{B67AD7E4-2FBE-4534-9A4E-2857EEF2B003}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="279086361"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-013" ID="{B67AD7E4-2FBE-4534-9A4E-2857EEF2B003}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Whine-014" ID="{0A526539-16D1-429D-B45F-DFC7FC19E987}" ShortID="423994976">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Whine-014" ID="{515E5A22-0D7F-44E8-B1AA-31F253BB711F}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Whine-014.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="648382439"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Whine-014" ID="{515E5A22-0D7F-44E8-B1AA-31F253BB711F}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Low" ID="{3070320B-B83A-42B3-AC36-E5600B744A33}" ShortID="20917779">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Death Vox Low -001" ID="{2C34DBE8-C454-472D-AB99-12FC3380E6E3}" ShortID="172607113">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Low -001" ID="{A7B4B8A8-3EBE-4D8B-8523-B77AADB24D7E}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Low -001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="993424474"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Low -001" ID="{A7B4B8A8-3EBE-4D8B-8523-B77AADB24D7E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Low -002" ID="{61EC07E2-C298-4390-A024-619DBC8824EF}" ShortID="199635627">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Low -002" ID="{F1C4CA6B-062F-4843-B527-0DC7D72016B8}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Low -002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="793278130"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Low -002" ID="{F1C4CA6B-062F-4843-B527-0DC7D72016B8}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Low -003" ID="{B8999CE6-FBA0-484C-A66A-E5D91BF1C8A0}" ShortID="65077826">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Low -003" ID="{D11AD258-B348-4651-9F4F-722345571EC4}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Low -003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="578663893"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Low -003" ID="{D11AD258-B348-4651-9F4F-722345571EC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Low -004" ID="{4F96B240-D3A6-44A2-AA0E-FA467BDA0BD2}" ShortID="350885293">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Low -004" ID="{BCE28240-B5CB-4F1B-87A1-01D07AC992B1}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Low -004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="919949789"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Low -004" ID="{BCE28240-B5CB-4F1B-87A1-01D07AC992B1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Low -005" ID="{46E3A1DF-E806-45D9-8E0C-1106C1CA89F6}" ShortID="597362218">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Low -005" ID="{869C56A1-881B-49CC-BCF6-99D509AA6738}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Low -005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="57581446"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Low -005" ID="{869C56A1-881B-49CC-BCF6-99D509AA6738}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Hiss" ID="{C18C4889-B009-4C70-AA79-319DDF820E40}" ShortID="292500605">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Death Vox Hiss-001" ID="{1DE9A73A-48C4-42E7-B74F-A085AE677FF0}" ShortID="615463323">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-001" ID="{BC1DB9C9-B3BB-45C9-A260-8D2B48B99CA9}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="649597617"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-001" ID="{BC1DB9C9-B3BB-45C9-A260-8D2B48B99CA9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-002" ID="{40F18979-28D6-446B-9C75-236099F7F9FD}" ShortID="240742164">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-002" ID="{BE881589-799D-4BE6-B0B3-BD5F2ABB6E02}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="95987979"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-002" ID="{BE881589-799D-4BE6-B0B3-BD5F2ABB6E02}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-003" ID="{904ED042-5335-4A23-9BC6-BEEA27FC37EA}" ShortID="337357771">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-003" ID="{B21ED589-9AEC-4E38-8F2E-B8499BAC52BC}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="76793851"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-003" ID="{B21ED589-9AEC-4E38-8F2E-B8499BAC52BC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-004" ID="{85478C68-CD83-475B-B061-5DF0F374F0DB}" ShortID="940393269">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-004" ID="{F91647EF-DE52-45CC-A2C2-6B4D6965C8BE}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="732644146"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-004" ID="{F91647EF-DE52-45CC-A2C2-6B4D6965C8BE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-005" ID="{CCED64EF-5A0C-41F2-B4A4-0D21F7CCE154}" ShortID="574378048">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-005" ID="{F08EAC7B-8FCD-4F9A-A198-5F20091FB81B}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="778251506"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-005" ID="{F08EAC7B-8FCD-4F9A-A198-5F20091FB81B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-006" ID="{74A77149-C13C-4440-A22E-7E2D03F01DD0}" ShortID="622020329">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-006" ID="{607E7883-AB90-462A-B8EF-8C3F89DB6DDC}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="630836573"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-006" ID="{607E7883-AB90-462A-B8EF-8C3F89DB6DDC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-007" ID="{EFC73065-D959-4229-A13C-69D2B80699CD}" ShortID="251109715">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-007" ID="{99D138F6-1691-4D69-B9D3-555A6381C316}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="581728446"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-007" ID="{99D138F6-1691-4D69-B9D3-555A6381C316}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-008" ID="{5124B941-A3DD-49D0-B31B-D57629C96052}" ShortID="80335148">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-008" ID="{89EA50CC-D6D2-4D17-BA62-2C7868A309CD}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="545314805"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-008" ID="{89EA50CC-D6D2-4D17-BA62-2C7868A309CD}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-009" ID="{F63ED48F-6D16-4924-9322-F5BDD6996B11}" ShortID="214941756">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-009" ID="{07C4B724-2944-4ECE-B921-58F2DE0B2CF1}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="223184202"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-009" ID="{07C4B724-2944-4ECE-B921-58F2DE0B2CF1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-010" ID="{BCFCA828-924B-4647-910A-C73EB58BD5A1}" ShortID="431068550">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-010" ID="{9116D93F-A3E2-43F2-8DCE-838D16AB6198}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="590913599"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-010" ID="{9116D93F-A3E2-43F2-8DCE-838D16AB6198}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-011" ID="{364869AA-71C2-4ED1-B2E3-2CC4DDE5E723}" ShortID="214061353">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-011" ID="{2B4793E2-4975-4189-8A78-3A0DD1CD3EAC}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-011.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="771873563"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-011" ID="{2B4793E2-4975-4189-8A78-3A0DD1CD3EAC}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-012" ID="{826ADABB-E79C-41C6-9742-7EF79A6512C5}" ShortID="501297761">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-012" ID="{652774E5-4CE0-4D50-B5CC-129ACE1B27DA}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-012.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="405022391"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-012" ID="{652774E5-4CE0-4D50-B5CC-129ACE1B27DA}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Hiss-013" ID="{7EC78849-CD48-4507-9F98-9EDCDD52BB89}" ShortID="432014743">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Hiss-013" ID="{B2011849-BE9A-44C5-8F8B-B9D1B6C42840}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Hiss-013.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="652198308"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Hiss-013" ID="{B2011849-BE9A-44C5-8F8B-B9D1B6C42840}" Platform="Linked"/>
 													</ActiveSourceList>
 												</Sound>
 											</ChildrenList>
@@ -7778,271 +8743,6 @@
 										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
-								<RandomSequenceContainer Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" ShortID="221935052">
-									<PropertyList>
-										<Property Name="Color" Type="int16" Value="24"/>
-										<Property Name="OverrideColor" Type="bool" Value="True"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{3EC1FEA7-916B-4167-AB63-0183D30D1F38}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="20"/>
-															<Property Name="Min" Type="Real64" Value="-20"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{B7EB2A03-A305-42EB-BC31-C4E3413C6A1E}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="6"/>
-															<Property Name="Min" Type="Real64" Value="-6"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<Sound Name="Chomper Hit Temp-001" ID="{B2B3BFCE-F681-4501-8EA5-A7C3B5AEEE34}" ShortID="461573903">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-001" ID="{E35D29F8-2926-435B-9039-F454D023D850}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-001.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="169264814"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-001" ID="{E35D29F8-2926-435B-9039-F454D023D850}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-002" ID="{AD626F8B-48B2-4EDC-8C5E-2013C5B39CD5}" ShortID="670290441">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-002" ID="{FB14FA7B-46C7-495B-A18B-D7A845FD9541}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-002.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="502895227"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-002" ID="{FB14FA7B-46C7-495B-A18B-D7A845FD9541}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-003" ID="{45F15AA1-6677-44F2-B916-34126706313B}" ShortID="719591229">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-003" ID="{829E1927-1E6F-4637-A20E-CEAB3E26A453}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-003.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="703424850"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-003" ID="{829E1927-1E6F-4637-A20E-CEAB3E26A453}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-004" ID="{BECAA266-76F1-46D1-87A8-08ABC982ECD3}" ShortID="379515816">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-004" ID="{E37CCFFA-83D6-4FFE-BD78-7B7E560FAB55}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-004.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="416757535"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-004" ID="{E37CCFFA-83D6-4FFE-BD78-7B7E560FAB55}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-005" ID="{76229268-0AE3-449C-8932-57C2705DFDC4}" ShortID="478126388">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-005" ID="{67ADED32-FF78-4893-9D10-037BE006C8A2}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-005.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="744443012"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-005" ID="{67ADED32-FF78-4893-9D10-037BE006C8A2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-006" ID="{F7E173B3-D1F8-433C-8E3E-FDB09491F875}" ShortID="946042591">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-006" ID="{034048B1-C883-421D-80BD-4B516C617DE6}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-006.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="937724843"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-006" ID="{034048B1-C883-421D-80BD-4B516C617DE6}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-007" ID="{53F79160-8A23-4932-A778-884376BFAD94}" ShortID="80298892">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-007" ID="{E3068ABB-21AA-4547-8466-0E76085827DF}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-007.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="635342055"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-007" ID="{E3068ABB-21AA-4547-8466-0E76085827DF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-008" ID="{F31C77EC-209B-4F32-BC49-B0FF062749AA}" ShortID="227067511">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-008" ID="{464045B2-94B7-49C3-8185-98E3A99082F4}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-008.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="422665275"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-008" ID="{464045B2-94B7-49C3-8185-98E3A99082F4}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-009" ID="{DD7DB9CC-4D59-47AF-9D9B-72E2A5E7E898}" ShortID="258547907">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-009" ID="{68AB9F5B-6C14-4147-BE08-95195C78B72E}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-009.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="377654433"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-009" ID="{68AB9F5B-6C14-4147-BE08-95195C78B72E}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="Chomper Hit Temp-010" ID="{0BDE4410-CBAC-4CE9-8D75-A6BA331DE8A8}" ShortID="377939420">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="Chomper Hit Temp-010" ID="{B75D304D-07E8-43AA-8AC9-1D9F7D1F20A9}">
-													<Language>SFX</Language>
-													<AudioFile>Chomper Hit Temp-010.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="272421298"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="Chomper Hit Temp-010" ID="{B75D304D-07E8-43AA-8AC9-1D9F7D1F20A9}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
 								<BlendContainer Name="Chomper Idle Yelp" ID="{0FA9178F-B381-454C-8DFA-B9A805E873F0}" ShortID="153794377">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -8475,6 +9175,409 @@
 												<ActiveSource Name="Chomper Idle Yelp Rattle" ID="{A9DFA197-0B8D-4305-B8BD-0DF867FACB41}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+									</ChildrenList>
+								</BlendContainer>
+								<BlendContainer Name="Chomper Hit" ID="{DD9279AF-11EA-4467-ABE5-D67CF081575E}" ShortID="255907079">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="Chomper Hit" ID="{D1656BC2-9676-4ED3-B5F1-B7C361D01F0F}" ShortID="221935052">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Color" Type="int16" Value="24"/>
+												<Property Name="OverrideColor" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{3EC1FEA7-916B-4167-AB63-0183D30D1F38}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="20"/>
+																	<Property Name="Min" Type="Real64" Value="-20"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>5</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{B7EB2A03-A305-42EB-BC31-C4E3413C6A1E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="6"/>
+																	<Property Name="Min" Type="Real64" Value="-6"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Chomper" ID="{3741520B-B63B-46AD-AE50-10850FFD81B0}" WorkUnitID="{74874C11-956D-4BA9-A6AF-CE39A7307A40}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Hit Temp-001" ID="{B2B3BFCE-F681-4501-8EA5-A7C3B5AEEE34}" ShortID="461573903">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-001" ID="{E35D29F8-2926-435B-9039-F454D023D850}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="169264814"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-001" ID="{E35D29F8-2926-435B-9039-F454D023D850}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-002" ID="{AD626F8B-48B2-4EDC-8C5E-2013C5B39CD5}" ShortID="670290441">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-002" ID="{FB14FA7B-46C7-495B-A18B-D7A845FD9541}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="502895227"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-002" ID="{FB14FA7B-46C7-495B-A18B-D7A845FD9541}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-003" ID="{45F15AA1-6677-44F2-B916-34126706313B}" ShortID="719591229">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-003" ID="{829E1927-1E6F-4637-A20E-CEAB3E26A453}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="703424850"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-003" ID="{829E1927-1E6F-4637-A20E-CEAB3E26A453}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-004" ID="{BECAA266-76F1-46D1-87A8-08ABC982ECD3}" ShortID="379515816">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-004" ID="{E37CCFFA-83D6-4FFE-BD78-7B7E560FAB55}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="416757535"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-004" ID="{E37CCFFA-83D6-4FFE-BD78-7B7E560FAB55}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-005" ID="{76229268-0AE3-449C-8932-57C2705DFDC4}" ShortID="478126388">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-005" ID="{67ADED32-FF78-4893-9D10-037BE006C8A2}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="744443012"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-005" ID="{67ADED32-FF78-4893-9D10-037BE006C8A2}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-006" ID="{F7E173B3-D1F8-433C-8E3E-FDB09491F875}" ShortID="946042591">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-006" ID="{034048B1-C883-421D-80BD-4B516C617DE6}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-006.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="937724843"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-006" ID="{034048B1-C883-421D-80BD-4B516C617DE6}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-007" ID="{53F79160-8A23-4932-A778-884376BFAD94}" ShortID="80298892">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-007" ID="{E3068ABB-21AA-4547-8466-0E76085827DF}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-007.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="635342055"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-007" ID="{E3068ABB-21AA-4547-8466-0E76085827DF}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-008" ID="{F31C77EC-209B-4F32-BC49-B0FF062749AA}" ShortID="227067511">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-008" ID="{464045B2-94B7-49C3-8185-98E3A99082F4}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-008.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="422665275"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-008" ID="{464045B2-94B7-49C3-8185-98E3A99082F4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-009" ID="{DD7DB9CC-4D59-47AF-9D9B-72E2A5E7E898}" ShortID="258547907">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-009" ID="{68AB9F5B-6C14-4147-BE08-95195C78B72E}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-009.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="377654433"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-009" ID="{68AB9F5B-6C14-4147-BE08-95195C78B72E}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Hit Temp-010" ID="{0BDE4410-CBAC-4CE9-8D75-A6BA331DE8A8}" ShortID="377939420">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Hit Temp-010" ID="{B75D304D-07E8-43AA-8AC9-1D9F7D1F20A9}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Hit Temp-010.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="272421298"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Hit Temp-010" ID="{B75D304D-07E8-43AA-8AC9-1D9F7D1F20A9}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="Gore" ID="{DAEB2209-C0F3-421A-A25E-B06098F937DE}" ShortID="986114588">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Chomper Death Vox Gore-001" ID="{A85F90EB-57A5-43CB-B24D-5C2FCB058666}" ShortID="902985224">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Gore-001" ID="{022BEE8B-11DD-45AF-90DB-154D39BBF4A1}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Gore-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="733623322"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Gore-001" ID="{022BEE8B-11DD-45AF-90DB-154D39BBF4A1}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Gore-002" ID="{6F4099B6-CC94-404D-9D52-F7219C5D4D75}" ShortID="454043457">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Gore-002" ID="{32821297-F58E-4134-9CED-D464C286786C}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Gore-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="340221222"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Gore-002" ID="{32821297-F58E-4134-9CED-D464C286786C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Gore-003" ID="{3CABDE18-8330-4924-9893-B68615B36556}" ShortID="864728538">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Gore-003" ID="{E8E35DCA-68C6-440B-A9A2-850CAF33F24D}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Gore-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1032821313"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Gore-003" ID="{E8E35DCA-68C6-440B-A9A2-850CAF33F24D}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Gore-004" ID="{E176F1E2-0626-4317-8E47-A1A5010C49BA}" ShortID="997142156">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Gore-004" ID="{FEA451C9-E21D-4E0F-AA9E-F071B3C48E1B}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Gore-004.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="741887602"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Gore-004" ID="{FEA451C9-E21D-4E0F-AA9E-F071B3C48E1B}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Chomper Death Vox Gore-005" ID="{5D7B24B7-88D4-44AA-85F9-1CBB20F2B796}" ShortID="105208467">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Chomper Death Vox Gore-005" ID="{7C045985-84A2-44B8-8960-6E0576AA15DE}">
+															<Language>SFX</Language>
+															<AudioFile>Chomper Death Vox Gore-005.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="962916062"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ActiveSourceList>
+														<ActiveSource Name="Chomper Death Vox Gore-005" ID="{7C045985-84A2-44B8-8960-6E0576AA15DE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
 									</ChildrenList>
 								</BlendContainer>
 							</ChildrenList>
@@ -9312,7 +10415,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-8</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9397,9 +10500,16 @@
 										<MediaID ID="1029728874"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Pressure Pad Loop Temp" ID="{E69B5371-28FC-44F8-B92A-9B14B3E36942}">
+									<Language>SFX</Language>
+									<AudioFile>Pressure Pad Loop Temp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="256491445"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Games, Video, Rising, Building Up, Upgrade, Level Up, Positive, Double, Delay SND113057" ID="{070EA627-DB21-4397-8D53-971CBDD6E1C7}" Platform="Linked"/>
+								<ActiveSource Name="Pressure Pad Loop Temp" ID="{E69B5371-28FC-44F8-B92A-9B14B3E36942}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<RandomSequenceContainer Name="Switch Activate" ID="{62E5BF07-62F4-4501-804D-DF64454C84EF}" ShortID="392960382">
@@ -9525,7 +10635,7 @@
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-15</Value>
+										<Value>-16</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9554,23 +10664,25 @@
 										<MediaID ID="946031915"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="Before Switch Loop Temp" ID="{6F3DA6C6-805D-442F-9D7C-EA2E50A49585}">
+									<Language>SFX</Language>
+									<AudioFile>Before Switch Loop Temp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="132564419"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{CD6F6367-C94D-45AF-B973-732E6D2EF9A6}" Platform="Linked"/>
+								<ActiveSource Name="Before Switch Loop Temp" ID="{6F3DA6C6-805D-442F-9D7C-EA2E50A49585}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Switch After Loop" ID="{F948BD24-3288-4755-AF77-659EE0CDD415}" ShortID="384983105">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-300</Value>
-									</ValueList>
-								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-14</Value>
+										<Value>-18</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -9599,9 +10711,16 @@
 										<MediaID ID="946031915"/>
 									</MediaIDList>
 								</AudioFileSource>
+								<AudioFileSource Name="After Switch Loop Temp" ID="{2ACB36EA-CACA-433B-AD7C-BD8EA4D03380}">
+									<Language>SFX</Language>
+									<AudioFile>After Switch Loop Temp.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="168993040"/>
+									</MediaIDList>
+								</AudioFileSource>
 							</ChildrenList>
 							<ActiveSourceList>
-								<ActiveSource Name="Musical, Misc, Computer, OS Retro, Futuristic, Blippy, Ascending Notes Soft Synth SND64177" ID="{3F3DC8B9-757B-46D0-BDB1-AE9F75785AD5}" Platform="Linked"/>
+								<ActiveSource Name="After Switch Loop Temp" ID="{2ACB36EA-CACA-433B-AD7C-BD8EA4D03380}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Door 3" ID="{FEAD48A7-8D60-470C-8E75-D92952BF2DBD}" ShortID="1063742150">
