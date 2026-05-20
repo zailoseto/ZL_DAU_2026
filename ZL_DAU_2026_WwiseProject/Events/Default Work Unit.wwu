@@ -534,6 +534,16 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{AE7F6EA5-928F-4438-8946-39294CDF7E0A}" ShortID="327176383">
+											<PropertyList>
+												<Property Name="Delay" Type="Real64" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Grenadier Shield Vox" ID="{B37DA8F9-6750-454D-9BF0-E966502ED601}" WorkUnitID="{D255115A-A5F8-45BE-9936-CF408BAA4ED6}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Play_GrenadierDeath" ID="{D32A969D-BA7A-4020-BD9C-9A2B4281C5D1}">

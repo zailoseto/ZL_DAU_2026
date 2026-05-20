@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{87EBF235-C5A9-4216-BEFE-D68AD542D080}",
     "Language": "SFX",
-    "Hash": "{2FF4EC01-CBD2-6D4C-7B3E-B4D80D5535AA}",
+    "Hash": "{767A5972-50AA-509F-E2BA-0566AC21CC5B}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\Main",
     "ShortName": "Main",
     "Path": "Main.bnk",
@@ -1960,14 +1960,6 @@
       "CachePath": "B9/{B9279E47-1A56-81E1-402B-07F18743F7F7}.wem"
      },
      {
-      "Id": "612518400",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Character Jump Vox 2-009.wav",
-      "CachePath": "C2/{C22CF89B-FEEB-E21E-E085-F4303A242864}.wem"
-     },
-     {
       "Id": "612850931",
       "Language": "SFX",
       "Streaming": "false",
@@ -2350,6 +2342,14 @@
       "Location": "Memory",
       "ShortName": "Character Jump Vox 2-008.wav",
       "CachePath": "A0/{A04524D9-567D-AF93-608B-7F10BF2C1245}.wem"
+     },
+     {
+      "Id": "714547579",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Grenadier Shield Vox.wav",
+      "CachePath": "38/{38E9FF1E-370E-245A-E7EC-0A7ADE29E28E}.wem"
      },
      {
       "Id": "718901679",
@@ -4896,6 +4896,9 @@
       "DurationMax": "5.2798333",
       "MediaRefs": [
        {
+        "Id": "714547579"
+       },
+       {
         "Id": "723654036"
        }
       ],
@@ -4948,7 +4951,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_HealthBoxLoop",
       "GUID": "{0435B55C-8498-425D-A84E-A8667B490199}",
       "Color": "13",
-      "MaxAttenuation": "35",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -5058,9 +5061,6 @@
        },
        {
         "Id": "203152919"
-       },
-       {
-        "Id": "612518400"
        },
        {
         "Id": "615032982"
@@ -6042,7 +6042,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePad",
       "GUID": "{71B66A13-2279-4E3B-BF1E-6B3B981EF625}",
       "Color": "13",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "OneShot",
       "DurationMin": "1.3105209",
       "DurationMax": "1.3105209",
@@ -6058,7 +6058,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_PressurePadLoop",
       "GUID": "{4F388D5A-D8CE-4774-88E9-336ECFC9D959}",
       "Color": "13",
-      "MaxAttenuation": "35",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -6147,7 +6147,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchAfter",
       "GUID": "{14688B9A-4A22-4082-AEE8-5977A4958D1C}",
       "Color": "13",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -6161,7 +6161,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Interactables\\Play_SwitchBefore",
       "GUID": "{04597A2B-6563-4D3C-998E-8DF3BB25C7B1}",
       "Color": "13",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "30",
       "DurationType": "Infinite",
       "MediaRefs": [
        {
@@ -6256,6 +6256,6 @@
     ]
    }
   ],
-  "FileHash": "{5288F9E8-8E8E-0B8E-729C-48B9BFB2053E}"
+  "FileHash": "{4FE52AC0-FD91-52C3-DE12-BD5F14A2CC0F}"
  }
 }

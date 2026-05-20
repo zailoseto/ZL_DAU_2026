@@ -3305,6 +3305,35 @@
 										<ActiveSource Name="Grenadier Punch Vox" ID="{E804906D-312D-48D1-9059-54985B2FF7EE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Grenadier Shield Vox" ID="{B37DA8F9-6750-454D-9BF0-E966502ED601}" ShortID="189673526">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{F5600F51-92D2-4C57-A5B3-85EBC5AD1C11}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Grenadier Shield Vox" ID="{B1307E99-A930-48A7-9799-E593C028EDB4}">
+											<Language>SFX</Language>
+											<AudioFile>Grenadier Shield Vox.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="714547579"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Grenadier Shield Vox" ID="{B1307E99-A930-48A7-9799-E593C028EDB4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 							<ObjectLists>
 								<ObjectList Name="Effects">
@@ -11774,6 +11803,11 @@
 						<Sound Name="Door 1" ID="{6737EC4B-7EAD-4009-BE74-78B30D7F00C8}" ShortID="362442438">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -14604,7 +14638,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -14814,9 +14848,14 @@
 								</Sound>
 								<Sound Name="Character Jump Vox 2-009" ID="{8B72E0CA-E2CD-45C5-B93B-A12FC89CDC55}" ShortID="348110045">
 									<PropertyList>
+										<Property Name="Inclusion" Type="bool">
+											<ValueList>
+												<Value>False</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Weight" Type="Real64">
 											<ValueList>
-												<Value>30</Value>
+												<Value>10</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -14990,6 +15029,13 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Hurt" ID="{EFBF1D9A-843E-4205-B593-C5BB0CFE1D65}" ShortID="1029626125">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -15357,7 +15403,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-3</Value>
+										<Value>-5</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -15373,6 +15419,11 @@
 								<Sound Name="Character Vox Can't Kill Me" ID="{6598C2E2-BE12-410C-987C-D14BA160BB9C}" ShortID="860575275">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -15401,6 +15452,13 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Character Vox Not Done Yet" ID="{ADD83B56-6022-4E20-9C08-29EFA86C9E79}" ShortID="287507132">
+									<PropertyList>
+										<Property Name="Weight" Type="Real64">
+											<ValueList>
+												<Value>40</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{EA442EE3-6DA2-4A20-9AE4-FE6C5BDF1A52}"/>
@@ -15490,7 +15548,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -15544,7 +15602,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -15600,11 +15658,6 @@
 												<Value>True</Value>
 											</ValueList>
 										</Property>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>5</Value>
-											</ValueList>
-										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -15643,7 +15696,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>4</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -15677,7 +15730,7 @@
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>3</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
